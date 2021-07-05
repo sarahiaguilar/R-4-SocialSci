@@ -1,7 +1,9 @@
-## Welcome to GitHub Pages by Sarahí
-# Hello from RStudio
+# Curso introductorio al lenguaje de programación R orientado al análisis cuantitativo en Ciencias Sociales
+### Impartido por Sarahí Aguilar
 
-You can use the [editor on GitHub](https://github.com/sarahiaguilar/testing/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Unidad 0. 
+
+[Módulo](unidad0.html)
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
