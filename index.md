@@ -1,42 +1,109 @@
 # Curso introductorio al lenguaje de programación R orientado al análisis cuantitativo en Ciencias Sociales
-### Impartido por Sarahí Aguilar
+### Por Sarahí Aguilar
 
-## Unidad 0. 
+<br/>
 
-[Módulo](unidad0.html)
+***
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<br/>
 
-### Markdown
+## 🏁 Introducción del curso
 
-Click [here](unidad1.html) for Unidad 1. 
+<br/>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+> #### **Descripción general**  
+Curso de 20 horas, en línea, teórico/práctico e introductorio al lenguaje de programación R enfocado al análisis cuantitativo de bases de datos sociodemográficas. 
 
-```markdown
-Syntax highlighted code block
+> #### **Objetivo general**  
+Que el estudiante conozca los fundamentos del lenguaje de programación R para el análisis cuantitativo en Ciencias Sociales, y sea capáz de escribir código y utilizar distintos paquetes para el procesamiento, análisis exploratorio, y visualización de datos.  
 
-# Header 1
-## Header 2
-### Header 3
+<br/>
 
-- Bulleted
-- List
+#### **Requerimientos del estudiante**  
+* Contar con conocimiento de manejo de la computadora básico.
+* Contar con interés en la programación.
+* Contar con conocimiento estadístico básico.
+* Contar con un equipo de cómputo con >= 8GB de memoria RAM y >= 10GB de almacenamiento disponible en disco.
+* Haber completado satisfactoriamente la Unidad 0 de este curso. 
+    + Con el fin de facilitar la resolución de problemas durante el curso, la profesora y todos los estudiantes trabajarán con la misma versión de R (4.0.5) y RStudio (cualquier versión 1.4.1). Por ello, la Unidad 0 de este curso debe ser completada antes del inicio de este, incluso si el estudiante había previamente instalado R y/o RStudio en el mismo equipo de cómputo. 
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+<br/>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sarahiaguilar/testing/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+*** 
+
+<br/>
+
+## 🔵 Unidad 0. Manual de instalación de R y RStudio
+
+<br/>
+**🚀 Objetivo de la unidad**
+<br/>
+Que el estudiante tenga un entorno de desarrollo de R en RStudio listo en su equipo de cómputo propio antes del inicio del curso.
+
+<br/>
+[**📖 ↪ Ir al módulo de enseñanza**](unidad0.html)  
+
+<br/>
+
+
+
+
+
+*** 
+
+<br/>
+
+## 🔵 Unidad 1. Introducción a R y RStudio
+
+<br/>
+**🚀 Objetivo de la unidad**
+<br/>
+Que el estudiante se familiarice con el concepto de "lenguaje de programación" y el entorno de desarrollo de R en RStudio. 
+
+<br/>
+[**📖 ↪ Ir al módulo de enseñanza**](unidad0.html)  
+[📃📥 Descargar script para clase]()  
+
+<br/>
+
+
+
+
+
+
+*** 
+
+<br/>
+
+## ✉ Contacto
+
+<br/>
+Para consultar cualquier duda o dar algún comentario del curso, usted puede enviar un correo a: sarahiaguilargonzalez@gmail.com  
+
+Los correos serán respondidos a la brevedad. 
+
+<br/>
+
+
+
+
+*** 
+
+<br/>
+
+#### **Acerca de la profesora**
+
+<br/>
+Ingeniera y Maestra en Ciencia de Datos por la Universidad Panamericana.  
+Actualmente, científica de datos senior en Mercado Libre México.  
+Entusiasta de la investigación y las iniciativas a favor de la educación e igualdad de género.
+
+[GitHub](https://github.com/sarahiaguilar)  
+[LinkedIn](https://www.linkedin.com/in/sarahi-aguilar/)  
+[Twitter](https://twitter.com/svrvhi)  
