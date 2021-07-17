@@ -27,10 +27,12 @@ Que el estudiante conozca los fundamentos del lenguaje de programación R para e
 * Haber completado satisfactoriamente la Unidad 0 de este curso. 
     + Con el fin de facilitar la resolución de problemas durante el curso, la profesora y todos los estudiantes trabajarán con la misma versión de R (4.0.5) y RStudio (cualquier versión 1.4.1). Por ello, la Unidad 0 de este curso debe ser completada antes del inicio de este, incluso si el estudiante había previamente instalado R y/o RStudio en el mismo equipo de cómputo. 
 
+<br/>
+
+[**👋 ↪ Presentación introductoria**](presentaciones_teoricas/intro.pdf)  
 
 
 <br/>
-
 
 
 
@@ -47,7 +49,9 @@ Que el estudiante conozca los fundamentos del lenguaje de programación R para e
 Que el estudiante tenga un entorno de desarrollo de R en RStudio listo en su equipo de cómputo propio antes del inicio del curso.
 
 <br/>
-[**📖 ↪ Ir al módulo de enseñanza**](unidad0.html)  
+[**🔧 ↪ Manual de instalación de R y RStudio**](unidad0.html)  
+
+
 
 <br/>
 
@@ -59,19 +63,20 @@ Que el estudiante tenga un entorno de desarrollo de R en RStudio listo en su equ
 
 <br/>
 
-## 🔵 Unidad 1. Introducción a R y RStudio
+## 🔵 Unidad 1. Manual de instalación de R y RStudio
 
 <br/>
 **🚀 Objetivo de la unidad**
 <br/>
-Que el estudiante se familiarice con el concepto de "lenguaje de programación" y el entorno de desarrollo de R en RStudio. 
+Que el estudiante se familiarice con R y el entorno de desarrollo de RStudio, y sea capaz de crear nuevos scripts y Proyectos de R.
 
 <br/>
-[**📖 ↪ Ir al módulo de enseñanza**](unidad0.html)  
-[📃📥 Descargar script para clase]()  
+[**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad1.pdf)  
+[**💻 ↪ Práctica**](unidad1.html)  
+
+
 
 <br/>
-
 
 
 
@@ -100,9 +105,10 @@ Los correos serán respondidos a la brevedad.
 #### **Acerca de la profesora**
 
 <br/>
-Ingeniera y Maestra en Ciencia de Datos por la Universidad Panamericana.  
-Actualmente, científica de datos senior en Mercado Libre México.  
-Entusiasta de la investigación y las iniciativas a favor de la educación e igualdad de género.
+Ingeniera y Maestra en Ciencia de Datos por la Universidad Panamericana  
+Científica de datos senior en Mercado Libre México  
+
+Entusiasta de la investigación y las iniciativas a favor de la educación e igualdad de género  
 
 [GitHub](https://github.com/sarahiaguilar)  
 [LinkedIn](https://www.linkedin.com/in/sarahi-aguilar/)  

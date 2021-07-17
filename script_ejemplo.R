@@ -6,3 +6,4 @@ df <- data.frame(x=c(rnorm(N), rnorm(N, 5, 2), rnorm(N, 10, 3)),
 
 ggplot(df, aes(y, fill=g)) +
   geom_density(alpha=0.8)
+

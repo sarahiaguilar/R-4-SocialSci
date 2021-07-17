@@ -1,33 +1,28 @@
 ---
-title: "unidad1"
-author: "Sarahí Aguilar"
-date: "29/6/2021"
-output: 
+title: "Unidad 1. Manual de instalación de R y RStudio"
+subtitle: "Del Curso introductorio al lenguaje de programación R orientado al análisis cuantitativo en Ciencias Sociales"
+author: "Por Sarahí Aguilar"
+output:
   html_document:
-    toc: true
-    toc_float: true
+    toc: yes
+    toc_float: yes
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+<br/>
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+[🏠↩ De vuelta a la página principal del curso](index.html)
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+<br/>
 
-```{r cars}
-summary(cars)
-```
+## Inicio
 
-## Including Plots
+> #### **🚀 Objetivo de la unidad**  
+Que el estudiante tenga un entorno de desarrollo de R en RStudio listo en su equipo de cómputo propio antes del inicio del curso.
 
-You can also embed plots, for example:
+<br/>
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+## 0.1. Instalación de R 4.1.0
