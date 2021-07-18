@@ -29,7 +29,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <br/>
 
-## 0.1. Familiarizándoce con RStudio
+## 1.1. Familiarizándoce con RStudio
 
 1. Abra RStudio. 
 2. Ubique las siguientes ventanas: *Consola*, *Editor de código*, *Ambiente*, *Archivos*, *Gráficos*, *Historia* y *Ayuda*, y explore los distintos botones dentro de cada una. 
@@ -38,7 +38,7 @@ Tip: Ubique el cursor encima de un botón para obtener una breve descripción de
 
 <br/>
 
-## 0.2. Configuración del entorno de desarrollo
+## 1.2. Configuración del entorno de desarrollo
 1. En la barra de navegación principal, abra el menú de *Tools* y seleccione *Global options...* 
 2. Se abrirá la ventana de *Global options...*. Explore los distintos submenús en la ventana. 
 3. Se recomienda ampliamente que, en el submenú de *General*, configure la sección de *Workspace* de la siguiente forma:
@@ -52,7 +52,7 @@ Tip: Ubique el cursor encima de un botón para obtener una breve descripción de
 
 <br/>
 
-## 0.3. Probando la Consola
+## 1.3. Probando la Consola
 1. Ubique la *Consola*. 
 2. Familiaricese corriendo algunas líneas de código simples como las siguientes:  
 Para correr una línea de código en la *Consola*, solo debe escribirla en el prompt y presionar la tecla *Enter*. 
@@ -80,7 +80,7 @@ log(10) # Logaritmo de 10
 ```
 </br>
 ```{r}
-dbinom(x=3, size=10, prob=0.5)  # P(X=3) for X~B(n=10, p=0.5) 
+dbinom(x=3, size=10, prob=1.5)  # P(X=3) for X~B(n=10, p=1.5) 
 ```
 </br>
 ```{r}
@@ -107,7 +107,7 @@ round(41.84) # Redondear 41.84
 
 </br>
 
-## 0.4. Un primer script de R
+## 1.4. Un primer script de R
 1. En la barra de navegación principal, abra el menú de *File* y seleccione *New File* y luego *R Script*.
 2. En la ventana de *Editor de código* se desplegará un nuevo archivo. Escriba algunas líneas de código simples. 
 3. Corra algunas líneas de código que ha escrito en el archivo seleccionándolas y presionando la combinación de teclas Ctrl + Ent o con el botón de *Run*. 
@@ -126,7 +126,7 @@ round(41.84) # Redondear 41.84
 
 </br>
 
-## 0.5 Configuración del directorio de trabajo
+## 1.5 Configuración del directorio de trabajo
 1. Ubique la ventana de *Archivos*.
 2. Seleccione *More*, y luego *Set As Working Directory*.
 <br/> 
@@ -135,7 +135,7 @@ round(41.84) # Redondear 41.84
 
 </br>
 
-## 0.6 Un primer Proyecto de R
+## 1.6 Un primer Proyecto de R
 1. En la barra de navegación principal, abra el menú de *File* y seleccione *New Proyect...*.
 2. Se abrirá una venta de *New Project Wizard*. Seleccione *New Directory*, y luego, *New Project*. 
 3. Seleccione un nombre para el Proyecto y la carpeta en la que será creado. 
@@ -160,5 +160,5 @@ round(41.84) # Redondear 41.84
 <center>
 
 <center>
-![](http://cdn2.dineroenimagen.com/media/dinero/giphy_0.gif)
+![](https://media1.tenor.com/images/5f5f6df9624301ebea3abdec1af4cd4a/tenor.gif?itemid=9276124)
 
