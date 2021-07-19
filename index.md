@@ -72,7 +72,8 @@ Que el estudiante se familiarice con R y el entorno de desarrollo de RStudio, y 
 
 <br/>
 [**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad1.pdf)  
-[**💻 ↪ Práctica**](unidad1.html)  
+[**💻 ↪ Práctica y ejercicio**](unidad1.html)  
+[**📹 ↪ Grabación**]("https://web.microsoftstream.com/video/13feed9c-55b9-444e-bc72-907af0a40077")
 
 
 
