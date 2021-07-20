@@ -336,7 +336,7 @@ invierte_signo(2)
 
 <br/>
 
-## 🏄️ Ejercicio 4
+## 🏄️ Ejercicio #4
 1. Cree un función que tome una muestra aleatoria de tamaño ```n``` del vector de edades corregidas del censo de población de Z y calcule su media, dado un factor de expansión ```e```.  
 Bonus: Verifique que ```n``` sea menor al tamaño de la población total de Z.
 
