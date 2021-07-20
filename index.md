@@ -73,6 +73,7 @@ Que el estudiante se familiarice con R y el entorno de desarrollo de RStudio, y 
 <br/>
 [**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad2.pdf)  
 [**💻 ↪ Práctica y ejercicio**](unidad2.html)  
+[**📹 ↪ Grabación**]("https://web.microsoftstream.com/video/13feed9c-55b9-444e-bc72-907af0a40077")
 
 
 
@@ -96,7 +97,6 @@ Que el estudiante reconozca los conceptos básicos de programación y sus casos 
 <br/>
 [**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad1.pdf)  
 [**💻 ↪ Práctica y ejercicio**](unidad1.html)  
-[**📹 ↪ Grabación**]("https://web.microsoftstream.com/video/13feed9c-55b9-444e-bc72-907af0a40077")
 
 
 
