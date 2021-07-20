@@ -158,7 +158,4 @@ round(41.84) # Redondear 41.84
 <br/>
 
 <center>
-
-<center>
 ![](https://media1.tenor.com/images/5f5f6df9624301ebea3abdec1af4cd4a/tenor.gif?itemid=9276124)
-

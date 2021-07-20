@@ -71,6 +71,29 @@ Que el estudiante tenga un entorno de desarrollo de R en RStudio listo en su equ
 Que el estudiante se familiarice con R y el entorno de desarrollo de RStudio, y sea capaz de crear nuevos scripts y Proyectos de R.
 
 <br/>
+[**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad2.pdf)  
+[**💻 ↪ Práctica y ejercicio**](unidad2.html)  
+
+
+
+<br/>
+
+
+
+
+
+*** 
+
+<br/>
+
+## 🔵 Unidad 2. Conceptos básicos de programación en R
+
+<br/>
+**🚀 Objetivo de la unidad**
+<br/>
+Que el estudiante reconozca los conceptos básicos de programación y sus casos de uso prácticos básicos.
+
+<br/>
 [**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad1.pdf)  
 [**💻 ↪ Práctica y ejercicio**](unidad1.html)  
 [**📹 ↪ Grabación**]("https://web.microsoftstream.com/video/13feed9c-55b9-444e-bc72-907af0a40077")
@@ -78,6 +101,7 @@ Que el estudiante se familiarice con R y el entorno de desarrollo de RStudio, y 
 
 
 <br/>
+
 
 
 
