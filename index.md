@@ -97,11 +97,31 @@ Que el estudiante reconozca los conceptos básicos de programación y sus casos 
 <br/>
 [**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad2.pdf)  
 [**💻 ↪ Práctica y ejercicios**](unidad2.html)  
-
+[**📹 ↪ Grabación**]("https://web.microsoftstream.com/video/30025def-f9c8-42f7-909b-caacf8e453e3")
 
 
 <br/>
 
+
+
+
+
+*** 
+
+<br/>
+
+## 🔵 Unidad 3. Manipulación de datos en R
+
+<br/>
+**🚀 Objetivo de la unidad**
+<br/>
+Que el estudiante sea capaz de importar y exportar bases de datos de y en diferentes formatos, así como ejecutar transformaciones básicas sobre estas utilizando data frames y el paquete data.table. 
+
+<br/>
+[**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad3.pdf)  
+[**💻 ↪ Práctica y ejercicios**](unidad3.html)  
+
+<br/>
 
 
 

@@ -1,0 +1,104 @@
+---
+title: "Práctica de la **Unidad 3. Manipulación de datos en R**"
+subtitle: "Del Curso introductorio al lenguaje de programación R orientado al análisis cuantitativo en Ciencias Sociales"
+author: "Por Sarahí Aguilar"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br/>
+
+[🏠↩ De vuelta a la página principal del curso](index.html)
+
+<br/>
+
+## Inicio
+
+> #### **🚀 Objetivo de la unidad** 
+ Que el estudiante sea capaz de importar y exportar bases de datos de y en diferentes formatos, así como ejecutar transformaciones básicas sobre estas utilizando data frames y el paquete data.table. 
+
+<br/>
+
+**Nota importante:** Los siguientes módulos prácticos son lineales. 
+
+<br/>
+
+## 2.1. Instalando y cargando paquetes
+
+* **Instalando un paquete**
+```{r}
+# install.packages("ggplot2")
+```
+* **Cargando un paquete**
+```{r}
+library(ggplot2)
+```
+
+<br/>
+
+## 2.2. Creando data frames desde 0
+```{r}
+x <- 1:10
+y <- 3 + sin(x) 
+df <- data.frame(x=x, sin=y) # Los vectores deben ser del mismo tamaño
+```
+
+<br/>
+
+## 2.3. Conociendo a un data frame
+<center>
+![](https://media1.tenor.com/images/3b07d93145b18d29ade0ffa15f5558c6/tenor.gif?itemid=7517603)
+</center>
+
+</br>
+```{r}
+head(df)
+```
+</br>
+```{r}
+head(df, 2)
+```
+</br>
+```{r}
+tail(df)
+```
+</br>
+```{r}
+tail(df, 2)
+```
+</br>
+```{r}
+length(df)
+```
+</br>
+```{r}
+dim(df)
+```
+</br>
+```{r}
+typeof(df)
+```
+</br>
+```{r}
+str(df)
+```
+</br>
+```{r}
+summary(df)
+```
+</br>
+
+## 🏋 Ejercicio #1
+1. Cree un data frame que contenga el nombre, el primer apellido, la edad y su edad dentro de 10 años de cinco personas. Nombre las columnas del data frame acorde.
+2. Calcule el promedio de las dos últimas columnas.
+
+
+
+
+
