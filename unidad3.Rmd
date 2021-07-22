@@ -40,16 +40,14 @@ knitr::opts_chunk$set(echo = TRUE)
 library(ggplot2)
 ```
 
-<br/>
-
 ## 2.2. Creando data frames desde 0
+Recuerde que un data frame se compone de vectores. En el siguiente bloque de código, se instancian dos vectores inicialmente, 
 ```{r}
 x <- 1:10
 y <- 3 + sin(x) 
-df <- data.frame(x=x, sin=y) # Los vectores deben ser del mismo tamaño
+df <- data.frame(x=x, sin_of_x=y) # Los vectores que compondrán un data frame deben ser del mismo tamaño
 ```
 
-<br/>
 
 ## 2.3. Conociendo a un data frame
 <center>
@@ -57,48 +55,158 @@ df <- data.frame(x=x, sin=y) # Los vectores deben ser del mismo tamaño
 </center>
 
 </br>
+
+La función ```head``` devuelve las primeras 6 observaciones (filas) de un data frame.
 ```{r}
 head(df)
 ```
+
 </br>
-```{r}
-head(df, 2)
-```
-</br>
+
+La función ```tail``` devuelve las últimas 6 observaciones de un data frame. 
 ```{r}
 tail(df)
 ```
+
 </br>
+
+Tanto ```head()``` como ```tail()```, pueden recibir el argumento adicional ```n```, que indicará cuántas observaciones devuelvolverá. 
 ```{r}
-tail(df, 2)
+tail(df, n=2) # Imprime las dos últimas observaciones
 ```
+
 </br>
+
+La función ```colnames()``` devuelve los nombres de las variables de un data frame. 
+```{r}
+colnames(df)
+```
+
+</br>
+
+La función ```length()``` devuelve el número de vectores que componen a un data frame. El número de vectores será entonces igual al número de variables (columnas). 
 ```{r}
 length(df)
 ```
+
 </br>
+
+La función ```dim()``` devuelve un vector de tamaño 2 con las dimensiones del data frame. En la primer posición del vector, se devolverá el número de observaciones, y en la segunda posición, el número de variables.  
 ```{r}
 dim(df)
 ```
+
 </br>
+
+Recuerde que un data frame es la versión bidimensional de una lista. 
 ```{r}
 typeof(df)
 ```
+
 </br>
+
+La función ```str()``` devuelve el tipo y tamaño de cada vector que compone a un data frame. A esto se le conoce como la "estructura" de un data frame. 
 ```{r}
 str(df)
 ```
+
 </br>
+
+La función ```summary()``` devuelve algunas de las medidas de dispersón de las variables numéricas de un data frame. 
 ```{r}
 summary(df)
 ```
+
 </br>
 
-## 🏋 Ejercicio #1
+## 🤸 Ejercicio #2
 1. Cree un data frame que contenga el nombre, el primer apellido, la edad y su edad dentro de 10 años de cinco personas. Nombre las columnas del data frame acorde.
-2. Calcule el promedio de las dos últimas columnas.
+2. Instancie un objeto que guarde las dimensiones del data frame. 
+3. Imprima la estructura del data frame para obtener las propiedades (tipo y tamaño) de todos los vectores que lo conforman. 
+4. Obtenga el valor mínimo, el valor en el primer cuartil y el valor mediano de las variables numéricas del data frame. 
+5. Calcule el promedio de las dos últimas columnas.
+
+</br> 
+
+## 2.3. Extrayendo datos de un data frame
+
+Recuerde cómo se veía nuestro data frame completo.
+```{r}
+print(df)
+```
+
+</br>
+
+Podemos extraer datos del data frame utilizando **índices**. En el siguiente caso, extraemos el dato de la variable #2 de la observación #1. 
+```{r}
+df[1, 2]
+```
+
+En el siguiente caso, extraemos el dato de la variable #2 de la observación #10. 
+```{r}
+df[10, 2]
+``` 
+
+</br>
+
+Podemos extraer observaciones completas.
+```{r}
+df[10, ]
+```
+
+</br>
+
+Podemos extraer el vector que compone una variable. En el siguiente caso, extraemos la variable #2. 
+```{r}
+df[, 2]
+```
+
+</br>
+
+También, podemos extraer el vector que compone una variable utilizando el nombre de la variable en lugar de su índice. 
+```{r}
+df[, "sin_of_x"]
+```
+
+</br>
+
+Finalmente, igual podemos extraer el vector que compone una variable utilizando ```$``` + el nombre de la variable.
+```{r}
+df$sin_of_x
+```
+💡 He aquí la importancia de que los nombres de una variable no tengan espacios y utilicen guiones bajos.
+
+</br>
+
+Podemos extraer una variable conservando el formato de un data frame utilizando únicamente el índice o el nombre de la variable dentro de los corchetes:  
+
+```{r}
+df[2]
+```
 
 
+```{r}
+df["sin_of_x"]
+```
 
 
+</br>
+
+Observe cómo la estructura cambia. 
+
+```{r}
+str(df[, 2]) # Este es un vector
+str(df[2]) # Este es un data frame
+```
+
+La forma en que extraigamos el contenido de una variable, dependerá del uso que querramos darle. No existe una forma "correcta" de hacerlo.
+
+</br> 
+
+De igual forma, podemos extraer variabes de un data frame con la función ```subset()```.
+
+```{r}
+subset(df, select=sin_of_x) 
+subset(df, select=2)
+```
 

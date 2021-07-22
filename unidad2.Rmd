@@ -237,7 +237,7 @@ sample(x, size=5)
 
 ## 🏋 Ejercicio #1
 1. Cree un vector que contenga la numeración consecutiva de 1 a 50. Suponga que estas son la edades recolectadas en un censo de población en el poblado Z.
-2.  y el factor de expansión de cada uno de los individuos censados en el poblado Z es de 3.5. Cree un objeto que guarde el valor de este factor de expansión.
+2.  El factor de expansión de cada uno de los individuos censados en el poblado Z es de 3.5. Cree un objeto que guarde el valor de este factor de expansión.
 3. Calcule la media de edad de la población. 
 
 
