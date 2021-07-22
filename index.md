@@ -97,7 +97,8 @@ Que el estudiante reconozca los conceptos básicos de programación y sus casos 
 <br/>
 [**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad2.pdf)  
 [**💻 ↪ Práctica y ejercicios**](unidad2.html)  
-[**📹 ↪ Grabación**]("https://web.microsoftstream.com/video/30025def-f9c8-42f7-909b-caacf8e453e3")
+[**📹 ↪ Grabación #1**]("https://web.microsoftstream.com/video/30025def-f9c8-42f7-909b-caacf8e453e3")
+[**📹 ↪ Grabación #2**]("https://web.microsoftstream.com/video/4c970c3d-ad61-40ff-bfcd-197f1e655914)
 
 
 <br/>
@@ -120,6 +121,7 @@ Que el estudiante sea capaz de importar y exportar bases de datos de y en difere
 <br/>
 [**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad3.pdf)  
 [**💻 ↪ Práctica y ejercicios**](unidad3.html)  
+[**📹 ↪ Grabación #1**]("https://web.microsoftstream.com/video/4c970c3d-ad61-40ff-bfcd-197f1e655914")
 
 <br/>
 

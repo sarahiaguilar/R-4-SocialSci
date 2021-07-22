@@ -48,6 +48,7 @@ y <- 3 + sin(x)
 df <- data.frame(x=x, sin_of_x=y) # Los vectores que compondrán un data frame deben ser del mismo tamaño
 ```
 
+</br>
 
 ## 2.3. Conociendo a un data frame
 <center>
@@ -119,8 +120,8 @@ summary(df)
 
 </br>
 
-## 🤸 Ejercicio #2
-1. Cree un data frame que contenga el nombre, el primer apellido, la edad y su edad dentro de 10 años de cinco personas. Nombre las columnas del data frame acorde.
+## 🤸 Ejercicio #1
+1. Cree un data frame que contenga el nombre, el primer apellido, la edad y su edad dentro de 10 años de diez personas. Nombre las columnas del data frame acorde.
 2. Instancie un objeto que guarde las dimensiones del data frame. 
 3. Imprima la estructura del data frame para obtener las propiedades (tipo y tamaño) de todos los vectores que lo conforman. 
 4. Obtenga el valor mínimo, el valor en el primer cuartil y el valor mediano de las variables numéricas del data frame. 
@@ -142,10 +143,23 @@ Podemos extraer datos del data frame utilizando **índices**. En el siguiente ca
 df[1, 2]
 ```
 
+</br>
+
 En el siguiente caso, extraemos el dato de la variable #2 de la observación #10. 
 ```{r}
 df[10, 2]
 ``` 
+
+</br>
+
+Así mismo, podemos utilizar un vector de tamaño 1+n.
+```{r}
+df[, 1:2]
+```
+```{r}
+df[c(3, 6), ]
+```
+
 
 </br>
 
@@ -210,3 +224,156 @@ subset(df, select=sin_of_x)
 subset(df, select=2)
 ```
 
+</br> 
+
+No siempre sabremos el índice de las observaciones que queremos extraer de un data frame. En la mayoría de los casos, queremos extraer observaciones con base en una o varias condiciones. 
+
+```{r}
+df[df[, 2] < 3, ]
+```
+
+```{r}
+df[df[, "sin_of_x"] < 3, ]
+```
+
+```{r}
+df[df$sin < 3, ]
+```
+
+</br> 
+
+## 2.4. Creando nuevas variables en un data frame
+
+Para crear nuevas variables en un data frame, debemos asignar vectores nuevos vectores. 
+
+```{r}
+df$y <- 101:110 # Creamos una nueva variable asignándole la mu
+print(df)
+```
+
+```{r}
+df$x_times_2 <- df$x * 2 
+print(df)
+```
+
+```{r}
+df$x_times_2_flag <- df$x_times_2 > 10
+print(df)
+```
+
+```{r}
+df$x_cat <- ifelse(df$x == 2, yes="x igual a 2", no="x no es igual a dos")
+print(df)
+```
+
+</br>
+
+## 🤾 Ejercicio #2
+Utilice el data frame construído en el ejercicio #2. 
+1. Instancie un nuevo objeto con un data frame que contenga únicamente la variable de nombre y de edad de aquellas personas con edad menor a la media de edad de todas las 10 personas.
+2. En este segundo data frame, cree una nueva variable que indique la entidad federativa de cada uno de las personas. 
+3. Finalmente, en este segundo data frame, cree una nueva variable que indique si el nombre de la persona empieza con A, B o C de forma textual, es decir, con una cadena de caracteres. 
+
+</br>
+
+## 2.5. Leyendo distintos tipos de archivos de datos
+
+```{r}
+df_txt <- read.table("./data/plain_txt.txt", 
+                 header = FALSE)
+```
+
+</br>
+
+```{r}
+df_csv <- read.csv("./data/plain_csv.csv")
+```
+
+</br>
+
+```{r}
+df_delim <- read.delim("./data/txt_with_delim.txt", sep="$")
+```
+
+</br>
+
+```{r}
+library(readxl)
+df_xlsx <- read_xlsx("./data/hoja_de_calculo.xlsx", sheet=1)
+```
+
+</br>
+
+```{r}
+library(foreign)
+# df_spss <- read.spss("example.sav",
+#                      to.data.frame=TRUE,
+#                      use.value.labels=FALSE) # SPSS data
+# df_stata <- read.dta("example.dta") # Stata data
+```
+
+</br>
+
+```{r}
+# file_url <- "https://data.cityofnewyork.us/api/views/kku6-nxdu/rows.csv?accessType=DOWNLOAD"
+# download.file(file_url, destfile = "./data/demo_nyc.csv", method = "curl")
+```
+```{r}
+df_Demographic <- read.csv("./data/demo_nyc.csv")
+```
+
+</br>
+
+## 2.6. Escribiendo distintos tipos de archivos de datos
+
+Se recomienda ampliamente únicamente importar datos en formato csv. 
+```{r}
+# write.csv(df, file = ".data/cards.csv", row.names = FALSE)
+```
+
+
+</br>
+
+## 🏄️ Ejercicio #3
+1. Entre a la página del INEGI y descargue los microdatos del ENIGH 2018 para con las características de las viviendas que habitan los integrantes del hogar (viviendas.*)
+2. Cree un nuevo proyecto de RStudio. 
+3. Cree una nueva carpeta dentro del proyecto que se llame "datos" y ubique dentro de esta al archivo descomprimido que descargó.
+4. Cargue el conjunto de datos a R como un data frame. 
+5. Extraiga un nuevo data frame con los encuestados que vivan en una vivienda en la que la mayor parte del material de los muros o paredes son de Tabique, ladrillo, block, piedra, cantera, cemento o concreto.
+6. Cree una nueva variable en este data frame que indice textualmente si la vivienda del encuestado tiene menos de dos cuartos. 
+
+</br>
+
+## 2.7. Uniendo bases de datos.
+
+```{r}
+print(df_delim)
+```
+
+```{r}
+print(df_xlsx)
+```
+
+
+```{r}
+merged_df <- merge(x = df_delim,
+                   y = df_xlsx,
+                   by.x = "Col1",
+                   by.y = "x1",
+                   all.x = T)
+print(merged_df)
+```
+
+</br>
+
+## 🏄️ Ejercicio #4
+1. Entre a la página del INEGI y descargue los microdatos del ENIGH 2018 para con las características de los hogares que habitan los integrantes del hogar (hogares.*). 
+2. Cree un nuevo proyecto de RStudio. 
+3. Cree una nueva carpeta dentro del proyecto que se llame "datos" y ubique dentro de esta al archivo descomprimido que descargó, 
+4. Cargue el conjunto de datos a R como un data frame. 
+5. Una este conjunto de datos con el de características de las viviendas que habitan los integrantes del hogar (viviendas.*).
+
+</br>
+
+<center>
+![](https://media1.giphy.com/media/4QFAH0qZ0LQnIwVYKT/giphy.gif?cid=790b76116364148dac656c15025775b508c18db2a5ee923c&rid=giphy.gif&ct=g)
