@@ -269,9 +269,10 @@ print(df)
 </br>
 
 ## 🤾 Ejercicio #2
-Utilice el data frame construído en el ejercicio #2. 
+Utilice el data frame construído en el ejercicio #2.
+
 1. Instancie un nuevo objeto con un data frame que contenga únicamente la variable de nombre y de edad de aquellas personas con edad menor a la media de edad de todas las 10 personas.
-2. En este segundo data frame, cree una nueva variable que indique la entidad federativa de cada uno de las personas. 
+2. En este segundo data frame, cree una nueva variable que indique la entidad federativa de cada uno de las personas.
 3. Finalmente, en este segundo data frame, cree una nueva variable que indique si el nombre de la persona empieza con A, B o C de forma textual, es decir, con una cadena de caracteres. 
 
 </br>
@@ -356,17 +357,25 @@ print(df_xlsx)
 
 
 ```{r}
-merged_df <- merge(x = df_delim,
-                   y = df_xlsx,
-                   by.x = "Col1",
-                   by.y = "x1",
-                   all.x = T)
+merged_df <- merge(x = df_delim, # x
+                   y = df_xlsx, # y
+                   by.x = "Col1", # Llave en x
+                   by.y = "x1", # Llave en y
+                   all.x = T) # Conserva todas los elementos de x
+print(merged_df)
+```
+```{r}
+merged_df <- merge(x = df_delim, # x
+                   y = df_xlsx, # y
+                   by.x = "Col1", # Llave en x
+                   by.y = "x1", # Llave en y
+                   all.y = T) # Conserva todas los elementos de x
 print(merged_df)
 ```
 
 </br>
 
-## 🏄️ Ejercicio #4
+## 🏋️ Ejercicio #4
 1. Entre a la página del INEGI y descargue los microdatos del ENIGH 2018 para con las características de los hogares que habitan los integrantes del hogar (hogares.*). 
 2. Cree un nuevo proyecto de RStudio. 
 3. Cree una nueva carpeta dentro del proyecto que se llame "datos" y ubique dentro de esta al archivo descomprimido que descargó, 
@@ -377,3 +386,158 @@ print(merged_df)
 
 <center>
 ![](https://media1.giphy.com/media/4QFAH0qZ0LQnIwVYKT/giphy.gif?cid=790b76116364148dac656c15025775b508c18db2a5ee923c&rid=giphy.gif&ct=g)
+
+</br>
+
+## 2.8. Leyendo datos en data.table
+
+Instalando y cargando el paquete ```data.table```.
+```{r}
+# install.packages("data.table")
+library(data.table)
+```
+
+</br> 
+
+Para leer archivos utilizamos la función ```fread()```. 
+```{r}
+dt_Demographic <- fread("./data/demo_nyc.csv")
+```
+
+</br>
+
+Observe que un data.table es un data frame tambié, por lo que puede utilziar las mismas operaciones.
+```{r}
+str(dt_Demographic)
+```
+</br>
+
+## 2.9. Renombrando columnas de un data.table
+
+```setnames()``` es una función que nos permitirá cambiar los nombres de columna de un data.table de forma "segura".
+```{r}
+setnames(dt_Demographic, old = "COUNT FEMALE", new = "COUNT_FEMALE")
+```
+
+</br> 
+
+```{r}
+colnames(dt_Demographic)
+```
+
+</br> 
+
+```{r}
+setnames(dt_Demographic,
+         old = colnames(dt_Demographic), 
+         new = gsub(" ", "_", colnames(dt_Demographic)))
+```
+
+</br> 
+
+```{r}
+colnames(dt_Demographic)
+```
+
+</br>
+
+## 2.10. Utilizando i en data.table
+
+Seleccionando observaciones con i. 
+
+```{r}
+# head(dt_Demographic[1:2, ])
+```
+
+```{r}
+# head(dt_Demographic[COUNT_FEMALE > 50, ])
+```
+
+</br>
+
+Ordenando con i. 
+
+```{r}
+# head(dt_Demographic[order(COUNT_PARTICIPANTS), ])
+```
+
+```{r}
+# head(dt_Demographic[order(JURISDICTION_NAME), ])
+```
+```{r}
+# head(dt_Demographic[order(-JURISDICTION_NAME), ])
+```
+
+</br>
+
+## 2.11. Utilizando j en data.table
+
+Seleccionando columnas con j. 
+```{r}
+# head(dt_Demographic[, .(JURISDICTION_NAME, COUNT_US_CITIZEN)])
+```
+```{r}
+# head(dt_Demographic[, c("JURISDICTION_NAME", "COUNT_US_CITIZEN")])
+```
+
+</br>
+
+Operando con columnas j.
+```{r}
+dt_Demographic[, .(mean(COUNT_FEMALE))]
+```
+
+```{r}
+dt_Demographic[, .(mean(COUNT_FEMALE), mean(COUNT_MALE), sum(COUNT_FEMALE), sum(COUNT_MALE))]
+```
+
+```{r}
+dt_Demographic[, .N] # .N es un conteo de observaciones
+```
+
+</br>
+
+Renombrando las operaciones con columnas j.
+
+```{r}
+dt_Demographic[, .(prom_fem = mean(COUNT_FEMALE), n_fem = sum(COUNT_FEMALE))]
+```
+
+```{r}
+dt_Demographic[, .(n_fem = .N)]
+```
+
+</br>
+
+## 2.12. Utilizando by en data.table
+
+Agregando operaciones con base en una variable con by. 
+
+```{r}
+dt_Demographic[, .(prom_fem = mean(COUNT_FEMALE)), by = JURISDICTION_NAME]
+```
+</br>
+
+## 2.13. Creando nuevas variables con data.table
+
+```{r}
+dt_Demographic[, count_fem_2 := COUNT_FEMALE * 2]
+print(dt_Demographic$count_fem_2)
+```
+
+</br>
+
+## 🏊️ Ejercicio #5
+1. Entre a la [página del ENSANUT](https://ensanut.insp.mx/encuestas/ensanut2018/descargas.php) y descargue la base de datos del ENSANUT 2018 de la información sobre la vivienda. 
+2. Cree un nuevo proyecto de RStudio.
+3. Cree una nueva carpeta dentro del proyecto que se llame “datos” y ubique dentro de esta al archivo descomprimido que descargó.
+4. Cargue el conjunto de datos a R como data.table.
+5. Cree un data.table con el número de encuestados por entidad federativa.
+6. Cee un data.table con el promedio de cuartos por entidad federativa. 
+
+
+
+
+
+
+

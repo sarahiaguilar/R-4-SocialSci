@@ -133,6 +133,26 @@ Que el estudiante sea capaz de importar y exportar bases de datos de y en difere
 
 <br/>
 
+## 🔵 Unidad 4. Análisis exploratorio en R
+
+<br/>
+**🚀 Objetivo de la unidad**
+<br/>
+Que el estudiante sea capaz de importar y exportar bases de datos de y en diferentes formatos, así como ejecutar transformaciones básicas sobre estas utilizando data frames y el paquete data.table. 
+
+<br/>
+[**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad4.pdf)  
+[**💻 ↪ Práctica y ejercicios**](unidad4.html)  
+
+<br/>
+
+
+
+
+*** 
+
+<br/>
+
 ## ✉ Contacto
 
 <br/>
