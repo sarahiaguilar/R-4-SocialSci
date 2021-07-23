@@ -142,7 +142,6 @@ Que el estudiante sea capaz de importar y exportar bases de datos de y en difere
 
 <br/>
 [**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad4.pdf)  
-[**💻 ↪ Práctica y ejercicios**](unidad4.html)  
 
 <br/>
 
