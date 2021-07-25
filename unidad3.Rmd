@@ -272,8 +272,7 @@ print(df)
 Utilice el data frame construído en el ejercicio #2.
 
 1. Instancie un nuevo objeto con un data frame que contenga únicamente la variable de nombre y de edad de aquellas personas con edad menor a la media de edad de todas las 10 personas.
-2. En este segundo data frame, cree una nueva variable que indique la entidad federativa de cada uno de las personas.
-3. Finalmente, en este segundo data frame, cree una nueva variable que indique si el nombre de la persona empieza con A, B o C de forma textual, es decir, con una cadena de caracteres. 
+2. En este segundo data frame, cree una nueva variable que indique la entidad federativa de cada uno de las personas. 
 
 </br>
 
@@ -534,10 +533,3 @@ print(dt_Demographic$count_fem_2)
 4. Cargue el conjunto de datos a R como data.table.
 5. Cree un data.table con el número de encuestados por entidad federativa.
 6. Cee un data.table con el promedio de cuartos por entidad federativa. 
-
-
-
-
-
-
-
