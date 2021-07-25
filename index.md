@@ -37,6 +37,38 @@ Que el estudiante conozca los fundamentos del lenguaje de programación R para e
 
 
 
+
+*** 
+
+<br/>
+
+## 📹 [Lista de reproducción de la grabación de cada sesión](https://www.youtube.com/playlist?list=PLyLpFKjdn75NqNt-iNqy3YcplVJ93W3Be)
+
+[**↪ Grabación de sesión #1**]("https://www.youtube.com/watch?v=0D1jr30LfjQ")   
+[**↪ Grabación de sesión #2**]("https://web.microsoftstream.com/video/30025def-f9c8-42f7-909b-caacf8e453e3")   
+[**↪ Grabación de sesión #3**]("https://www.youtube.com/watch?v=zUNLDoto4UA")   
+[**↪ Grabación de sesión #4**]("https://www.youtube.com/watch?v=_2FeGyUcQnM")   
+[**↪ Grabación de sesión #5**]("https://www.youtube.com/watch?v=kVWf4xlbWwo")   
+
+<br/>
+
+
+
+
+
+*** 
+
+<br/>
+
+## 📁 [Carpeta de Google Drive con proyectos de RStudio para cada unidad ]("https://drive.google.com/drive/folders/1PKNiryfdmfvPCYaE5HDUv2TDKzRqk5Oo?usp=sharing"")
+En cada proyecto de RStudio se incluye (1) el script creado por la profesora durante la práctica de la unidad correspondiente y (2) un script con las respuestas a todos los ejercicios.
+
+<br/>
+
+
+
+
+
 *** 
 
 <br/>
@@ -73,7 +105,6 @@ Que el estudiante se familiarice con R y el entorno de desarrollo de RStudio, y 
 <br/>
 [**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad1.pdf)  
 [**💻 ↪ Práctica y ejercicio**](unidad1.html)  
-[**📹 ↪ Grabación**]("https://web.microsoftstream.com/video/13feed9c-55b9-444e-bc72-907af0a40077")
 
 
 
@@ -97,8 +128,6 @@ Que el estudiante reconozca los conceptos básicos de programación y sus casos 
 <br/>
 [**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad2.pdf)  
 [**💻 ↪ Práctica y ejercicios**](unidad2.html)  
-[**📹 ↪ Grabación #1**]("https://web.microsoftstream.com/video/30025def-f9c8-42f7-909b-caacf8e453e3")
-[**📹 ↪ Grabación #2**]("https://web.microsoftstream.com/video/4c970c3d-ad61-40ff-bfcd-197f1e655914)
 
 
 <br/>
@@ -121,7 +150,6 @@ Que el estudiante sea capaz de importar y exportar bases de datos de y en difere
 <br/>
 [**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad3.pdf)  
 [**💻 ↪ Práctica y ejercicios**](unidad3.html)  
-[**📹 ↪ Grabación #1**]("https://web.microsoftstream.com/video/4c970c3d-ad61-40ff-bfcd-197f1e655914")
 
 <br/>
 
@@ -138,7 +166,7 @@ Que el estudiante sea capaz de importar y exportar bases de datos de y en difere
 <br/>
 **🚀 Objetivo de la unidad**
 <br/>
-Que el estudiante sea capaz de importar y exportar bases de datos de y en diferentes formatos, así como ejecutar transformaciones básicas sobre estas utilizando data frames y el paquete data.table. 
+Que el estudiante se familiarice con un flujo de análisis exploratorio de datos efectivo, y pueda explorar bases de datos y subconjuntos de estas mediante la creación de tablas resumen de las mismas.  
 
 <br/>
 [**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad4.pdf)  
