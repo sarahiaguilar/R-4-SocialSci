@@ -44,11 +44,11 @@ Que el estudiante conozca los fundamentos del lenguaje de programación R para e
 
 ## 📹 [Lista de reproducción de la grabación de cada sesión](https://www.youtube.com/playlist?list=PLyLpFKjdn75NqNt-iNqy3YcplVJ93W3Be)
 
-[**↪ Grabación de sesión #1**]("https://www.youtube.com/watch?v=0D1jr30LfjQ")   
-[**↪ Grabación de sesión #2**]("https://web.microsoftstream.com/video/30025def-f9c8-42f7-909b-caacf8e453e3")   
-[**↪ Grabación de sesión #3**]("https://www.youtube.com/watch?v=zUNLDoto4UA")   
-[**↪ Grabación de sesión #4**]("https://www.youtube.com/watch?v=_2FeGyUcQnM")   
-[**↪ Grabación de sesión #5**]("https://www.youtube.com/watch?v=kVWf4xlbWwo")   
+[**↪ Grabación de sesión #1**](https://www.youtube.com/watch?v=0D1jr30LfjQ)   
+[**↪ Grabación de sesión #2**](https://web.microsoftstream.com/video/30025def-f9c8-42f7-909b-caacf8e453e3)   
+[**↪ Grabación de sesión #3**](https://www.youtube.com/watch?v=zUNLDoto4UA)   
+[**↪ Grabación de sesión #4**](https://www.youtube.com/watch?v=_2FeGyUcQnM)   
+[**↪ Grabación de sesión #5**](https://www.youtube.com/watch?v=kVWf4xlbWwo)   
 
 <br/>
 
@@ -60,8 +60,8 @@ Que el estudiante conozca los fundamentos del lenguaje de programación R para e
 
 <br/>
 
-## 📁 [Carpeta de Google Drive con proyectos de RStudio para cada unidad ]("https://drive.google.com/drive/folders/1PKNiryfdmfvPCYaE5HDUv2TDKzRqk5Oo?usp=sharing"")
-En cada proyecto de RStudio se incluye (1) el script creado por la profesora durante la práctica de la unidad correspondiente y (2) un script con las respuestas a todos los ejercicios.
+## 📁 [Carpeta de Google Drive con proyectos de RStudio para cada unidad ](https://drive.google.com/drive/folders/1PKNiryfdmfvPCYaE5HDUv2TDKzRqk5Oo?usp=sharing)
+En cada proyecto de RStudio se incluye (1) el script creado por la profesora durante la práctica de la unidad correspondiente y (2) un script con las respuestas a todos los ejercicios también de la unidad correspondiente.
 
 <br/>
 
