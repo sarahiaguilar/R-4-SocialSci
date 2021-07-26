@@ -1,0 +1,28 @@
+---
+title: "Práctica de la **Unidad 4. Análisis exploratorio en R**"
+subtitle: "Del Curso introductorio al lenguaje de programación R orientado al análisis cuantitativo en Ciencias Sociales"
+author: "Por Sarahí Aguilar"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br/>
+
+[🏠↩ De vuelta a la página principal del curso](index.html)
+
+<br/>
+
+## Inicio
+
+> #### **🚀 Objetivo de la unidad** 
+Que el estudiante se familiarice con un flujo de análisis exploratorio de datos efectivo, y pueda explorar bases de datos y subconjuntos de estas mediante la creación de tablas resumen de las mismas.  
+
+<br/>
+
+[**📖 ↪ Script de clase**](scripts/analisis.R)  

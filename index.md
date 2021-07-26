@@ -176,6 +176,26 @@ Que el estudiante se familiarice con un flujo de análisis exploratorio de datos
 
 
 
+
+*** 
+
+<br/>
+
+## 🔵 Unidad 5. Visualización de datos en R
+
+<br/>
+**🚀 Objetivo de la unidad**
+<br/>
+Que el estudiante conozca los distintos tipos de visualización en R y reconozca sus casos de uso. 
+
+<br/>
+[**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad5.pdf) 
+[**💻 ↪ Práctica y ejercicios**](unidad5.html)  
+
+<br/>
+
+
+
 *** 
 
 <br/>
