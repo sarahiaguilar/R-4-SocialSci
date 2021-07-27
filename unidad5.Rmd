@@ -29,7 +29,7 @@ Que el estudiante conozca los distintos tipos de visualización en R y reconozca
 
 <br/>
 
-## 5.1. Instalando y cargando paquetes
+## 5.1. Instalando y cargando paquetes y conjuntos de datos
 ```{r}
 # install.packages("ggplot2")
 library(ggplot2)
@@ -38,114 +38,253 @@ library(data.table)
 
 <br/> 
 
-## 5.2 Primeras gráficas 
-
-Cargamos conjunto de datos ejemplo. 
+Para la presente práctica utilizaremos los siguientes conjuntos de datos: 
 ```{r}
-# Datos de 38 modelos de automóviles por la US Environmental Protection Agency 
+# Datos de 38 modelos de automóviles generadp por la US Environmental Protection Agency 
 mpg <- data.table(ggplot2::mpg)
-# head(mpg)
-# str(mpg)
-# ?mpg
-```
+# Datos mensuales de indicadores económicos de Estados Unidos por el Fereal Reserva Bank of St. Louis
+eco <- data.table(ggplot2::economics)
 
-Diagrama de dispersión de displ vs hwy. 
-```{r}
-ggplot(data = mpg) + 
-  geom_point(mapping = aes(x = displ, y = hwy))
+mov <- data.table(ggplot2movies::movies)
 ```
 
 <br/> 
 
-## 🤾 Ejercicio #1
+## 5.2 Con una sola variable
 
-1. Ejecute ```ggplot(data = mpg)```. ¿Qué observa?
-2. ¿Qué describe la variable drv? Lea la ayuda de ?mpg para averiguarlo.
-3. Haz un diagrama de dispersión de hwy vs cyl.
-4. ¿Qué sucede si crea un diagrama de dispersión de clase vs drv? ¿Por qué la trama no es útil?
+* **Continua**
 
-<br/> 
-
-## 5.3 Utilizando ✨```aesthetics```✨
-
-```{r}
-ggplot(data = mpg) + 
-  geom_point(mapping = aes(x = displ, y = hwy, color = class))
-```
-
-```{r}
-ggplot(data = mpg) + 
-  geom_point(mapping = aes(x = displ, y = hwy, size = class))
-```
-
-```{r}
-ggplot(data = mpg) + 
-  geom_point(mapping = aes(x = displ, y = hwy, alpha = class))
-```
-
-```{r}
-ggplot(data = mpg) + 
-  geom_point(mapping = aes(x = displ, y = hwy, shape = class))
-```
-
-¿Qué pasó con los suv? ggplot2 solo usará seis formas a la vez. De forma predeterminada, los grupos adicionales no se trazarán cuando use la estética de forma.
-
-Para cada estética, usa ```aes()``` para asociar el nombre de la estética con una variable para mostrar. La función ```aes()``` reúne cada una de las asignaciones estéticas utilizadas por una capa y las pasa al argumento de asignación de la capa.
-
-```{r}
-ggplot(data = mpg) + 
-  geom_point(mapping = aes(x = displ, y = hwy), color = "blue")
+```{r message=FALSE, warning=FALSE}
+ggplot(mpg, aes(hwy)) +
+  geom_area(stat = "bin")
 ```
 
 <br/> 
 
-## ⛹️ Ejercicio #2
-
-1. ¿Qué está mal en el siguiente código? 
-```{r}
-ggplot(data = mpg) + 
-  geom_point(mapping = aes(x = displ, y = hwy, color = "blue"))
+```{r message=FALSE, warning=FALSE}
+ggplot(mpg, aes(hwy)) +
+  geom_density(kernel = "gaussian")
 ```
-
-2. ¿Qué variables en mpg son categóricas? ¿Qué variables son continuas? 
-3. Asigne una variable continua a color, tamaño y forma. ¿Cómo se comportan de manera diferente estas estéticas para las variables categóricas frente a las continuas?
-4. ¿Qué sucede si asigna la misma variable a múltiples estéticas?
-5. ¿Qué sucede si asigna una estética a algo que no sea un nombre de variable, como aes (color = displ <5)? Tenga en cuenta que también deberá especificar x e y.
 
 <br/> 
 
-## 5.4 Usando facetas
-
-```{r}
-ggplot(data = mpg) + 
-  geom_point(mapping = aes(x = displ, y = hwy)) + 
-  facet_grid(drv ~ cyl)
+```{r message=FALSE, warning=FALSE}
+ggplot(mpg, aes(hwy)) +
+  geom_dotplot()
 ```
 
-## 🤸 Ejercicio #3 
+<br/> 
 
-1. ¿Qué sucede si usas facetas en una variable continua?
-2. ¿Qué significan las celdas vacías en la gráfica con facet_grid (drv ~ cyl)? ¿Cómo se relacionan con este código?
-```{r}
-# ggplot(data = mpg) + 
-#   geom_point(mapping = aes(x = drv, y = cyl))
-```
-3. ¿Qué significa el "."? 
-```{r}
-# ggplot(data = mpg) + 
-#   geom_point(mapping = aes(x = displ, y = hwy)) +
-#   facet_grid(drv ~ .)
+```{r message=FALSE, warning=FALSE}
+ggplot(mpg, aes(hwy)) +
+  geom_freqpoly()
 ```
 
+<br/>
+
+* **Discreta**
+
+```{r message=FALSE, warning=FALSE}
+ggplot(mpg, aes(hwy)) +
+  geom_histogram(binwidth = 5)
+```
+<br/>
+
+```{r}
+ggplot(mpg, aes(fl, fill = drv)) +
+  geom_bar(position = "dodge") # fill, stack, jitter
+```
+
+<br/>
+
+## Ejercicio #1
+1. ¿En qué casos utilizaría ```geom_dotplot()``` sobre ```geom_density()```? 
+2. ¿En qué casos utilizaría ```geom_histogram()``` sobre ```geom_dotplot()```? 
+3. Cree una visualización para la variable displ del conjunto de datos mpg e identifique la moda artimética. 
+4. Utilizando el comando de ayuda (```?<nombre de la función>```), identifique qué aesthetics se pueden modificar en un geom_histogram.
+
+<br/>
+
+## 5.3 Con dos variables
+
+* **Dos variables continuas**
+
+```{r message=FALSE, warning=FALSE}
+ggplot(mpg, aes(x = cty, y = hwy)) +
+  geom_point()
+```
+
+<br/>
+
+```{r message=FALSE, warning=FALSE}
+ggplot(mpg, aes(x = cty, y = hwy)) +
+  geom_jitter()
+```
+
+<br/>
+
+```{r message=FALSE, warning=FALSE}
+ggplot(mpg, aes(x = cty, y = hwy)) +
+  geom_rug(sides = "bl")
+```
+
+<br/>
+
+```{r message=FALSE, warning=FALSE}
+ggplot(mpg, aes(x = cty, y = hwy)) +
+  geom_smooth(model = lm)
+```
+
+<br/>
+
+* Una variable discreta y una variable continua continua
+
+```{r message=FALSE, warning=FALSE}
+ggplot(mpg, aes(x = as.factor(cty), y = hwy)) +
+  geom_bar(stat = "identity")
+```
+
+
+</br>
+
+```{r message=FALSE, warning=FALSE}
+ggplot(mpg, aes(x = as.factor(cty), y = hwy)) +
+  geom_boxplot()
+```
+
+</br>
+
+```{r message=FALSE, warning=FALSE}
+ggplot(mpg, aes(x = as.factor(cty), y = hwy)) +
+  geom_dotplot(binaxis = "y", stackdir = "center")
+```
+
+</br>
+
+```{r message=FALSE, warning=FALSE}
+ggplot(mpg, aes(x = as.factor(cty), y = hwy)) +
+  geom_violin(scale = "area")
+```
+
+<br/>
+
+## Ejercicio #2
+1. Describa la relación entre las variables cty y hwy en el conjunto de datos mpg. 
+2. Describa dos conclusiones a las que puede llegar con un box plot sobre las variables cty y hwy.
+3. Seleccione otra variable variable discreta y otra variable continua cotinua diferentes a las ya utilizadas y grafique su relación. Justifique la selección de su visualización y describa dos conclusiones a las que llegó. 
+
+<br/>
+
+* **Distribución bivariada contínua**
+
+```{r}
+ggplot(mov, aes(year, rating)) +
+  geom_bin2d(binwidth = c(5, 0.5))
+```
+
+<br/>
+
+```{r}
+ggplot(mov, aes(year, rating)) +
+  geom_density2d()
+```
+
+<br/>
+
+* **Función continua**
+
+```{r}
+ggplot(eco, aes(date, unemploy)) +
+  geom_area()
+```
+
+<br/>
+
+```{r}
+ggplot(eco, aes(date, unemploy)) +
+  geom_line()
+```
+
+<br/>
+
+```{r}
+ggplot(eco, aes(date, unemploy)) +
+  geom_step(direction = "hv")
+```
+
+<br/>
+
+* **Visualizando el error**
+
+```{r}
+dt <- data.table(grp = c("A", "B"), fit = 4:5, se = 1:2)
+```
+
+<br/>
+
+```{r}
+ggplot(dt, aes(grp, fit, ymin = fit-se, ymax = fit+se)) +
+  geom_crossbar(fatten = 2)
+```
+
+<br/>
+
+```{r}
+ggplot(dt, aes(grp, fit, ymin = fit-se, ymax = fit+se)) +
+  geom_errorbar()
+```
+
+<br/>
+
+```{r}
+ggplot(dt, aes(grp, fit, ymin = fit-se, ymax = fit+se)) +
+  geom_linerange()
+```
+
+<br/>
+
+```{r}
+ggplot(dt, aes(grp, fit, ymin = fit-se, ymax = fit+se)) +
+  geom_pointrange()
+```
+
+</br>
+
+## Ejercicio #3
+
+1. Cree un nuevo data.table ejemplo con tres columnas: la primera que contenga 5 letras, la segunda que contenga un número aleatorio entre 5 y 15, y la tercera que contenga un número aleatorio entre 0 y 4. La primera columna corresponde al nombre de una categoría, la segunda columna corresponde al valor promedio de dicha categoría en una variable aleatoria y la tercera columna corresponde al valor de la desviación estándar de dicha categoría en una variable aleatoria.
+2. Construya una visualización en la que se pueda estudiar cómo varía la media y la desviación estándar de cada categoría.
+3. Grafique la evolución del desempleo en Estados Unidos utilizando puntos y una línea. 
+
+</br>
+
+</br>
+
+## 5.4 Formateando
+
+```{r}
+# install.packages("viridis")
+library(viridis)
+```
+
+```{r}
+dt <- fread("./data/gdpPercap_nacional.csv")
+
+ggplot(dt, aes(x=gdpPercap, y=lifeExp, size=pop, fill=continent)) +
+    geom_point(alpha=0.5, shape=21, color="black") +
+    scale_size(range = c(.1, 24), name="Population (M)") +
+    theme_light() +
+    theme(legend.position="bottom") +
+    ylab("Life Expectancy") +
+    xlab("Gdp per Capita") +
+    labs(title = "Title") +
+    theme(legend.position = "none")
+```
+
+</br>
 
 ## 🏄 Ejercicio #4
 1. Con la base de datos tabuladas del censo de población 2020, grafique tres diagrmas de dispersión:
 - Uno con dos variables numéricas. 
 - Uno con una variable numérica y dos variables categóricas.
 - Uno con dos variables numéricas y una categórica. 
-
-
-
-
-
-
