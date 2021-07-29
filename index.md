@@ -49,6 +49,9 @@ Que el estudiante conozca los fundamentos del lenguaje de programación R para e
 [**↪ Grabación de sesión #3**](https://www.youtube.com/watch?v=zUNLDoto4UA)   
 [**↪ Grabación de sesión #4**](https://www.youtube.com/watch?v=_2FeGyUcQnM)   
 [**↪ Grabación de sesión #5**](https://www.youtube.com/watch?v=kVWf4xlbWwo)   
+[**↪ Grabación de sesión #6**](https://web.microsoftstream.com/video/c7f82830-391d-4002-8248-5ef47d92c2c4)   
+[**↪ Grabación de sesión #7**](https://web.microsoftstream.com/video/5479c81d-4f08-4f6c-a53d-67c6ec6cbf4d)   
+[**↪ Grabación de sesión #8**](https://web.microsoftstream.com/video/4746932d-a0a6-4b45-9c27-c053b6c87c61)   
 
 <br/>
 
@@ -170,6 +173,8 @@ Que el estudiante se familiarice con un flujo de análisis exploratorio de datos
 
 <br/>
 [**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad4.pdf)  
+[**📄 ↪ Script utilizado en clase**](scripts/analisis.R)  
+[**📄 ↪ Script utilizado en clase resumido**](scripts/analisis_resumido.R)
 
 <br/>
 
@@ -189,10 +194,32 @@ Que el estudiante se familiarice con un flujo de análisis exploratorio de datos
 Que el estudiante conozca los distintos tipos de visualización en R y reconozca sus casos de uso. 
 
 <br/>
-[**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad5.pdf) 
+[**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad5.pdf)    
 [**💻 ↪ Práctica y ejercicios**](unidad5.html)  
 
 <br/>
+
+
+
+
+
+*** 
+
+<br/>
+
+## 🔵 Unidad 6. Presentación de resultados en R 
+
+<br/>
+**🚀 Objetivo de la unidad**
+<br/>
+Que el estudiante tenga conocimiento de los elementos básicos de RMarkdown para la creación de documentos con texto, bloques de código y visualizaciones embebidas. 
+
+<br/>
+[**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad6.pdf)    
+[**💻 ↪ Práctica y ejercicios**](unidad6.html)  
+
+<br/>
+
 
 
 
