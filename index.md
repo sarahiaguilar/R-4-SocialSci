@@ -161,7 +161,8 @@ Los correos serán respondidos a la brevedad.
 #### **Acerca de la profesora**
 
 Ingeniera y Maestra en Ciencia de Datos por la Universidad Panamericana  
-Científica de datos senior en GBM (antes en Mercado Libre y Kantar) 
+Científica de datos senior en GBM (antes en Mercado Libre y Kantar)
+Profesora de asignatura en la Facultad de Ingeniería de la Universidad Panamericana México
 
 Entusiasta de la investigación, las iniciativas a favor de la educación e igualdad de género, la bicicleta y los gatos. 
 
