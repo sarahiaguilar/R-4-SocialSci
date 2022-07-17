@@ -44,6 +44,7 @@ Que el estudiante conozca, de forma teórica y práctica, los fundamentos del le
 
 <br/>
 **🚀 Objetivo de la unidad**
+
 Que el estudiante tenga un entorno de desarrollo de R en RStudio listo en su equipo de cómputo propio antes del inicio del curso.
 
 <br/>
@@ -59,6 +60,7 @@ Que el estudiante tenga un entorno de desarrollo de R en RStudio listo en su equ
 
 <br/>
 **🚀 Objetivo de la unidad**
+
 Que el estudiante se familiarice con R y el entorno de desarrollo de RStudio, y sea capaz de crear nuevos scripts y Proyectos de R.
 
 <br/>
@@ -75,6 +77,7 @@ Que el estudiante se familiarice con R y el entorno de desarrollo de RStudio, y 
 
 <br/>
 **🚀 Objetivo de la unidad**
+
 Que el estudiante reconozca los conceptos básicos de programación y sus casos de uso prácticos básicos.
 
 <br/>
