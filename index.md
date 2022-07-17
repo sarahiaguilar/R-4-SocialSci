@@ -28,11 +28,11 @@ Que el estudiante conozca, de forma teórica y práctica, los fundamentos del le
     + \>= 10GB de almacenamiento disponible en disco
     + R (versión 4.2.~) instalado*
     + RStudio (versión 2022.07.0+548) instalado*
+    
+*Dirígete a la Unidad 0. 
 
-<br/>
-
-[**👋 ↪ Presentación introductoria**](presentaciones_teoricas/intro.pdf)  
-
+<!-- <br/> -->
+<!-- [**👋 ↪ Presentación introductoria**](presentaciones_teoricas/intro.pdf)   -->
 
 <br/>
 
@@ -56,16 +56,16 @@ Que el estudiante tenga un entorno de desarrollo de R en RStudio listo en su equ
 
 <br/>
 
-### **Unidad 1. Manual de instalación de R y RStudio**
+### **Unidad 1. Introducción a R y RStudio**
 
 <br/>
 **🚀 Objetivo de la unidad**
 
 Que el estudiante se familiarice con R y el entorno de desarrollo de RStudio, y sea capaz de crear nuevos scripts y Proyectos de R.
-
-<br/>
-[**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad1.pdf)  
-[**💻 ↪ Práctica y ejercicio**](unidad1.html)  
+<!--  -->
+<!-- <br/> -->
+<!-- [**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad1.pdf) -->
+<!-- [**💻 ↪ Práctica y ejercicio**](unidad1.html) -->  
 
 <br/>
 
@@ -73,12 +73,12 @@ Que el estudiante se familiarice con R y el entorno de desarrollo de RStudio, y 
 
 <br/>
 
-### **Unidad 2. Conceptos básicos de programación en R**
+### **Unidad 2. Conceptos básicos de programación**
 
 <br/>
 **🚀 Objetivo de la unidad**
 
-Que el estudiante reconozca los conceptos básicos de programación y sus casos de uso prácticos básicos.
+Que el estudiante reconozca los conceptos básicos de programación, cómo programarlos en R y sus casos de uso prácticos básicos.
 
 <br/>
 
@@ -86,12 +86,12 @@ Que el estudiante reconozca los conceptos básicos de programación y sus casos 
 
 <br/>
 
-### **Unidad 3. Manipulación de datos en R**
+### **Unidad 3. Procesamiento de datos**
 
 <br/>
 **🚀 Objetivo de la unidad**
 
-Que el estudiante sea capaz de importar y exportar bases de datos de y en diferentes formatos, así como ejecutar transformaciones básicas sobre estas utilizando data frames y el paquete data.table. 
+Que el estudiante sea capaz de importar y exportar conjuntos de datos de y en diferentes formatos, así como ejecutar transformaciones básicas sobre estas utilizando dataframes y el paquete `data.table`. 
 
 <br/>
 
@@ -99,12 +99,12 @@ Que el estudiante sea capaz de importar y exportar bases de datos de y en difere
 
 <br/>
 
-### **Unidad 4. Análisis exploratorio en R**
+### **Unidad 4. Análisis exploratorio de datos**
 
 <br/>
 **🚀 Objetivo de la unidad**
 
-Que el estudiante se familiarice con un flujo de análisis exploratorio de datos efectivo, y pueda explorar bases de datos y subconjuntos de estas mediante la creación de tablas resumen de las mismas.  
+Que el estudiante se familiarice con un flujo efectivo de análisis exploratorio de datos, y pueda explorar conjuntos de datos y subconjuntos de estas mediante la creación de tablas resumen de las mismas.  
 
 <br/>
 
@@ -112,12 +112,12 @@ Que el estudiante se familiarice con un flujo de análisis exploratorio de datos
 
 <br/>
 
-### **Unidad 5. Visualización de datos en R**
+### **Unidad 5. Visualización de datos**
 
 <br/>
 **🚀 Objetivo de la unidad**
 
-Que el estudiante conozca los distintos tipos de visualización en R y reconozca sus casos de uso. 
+Que el estudiante conozca los distintos tipos de visualización de datos y reconozca sus casos de uso. 
 
 <br/>
 
@@ -125,12 +125,12 @@ Que el estudiante conozca los distintos tipos de visualización en R y reconozca
 
 <br/>
 
-### **Unidad 6. Presentación de resultados en R**
+### **Unidad 6. Presentación de resultados**
 
 <br/>
 **🚀 Objetivo de la unidad**
 
-Que el estudiante tenga conocimiento de los elementos básicos de RMarkdown para la creación de documentos con texto, bloques de código y visualizaciones embebidas. 
+Que el estudiante tenga conocimiento de los elementos básicos de `RMarkdown` para la creación de documentos con texto, bloques de código y visualizaciones embebidas. 
 
 <br/>
 
