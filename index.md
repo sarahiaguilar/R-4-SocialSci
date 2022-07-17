@@ -1,21 +1,21 @@
-# Curso introductorio al lenguaje de programación R orientado al análisis cuantitativo en Ciencias Sociales
+# Curso introductorio al lenguaje de programación R orientado al análisis cuantitativo en ciencias sociales
 ### Por Sarahí Aguilar
 
 <br/>
 
-***
+<!-- ------------------------ Introducción del curso ----------------------- -->
 
 <br/>
 
-## 🏁 Introducción del curso
+### **🏁 Introducción del curso**
 
 <br/>
 
 > #### **Descripción general**  
-Curso de 20 horas, en línea, teórico/práctico e introductorio al lenguaje de programación R enfocado al análisis cuantitativo de bases de datos sociodemográficas. 
+Curso de 20 horas, en línea, teórico/práctico e introductorio al lenguaje de programación R enfocado al análisis cuantitativo de datos en ciencias sociales.
 
 > #### **Objetivo general**  
-Que el estudiante conozca los fundamentos del lenguaje de programación R para el análisis cuantitativo en Ciencias Sociales, y sea capáz de escribir código y utilizar distintos paquetes para el procesamiento, análisis exploratorio, y visualización de datos.  
+Que el estudiante conozca, de forma teórica y práctica, los fundamentos del lenguaje de programación R para el análisis cuantitativo de datos en ciencias sociales, y con ello, volverse capaz de hacer uso eficiente de paquetes de código para la importación, la exportación, el procesamiento, el análisis exploratorio, la visualización y la presentación de datos. 
 
 <br/>
 
@@ -23,9 +23,11 @@ Que el estudiante conozca los fundamentos del lenguaje de programación R para e
 * Contar con conocimiento de manejo de la computadora básico.
 * Contar con interés en la programación.
 * Contar con conocimiento estadístico básico.
-* Contar con un equipo de cómputo con >= 8GB de memoria RAM y >= 10GB de almacenamiento disponible en disco.
-* Haber completado satisfactoriamente la Unidad 0 de este curso. 
-    + Con el fin de facilitar la resolución de problemas durante el curso, la profesora y todos los estudiantes trabajarán con la misma versión de R (4.0.5) y RStudio (cualquier versión 1.4.1). Por ello, la Unidad 0 de este curso debe ser completada antes del inicio de este, incluso si el estudiante había previamente instalado R y/o RStudio en el mismo equipo de cómputo. 
+* Contar con un equipo de cómputo con:
+    + \>= 8GB de memoria RAM
+    + \>= 10GB de almacenamiento disponible en disco
+    + R (versión 4.2.~) instalado*
+    + RStudio (versión 2022.07.0+548) instalado*
 
 <br/>
 
@@ -34,222 +36,131 @@ Que el estudiante conozca los fundamentos del lenguaje de programación R para e
 
 <br/>
 
-
-
-
-
-*** 
+<!-- ------------------------------- Unidad 0 ------------------------------ -->
 
 <br/>
 
-## 📹 [Lista de reproducción de la grabación de cada sesión](https://www.youtube.com/playlist?list=PLyLpFKjdn75NqNt-iNqy3YcplVJ93W3Be)
-
-[**↪ Grabación de sesión #1**](https://www.youtube.com/watch?v=0D1jr30LfjQ)   
-[**↪ Grabación de sesión #2**](https://web.microsoftstream.com/video/30025def-f9c8-42f7-909b-caacf8e453e3)   
-[**↪ Grabación de sesión #3**](https://www.youtube.com/watch?v=zUNLDoto4UA)   
-[**↪ Grabación de sesión #4**](https://www.youtube.com/watch?v=_2FeGyUcQnM)   
-[**↪ Grabación de sesión #5**](https://www.youtube.com/watch?v=kVWf4xlbWwo)   
-[**↪ Grabación de sesión #6**](https://web.microsoftstream.com/video/c7f82830-391d-4002-8248-5ef47d92c2c4)   
-[**↪ Grabación de sesión #7**](https://web.microsoftstream.com/video/5479c81d-4f08-4f6c-a53d-67c6ec6cbf4d)   
-[**↪ Grabación de sesión #8**](https://web.microsoftstream.com/video/4746932d-a0a6-4b45-9c27-c053b6c87c61)   
-
-<br/>
-
-
-
-
-
-*** 
-
-<br/>
-
-## 📁 [Carpeta de Google Drive con proyectos de RStudio para cada unidad ](https://drive.google.com/drive/folders/1PKNiryfdmfvPCYaE5HDUv2TDKzRqk5Oo?usp=sharing)
-En cada proyecto de RStudio se incluye (1) el script creado por la profesora durante la práctica de la unidad correspondiente y (2) un script con las respuestas a todos los ejercicios también de la unidad correspondiente.
-
-<br/>
-
-
-
-
-
-*** 
-
-<br/>
-
-## 🔵 Unidad 0. Manual de instalación de R y RStudio
+### **Unidad 0. Manual de instalación de R y RStudio**
 
 <br/>
 **🚀 Objetivo de la unidad**
-<br/>
 Que el estudiante tenga un entorno de desarrollo de R en RStudio listo en su equipo de cómputo propio antes del inicio del curso.
 
 <br/>
 [**🔧 ↪ Manual de instalación de R y RStudio**](unidad0.html)  
 
+<br/>
 
+<!-- ------------------------------- Unidad 1 ------------------------------ -->
 
 <br/>
 
-
-
-
-
-*** 
-
-<br/>
-
-## 🔵 Unidad 1. Manual de instalación de R y RStudio
+### **Unidad 1. Manual de instalación de R y RStudio**
 
 <br/>
 **🚀 Objetivo de la unidad**
-<br/>
 Que el estudiante se familiarice con R y el entorno de desarrollo de RStudio, y sea capaz de crear nuevos scripts y Proyectos de R.
 
 <br/>
 [**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad1.pdf)  
 [**💻 ↪ Práctica y ejercicio**](unidad1.html)  
 
+<br/>
 
+<!-- ------------------------------- Unidad 2 ------------------------------ -->
 
 <br/>
 
-
-
-
-
-*** 
-
-<br/>
-
-## 🔵 Unidad 2. Conceptos básicos de programación en R
+### **Unidad 2. Conceptos básicos de programación en R**
 
 <br/>
 **🚀 Objetivo de la unidad**
-<br/>
 Que el estudiante reconozca los conceptos básicos de programación y sus casos de uso prácticos básicos.
 
 <br/>
-[**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad2.pdf)  
-[**💻 ↪ Práctica y ejercicios**](unidad2.html)  
 
-
-<br/>
-
-
-
-
-
-*** 
+<!-- ------------------------------- Unidad 3 ------------------------------ -->
 
 <br/>
 
-## 🔵 Unidad 3. Manipulación de datos en R
+### **Unidad 3. Manipulación de datos en R**
 
 <br/>
 **🚀 Objetivo de la unidad**
-<br/>
+
 Que el estudiante sea capaz de importar y exportar bases de datos de y en diferentes formatos, así como ejecutar transformaciones básicas sobre estas utilizando data frames y el paquete data.table. 
 
 <br/>
-[**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad3.pdf)  
-[**💻 ↪ Práctica y ejercicios**](unidad3.html)  
+
+<!-- ------------------------------- Unidad 4 ------------------------------ -->
 
 <br/>
 
-
-
-
-
-*** 
-
-<br/>
-
-## 🔵 Unidad 4. Análisis exploratorio en R
+### **Unidad 4. Análisis exploratorio en R**
 
 <br/>
 **🚀 Objetivo de la unidad**
-<br/>
+
 Que el estudiante se familiarice con un flujo de análisis exploratorio de datos efectivo, y pueda explorar bases de datos y subconjuntos de estas mediante la creación de tablas resumen de las mismas.  
 
 <br/>
-[**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad4.pdf)  
-[**📄 ↪ Script utilizado en clase**](scripts/analisis.R)  
-[**📄 ↪ Script utilizado en clase resumido**](scripts/analisis_resumido.R)
+
+<!-- ------------------------------- Unidad 5 ------------------------------ -->
 
 <br/>
 
-
-
-
-
-*** 
-
-<br/>
-
-## 🔵 Unidad 5. Visualización de datos en R
+### **Unidad 5. Visualización de datos en R**
 
 <br/>
 **🚀 Objetivo de la unidad**
-<br/>
+
 Que el estudiante conozca los distintos tipos de visualización en R y reconozca sus casos de uso. 
 
 <br/>
-[**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad5.pdf)    
-[**💻 ↪ Práctica y ejercicios**](unidad5.html)  
+
+<!-- ------------------------------- Unidad 6 ------------------------------ -->
 
 <br/>
 
-
-
-
-
-*** 
-
-<br/>
-
-## 🔵 Unidad 6. Presentación de resultados en R 
+### **Unidad 6. Presentación de resultados en R**
 
 <br/>
 **🚀 Objetivo de la unidad**
-<br/>
+
 Que el estudiante tenga conocimiento de los elementos básicos de RMarkdown para la creación de documentos con texto, bloques de código y visualizaciones embebidas. 
 
 <br/>
-[**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad6.pdf)    
-[**💻 ↪ Práctica y ejercicios**](unidad6.html)  
+
+<!-- ---------- Lista de reproducción con las grabaciones de cada ---------- -->
 
 <br/>
 
-
-
-
-*** 
+### 📹 [Lista de reproducción con las grabaciones de cada sesión](https://www.youtube.com/playlist?list=PLyLpFKjdn75ONuc1JiF3IT7SFLOaP8Din)
 
 <br/>
 
-## ✉ Contacto
+<!-- ------------------------------- Contacto ------------------------------ -->
 
 <br/>
-Para consultar cualquier duda o dar algún comentario del curso, usted puede enviar un correo a: sarahiaguilargonzalez@gmail.com  
+
+#### **Contacto**
+
+Para consultar cualquier duda o dar algún comentario del curso, usted puede enviar un correo a: sarahiaguilargonzalez@gmail.com
 
 Los correos serán respondidos a la brevedad. 
 
 <br/>
 
-
-
-
-*** 
+<!-- ------------------------ Acerca de la profesora ----------------------- -->
 
 <br/>
 
 #### **Acerca de la profesora**
 
-<br/>
 Ingeniera y Maestra en Ciencia de Datos por la Universidad Panamericana  
-Científica de datos senior en Mercado Libre México  
+Científica de datos senior en GBM (antes en Mercado Libre y Kantar) 
 
-Entusiasta de la investigación y las iniciativas a favor de la educación e igualdad de género  
+Entusiasta de la investigación, las iniciativas a favor de la educación e igualdad de género, la bicicleta y los gatos. 
 
 [GitHub](https://github.com/sarahiaguilar)  
 [LinkedIn](https://www.linkedin.com/in/sarahi-aguilar/)  

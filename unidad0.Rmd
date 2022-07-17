@@ -21,62 +21,62 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Inicio
 
 > #### **🚀 Objetivo de la unidad**  
-Que el estudiante tenga un entorno de desarrollo de R en RStudio listo en su equipo de cómputo propio antes del inicio del curso.
+Que el estudiante tenga un entorno de desarrollo de R en RStudio listo en su equipo de cómputo antes del inicio del curso.
 
 <br/>
 
-## 0.1. Instalación de R 4.1.0
+## 0.1. Instalación de R 4.2.~
 1. Entrar a la [página oficial de R](https://www.r-project.org/). 
 2. En la sección titulada "Getting Started", dar click sobre ["download R"](https://cran.r-project.org/mirrors.html).
-3. Buscar el espejo del ITAM y dar click sobre [https://cran.itam.mx/](https://cran.itam.mx/).   
-Para los fines de este curso, no se requiere conocer el concepto de "espejo". 
+3. Buscar el espejo del ITAM y dar click sobre [https://cran.itam.mx/](https://cran.itam.mx/).
 4. Con base en el sistema operativo de su equipo de cómputo, dar click sobre "Download R for Linux (Debian, Fedora/Redhat, Ubuntu)", "Download R for macOS" o "Download R for Windows" y seguir las instrucciones de instalación **sin modificar los parámetros ya establecidos por defecto**.  
 Para el caso de equipos de cómputo con Windows como sistema operativo:
     + Dar click en "Download R for Windows".
     + Dar click sobre el subdirectorio "base". 
-    + Dar click sobre ["Download R 4.1.0 for Windows"](https://cran.itam.mx/bin/windows/base/R-4.1.0-win.exe). 
-    + Se iniciará la descarga de un archivo llamado "R-4.1.0-win"... Una vez terminada la descarga, ejecutar (dar click sobre) el archivo descargado. 
+    + Dar click sobre ["Download R 4.2.1 for Windows"](https://cran.itam.mx/bin/windows/base/R-4.2.1-win.exe). 
+    + Se iniciará la descarga de un archivo llamado "R-4.2.1-win"... Una vez terminada la descarga, ejecutar (dar click sobre) el archivo descargado. 
     + Se abrirá el instalador de R... Dar click en "Continuar" en cada ocasión **sin modificar los parámetros ya establecidos por defecto**. 
 
 <br/>
 
 ## 0.2. Instalación de RStudio 
 1. Entrar a la [página oficial de RStudio](https://www.rstudio.com/).
-2. En la barra de navegación superior, desplegar las opciones de "Products".
-3. Dentro de las opciones “OPEN SOURCE”, dar click sobre ["RStudio"](https://www.rstudio.com/products/rstudio/).
-4. Navegar por la página abierta hasta encontrar el botón de “DOWNLOAD RSTUDIO DESKTOP” y dar click sobre él. 
-5. Navegar por la página abierta hasta encontrar la lista de instaladores y dar click sobre uno con base en el sistema operativo de su equipo de cómputo.  
+2. En la barra de navegación superior, desplegar las opciones de "Products", desplegar las opciones “Open Source” y dar click sobre ["RStudio"](https://www.rstudio.com/products/rstudio/).
+3. Buscar y dar click sobre el botón de “DOWNLOAD RSTUDIO DESKTOP”.
+4. Navegar por la página abierta hasta encontrar la lista “All Installers” y, con base en el sistema operativo de su equipo de cómputo, dar click sobre uno de los instaladores.  
 Para el caso de equipos de cómputo con Windows como sistema operativo:
-    + Dar click en ["RStudio-1.4.1717.exe"](https://download1.rstudio.org/desktop/windows/RStudio-1.4.1717.exe). 
-    + Se iniciará la descarga de un archivo llamado "RStudio-1.4.1717"... Una vez terminada, ejecutar (dar click sobre) el archivo descargado. 
+    + Dar click en ["RStudio-2022.07.0-548.exe"](https://www.rstudio.com/products/rstudio/download/#:~:text=RStudio%2D2022.07.0%2D548.exe). 
+    + Se iniciará la descarga de un archivo llamado "RStudio-2022.07.0-548"... Una vez terminada, ejecutar (dar click sobre) el archivo descargado. 
     + Se abrirá el instalador de RStudio... Dar click en "Continuar" en cada ocasión **sin modificar los parámetros ya establecidos por defecto**.
 
 <br/>
 
 ## 0.3. Verificando la correcta instalación de R y RStudio
 1. Buscar en los programas de su equipo de cómputo RStudio y abrirlo. 
-2. Observará una interfaz gráfica compuesta de distintas ventanas. En una de ellas, debería ver el siguiente texto: 
+2. Observará una interfaz gráfica compuesta de distintos páneles. En una de ellas, debería ver el siguiente texto: 
 ```
-R version 4.1.0 (2021-05-18) -- "Camp Pontanezen"
-Copyright (C) 2021 The R Foundation for Statistical Computing
-Platform: x86_64-w64-mingw32/x64 (64-bit)
+R version 4.2.0 (2022-04-22) -- "Vigorous Calisthenics"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
 
-R es un software libre y viene sin GARANTIA ALGUNA.
-Usted puede redistribuirlo bajo ciertas circunstancias.
-Escriba 'license()' o 'licence()' para detalles de distribucion.
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
 
-R es un proyecto colaborativo con muchos contribuyentes.
-Escriba 'contributors()' para obtener más información y
-'citation()' para saber cómo citar R o paquetes de R en publicaciones.
+  Natural language support but running in an English locale
 
-Escriba 'demo()' para demostraciones, 'help()' para el sistema on-line de ayuda,
-o 'help.start()' para abrir el sistema de ayuda HTML con su navegador.
-Escriba 'q()' para salir de R.
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
 ```
 
 <br/>
 
-Fíjese que la versión de R que menciona el texto anterior sea la ```4.1.0```. En caso de que así sea, ¡usted ha completado satisfactoriamente la instalación de R y RStudio en las versiones correctas para el curso! 🎉
+Fíjese que la versión de R que menciona el texto anterior sea la ```4.2.~```. En caso de que así sea, ¡usted ha completado satisfactoriamente la instalación de R y RStudio en las versiones correctas para el curso! 🎉
 
 <br/>
 
@@ -87,4 +87,4 @@ Fíjese que la versión de R que menciona el texto anterior sea la ```4.1.0```. 
 
 ## Dudas o comentarios
 
-Diríjase a la sección de [Contacto en la página principal del curso](index.html). 
+Dirígete a la sección de [Contacto en la página principal del curso](index.html). 
