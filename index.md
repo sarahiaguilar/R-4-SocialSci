@@ -31,8 +31,8 @@ Que el estudiante conozca, de forma teórica y práctica, los fundamentos del le
     
 *Dirígete a la Unidad 0. 
 
-<!-- <br/> -->
-<!-- [**👋 ↪ Presentación introductoria**](presentaciones_teoricas/intro.pdf)   -->
+<br/>
+[**👋 ↪ Presentación introductoria**](slides/intro.pdf)
 
 <br/>
 
@@ -62,9 +62,9 @@ Que el estudiante tenga un entorno de desarrollo de R en RStudio listo en su equ
 **🚀 Objetivo de la unidad**
 
 Que el estudiante se familiarice con R y el entorno de desarrollo de RStudio, y sea capaz de crear nuevos scripts y Proyectos de R.
-<!--  -->
-<!-- <br/> -->
-<!-- [**📖 ↪ Presentación teórica**](presentaciones_teoricas/unidad1.pdf) -->
+
+<br/>
+[**📖 ↪ Presentación teórica**](slides/unidad1.pdf)
 <!-- [**💻 ↪ Práctica y ejercicio**](unidad1.html) -->  
 
 <br/>
@@ -148,7 +148,7 @@ Que el estudiante tenga conocimiento de los elementos básicos de `RMarkdown` pa
 
 #### **Contacto**
 
-Para consultar cualquier duda o dar algún comentario del curso, usted puede enviar un correo a: sarahiaguilargonzalez@gmail.com
+Para consultar cualquier duda o dar algún comentario del curso, puede enviar un correo a: sarahiaguilargonzalez@gmail.com
 
 Los correos serán respondidos a la brevedad. 
 
@@ -161,10 +161,12 @@ Los correos serán respondidos a la brevedad.
 #### **Acerca de la profesora**
 
 Ingeniera y Maestra en Ciencia de Datos por la Universidad Panamericana  
+
 Científica de datos senior en GBM (antes en Mercado Libre y Kantar)
+
 Profesora de asignatura en la Facultad de Ingeniería de la Universidad Panamericana México
 
-Entusiasta de la investigación, las iniciativas a favor de la educación e igualdad de género, la bicicleta y los gatos. 
+Entusiasta de la investigación, las iniciativas a favor de la educación e igualdad de género, la bicicleta y los gatos
 
 [GitHub](https://github.com/sarahiaguilar)  
 [LinkedIn](https://www.linkedin.com/in/sarahi-aguilar/)  

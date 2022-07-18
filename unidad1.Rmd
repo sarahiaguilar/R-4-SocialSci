@@ -1,0 +1,195 @@
+---
+title: "Práctica de la **Unidad 1. Introducción a R y RStudio**"
+subtitle: "Del Curso introductorio al lenguaje de programación R orientado al análisis cuantitativo en Ciencias Sociales"
+author: "Por Sarahí Aguilar"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br/>
+
+[🏠↩ De vuelta a la página principal del curso](index.html)
+
+<br/>
+
+## Inicio
+
+> #### **🚀 Objetivo de la unidad**  
+ Que el estudiante se familiarice con R y el entorno de desarrollo de RStudio, y sea capaz de crear nuevos scripts y Proyectos de R.
+
+<br/>
+
+**Nota importante:** Los siguientes módulos prácticos son lineales. 
+
+<br/>
+
+## 1.1. Familiarizándoce con RStudio
+
+1. Abra RStudio. 
+2. Ubique las siguientes ventanas: *Consola*, *Editor de código*, *Ambiente*, *Archivos*, *Gráficos*, *Historia* y *Ayuda*, y explore los distintos botones dentro de cada una. Ubique el cursor encima de un botón para obtener una breve descripción de su función. 
+3. Explore los distintos menús en la barra de navegación principal. 
+
+<br/>
+
+## 1.2. Configuración del entorno de desarrollo
+1. En la barra de navegación principal, abra el menú de *Tools* y seleccione *Global options...* 
+2. Se abrirá la ventana de *Global options...*. En caso de guardar un cambio realizado en cualquier configuación, es necesario dar click sobre el botón *Apply*.
+3. Explore los distintos submenús en la ventana. Por ejemplo, en el submenú de *Appearance* puede modificar el tema visual del entorno de desarrollo. 
+4. Se recomienda ampliamente que, en el submenú de *General*, configure la sección de *Workspace* de la siguiente forma:
+    + Desmarque la casila de *Restore .RData into workspace at startup*. 
+    + En las opciones disponibles para *Save worspace to .Rdata on exit*, seleccione *Never*.  
+    Para los fines de este curso, solo es relevante saber que esta configuración reducirá el tiempo de apertura de RStudio. 
+5. Opcionalmente, en el submenú de *Pane Layout*, configure la distribución páneles de la siguiente forma: 
+
+<center>
+![](./img/1_2_panelayout.PNG)
+
+<br/>
+
+## 1.3. Probando la Consola
+1. Ubique la ventana *Consola*. 
+2. Para correr una línea de código en la *Consola*, solo debe escribirla en el prompt y presionar su tecla Enter. Familiarícese corriendo algunas líneas de código simples como las siguientes:  
+
+Suma
+```{r}
+40+2
+```
+</br>
+Resta
+```{r}
+44-2
+```
+</br>
+Multiplicación
+```{r}
+21*2
+```
+</br>
+División
+```{r}
+3738/89 
+```
+</br>
+Valor absoluto
+```{r}
+abs(-42) # Valor absoluto de 42
+```
+</br>
+Redondeo
+```{r}
+round(41.84) # Redondear 41.84
+```
+</br>
+Potencia
+```{r}
+2^4 # 2 a la cuarta potencia
+```
+</br>
+Operación módulo (residuo de la división)
+```{r}
+5%%2 # Módulo de 5÷2
+```
+</br>
+Logaritmo base 10
+```{r}
+log(10) # Logaritmo de 10
+```
+</br>
+Distribución binomial
+```{r}
+dbinom(x=3, size=10, prob=0.5)  # P(X=3) for X~B(n=10, p=0.5) 
+```
+</br>
+Para conocer más acerca de las funciones matemáticas en R, corra las siguientes líneas: 
+```{r message=FALSE, warning=FALSE}
+# help("Math")
+# help("Arithmetic")
+# help("Trig")
+```
+</br>
+Asignación de variables
+```{r}
+x <- 2 # x guarda el valor de 2
+x <- x+3 # se le suma 3 a x
+x # Devuelve el valor de x
+```
+La lista de variables puede ser visualizada en la ventana de *Environment*.
+</br>
+Las líneas de código o fragmentos de línea de código con un "#" precedente, fungen como comentarios y no como comandos. Se recomienda ampliamente utilizarlos para documentar sus scripts. 
+```{r}
+# Esta línea de código es un comentario y no se ejecutará.
+```
+</br>
+Para conocer más acerca de una función específica, corra "?" + el nombre de la función, como en el siguiente ejemplo para la función ```round```. Observe cómo se despliega la documentación de la función en la ventana de *Ayuda*. 
+```{r}
+# ?round
+```
+</br>
+Algunas líneas de código podrían tardar mucho en terminar de ejecutarse. Para cancelar la ejecución, utilice el botón rojo de *Stop* en la parte superior derecha de la ventana de *Consola*. 
+</br>
+Al ejecutar cualquier línea de código errónea, un mensaje de error será impreso en la consola. A veces no serán tan explícitos, es importante mantener la calma y leerlos con detención.
+
+<center>
+![](https://pro2-bar-s3-cdn-cf5.myportfolio.com/17a47d9e8f4727ce5f3e48805b2d8eb2/67cb1a46-1d0c-45fe-ab3f-520e4802b1b8_rwc_0x7x800x626x800.gif?h=3ef38d2bcece76203455258e0d585fe9)
+
+</br>
+
+## 1.4. Un primer script de R
+1. En la barra de navegación principal, abra el menú de *File* y seleccione *New File* y luego *R Script*.
+2. En la ventana de *Editor de código* se desplegará un nuevo archivo. Escriba algunas líneas de código simples. 
+Observe que a la izquierda de cada línea de código, hay un número de línea. Cuando R reconozca algún error en su línea de código, un tache rojo aparecerá al costado del número de línea, y si ubica el cursor encima del tache rojo obtendrá una breve descripción del error.
+3. Para correr las líneas de código que ha escrito en el script, de click en el botón *Run* en la parte superior derecha de la ventana. 
+   Para correr solo algunas líneas de código que ha escrito en el script, selecciónelas y de click en el botón *Run* o presione la combinación de teclas Ctrl + Enter. 
+   Para correr solo una línea de código que ha escrito en el script, ubique su cursor en cualquier parte de la línea de código y de click en el botón *Run* o presione la combinación de teclas Ctrl + Enter. 
+4. Para guardar el archivo, en la barra de navegación, abra el menú de *File* y seleccione *Save* o *Save as...*.
+5. Se abrirá una nueva venta del explorador de archivos del equipo local de cómputo ubicado en la carpeta de su actual directorio de trabajo. Navegue a la carpeta en la que desea guardar su script, asigne un nombre al script, de click en *Save* y cierre la ventana del explorador de archivos.
+
+Por convención, los scripts de R se nombran bajo las siguientes reglas:   
+
+* Comenzar con una letra. 
+* Utilizar únicamente letras, números y guiones bajos (_) en lugar de espacios.
+* No utilizar caracteres epeciales. 
+* Utilizar nombres cortos, claros y concretos.    
+
+</br>
+
+## 1.5 Configuración del directorio de trabajo
+1. Ubique la ventana de *Archivos*.
+2. De click en los tres puntitos en la parte izquierda de la ventana. Se abrirá una nueva venta del explorador de archivos del equipo local de cómputo ubicado en la carpeta de su actual directorio de trabajo. Navegue a la carpeta en la que desea configurar su directorio de trabajo, de click en *Open* y cierre la ventana del explorador de archivos.
+3. Seleccione *More* y luego de click en *Set As Working Directory*.
+
+Utilice la función ```getwd()``` para obtener la ubicación de su directorio de trabajo actual.
+
+</br>
+
+## 1.6 Un primer Proyecto de R
+1. En la barra de navegación principal, abra el menú de *File* y seleccione *New Proyect...*.
+2. Se abrirá una venta de *New Project Wizard*. Seleccione *New Directory* y luego *New Project*. 
+3. Asigne un nombre para el Proyecto en la caja de texto *Directory name*.
+4. Seleccione la carpeta en la que será creado el proyecto dando click en el botón de *Browse*. 
+
+</br>
+
+## 🏋 Ejercicio
+1. En RStudio, cree un proyecto de R. 
+2. Salga de RStudio y acceda al proyecto que acaba de crear. 
+3. Cree un script dentro del proyecto. 
+4. Elija un número entero, y en el script, escriba los comandos de R para:
+    + Sumar 2 al número de entero de su elección. 
+    + Multiplicar por 3 el resultado de la instrucción anterior. 
+    + Restar 6 el resultado de la instrucción anterior.
+    + Dividir entre 3 el resultado de la instrucción anterior. 
+5. Documente su script añadiendo comentarios en donde considere pertinente.
+6. Guarde el script utilizando un nombre pertinente. 
+7. Desde el explorador de archivos del equipo local de cómputo, agregue una carpeta en su proyecto para almacenar sus scripts y mueva el script a esta. 
+
+<br/>
+
+<center>
+![](https://media1.tenor.com/images/5f5f6df9624301ebea3abdec1af4cd4a/tenor.gif?itemid=9276124)
