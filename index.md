@@ -65,7 +65,7 @@ Que el estudiante se familiarice con R y el entorno de desarrollo de RStudio, y 
 
 <br/>
 [**📖 ↪ Presentación teórica**](slides/unidad1.pdf)
-<!-- [**💻 ↪ Práctica y ejercicio**](unidad1.html) -->  
+[**💻 ↪ Práctica y ejercicio**](unidad1.html)
 
 <br/>
 
