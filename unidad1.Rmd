@@ -54,7 +54,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## 1.3. Probando la Consola
 1. Ubique la ventana *Consola*. 
-2. Para correr una línea de código en la *Consola*, solo debe escribirla en el prompt y presionar su tecla Enter. Familiarícese corriendo algunas líneas de código simples como las siguientes:  
+2. Para ejecutar una línea de código en la *Consola*, solo debe escribirla en el prompt y presionar su tecla Enter. Familiarícese corriendo algunas líneas de código simples como las siguientes:  
 
 Suma
 ```{r}
@@ -144,11 +144,11 @@ Al ejecutar cualquier línea de código errónea, un mensaje de error será impr
 1. En la barra de navegación principal, abra el menú de *File* y seleccione *New File* y luego *R Script*.
 2. En la ventana de *Editor de código* se desplegará un nuevo archivo. Escriba algunas líneas de código simples. 
 Observe que a la izquierda de cada línea de código, hay un número de línea. Cuando R reconozca algún error en su línea de código, un tache rojo aparecerá al costado del número de línea, y si ubica el cursor encima del tache rojo obtendrá una breve descripción del error.
-3. Para correr las líneas de código que ha escrito en el script, de click en el botón *Run* en la parte superior derecha de la ventana. 
-   Para correr solo algunas líneas de código que ha escrito en el script, selecciónelas y de click en el botón *Run* o presione la combinación de teclas Ctrl + Enter. 
-   Para correr solo una línea de código que ha escrito en el script, ubique su cursor en cualquier parte de la línea de código y de click en el botón *Run* o presione la combinación de teclas Ctrl + Enter. 
+3. Para ejecutar las líneas de código que ha escrito en el script, de click en el botón *Run* en la parte superior derecha de la ventana. Las líneas de código se irán ejecutando en orden una a la vez.
+   Para ejecutar solo algunas líneas de código que ha escrito en el script, selecciónelas y de click en el botón *Run* o presione la combinación de teclas Ctrl + Enter. 
+   Para ejecutar solo una línea de código que ha escrito en el script, ubique su cursor en cualquier parte de la línea de código y de click en el botón *Run* o presione la combinación de teclas Ctrl + Enter. 
 4. Para guardar el archivo, en la barra de navegación, abra el menú de *File* y seleccione *Save* o *Save as...*.
-5. Se abrirá una nueva venta del explorador de archivos del equipo local de cómputo ubicado en la carpeta de su actual directorio de trabajo. Navegue a la carpeta en la que desea guardar su script, asigne un nombre al script, de click en *Save* y cierre la ventana del explorador de archivos.
+5. Se abrirá una nueva venta del explorador de archivos del equipo local de cómputo ubicado en la carpeta de su actual directorio de trabajo. Navegue a la carpeta en la que desea guardar su script, asigne un nombre al script y de click en *Save*.
 
 Por convención, los scripts de R se nombran bajo las siguientes reglas:   
 
@@ -161,7 +161,7 @@ Por convención, los scripts de R se nombran bajo las siguientes reglas:
 
 ## 1.5 Configuración del directorio de trabajo
 1. Ubique la ventana de *Archivos*.
-2. De click en los tres puntitos en la parte izquierda de la ventana. Se abrirá una nueva venta del explorador de archivos del equipo local de cómputo ubicado en la carpeta de su actual directorio de trabajo. Navegue a la carpeta en la que desea configurar su directorio de trabajo, de click en *Open* y cierre la ventana del explorador de archivos.
+2. De click en los tres puntitos en la parte izquierda de la ventana. Se abrirá una nueva venta del explorador de archivos del equipo local de cómputo ubicado en la carpeta de su actual directorio de trabajo. Navegue a la carpeta en la que desea configurar su directorio de trabajo y de click en *Open*.
 3. Seleccione *More* y luego de click en *Set As Working Directory*.
 
 Utilice la función ```getwd()``` para obtener la ubicación de su directorio de trabajo actual.
@@ -172,12 +172,12 @@ Utilice la función ```getwd()``` para obtener la ubicación de su directorio de
 1. En la barra de navegación principal, abra el menú de *File* y seleccione *New Proyect...*.
 2. Se abrirá una venta de *New Project Wizard*. Seleccione *New Directory* y luego *New Project*. 
 3. Asigne un nombre para el Proyecto en la caja de texto *Directory name*.
-4. Seleccione la carpeta en la que será creado el proyecto dando click en el botón de *Browse*. 
+4. Seleccione la carpeta en la que será creado el proyecto dando click en el botón de *Browse*. Se abrirá una nueva venta del explorador de archivos del equipo local de cómputo ubicado en la carpeta de su actual directorio de trabajo. Navegue a la carpeta en la que desea configurar su directorio de trabajo y de click en *Open*.
 
 </br>
 
 ## 🏋 Ejercicio
-1. En RStudio, cree un proyecto de R. 
+1. En RStudio, cree un nuevo proyecto de R a partir de un nuevo directorio. 
 2. Salga de RStudio y acceda al proyecto que acaba de crear. 
 3. Cree un script dentro del proyecto. 
 4. Elija un número entero, y en el script, escriba los comandos de R para:
