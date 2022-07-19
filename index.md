@@ -78,7 +78,9 @@ Que el estudiante reconozca los conceptos básicos de programación, cómo progr
 
 [📖 ↪ Presentación teórica](slides/unidad2.pdf)
 
-[💻 ↪ Práctica y ejercicio](unidad2.html)
+[💻 ↪ Práctica y ejercicios](unidad2.html)
+
+[🇷 ↪ Descargar projecto de R](proj/unidad2.zip)
 
 <br/>
 
