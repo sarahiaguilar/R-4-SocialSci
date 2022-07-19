@@ -31,8 +31,7 @@ Que el estudiante conozca, de forma teórica y práctica, los fundamentos del le
     
 *Dirígete a la Unidad 0. 
 
-<br/>
-[**👋 ↪ Presentación introductoria**](slides/intro.pdf)
+[👋 ↪ Presentación introductoria](slides/intro.pdf)
 
 <br/>
 
@@ -47,8 +46,7 @@ Que el estudiante conozca, de forma teórica y práctica, los fundamentos del le
 
 Que el estudiante tenga un entorno de desarrollo de R en RStudio listo en su equipo de cómputo propio antes del inicio del curso.
 
-<br/>
-[**🔧 ↪ Manual de instalación de R y RStudio**](unidad0.html)  
+[🔧 ↪ Manual de instalación de R y RStudio](unidad0.html)  
 
 <br/>
 
@@ -63,10 +61,9 @@ Que el estudiante tenga un entorno de desarrollo de R en RStudio listo en su equ
 
 Que el estudiante se familiarice con R y el entorno de desarrollo de RStudio, y sea capaz de crear nuevos scripts y Proyectos de R.
 
-<br/>
-[**📖 ↪ Presentación teórica**](slides/unidad1.pdf)
+[📖 ↪ Presentación teórica](slides/unidad1.pdf)
 
-[**💻 ↪ Práctica y ejercicio**](unidad1.html)
+[💻 ↪ Práctica y ejercicio](unidad1.html)
 
 <br/>
 
@@ -80,6 +77,10 @@ Que el estudiante se familiarice con R y el entorno de desarrollo de RStudio, y 
 **🚀 Objetivo de la unidad**
 
 Que el estudiante reconozca los conceptos básicos de programación, cómo programarlos en R y sus casos de uso prácticos básicos.
+
+[📖 ↪ Presentación teórica](slides/unidad2.pdf)
+
+[💻 ↪ Práctica y ejercicio](unidad2.html)
 
 <br/>
 
