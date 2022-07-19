@@ -27,7 +27,7 @@ Que el estudiante conozca, de forma teórica y práctica, los fundamentos del le
     + R (versión 4.2.~) instalado*
     + RStudio (versión 2022.07.0+548) instalado*
     
-*Dirígete a la Unidad 0. 
+*Diríjase a la Unidad 0. 
 
 [👋 ↪ Presentación introductoria](slides/intro.pdf)
 
