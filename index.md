@@ -80,7 +80,7 @@ Que el estudiante reconozca los conceptos básicos de programación, cómo progr
 
 [💻 ↪ Práctica y ejercicios](unidad2.html)
 
-[🇷 ↪ Descargar projecto de R](proj/unidad2.zip)
+[🇷 ⬇ Descargar projecto de R](proj/unidad2.zip)
 
 <br/>
 
