@@ -5,8 +5,6 @@
 
 <!-- ------------------------ Introducción del curso ----------------------- -->
 
-<br/>
-
 ### **🏁 Introducción del curso**
 
 <br/>
