@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Inicio
 
 > #### **🚀 Objetivo de la unidad**  
- Que el estudiante se familiarice con R y el entorno de desarrollo de RStudio, y sea capaz de crear nuevos scripts y Proyectos de R.
+Que el estudiante se familiarice con R y el entorno de desarrollo de RStudio, y sea capaz de crear nuevos scripts y Proyectos de R.
  
 <br/>
 

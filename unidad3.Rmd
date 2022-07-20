@@ -1,0 +1,119 @@
+---
+title: "Práctica de la **Unidad 3. Procesamiento de datos**"
+subtitle: "Del Curso introductorio al lenguaje de programación R orientado al análisis cuantitativo en Ciencias Sociales"
+author: "Por Sarahí Aguilar"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br/>
+
+[🏠↩ De vuelta a la página principal del curso](index.html)
+
+<br/>
+
+## Inicio
+
+> #### **🚀 Objetivo de la unidad** 
+Que el estudiante sea capaz de importar y exportar conjuntos de datos de y en diferentes formatos, así como ejecutar transformaciones básicas sobre estas utilizando dataframes y el paquete `data.table`.
+
+<br/>
+
+## 2.1. Instalando y cargando paquetes
+
+Instalando un paquete
+Esta instrucción descarga el paquete a tu equipo de cómputo. Por lo tanto, solo se debe correr una única vez.
+```{r}
+# install.packages("data.table")
+# install.packages("ggplot2")
+# install.packages("curl")
+# install.packages("xlsx")
+# install.packages("foreign")
+```
+
+</br>
+Cargando un paquete
+Esta instrucción carga las funciones del paquete a tu sesión. Por lo tanto, debemos correrla cada que vayamos a utilizar las funciones del paquete.
+```{r}
+library(data.table)
+library(ggplot2)
+```
+
+## 2.2. Creando un data table
+
+* Desde 0
+
+Recuerde que un data frame (y por lo tanto, un data table también) se compone de vectores. En el siguiente bloque de código, se instancian dos vectores inicialmente para después utilizarlos al crear un nuevo data table desde 0.
+💡 Recordemos que los data tables heredan todas las propiedades de un data frame. 
+```{r}
+x <- 1:200
+y <- rnorm(200, mean=70, sd=10)
+dt <- data.table(id=x, 
+                 age=y) 
+```
+Es importante denotar que los vectores que conformaran las columnas de un data table al crearlo desde 0, deben ser del mismo tamaño.  
+<br/>
+
+* A partir de un data frame
+
+Utilizamos la misma función que empleamos para instanciar un data table desde 0.
+```{r}
+x <- 1:200
+y <- rnorm(200, mean=70, sd=10)
+df <- data.frame(id=x, 
+                 age=y) 
+dt <- data.table(df)
+```
+<br/>
+
+* A partir de un archivo con formato tabular
+
+Utilizamos la función ```fread()```, que lee y convierte el contenido del archivo en un data table.  
+💡 El formato *ideal* para leer y escribir datos en un entorno de desarrollo orientado al análisis de conjuntos de datos (como R) es el csv ("valores separados por comas" por sus siglas en inglés).
+```{r}
+dt_dem_nyc <- fread("./data/demo_nyc.csv")
+```
+💡 Note que la ruta para leer el archivo comienza en el directorio de trabajo de RStudio y que termina con el nombre completo (incluyendo sufijo) del archivo.
+
+</br>
+También es posible utilizar hipervínculos como ruta de lectura de un archivo. 
+```{r}
+dt_diab <- fread("https://raw.githubusercontent.com/sarahiaguilar/fundamentos-cdd/main/datos/diabetes.csv")
+```
+</br>
+La función fread tiene parámetros que facilita la lectura de archivos con formatos más complejos. 
+💡 Recuerde que para conocer más acerca de una función específica (incluyendo sus parámetros y valores por defecto), corra "?" + el nombre de la función. 
+
+Por ejemplo, si el archivo no contiene un encabezado (nombres de columnas), podemos utilizar el parámetro `header` para indicarlo.
+```{r}
+dt_txt <- fread("./data/plain_txt.txt", header=FALSE)
+```
+
+</br>
+O si el archivo está separado por un caracter distinto a unaa coma, podemos utilizar el parámetro `sep` para indicarlo.
+```{r}
+dt_delim <- fread("./data/txt_with_delim.txt", sep="$")
+```
+
+</br>
+Para archivos xlsx utilizamos la función `read_xlsx` del paquete `readxl`. 
+```{r}
+library(readxl)
+dt_xlsx <- read_xlsx("./data/hoja_de_calculo.xlsx", sheet=1)
+```
+
+</br>
+Para archivos .sav (SPSS) o .dta (STATA) utilizamos el paquete `foreign`. 
+```{r}
+library(foreign)
+# df_spss <- read.spss("example.sav",
+#                      to.data.frame=TRUE,
+#                      use.value.labels=FALSE)
+# df_stata <- read.dta("example.dta")
+```

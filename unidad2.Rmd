@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Inicio
 
 > #### **🚀 Objetivo de la unidad**  
- Que el estudiante reconozca los conceptos básicos de programación y sus casos de uso prácticos básicos.
+Que el estudiante reconozca los conceptos básicos de programación, cómo programarlos en R y sus casos de uso prácticos básicos.
 
 <br/>
 
