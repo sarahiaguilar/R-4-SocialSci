@@ -25,11 +25,11 @@ Que el estudiante sea capaz de importar y exportar conjuntos de datos de y en di
 
 <br/>
 
-[🗂 ⬇ Descargar datos a utilizar en la práctica](projs/unidad2.zip)
+[🗂 ⬇ Descargar datos a utilizar en la práctica](data/packages/unidad3_data.zip)
 
 <br/>
 
-## 2.1. Instalando y cargando paquetes
+## 3.1. Instalando y cargando paquetes
 
 Las siguientes instrucciones descargan los paquetes que utilizaremos en la práctica a tu equipo de cómputo. Por lo tanto, solo se debe correr una única vez (por equipo de cómputo).
 ```{r}
@@ -52,7 +52,7 @@ library(ggplot2)
 
 </br>
 
-## 2.2. Creando un data table
+## 3.3. Creando un data table
 
 * Desde 0
 
@@ -119,7 +119,7 @@ Para archivos sav de SPSS o dta de STATA utilizamos funciones del paquete `forei
 
 </br>
 
-## 2.3. Conociendo a un data table
+## 3.3. Conociendo a un data table
 <center>
 ![](https://i.pinimg.com/originals/db/ef/7d/dbef7ded446bf28e9f258b1edc7d3399.gif)
 </center>
@@ -194,7 +194,7 @@ summary(dt)
 **Para data tables no muy grandes**, podemos utilizar la función `View()` que nos permite obtener una visualización tabular completa de cómo se ve el conjunto de datos. La visualización desplegada también la podemos obtener dando click sobre el nombre del data taable en la venta de `Environment` de RStudio.  
 
 
-## 2.4. Renombrando columnas de un data.table
+## 3.4. Renombrando columnas de un data.table
 
 Para simplificar el código, es muy importante asegurarnos que los nombres de columna de nuestro data table sean *adecuados* (comienzan con una letra, utilizan únicamente letras, números y guiones bajos (_) en lugar de espacios, no utilizar caracteres epeciales, y son nombres cortos, claros y concretos). 
 
@@ -224,12 +224,12 @@ colnames(dt)
 
 </br> 
 
-## 2.5. Utilizando `i` en un data table
+## 3.5. Utilizando `i` en un data table
 
 💡 Recordemos que la forma general de sintaxis de un data table es `DT[i, j, by = k]`, y textualmente, se leería de la siguiente forma:
 
 1. Toma `DT` 
-2. Toma el subconjunto de filas `i` u ordena las filas usando las columnas `i`
+3. Toma el subconjunto de filas `i` u ordena las filas usando las columnas `i`
 3. Toma el subconjunto de columnas `j` o calcula las nuevas columnas `j`
 4. Agrupando por las columnas `k`
 
@@ -283,7 +283,7 @@ head(dt[order(entidad_federativa, pob_hombres), ])
 
 </br> 
 
-## 2.6. Utilizando `j` en un data table
+## 3.6. Utilizando `j` en un data table
 
 * Tomando el subconjunto de columnas `j`
 
@@ -362,7 +362,7 @@ head(dt)
 
 </br>
 
-## 2.7. Utilizando `k` en un data table
+## 3.7. Utilizando `k` en un data table
 
 Antes de agrupar por las columnas `k`, es necesario indicar al menos una operación con una columna `j`.
 
