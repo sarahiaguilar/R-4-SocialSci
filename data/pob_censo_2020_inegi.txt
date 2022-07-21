@@ -1,3334 +1,3333 @@
-entidad_federativa,edad,hombres,mujeres
-Estados Unidos Mexicanos,0,916140,896837
-Estados Unidos Mexicanos,1,967223,942735
-Estados Unidos Mexicanos,2,1031816,1009303
-Estados Unidos Mexicanos,3,1060809,1047597
-Estados Unidos Mexicanos,4,1101494,1073411
-Estados Unidos Mexicanos,5,1106361,1072540
-Estados Unidos Mexicanos,6,1057642,1037707
-Estados Unidos Mexicanos,7,1087091,1059203
-Estados Unidos Mexicanos,8,1140496,1093999
-Estados Unidos Mexicanos,9,1061501,1047839
-Estados Unidos Mexicanos,10,1174026,1125241
-Estados Unidos Mexicanos,11,1066706,1034766
-Estados Unidos Mexicanos,12,1146128,1103439
-Estados Unidos Mexicanos,13,1082309,1058332
-Estados Unidos Mexicanos,14,1085091,1067502
-Estados Unidos Mexicanos,15,1113136,1080658
-Estados Unidos Mexicanos,16,1054448,1032036
-Estados Unidos Mexicanos,17,1122956,1089440
-Estados Unidos Mexicanos,18,1172693,1134982
-Estados Unidos Mexicanos,19,998917,1007424
-Estados Unidos Mexicanos,20,1146232,1161603
-Estados Unidos Mexicanos,21,957236,960314
-Estados Unidos Mexicanos,22,1061846,1067065
-Estados Unidos Mexicanos,23,1005112,1028971
-Estados Unidos Mexicanos,24,995458,1038258
-Estados Unidos Mexicanos,25,1063775,1115241
-Estados Unidos Mexicanos,26,954163,1022308
-Estados Unidos Mexicanos,27,955081,999565
-Estados Unidos Mexicanos,28,1001692,1042848
-Estados Unidos Mexicanos,29,886693,951635
-Estados Unidos Mexicanos,30,1148015,1218303
-Estados Unidos Mexicanos,31,734272,807132
-Estados Unidos Mexicanos,32,959947,1037842
-Estados Unidos Mexicanos,33,849187,927893
-Estados Unidos Mexicanos,34,836305,901931
-Estados Unidos Mexicanos,35,966246,1036930
-Estados Unidos Mexicanos,36,870975,957381
-Estados Unidos Mexicanos,37,767996,832855
-Estados Unidos Mexicanos,38,941824,1000225
-Estados Unidos Mexicanos,39,784489,861355
-Estados Unidos Mexicanos,40,1059322,1146683
-Estados Unidos Mexicanos,41,624905,690335
-Estados Unidos Mexicanos,42,928285,997622
-Estados Unidos Mexicanos,43,768115,850194
-Estados Unidos Mexicanos,44,681677,756448
-Estados Unidos Mexicanos,45,919327,976618
-Estados Unidos Mexicanos,46,718647,790847
-Estados Unidos Mexicanos,47,725378,782495
-Estados Unidos Mexicanos,48,763098,828232
-Estados Unidos Mexicanos,49,685894,751877
-Estados Unidos Mexicanos,50,890709,974467
-Estados Unidos Mexicanos,51,519757,580730
-Estados Unidos Mexicanos,52,711793,779167
-Estados Unidos Mexicanos,53,606024,675736
-Estados Unidos Mexicanos,54,603880,695269
-Estados Unidos Mexicanos,55,621423,694085
-Estados Unidos Mexicanos,56,591296,644523
-Estados Unidos Mexicanos,57,476655,536515
-Estados Unidos Mexicanos,58,524223,589095
-Estados Unidos Mexicanos,59,479379,538764
-Estados Unidos Mexicanos,60,627532,705998
-Estados Unidos Mexicanos,61,347068,399294
-Estados Unidos Mexicanos,62,456755,516023
-Estados Unidos Mexicanos,63,431407,488413
-Estados Unidos Mexicanos,64,395100,453472
-Estados Unidos Mexicanos,65,462245,520856
-Estados Unidos Mexicanos,66,316121,363669
-Estados Unidos Mexicanos,67,316743,350108
-Estados Unidos Mexicanos,68,349542,404171
-Estados Unidos Mexicanos,69,262199,299423
-Estados Unidos Mexicanos,70,332464,383782
-Estados Unidos Mexicanos,71,194181,219326
-Estados Unidos Mexicanos,72,272830,307181
-Estados Unidos Mexicanos,73,223788,256636
-Estados Unidos Mexicanos,74,210229,246923
-Estados Unidos Mexicanos,75,219479,250636
-Estados Unidos Mexicanos,76,178282,205385
-Estados Unidos Mexicanos,77,148489,168928
-Estados Unidos Mexicanos,78,171128,191770
-Estados Unidos Mexicanos,79,130520,149965
-Estados Unidos Mexicanos,80,156170,192832
-Estados Unidos Mexicanos,81,83368,98336
-Estados Unidos Mexicanos,82,102905,127145
-Estados Unidos Mexicanos,83,92350,118019
-Estados Unidos Mexicanos,84,89019,115220
-Estados Unidos Mexicanos,85,82532,107237
-Estados Unidos Mexicanos,86,65151,85514
-Estados Unidos Mexicanos,87,52994,70759
-Estados Unidos Mexicanos,88,43694,58161
-Estados Unidos Mexicanos,89,38980,54223
-Estados Unidos Mexicanos,90,39510,56749
-Estados Unidos Mexicanos,91,17136,25149
-Estados Unidos Mexicanos,92,20213,30231
-Estados Unidos Mexicanos,93,16679,25074
-Estados Unidos Mexicanos,94,13820,22245
-Estados Unidos Mexicanos,95,11533,18384
-Estados Unidos Mexicanos,96,8984,13720
-Estados Unidos Mexicanos,97,6309,10227
-Estados Unidos Mexicanos,98,5892,9560
-Estados Unidos Mexicanos,99,3897,6699
-Estados Unidos Mexicanos,100 y más,6644,11651
-Aguascalientes,0,11412,10893
-Aguascalientes,1,11878,11882
-Aguascalientes,2,12970,12829
-Aguascalientes,3,13406,13011
-Aguascalientes,4,13312,12837
-Aguascalientes,5,13436,12831
-Aguascalientes,6,13100,12980
-Aguascalientes,7,13381,13132
-Aguascalientes,8,13632,13018
-Aguascalientes,9,12810,12728
-Aguascalientes,10,13690,13151
-Aguascalientes,11,12781,12280
-Aguascalientes,12,13640,12995
-Aguascalientes,13,12890,12482
-Aguascalientes,14,13079,12729
-Aguascalientes,15,13166,12642
-Aguascalientes,16,12938,12357
-Aguascalientes,17,13738,13299
-Aguascalientes,18,14344,13884
-Aguascalientes,19,12717,12882
-Aguascalientes,20,13788,13935
-Aguascalientes,21,12076,12210
-Aguascalientes,22,12865,12805
-Aguascalientes,23,12311,12422
-Aguascalientes,24,12114,12494
-Aguascalientes,25,12709,13148
-Aguascalientes,26,11531,12235
-Aguascalientes,27,11498,11746
-Aguascalientes,28,11639,11985
-Aguascalientes,29,10764,11171
-Aguascalientes,30,12498,13212
-Aguascalientes,31,8885,9610
-Aguascalientes,32,10748,11376
-Aguascalientes,33,9899,10477
-Aguascalientes,34,9621,10499
-Aguascalientes,35,10139,10889
-Aguascalientes,36,9741,10412
-Aguascalientes,37,8866,9563
-Aguascalientes,38,10157,10892
-Aguascalientes,39,8871,9727
-Aguascalientes,40,10559,11738
-Aguascalientes,41,7499,8197
-Aguascalientes,42,9772,10706
-Aguascalientes,43,8609,9439
-Aguascalientes,44,7400,8459
-Aguascalientes,45,9530,10213
-Aguascalientes,46,7966,8871
-Aguascalientes,47,7789,8512
-Aguascalientes,48,7703,8744
-Aguascalientes,49,7175,8166
-Aguascalientes,50,8736,9902
-Aguascalientes,51,5809,6545
-Aguascalientes,52,7467,8368
-Aguascalientes,53,6339,7397
-Aguascalientes,54,6260,7298
-Aguascalientes,55,6367,7093
-Aguascalientes,56,6081,6786
-Aguascalientes,57,5101,5903
-Aguascalientes,58,5064,5871
-Aguascalientes,59,4995,5604
-Aguascalientes,60,5958,6960
-Aguascalientes,61,3662,4266
-Aguascalientes,62,4618,5297
-Aguascalientes,63,4324,4976
-Aguascalientes,64,3873,4372
-Aguascalientes,65,4407,5076
-Aguascalientes,66,3192,3773
-Aguascalientes,67,3197,3457
-Aguascalientes,68,3275,3809
-Aguascalientes,69,2627,3010
-Aguascalientes,70,2970,3591
-Aguascalientes,71,1937,2246
-Aguascalientes,72,2620,3061
-Aguascalientes,73,2187,2450
-Aguascalientes,74,2068,2456
-Aguascalientes,75,2011,2273
-Aguascalientes,76,1667,1966
-Aguascalientes,77,1414,1648
-Aguascalientes,78,1474,1624
-Aguascalientes,79,1173,1331
-Aguascalientes,80,1234,1623
-Aguascalientes,81,754,927
-Aguascalientes,82,855,1200
-Aguascalientes,83,761,1040
-Aguascalientes,84,793,999
-Aguascalientes,85,686,878
-Aguascalientes,86,529,746
-Aguascalientes,87,466,599
-Aguascalientes,88,360,513
-Aguascalientes,89,319,480
-Aguascalientes,90,337,482
-Aguascalientes,91,158,226
-Aguascalientes,92,170,301
-Aguascalientes,93,148,256
-Aguascalientes,94,129,203
-Aguascalientes,95,93,165
-Aguascalientes,96,72,118
-Aguascalientes,97,53,85
-Aguascalientes,98,39,94
-Aguascalientes,99,27,50
-Aguascalientes,100 y más,36,76
-Baja California,0,22543,22311
-Baja California,1,25084,24216
-Baja California,2,28320,27483
-Baja California,3,28971,28738
-Baja California,4,29492,29143
-Baja California,5,30199,28743
-Baja California,6,29879,29207
-Baja California,7,30345,29462
-Baja California,8,32661,30615
-Baja California,9,29525,29018
-Baja California,10,33647,32061
-Baja California,11,30377,29141
-Baja California,12,33043,31953
-Baja California,13,31193,30225
-Baja California,14,31046,29662
-Baja California,15,31732,30437
-Baja California,16,30560,28897
-Baja California,17,31583,30381
-Baja California,18,35770,33796
-Baja California,19,31653,30830
-Baja California,20,37169,36028
-Baja California,21,33032,31231
-Baja California,22,35232,33831
-Baja California,23,34335,33206
-Baja California,24,33682,32613
-Baja California,25,37020,35958
-Baja California,26,32408,32275
-Baja California,27,32221,31066
-Baja California,28,34997,33422
-Baja California,29,29604,29273
-Baja California,30,39851,38642
-Baja California,31,24307,24585
-Baja California,32,32941,32066
-Baja California,33,27673,28070
-Baja California,34,27392,26862
-Baja California,35,33966,32874
-Baja California,36,29942,29496
-Baja California,37,25030,24584
-Baja California,38,32888,31043
-Baja California,39,26343,25903
-Baja California,40,36829,35745
-Baja California,41,21240,21058
-Baja California,42,32263,30288
-Baja California,43,25761,25704
-Baja California,44,22239,22484
-Baja California,45,33758,31424
-Baja California,46,24851,24068
-Baja California,47,25289,23598
-Baja California,48,27159,25194
-Baja California,49,23130,22373
-Baja California,50,31795,29678
-Baja California,51,17654,17230
-Baja California,52,24224,22829
-Baja California,53,19609,19131
-Baja California,54,19507,19731
-Baja California,55,20474,19636
-Baja California,56,18767,18373
-Baja California,57,15106,15028
-Baja California,58,16472,16472
-Baja California,59,13959,14366
-Baja California,60,19094,19416
-Baja California,61,9815,10581
-Baja California,62,13518,14083
-Baja California,63,12145,13000
-Baja California,64,10715,11655
-Baja California,65,12865,14029
-Baja California,66,8292,9163
-Baja California,67,8125,8861
-Baja California,68,8957,10087
-Baja California,69,6743,7582
-Baja California,70,8588,9556
-Baja California,71,4905,5465
-Baja California,72,6890,7658
-Baja California,73,5457,6203
-Baja California,74,4972,5731
-Baja California,75,5200,5849
-Baja California,76,3933,4686
-Baja California,77,3262,3923
-Baja California,78,3734,4274
-Baja California,79,2704,3309
-Baja California,80,3402,4354
-Baja California,81,1816,2236
-Baja California,82,2245,2734
-Baja California,83,1865,2477
-Baja California,84,1732,2343
-Baja California,85,1532,2036
-Baja California,86,1175,1674
-Baja California,87,1000,1367
-Baja California,88,864,1103
-Baja California,89,706,994
-Baja California,90,731,1036
-Baja California,91,308,476
-Baja California,92,325,594
-Baja California,93,313,459
-Baja California,94,220,396
-Baja California,95,178,294
-Baja California,96,112,250
-Baja California,97,109,172
-Baja California,98,72,172
-Baja California,99,51,102
-Baja California,100 y más,81,171
-Baja California Sur,0,5730,5606
-Baja California Sur,1,5956,5926
-Baja California Sur,2,6456,6289
-Baja California Sur,3,6494,6470
-Baja California Sur,4,6843,6685
-Baja California Sur,5,6826,6552
-Baja California Sur,6,6526,6453
-Baja California Sur,7,6841,6555
-Baja California Sur,8,6977,6729
-Baja California Sur,9,6792,6682
-Baja California Sur,10,7430,6879
-Baja California Sur,11,6886,6726
-Baja California Sur,12,7073,6851
-Baja California Sur,13,6602,6449
-Baja California Sur,14,6464,6305
-Baja California Sur,15,6808,6365
-Baja California Sur,16,6578,6204
-Baja California Sur,17,7042,6579
-Baja California Sur,18,7118,6624
-Baja California Sur,19,6242,5909
-Baja California Sur,20,7272,6866
-Baja California Sur,21,6386,5699
-Baja California Sur,22,7006,6519
-Baja California Sur,23,6877,6618
-Baja California Sur,24,6877,6623
-Baja California Sur,25,7471,7226
-Baja California Sur,26,6795,6682
-Baja California Sur,27,6926,6739
-Baja California Sur,28,7197,6616
-Baja California Sur,29,6657,6489
-Baja California Sur,30,8770,8035
-Baja California Sur,31,5617,5618
-Baja California Sur,32,7435,7135
-Baja California Sur,33,6449,6266
-Baja California Sur,34,6382,6072
-Baja California Sur,35,7273,6879
-Baja California Sur,36,6637,6574
-Baja California Sur,37,5965,5647
-Baja California Sur,38,7252,6671
-Baja California Sur,39,6162,5867
-Baja California Sur,40,7944,7543
-Baja California Sur,41,4921,4684
-Baja California Sur,42,6848,6223
-Baja California Sur,43,5750,5585
-Baja California Sur,44,4927,4964
-Baja California Sur,45,6512,5960
-Baja California Sur,46,4994,4876
-Baja California Sur,47,5107,4744
-Baja California Sur,48,5340,4971
-Baja California Sur,49,4765,4502
-Baja California Sur,50,5904,5650
-Baja California Sur,51,3513,3477
-Baja California Sur,52,4627,4506
-Baja California Sur,53,4014,3857
-Baja California Sur,54,3852,3937
-Baja California Sur,55,3831,3896
-Baja California Sur,56,3715,3595
-Baja California Sur,57,3067,3029
-Baja California Sur,58,3274,3274
-Baja California Sur,59,3018,3032
-Baja California Sur,60,3799,3847
-Baja California Sur,61,2178,2198
-Baja California Sur,62,2619,2780
-Baja California Sur,63,2604,2557
-Baja California Sur,64,2215,2298
-Baja California Sur,65,2610,2631
-Baja California Sur,66,1864,1959
-Baja California Sur,67,1830,1748
-Baja California Sur,68,1823,1817
-Baja California Sur,69,1460,1532
-Baja California Sur,70,1637,1763
-Baja California Sur,71,1018,1082
-Baja California Sur,72,1380,1391
-Baja California Sur,73,1122,1087
-Baja California Sur,74,1008,1057
-Baja California Sur,75,1111,1107
-Baja California Sur,76,866,897
-Baja California Sur,77,668,752
-Baja California Sur,78,756,771
-Baja California Sur,79,583,655
-Baja California Sur,80,637,719
-Baja California Sur,81,369,442
-Baja California Sur,82,403,475
-Baja California Sur,83,375,458
-Baja California Sur,84,350,421
-Baja California Sur,85,329,378
-Baja California Sur,86,241,318
-Baja California Sur,87,243,268
-Baja California Sur,88,206,226
-Baja California Sur,89,146,201
-Baja California Sur,90,125,177
-Baja California Sur,91,74,89
-Baja California Sur,92,63,135
-Baja California Sur,93,67,96
-Baja California Sur,94,38,72
-Baja California Sur,95,36,64
-Baja California Sur,96,27,52
-Baja California Sur,97,22,35
-Baja California Sur,98,21,28
-Baja California Sur,99,12,35
-Baja California Sur,100 y más,18,37
-Campeche,0,7181,7120
-Campeche,1,7828,7600
-Campeche,2,8026,7786
-Campeche,3,8405,8139
-Campeche,4,8377,8473
-Campeche,5,8472,8238
-Campeche,6,8403,7892
-Campeche,7,8281,8131
-Campeche,8,8414,8155
-Campeche,9,8054,7975
-Campeche,10,8762,8346
-Campeche,11,8088,7588
-Campeche,12,8377,7876
-Campeche,13,7964,7643
-Campeche,14,7856,7668
-Campeche,15,7944,7754
-Campeche,16,7351,7148
-Campeche,17,7915,7650
-Campeche,18,8313,8011
-Campeche,19,6945,7109
-Campeche,20,8034,8359
-Campeche,21,6798,6705
-Campeche,22,7643,7599
-Campeche,23,7324,7680
-Campeche,24,7478,7936
-Campeche,25,7562,8012
-Campeche,26,6881,7466
-Campeche,27,6942,7488
-Campeche,28,7117,7522
-Campeche,29,6544,7264
-Campeche,30,8681,9485
-Campeche,31,5695,6313
-Campeche,32,7282,7914
-Campeche,33,6577,7458
-Campeche,34,6322,6982
-Campeche,35,7397,8037
-Campeche,36,6761,7511
-Campeche,37,6007,6442
-Campeche,38,7339,7957
-Campeche,39,6107,6717
-Campeche,40,8081,8761
-Campeche,41,4632,5117
-Campeche,42,7017,7406
-Campeche,43,5767,6486
-Campeche,44,5264,5639
-Campeche,45,6666,7159
-Campeche,46,5340,5638
-Campeche,47,5247,5449
-Campeche,48,5643,5915
-Campeche,49,5140,5431
-Campeche,50,6459,6751
-Campeche,51,3781,4005
-Campeche,52,5142,5376
-Campeche,53,4533,4755
-Campeche,54,4477,4975
-Campeche,55,4585,4822
-Campeche,56,4326,4464
-Campeche,57,3577,3835
-Campeche,58,3810,4094
-Campeche,59,3559,3733
-Campeche,60,4491,4591
-Campeche,61,2358,2613
-Campeche,62,3164,3323
-Campeche,63,3077,3222
-Campeche,64,2930,3009
-Campeche,65,3387,3531
-Campeche,66,2371,2571
-Campeche,67,2380,2518
-Campeche,68,2518,2774
-Campeche,69,1874,1872
-Campeche,70,2424,2618
-Campeche,71,1307,1338
-Campeche,72,1857,1909
-Campeche,73,1611,1534
-Campeche,74,1469,1492
-Campeche,75,1520,1505
-Campeche,76,1227,1242
-Campeche,77,1036,1041
-Campeche,78,1285,1244
-Campeche,79,916,900
-Campeche,80,1170,1197
-Campeche,81,591,564
-Campeche,82,686,710
-Campeche,83,615,702
-Campeche,84,656,645
-Campeche,85,551,609
-Campeche,86,487,503
-Campeche,87,422,464
-Campeche,88,362,356
-Campeche,89,291,368
-Campeche,90,339,357
-Campeche,91,110,134
-Campeche,92,170,177
-Campeche,93,129,146
-Campeche,94,84,122
-Campeche,95,107,108
-Campeche,96,84,77
-Campeche,97,56,65
-Campeche,98,70,53
-Campeche,99,36,45
-Campeche,100 y más,78,71
-Coahuila de Zaragoza,0,25108,24990
-Coahuila de Zaragoza,1,27507,26123
-Coahuila de Zaragoza,2,28658,27982
-Coahuila de Zaragoza,3,30089,29217
-Coahuila de Zaragoza,4,30450,29788
-Coahuila de Zaragoza,5,29683,28464
-Coahuila de Zaragoza,6,28015,27294
-Coahuila de Zaragoza,7,28004,27461
-Coahuila de Zaragoza,8,28860,27161
-Coahuila de Zaragoza,9,25855,25427
-Coahuila de Zaragoza,10,29322,27745
-Coahuila de Zaragoza,11,26467,25501
-Coahuila de Zaragoza,12,28003,26753
-Coahuila de Zaragoza,13,25967,26067
-Coahuila de Zaragoza,14,26542,25777
-Coahuila de Zaragoza,15,26815,26029
-Coahuila de Zaragoza,16,26118,25103
-Coahuila de Zaragoza,17,27729,26767
-Coahuila de Zaragoza,18,30553,29118
-Coahuila de Zaragoza,19,25635,25417
-Coahuila de Zaragoza,20,29557,29152
-Coahuila de Zaragoza,21,25394,24534
-Coahuila de Zaragoza,22,27183,26101
-Coahuila de Zaragoza,23,26082,25224
-Coahuila de Zaragoza,24,25443,25643
-Coahuila de Zaragoza,25,26890,27304
-Coahuila de Zaragoza,26,24414,25098
-Coahuila de Zaragoza,27,24332,23690
-Coahuila de Zaragoza,28,24958,25217
-Coahuila de Zaragoza,29,21976,22038
-Coahuila de Zaragoza,30,27252,27867
-Coahuila de Zaragoza,31,18651,19390
-Coahuila de Zaragoza,32,23602,24045
-Coahuila de Zaragoza,33,20857,21501
-Coahuila de Zaragoza,34,20520,20644
-Coahuila de Zaragoza,35,23880,23996
-Coahuila de Zaragoza,36,21759,22702
-Coahuila de Zaragoza,37,19627,19882
-Coahuila de Zaragoza,38,23788,23190
-Coahuila de Zaragoza,39,20317,20493
-Coahuila de Zaragoza,40,26716,27456
-Coahuila de Zaragoza,41,17033,18017
-Coahuila de Zaragoza,42,24480,25463
-Coahuila de Zaragoza,43,21136,21812
-Coahuila de Zaragoza,44,17626,18948
-Coahuila de Zaragoza,45,24237,24561
-Coahuila de Zaragoza,46,18958,20273
-Coahuila de Zaragoza,47,19327,20121
-Coahuila de Zaragoza,48,20190,20751
-Coahuila de Zaragoza,49,18134,18650
-Coahuila de Zaragoza,50,22827,23782
-Coahuila de Zaragoza,51,13536,14673
-Coahuila de Zaragoza,52,18264,19308
-Coahuila de Zaragoza,53,15945,16714
-Coahuila de Zaragoza,54,15851,17314
-Coahuila de Zaragoza,55,15598,17106
-Coahuila de Zaragoza,56,14829,15606
-Coahuila de Zaragoza,57,12377,12832
-Coahuila de Zaragoza,58,13750,14461
-Coahuila de Zaragoza,59,12561,13095
-Coahuila de Zaragoza,60,15821,17230
-Coahuila de Zaragoza,61,9095,9828
-Coahuila de Zaragoza,62,11683,12500
-Coahuila de Zaragoza,63,10970,11706
-Coahuila de Zaragoza,64,9738,10379
-Coahuila de Zaragoza,65,10810,11597
-Coahuila de Zaragoza,66,7449,8123
-Coahuila de Zaragoza,67,7494,7725
-Coahuila de Zaragoza,68,8503,9416
-Coahuila de Zaragoza,69,6374,6931
-Coahuila de Zaragoza,70,7786,8592
-Coahuila de Zaragoza,71,4773,5196
-Coahuila de Zaragoza,72,6527,7216
-Coahuila de Zaragoza,73,5360,5772
-Coahuila de Zaragoza,74,5012,5450
-Coahuila de Zaragoza,75,4994,5470
-Coahuila de Zaragoza,76,4082,4505
-Coahuila de Zaragoza,77,3304,3726
-Coahuila de Zaragoza,78,3737,4097
-Coahuila de Zaragoza,79,2719,3167
-Coahuila de Zaragoza,80,3323,3945
-Coahuila de Zaragoza,81,1784,2146
-Coahuila de Zaragoza,82,2259,2698
-Coahuila de Zaragoza,83,1992,2552
-Coahuila de Zaragoza,84,1841,2311
-Coahuila de Zaragoza,85,1565,2044
-Coahuila de Zaragoza,86,1356,1631
-Coahuila de Zaragoza,87,1069,1276
-Coahuila de Zaragoza,88,825,1066
-Coahuila de Zaragoza,89,688,975
-Coahuila de Zaragoza,90,616,966
-Coahuila de Zaragoza,91,324,506
-Coahuila de Zaragoza,92,393,555
-Coahuila de Zaragoza,93,288,457
-Coahuila de Zaragoza,94,205,402
-Coahuila de Zaragoza,95,170,294
-Coahuila de Zaragoza,96,129,235
-Coahuila de Zaragoza,97,96,149
-Coahuila de Zaragoza,98,93,130
-Coahuila de Zaragoza,99,41,71
-Coahuila de Zaragoza,100 y más,70,144
-Colima,0,4714,4559
-Colima,1,4985,4712
-Colima,2,5432,5212
-Colima,3,5469,5618
-Colima,4,5932,5680
-Colima,5,6043,5727
-Colima,6,6012,5799
-Colima,7,6046,5900
-Colima,8,6385,6153
-Colima,9,6160,5824
-Colima,10,6475,6299
-Colima,11,6043,5848
-Colima,12,6388,6129
-Colima,13,6001,5684
-Colima,14,6045,5889
-Colima,15,6294,6132
-Colima,16,5894,5741
-Colima,17,6266,5912
-Colima,18,6571,6428
-Colima,19,5642,5783
-Colima,20,6519,6308
-Colima,21,5517,5582
-Colima,22,5984,5931
-Colima,23,5785,5927
-Colima,24,5832,5958
-Colima,25,6065,6355
-Colima,26,5594,5588
-Colima,27,5740,5814
-Colima,28,5823,5973
-Colima,29,5362,5721
-Colima,30,6752,7115
-Colima,31,4535,5014
-Colima,32,5869,6240
-Colima,33,5344,5846
-Colima,34,5188,5533
-Colima,35,5975,6188
-Colima,36,5320,5728
-Colima,37,4747,4977
-Colima,38,5642,5895
-Colima,39,4950,5144
-Colima,40,6221,6593
-Colima,41,3913,4259
-Colima,42,5598,5938
-Colima,43,4815,5078
-Colima,44,4239,4525
-Colima,45,5466,5670
-Colima,46,4396,4610
-Colima,47,4464,4462
-Colima,48,4630,4682
-Colima,49,4191,4562
-Colima,50,5170,5538
-Colima,51,3190,3434
-Colima,52,4284,4534
-Colima,53,3640,3932
-Colima,54,3753,4066
-Colima,55,3764,4175
-Colima,56,3664,3834
-Colima,57,3090,3211
-Colima,58,3263,3492
-Colima,59,3062,3264
-Colima,60,3885,4153
-Colima,61,2251,2471
-Colima,62,3022,3138
-Colima,63,2781,2977
-Colima,64,2534,2583
-Colima,65,2804,2977
-Colima,66,2008,2246
-Colima,67,1999,2105
-Colima,68,2138,2308
-Colima,69,1653,1833
-Colima,70,2045,2218
-Colima,71,1250,1305
-Colima,72,1716,1850
-Colima,73,1433,1575
-Colima,74,1266,1428
-Colima,75,1349,1535
-Colima,76,1057,1144
-Colima,77,908,1010
-Colima,78,987,1122
-Colima,79,800,891
-Colima,80,935,995
-Colima,81,503,599
-Colima,82,593,761
-Colima,83,512,678
-Colima,84,560,723
-Colima,85,421,550
-Colima,86,392,467
-Colima,87,278,392
-Colima,88,255,340
-Colima,89,215,313
-Colima,90,237,338
-Colima,91,103,129
-Colima,92,117,169
-Colima,93,108,159
-Colima,94,90,121
-Colima,95,66,104
-Colima,96,71,94
-Colima,97,45,84
-Colima,98,30,42
-Colima,99,24,41
-Colima,100 y más,53,95
-Chiapas,0,56560,55187
-Chiapas,1,55123,54751
-Chiapas,2,56480,55954
-Chiapas,3,58741,58674
-Chiapas,4,62007,60675
-Chiapas,5,62473,60836
-Chiapas,6,59685,59512
-Chiapas,7,62351,60792
-Chiapas,8,64837,63454
-Chiapas,9,59412,59440
-Chiapas,10,65359,63511
-Chiapas,11,56761,55485
-Chiapas,12,61490,58739
-Chiapas,13,55540,55023
-Chiapas,14,55964,55260
-Chiapas,15,55095,55005
-Chiapas,16,51911,51572
-Chiapas,17,55338,54429
-Chiapas,18,55751,55877
-Chiapas,19,44426,47173
-Chiapas,20,52274,55533
-Chiapas,21,38359,40698
-Chiapas,22,45895,48398
-Chiapas,23,44158,48126
-Chiapas,24,43046,48036
-Chiapas,25,44817,49976
-Chiapas,26,38140,44299
-Chiapas,27,38703,43262
-Chiapas,28,40485,46135
-Chiapas,29,36310,42276
-Chiapas,30,50630,56653
-Chiapas,31,27836,32472
-Chiapas,32,39356,45048
-Chiapas,33,33137,39475
-Chiapas,34,33802,37636
-Chiapas,35,39814,44610
-Chiapas,36,33436,39043
-Chiapas,37,30522,34745
-Chiapas,38,38963,43738
-Chiapas,39,31535,36457
-Chiapas,40,46528,50303
-Chiapas,41,21845,24511
-Chiapas,42,35521,38290
-Chiapas,43,27933,31978
-Chiapas,44,24645,27650
-Chiapas,45,34367,36517
-Chiapas,46,24227,27161
-Chiapas,47,24873,26778
-Chiapas,48,28357,31313
-Chiapas,49,23985,26755
-Chiapas,50,34218,36525
-Chiapas,51,16812,17780
-Chiapas,52,24428,25836
-Chiapas,53,20662,22867
-Chiapas,54,21037,23683
-Chiapas,55,23171,25208
-Chiapas,56,20571,21407
-Chiapas,57,16307,17489
-Chiapas,58,18674,20300
-Chiapas,59,16182,17046
-Chiapas,60,24307,25097
-Chiapas,61,10696,11050
-Chiapas,62,14292,14757
-Chiapas,63,14096,14994
-Chiapas,64,14277,15160
-Chiapas,65,18098,18833
-Chiapas,66,11533,11871
-Chiapas,67,11279,11150
-Chiapas,68,12719,13332
-Chiapas,69,8406,8556
-Chiapas,70,14218,14458
-Chiapas,71,5779,5401
-Chiapas,72,8931,8506
-Chiapas,73,7152,7040
-Chiapas,74,7039,7331
-Chiapas,75,8779,8913
-Chiapas,76,6357,6077
-Chiapas,77,5379,5378
-Chiapas,78,6929,6532
-Chiapas,79,4527,4287
-Chiapas,80,7035,7442
-Chiapas,81,2675,2446
-Chiapas,82,3339,3270
-Chiapas,83,2974,3030
-Chiapas,84,3024,3010
-Chiapas,85,3414,3552
-Chiapas,86,2166,2325
-Chiapas,87,1911,2008
-Chiapas,88,1693,1773
-Chiapas,89,1454,1543
-Chiapas,90,1977,2146
-Chiapas,91,592,591
-Chiapas,92,696,685
-Chiapas,93,555,601
-Chiapas,94,480,530
-Chiapas,95,575,710
-Chiapas,96,372,433
-Chiapas,97,275,294
-Chiapas,98,319,388
-Chiapas,99,211,278
-Chiapas,100 y más,651,798
-Chihuahua,0,25323,24635
-Chihuahua,1,27385,26001
-Chihuahua,2,30776,29830
-Chihuahua,3,31879,31651
-Chihuahua,4,32247,31559
-Chihuahua,5,33035,31335
-Chihuahua,6,31596,30981
-Chihuahua,7,31616,30976
-Chihuahua,8,33957,32364
-Chihuahua,9,30978,30484
-Chihuahua,10,35513,33840
-Chihuahua,11,32372,31230
-Chihuahua,12,35572,34022
-Chihuahua,13,33246,32288
-Chihuahua,14,32912,32720
-Chihuahua,15,33734,32563
-Chihuahua,16,32229,31237
-Chihuahua,17,33406,32045
-Chihuahua,18,35605,34111
-Chihuahua,19,30968,30435
-Chihuahua,20,35240,34840
-Chihuahua,21,30377,29934
-Chihuahua,22,31799,31352
-Chihuahua,23,30324,30513
-Chihuahua,24,29541,30147
-Chihuahua,25,32360,32597
-Chihuahua,26,29006,29971
-Chihuahua,27,28643,29352
-Chihuahua,28,30612,30564
-Chihuahua,29,27223,27971
-Chihuahua,30,34444,34942
-Chihuahua,31,22489,23757
-Chihuahua,32,29176,29803
-Chihuahua,33,24665,25923
-Chihuahua,34,24875,25570
-Chihuahua,35,29094,29550
-Chihuahua,36,26832,27320
-Chihuahua,37,23056,23713
-Chihuahua,38,28349,28338
-Chihuahua,39,23281,24136
-Chihuahua,40,31448,31386
-Chihuahua,41,19424,20605
-Chihuahua,42,28396,28342
-Chihuahua,43,24177,24892
-Chihuahua,44,20909,22404
-Chihuahua,45,29508,29356
-Chihuahua,46,23183,24201
-Chihuahua,47,23718,24175
-Chihuahua,48,24998,25178
-Chihuahua,49,21831,22374
-Chihuahua,50,28491,29124
-Chihuahua,51,17282,17824
-Chihuahua,52,23117,23948
-Chihuahua,53,19497,20256
-Chihuahua,54,19217,21174
-Chihuahua,55,19465,20475
-Chihuahua,56,18604,19328
-Chihuahua,57,14941,16186
-Chihuahua,58,16458,17788
-Chihuahua,59,14560,15834
-Chihuahua,60,18772,20686
-Chihuahua,61,10600,11943
-Chihuahua,62,13596,15312
-Chihuahua,63,12572,13973
-Chihuahua,64,10990,12417
-Chihuahua,65,13170,14514
-Chihuahua,66,8695,9727
-Chihuahua,67,8333,9593
-Chihuahua,68,9740,11480
-Chihuahua,69,7315,8377
-Chihuahua,70,9040,10669
-Chihuahua,71,5605,6443
-Chihuahua,72,7721,8826
-Chihuahua,73,6080,6956
-Chihuahua,74,5741,6937
-Chihuahua,75,6222,6955
-Chihuahua,76,4840,5651
-Chihuahua,77,4186,4936
-Chihuahua,78,4671,5198
-Chihuahua,79,3554,4052
-Chihuahua,80,4386,5211
-Chihuahua,81,2315,2767
-Chihuahua,82,2861,3356
-Chihuahua,83,2462,2993
-Chihuahua,84,2249,2787
-Chihuahua,85,2027,2596
-Chihuahua,86,1508,2009
-Chihuahua,87,1274,1600
-Chihuahua,88,960,1271
-Chihuahua,89,816,1189
-Chihuahua,90,768,1113
-Chihuahua,91,397,557
-Chihuahua,92,369,630
-Chihuahua,93,324,523
-Chihuahua,94,272,423
-Chihuahua,95,188,322
-Chihuahua,96,126,218
-Chihuahua,97,94,143
-Chihuahua,98,79,161
-Chihuahua,99,44,102
-Chihuahua,100 y más,88,155
-Ciudad de México,0,41310,40226
-Ciudad de México,1,45221,43904
-Ciudad de México,2,48900,47590
-Ciudad de México,3,52090,51251
-Ciudad de México,4,55356,54056
-Ciudad de México,5,57159,55030
-Ciudad de México,6,55516,53875
-Ciudad de México,7,57012,55861
-Ciudad de México,8,60489,57965
-Ciudad de México,9,56104,54896
-Ciudad de México,10,64608,61279
-Ciudad de México,11,58410,56711
-Ciudad de México,12,63974,61967
-Ciudad de México,13,60848,59275
-Ciudad de México,14,61300,60590
-Ciudad de México,15,65006,62334
-Ciudad de México,16,62331,60084
-Ciudad de México,17,66533,64520
-Ciudad de México,18,73588,70109
-Ciudad de México,19,63651,62233
-Ciudad de México,20,76925,75958
-Ciudad de México,21,65672,63366
-Ciudad de México,22,74544,73838
-Ciudad de México,23,70595,70487
-Ciudad de México,24,71313,71907
-Ciudad de México,25,80604,82156
-Ciudad de México,26,72543,75073
-Ciudad de México,27,72799,73558
-Ciudad de México,28,78713,79210
-Ciudad de México,29,67422,70211
-Ciudad de México,30,93636,96487
-Ciudad de México,31,58262,61406
-Ciudad de México,32,76596,81325
-Ciudad de México,33,69087,71917
-Ciudad de México,34,65867,69028
-Ciudad de México,35,79816,83962
-Ciudad de México,36,69313,74894
-Ciudad de México,37,59249,63323
-Ciudad de México,38,73832,78075
-Ciudad de México,39,58335,65051
-Ciudad de México,40,84548,93207
-Ciudad de México,41,47909,52961
-Ciudad de México,42,72053,79888
-Ciudad de México,43,59009,67136
-Ciudad de México,44,53793,59803
-Ciudad de México,45,76780,85039
-Ciudad de México,46,59347,67815
-Ciudad de México,47,59267,66846
-Ciudad de México,48,62654,70838
-Ciudad de México,49,55798,64561
-Ciudad de México,50,78192,90453
-Ciudad de México,51,44170,52346
-Ciudad de México,52,61913,71488
-Ciudad de México,53,51249,60175
-Ciudad de México,54,50870,62627
-Ciudad de México,55,54300,64480
-Ciudad de México,56,53456,62816
-Ciudad de México,57,42393,51342
-Ciudad de México,58,47237,56724
-Ciudad de México,59,42265,51434
-Ciudad de México,60,58093,71077
-Ciudad de México,61,32496,41209
-Ciudad de México,62,42892,53188
-Ciudad de México,63,39272,49053
-Ciudad de México,64,36312,45922
-Ciudad de México,65,43113,53921
-Ciudad de México,66,28731,36329
-Ciudad de México,67,28729,35548
-Ciudad de México,68,32104,41388
-Ciudad de México,69,24568,31765
-Ciudad de México,70,30427,39622
-Ciudad de México,71,18884,24810
-Ciudad de México,72,25900,34010
-Ciudad de México,73,20874,27899
-Ciudad de México,74,19045,26273
-Ciudad de México,75,19520,26465
-Ciudad de México,76,15886,21929
-Ciudad de México,77,12771,17303
-Ciudad de México,78,14343,19452
-Ciudad de México,79,11690,15856
-Ciudad de México,80,13077,19828
-Ciudad de México,81,7766,11338
-Ciudad de México,82,9590,14355
-Ciudad de México,83,8218,13339
-Ciudad de México,84,7443,12526
-Ciudad de México,85,7128,11877
-Ciudad de México,86,5611,9511
-Ciudad de México,87,4590,8108
-Ciudad de México,88,3589,6379
-Ciudad de México,89,3360,6163
-Ciudad de México,90,3224,6244
-Ciudad de México,91,1618,3322
-Ciudad de México,92,1858,4034
-Ciudad de México,93,1447,3167
-Ciudad de México,94,1161,2705
-Ciudad de México,95,894,2040
-Ciudad de México,96,678,1482
-Ciudad de México,97,507,1214
-Ciudad de México,98,418,999
-Ciudad de México,99,228,606
-Ciudad de México,100 y más,357,951
-Durango,0,15034,14631
-Durango,1,16070,15679
-Durango,2,17485,16894
-Durango,3,18140,17488
-Durango,4,18352,17827
-Durango,5,18468,17666
-Durango,6,17595,16936
-Durango,7,17927,16988
-Durango,8,18645,17672
-Durango,9,17181,16955
-Durango,10,18755,17883
-Durango,11,16940,16143
-Durango,12,17642,16948
-Durango,13,16641,16504
-Durango,14,16786,16029
-Durango,15,16904,16153
-Durango,16,16093,15749
-Durango,17,16996,16547
-Durango,18,17820,16722
-Durango,19,15026,14980
-Durango,20,16930,16814
-Durango,21,14634,14611
-Durango,22,15986,15543
-Durango,23,14773,14722
-Durango,24,14613,14962
-Durango,25,15111,15550
-Durango,26,13529,14479
-Durango,27,13692,14055
-Durango,28,13928,14585
-Durango,29,12778,13400
-Durango,30,15585,16182
-Durango,31,11040,11680
-Durango,32,13313,13945
-Durango,33,11727,12371
-Durango,34,11567,12116
-Durango,35,12567,13439
-Durango,36,11511,12624
-Durango,37,10502,11035
-Durango,38,12381,12731
-Durango,39,10673,11367
-Durango,40,13723,14283
-Durango,41,8965,9574
-Durango,42,12862,13278
-Durango,43,10721,11722
-Durango,44,9507,10341
-Durango,45,12223,12994
-Durango,46,10061,10694
-Durango,47,10184,10768
-Durango,48,10373,10963
-Durango,49,9468,10342
-Durango,50,11617,12618
-Durango,51,7274,8252
-Durango,52,9860,10793
-Durango,53,8587,9525
-Durango,54,8642,9841
-Durango,55,8674,9432
-Durango,56,8322,8837
-Durango,57,6943,7729
-Durango,58,7238,8283
-Durango,59,6794,7745
-Durango,60,8652,9449
-Durango,61,4834,5327
-Durango,62,6515,7291
-Durango,63,6028,6625
-Durango,64,5606,6209
-Durango,65,6189,6707
-Durango,66,4390,4933
-Durango,67,4422,4621
-Durango,68,4955,5613
-Durango,69,3802,4095
-Durango,70,4748,5008
-Durango,71,2751,2994
-Durango,72,3897,4278
-Durango,73,3203,3510
-Durango,74,3159,3408
-Durango,75,3151,3414
-Durango,76,2579,2944
-Durango,77,2329,2279
-Durango,78,2572,2508
-Durango,79,1962,1951
-Durango,80,2284,2560
-Durango,81,1277,1379
-Durango,82,1628,1790
-Durango,83,1440,1639
-Durango,84,1429,1600
-Durango,85,1214,1357
-Durango,86,964,1175
-Durango,87,787,905
-Durango,88,653,728
-Durango,89,573,686
-Durango,90,533,679
-Durango,91,244,307
-Durango,92,285,372
-Durango,93,216,274
-Durango,94,163,260
-Durango,95,133,205
-Durango,96,112,144
-Durango,97,79,106
-Durango,98,54,82
-Durango,99,40,57
-Durango,100 y más,60,97
-Guanajuato,0,49887,48669
-Guanajuato,1,53586,51448
-Guanajuato,2,55746,54592
-Guanajuato,3,55540,55198
-Guanajuato,4,57986,56194
-Guanajuato,5,57529,55148
-Guanajuato,6,53524,52550
-Guanajuato,7,55051,53971
-Guanajuato,8,57870,55065
-Guanajuato,9,53455,53382
-Guanajuato,10,59523,56991
-Guanajuato,11,53574,51694
-Guanajuato,12,56757,55130
-Guanajuato,13,54478,53282
-Guanajuato,14,54344,53528
-Guanajuato,15,56594,55275
-Guanajuato,16,53350,52208
-Guanajuato,17,56882,55942
-Guanajuato,18,59562,58433
-Guanajuato,19,51589,52257
-Guanajuato,20,59544,61190
-Guanajuato,21,49476,49685
-Guanajuato,22,55564,56664
-Guanajuato,23,52011,53010
-Guanajuato,24,50553,52890
-Guanajuato,25,53701,57292
-Guanajuato,26,47835,52079
-Guanajuato,27,47554,50642
-Guanajuato,28,49896,52793
-Guanajuato,29,43040,47036
-Guanajuato,30,55313,61432
-Guanajuato,31,35142,39490
-Guanajuato,32,46725,52169
-Guanajuato,33,40910,45869
-Guanajuato,34,40273,45009
-Guanajuato,35,47507,52175
-Guanajuato,36,41930,47065
-Guanajuato,37,36332,40335
-Guanajuato,38,45283,48989
-Guanajuato,39,37226,42203
-Guanajuato,40,51079,56812
-Guanajuato,41,29545,33137
-Guanajuato,42,44397,48188
-Guanajuato,43,36047,40795
-Guanajuato,44,31481,35749
-Guanajuato,45,43724,46914
-Guanajuato,46,32865,36511
-Guanajuato,47,32699,35681
-Guanajuato,48,34500,38230
-Guanajuato,49,30631,33905
-Guanajuato,50,40430,45593
-Guanajuato,51,23068,26250
-Guanajuato,52,31878,35812
-Guanajuato,53,26646,30841
-Guanajuato,54,26288,31391
-Guanajuato,55,28008,32229
-Guanajuato,56,25612,28942
-Guanajuato,57,20195,23547
-Guanajuato,58,22535,25950
-Guanajuato,59,20584,23206
-Guanajuato,60,28669,32802
-Guanajuato,61,14602,17098
-Guanajuato,62,20026,23072
-Guanajuato,63,19316,22203
-Guanajuato,64,16870,19748
-Guanajuato,65,21155,23596
-Guanajuato,66,14156,16119
-Guanajuato,67,13807,15159
-Guanajuato,68,15764,18451
-Guanajuato,69,11016,12542
-Guanajuato,70,15272,17310
-Guanajuato,71,8420,9312
-Guanajuato,72,12076,13545
-Guanajuato,73,10021,11688
-Guanajuato,74,9604,11037
-Guanajuato,75,10047,11251
-Guanajuato,76,8078,9330
-Guanajuato,77,6619,7214
-Guanajuato,78,7730,8545
-Guanajuato,79,5768,6528
-Guanajuato,80,7413,8974
-Guanajuato,81,3686,4276
-Guanajuato,82,4831,5851
-Guanajuato,83,4321,5634
-Guanajuato,84,4204,5176
-Guanajuato,85,4066,5105
-Guanajuato,86,3218,4005
-Guanajuato,87,2635,3292
-Guanajuato,88,2228,2714
-Guanajuato,89,1942,2542
-Guanajuato,90,2084,2873
-Guanajuato,91,905,1229
-Guanajuato,92,1136,1573
-Guanajuato,93,872,1303
-Guanajuato,94,818,1210
-Guanajuato,95,664,921
-Guanajuato,96,454,753
-Guanajuato,97,360,557
-Guanajuato,98,329,466
-Guanajuato,99,185,320
-Guanajuato,100 y más,227,456
-Guerrero,0,34013,33436
-Guerrero,1,32404,31525
-Guerrero,2,33544,32584
-Guerrero,3,34077,33928
-Guerrero,4,35294,34653
-Guerrero,5,35492,34436
-Guerrero,6,33443,33457
-Guerrero,7,35818,35154
-Guerrero,8,37282,36093
-Guerrero,9,35128,34707
-Guerrero,10,37845,35808
-Guerrero,11,33993,33412
-Guerrero,12,36069,34615
-Guerrero,13,33778,33888
-Guerrero,14,34548,34537
-Guerrero,15,34913,35031
-Guerrero,16,32286,32474
-Guerrero,17,34457,33721
-Guerrero,18,33909,33637
-Guerrero,19,27055,29057
-Guerrero,20,30502,33177
-Guerrero,21,23841,26366
-Guerrero,22,27107,29983
-Guerrero,23,26495,29513
-Guerrero,24,25745,29238
-Guerrero,25,26418,30708
-Guerrero,26,23169,27487
-Guerrero,27,23358,26518
-Guerrero,28,24048,27608
-Guerrero,29,21359,25518
-Guerrero,30,28706,32687
-Guerrero,31,17032,20991
-Guerrero,32,23111,27128
-Guerrero,33,20257,24102
-Guerrero,34,20538,23424
-Guerrero,35,22832,26048
-Guerrero,36,20454,24299
-Guerrero,37,18377,21122
-Guerrero,38,22526,25698
-Guerrero,39,18800,22001
-Guerrero,40,26090,29077
-Guerrero,41,14331,16511
-Guerrero,42,22251,24921
-Guerrero,43,18304,21479
-Guerrero,44,16666,19490
-Guerrero,45,21863,23906
-Guerrero,46,16458,18880
-Guerrero,47,16827,18513
-Guerrero,48,18265,21179
-Guerrero,49,16158,18729
-Guerrero,50,21917,24465
-Guerrero,51,11819,13804
-Guerrero,52,16864,19460
-Guerrero,53,14635,17405
-Guerrero,54,15158,18545
-Guerrero,55,16175,18326
-Guerrero,56,14873,16761
-Guerrero,57,12038,13985
-Guerrero,58,13747,16064
-Guerrero,59,12431,14572
-Guerrero,60,17329,19382
-Guerrero,61,8551,10085
-Guerrero,62,11425,12795
-Guerrero,63,10967,12743
-Guerrero,64,11023,12465
-Guerrero,65,12941,14821
-Guerrero,66,8966,10076
-Guerrero,67,9095,10126
-Guerrero,68,10504,12002
-Guerrero,69,7165,8500
-Guerrero,70,10907,12374
-Guerrero,71,5231,5578
-Guerrero,72,7903,8474
-Guerrero,73,6364,7116
-Guerrero,74,6241,7256
-Guerrero,75,7109,7962
-Guerrero,76,5539,6099
-Guerrero,77,4891,5378
-Guerrero,78,5832,6491
-Guerrero,79,4101,4669
-Guerrero,80,5779,7015
-Guerrero,81,2438,2793
-Guerrero,82,3340,3924
-Guerrero,83,3141,3596
-Guerrero,84,3199,3985
-Guerrero,85,3150,3988
-Guerrero,86,2290,2747
-Guerrero,87,1918,2453
-Guerrero,88,1590,2051
-Guerrero,89,1428,1917
-Guerrero,90,1724,2268
-Guerrero,91,530,626
-Guerrero,92,664,867
-Guerrero,93,573,697
-Guerrero,94,548,690
-Guerrero,95,462,683
-Guerrero,96,355,529
-Guerrero,97,257,345
-Guerrero,98,339,418
-Guerrero,99,244,318
-Guerrero,100 y más,470,709
-Hidalgo,0,20710,20596
-Hidalgo,1,22957,22052
-Hidalgo,2,24301,24122
-Hidalgo,3,25629,25327
-Hidalgo,4,26717,25778
-Hidalgo,5,26808,26227
-Hidalgo,6,25832,25561
-Hidalgo,7,27084,26774
-Hidalgo,8,28931,27881
-Hidalgo,9,27372,27083
-Hidalgo,10,29933,28970
-Hidalgo,11,27654,26936
-Hidalgo,12,29721,28772
-Hidalgo,13,28257,27534
-Hidalgo,14,27927,27972
-Hidalgo,15,28889,27894
-Hidalgo,16,27207,26759
-Hidalgo,17,28754,27954
-Hidalgo,18,28671,27985
-Hidalgo,19,23905,24488
-Hidalgo,20,26382,27009
-Hidalgo,21,21707,22268
-Hidalgo,22,23429,24661
-Hidalgo,23,22347,23564
-Hidalgo,24,22376,24444
-Hidalgo,25,23650,26232
-Hidalgo,26,21580,24354
-Hidalgo,27,21415,24117
-Hidalgo,28,21874,24771
-Hidalgo,29,19819,23312
-Hidalgo,30,24919,29096
-Hidalgo,31,16802,20004
-Hidalgo,32,21591,25688
-Hidalgo,33,19935,23864
-Hidalgo,34,19459,22868
-Hidalgo,35,21899,25724
-Hidalgo,36,20383,24239
-Hidalgo,37,18651,21858
-Hidalgo,38,22132,25627
-Hidalgo,39,18770,22127
-Hidalgo,40,24829,28602
-Hidalgo,41,15144,17626
-Hidalgo,42,22385,25635
-Hidalgo,43,18558,21882
-Hidalgo,44,16809,19578
-Hidalgo,45,21364,23630
-Hidalgo,46,17490,20129
-Hidalgo,47,17349,19632
-Hidalgo,48,18271,20948
-Hidalgo,49,16719,19035
-Hidalgo,50,20590,23455
-Hidalgo,51,12407,14400
-Hidalgo,52,17250,19173
-Hidalgo,53,14887,16968
-Hidalgo,54,14801,17748
-Hidalgo,55,14754,17234
-Hidalgo,56,14279,16060
-Hidalgo,57,11482,13249
-Hidalgo,58,12750,14562
-Hidalgo,59,11979,13446
-Hidalgo,60,14746,17030
-Hidalgo,61,8519,9776
-Hidalgo,62,11178,12561
-Hidalgo,63,10967,12046
-Hidalgo,64,10303,11803
-Hidalgo,65,11903,13500
-Hidalgo,66,8437,9342
-Hidalgo,67,8534,8988
-Hidalgo,68,8631,9691
-Hidalgo,69,6612,7373
-Hidalgo,70,8514,9595
-Hidalgo,71,4833,5197
-Hidalgo,72,6917,7390
-Hidalgo,73,5592,6342
-Hidalgo,74,5541,6258
-Hidalgo,75,5717,6390
-Hidalgo,76,4744,5164
-Hidalgo,77,4090,4185
-Hidalgo,78,4684,4957
-Hidalgo,79,3421,3911
-Hidalgo,80,4075,5057
-Hidalgo,81,2081,2238
-Hidalgo,82,2582,3087
-Hidalgo,83,2452,2980
-Hidalgo,84,2344,3101
-Hidalgo,85,2214,2698
-Hidalgo,86,1711,2227
-Hidalgo,87,1539,1857
-Hidalgo,88,1224,1476
-Hidalgo,89,1025,1450
-Hidalgo,90,1029,1636
-Hidalgo,91,472,641
-Hidalgo,92,525,770
-Hidalgo,93,474,658
-Hidalgo,94,378,630
-Hidalgo,95,361,576
-Hidalgo,96,274,426
-Hidalgo,97,165,328
-Hidalgo,98,189,324
-Hidalgo,99,126,251
-Hidalgo,100 y más,192,450
-Jalisco,0,60004,58933
-Jalisco,1,64230,62712
-Jalisco,2,69839,68427
-Jalisco,3,71544,70236
-Jalisco,4,73505,71553
-Jalisco,5,73056,72033
-Jalisco,6,71343,69344
-Jalisco,7,72545,70110
-Jalisco,8,75844,72787
-Jalisco,9,71123,69915
-Jalisco,10,76917,73998
-Jalisco,11,69379,67033
-Jalisco,12,74938,71551
-Jalisco,13,71244,68758
-Jalisco,14,71542,69546
-Jalisco,15,73272,70969
-Jalisco,16,69960,68350
-Jalisco,17,73064,71541
-Jalisco,18,78197,75023
-Jalisco,19,68303,67580
-Jalisco,20,76882,77221
-Jalisco,21,67332,66824
-Jalisco,22,72418,72050
-Jalisco,23,68126,68184
-Jalisco,24,67224,68098
-Jalisco,25,72328,73477
-Jalisco,26,65059,67026
-Jalisco,27,64805,66123
-Jalisco,28,68444,68231
-Jalisco,29,60434,62407
-Jalisco,30,77061,79039
-Jalisco,31,51817,55127
-Jalisco,32,66428,69270
-Jalisco,33,59466,62414
-Jalisco,34,58145,60239
-Jalisco,35,67241,69312
-Jalisco,36,59622,63248
-Jalisco,37,52360,54271
-Jalisco,38,62825,64211
-Jalisco,39,53288,56525
-Jalisco,40,67062,71844
-Jalisco,41,43739,46501
-Jalisco,42,61698,63377
-Jalisco,43,49644,53963
-Jalisco,44,44167,47864
-Jalisco,45,59381,61942
-Jalisco,46,47409,50499
-Jalisco,47,47635,50366
-Jalisco,48,49278,52238
-Jalisco,49,44563,48226
-Jalisco,50,56058,61217
-Jalisco,51,33687,37887
-Jalisco,52,45261,49708
-Jalisco,53,37831,42423
-Jalisco,54,37230,43387
-Jalisco,55,38603,44053
-Jalisco,56,36889,40419
-Jalisco,57,30036,34204
-Jalisco,58,32119,36860
-Jalisco,59,29888,34009
-Jalisco,60,39083,45292
-Jalisco,61,22693,26877
-Jalisco,62,30164,34442
-Jalisco,63,27925,32302
-Jalisco,64,25126,29107
-Jalisco,65,29639,34020
-Jalisco,66,20586,24615
-Jalisco,67,20806,23030
-Jalisco,68,22812,26927
-Jalisco,69,17740,20378
-Jalisco,70,21694,25551
-Jalisco,71,13752,15572
-Jalisco,72,18778,21147
-Jalisco,73,15660,17775
-Jalisco,74,14580,16911
-Jalisco,75,14747,16510
-Jalisco,76,12040,13664
-Jalisco,77,9964,11388
-Jalisco,78,11264,12451
-Jalisco,79,8877,9980
-Jalisco,80,10030,12545
-Jalisco,81,5661,6796
-Jalisco,82,6749,8411
-Jalisco,83,5947,7531
-Jalisco,84,5583,7242
-Jalisco,85,5154,6648
-Jalisco,86,4078,5444
-Jalisco,87,3256,4443
-Jalisco,88,2807,3674
-Jalisco,89,2548,3455
-Jalisco,90,2507,3547
-Jalisco,91,1073,1735
-Jalisco,92,1342,2081
-Jalisco,93,1134,1760
-Jalisco,94,1006,1540
-Jalisco,95,748,1205
-Jalisco,96,602,920
-Jalisco,97,408,755
-Jalisco,98,394,642
-Jalisco,99,270,437
-Jalisco,100 y más,393,715
-México,0,111010,108338
-México,1,122380,119014
-México,2,132977,130414
-México,3,137450,135642
-México,4,140960,138201
-México,5,143010,139348
-México,6,134268,131586
-México,7,138301,135092
-México,8,148372,141235
-México,9,135622,134298
-México,10,156125,149456
-México,11,141429,136816
-México,12,152833,149165
-México,13,145151,143133
-México,14,144838,145603
-México,15,151715,147862
-México,16,143020,140398
-México,17,154420,149777
-México,18,162144,155128
-México,19,136232,135969
-México,20,158609,158931
-México,21,130219,128509
-México,22,146258,146000
-México,23,135512,137089
-México,24,134860,139172
-México,25,146785,152600
-México,26,131165,138425
-México,27,130034,135602
-México,28,140575,144400
-México,29,119374,128567
-México,30,159232,169195
-México,31,97560,105850
-México,32,131488,143928
-México,33,114428,125305
-México,34,112310,123968
-México,35,133825,145383
-México,36,120711,134821
-México,37,104148,115231
-México,38,131965,142472
-México,39,106037,119703
-México,40,148354,165687
-México,41,83759,95428
-México,42,129849,143734
-México,43,107032,121893
-México,44,94720,106633
-México,45,132208,143770
-México,46,102771,115641
-México,47,102703,114701
-México,48,108225,120724
-México,49,96651,108488
-México,50,127197,142533
-México,51,72910,83010
-México,52,101968,112522
-México,53,85733,96259
-México,54,85554,99391
-México,55,85437,97357
-México,56,85576,93121
-México,57,64836,74283
-México,58,73035,82774
-México,59,65093,74199
-México,60,86066,98298
-México,61,47207,54994
-México,62,62894,71528
-México,63,58714,67945
-México,64,52120,61334
-México,65,61690,70554
-México,66,40553,47224
-México,67,40773,45732
-México,68,45017,51926
-México,69,33208,38721
-México,70,40810,48324
-México,71,23750,27480
-México,72,34489,39545
-México,73,27535,32495
-México,74,25664,30813
-México,75,25735,30313
-México,76,21410,25265
-México,77,16291,19300
-México,78,19314,22783
-México,79,14477,17674
-México,80,16508,21539
-México,81,9152,11125
-México,82,11253,14784
-México,83,9902,13398
-México,84,9436,13383
-México,85,8636,12119
-México,86,6768,9747
-México,87,5451,8171
-México,88,4099,6394
-México,89,3890,6032
-México,90,3600,5892
-México,91,1626,2558
-México,92,1926,3317
-México,93,1537,2674
-México,94,1260,2560
-México,95,956,1955
-México,96,820,1402
-México,97,565,1086
-México,98,506,1035
-México,99,273,696
-México,100 y más,424,1034
-Michoacán de Ocampo,0,41131,40228
-Michoacán de Ocampo,1,41836,41236
-Michoacán de Ocampo,2,44206,43163
-Michoacán de Ocampo,3,44065,43867
-Michoacán de Ocampo,4,45587,44518
-Michoacán de Ocampo,5,44682,43930
-Michoacán de Ocampo,6,43533,42882
-Michoacán de Ocampo,7,44680,43365
-Michoacán de Ocampo,8,46592,44904
-Michoacán de Ocampo,9,43895,43155
-Michoacán de Ocampo,10,46424,44866
-Michoacán de Ocampo,11,41760,41135
-Michoacán de Ocampo,12,44088,42761
-Michoacán de Ocampo,13,41832,41005
-Michoacán de Ocampo,14,41828,41170
-Michoacán de Ocampo,15,42214,41063
-Michoacán de Ocampo,16,39771,39678
-Michoacán de Ocampo,17,42330,41214
-Michoacán de Ocampo,18,43491,42708
-Michoacán de Ocampo,19,37015,38259
-Michoacán de Ocampo,20,42692,43876
-Michoacán de Ocampo,21,35026,36055
-Michoacán de Ocampo,22,39612,40688
-Michoacán de Ocampo,23,37589,39052
-Michoacán de Ocampo,24,36668,39173
-Michoacán de Ocampo,25,38275,41463
-Michoacán de Ocampo,26,34634,37972
-Michoacán de Ocampo,27,35064,37304
-Michoacán de Ocampo,28,35906,38675
-Michoacán de Ocampo,29,32392,35883
-Michoacán de Ocampo,30,41364,45934
-Michoacán de Ocampo,31,26161,30061
-Michoacán de Ocampo,32,34924,38817
-Michoacán de Ocampo,33,30493,34330
-Michoacán de Ocampo,34,30004,33184
-Michoacán de Ocampo,35,33969,37512
-Michoacán de Ocampo,36,30440,33954
-Michoacán de Ocampo,37,26721,29287
-Michoacán de Ocampo,38,32789,35415
-Michoacán de Ocampo,39,27678,30673
-Michoacán de Ocampo,40,37308,41484
-Michoacán de Ocampo,41,21855,23639
-Michoacán de Ocampo,42,32777,34965
-Michoacán de Ocampo,43,26990,29844
-Michoacán de Ocampo,44,23655,26782
-Michoacán de Ocampo,45,31377,33541
-Michoacán de Ocampo,46,24549,26977
-Michoacán de Ocampo,47,24148,26291
-Michoacán de Ocampo,48,25858,28628
-Michoacán de Ocampo,49,23448,25727
-Michoacán de Ocampo,50,30609,34402
-Michoacán de Ocampo,51,16944,19490
-Michoacán de Ocampo,52,24464,27590
-Michoacán de Ocampo,53,20321,24140
-Michoacán de Ocampo,54,20879,24760
-Michoacán de Ocampo,55,21974,25137
-Michoacán de Ocampo,56,20375,23184
-Michoacán de Ocampo,57,16735,19006
-Michoacán de Ocampo,58,18495,21666
-Michoacán de Ocampo,59,16631,19196
-Michoacán de Ocampo,60,23602,26933
-Michoacán de Ocampo,61,11951,13959
-Michoacán de Ocampo,62,16843,19165
-Michoacán de Ocampo,63,16229,18420
-Michoacán de Ocampo,64,14613,17129
-Michoacán de Ocampo,65,18010,19655
-Michoacán de Ocampo,66,12330,13719
-Michoacán de Ocampo,67,12330,13238
-Michoacán de Ocampo,68,13890,16009
-Michoacán de Ocampo,69,9867,10961
-Michoacán de Ocampo,70,13737,15534
-Michoacán de Ocampo,71,7547,7991
-Michoacán de Ocampo,72,11014,12129
-Michoacán de Ocampo,73,9398,10372
-Michoacán de Ocampo,74,8819,9791
-Michoacán de Ocampo,75,9393,10191
-Michoacán de Ocampo,76,7272,8342
-Michoacán de Ocampo,77,6182,6739
-Michoacán de Ocampo,78,7580,8038
-Michoacán de Ocampo,79,5267,5934
-Michoacán de Ocampo,80,7197,8466
-Michoacán de Ocampo,81,3483,3929
-Michoacán de Ocampo,82,4558,5392
-Michoacán de Ocampo,83,4208,5029
-Michoacán de Ocampo,84,4027,4865
-Michoacán de Ocampo,85,3965,4872
-Michoacán de Ocampo,86,3218,3735
-Michoacán de Ocampo,87,2560,3179
-Michoacán de Ocampo,88,2341,2782
-Michoacán de Ocampo,89,1905,2419
-Michoacán de Ocampo,90,2136,2646
-Michoacán de Ocampo,91,873,1054
-Michoacán de Ocampo,92,1075,1289
-Michoacán de Ocampo,93,973,1326
-Michoacán de Ocampo,94,811,1072
-Michoacán de Ocampo,95,693,860
-Michoacán de Ocampo,96,527,722
-Michoacán de Ocampo,97,406,545
-Michoacán de Ocampo,98,384,560
-Michoacán de Ocampo,99,232,317
-Michoacán de Ocampo,100 y más,396,549
-Morelos,0,13248,12983
-Morelos,1,13746,13315
-Morelos,2,14990,14527
-Morelos,3,15397,15493
-Morelos,4,16299,15441
-Morelos,5,16305,15626
-Morelos,6,15601,15413
-Morelos,7,16072,15659
-Morelos,8,16926,16117
-Morelos,9,15733,15483
-Morelos,10,17344,16940
-Morelos,11,15830,15234
-Morelos,12,17188,16411
-Morelos,13,16561,16030
-Morelos,14,16468,16171
-Morelos,15,17420,16533
-Morelos,16,16339,15667
-Morelos,17,17473,16760
-Morelos,18,17895,17456
-Morelos,19,15501,15610
-Morelos,20,17512,18016
-Morelos,21,14603,14892
-Morelos,22,16432,16925
-Morelos,23,15359,16358
-Morelos,24,15660,16389
-Morelos,25,16455,17696
-Morelos,26,14910,15947
-Morelos,27,14716,15620
-Morelos,28,15217,16291
-Morelos,29,13314,14429
-Morelos,30,17391,18849
-Morelos,31,10843,12348
-Morelos,32,14242,15815
-Morelos,33,12861,14348
-Morelos,34,12633,14074
-Morelos,35,14085,16065
-Morelos,36,12856,14981
-Morelos,37,11410,12731
-Morelos,38,13853,15312
-Morelos,39,11545,13156
-Morelos,40,16034,17962
-Morelos,41,9017,10593
-Morelos,42,13853,15690
-Morelos,43,11470,13431
-Morelos,44,10342,12147
-Morelos,45,13765,15541
-Morelos,46,10941,12501
-Morelos,47,11108,12579
-Morelos,48,11698,13503
-Morelos,49,10518,12224
-Morelos,50,14216,16306
-Morelos,51,7809,9442
-Morelos,52,11236,12846
-Morelos,53,9577,11280
-Morelos,54,9750,11822
-Morelos,55,10249,11658
-Morelos,56,9536,11042
-Morelos,57,7735,9248
-Morelos,58,8758,10278
-Morelos,59,8079,9541
-Morelos,60,10767,12359
-Morelos,61,5955,6854
-Morelos,62,7868,9308
-Morelos,63,7573,8638
-Morelos,64,6960,8193
-Morelos,65,8118,9146
-Morelos,66,5628,6689
-Morelos,67,5784,6486
-Morelos,68,6416,7303
-Morelos,69,4812,5268
-Morelos,70,6045,6814
-Morelos,71,3458,3914
-Morelos,72,4854,5562
-Morelos,73,4203,4609
-Morelos,74,3902,4485
-Morelos,75,3982,4506
-Morelos,76,3285,3718
-Morelos,77,2772,3031
-Morelos,78,3146,3472
-Morelos,79,2423,2854
-Morelos,80,2840,3547
-Morelos,81,1490,1720
-Morelos,82,1949,2380
-Morelos,83,1719,2256
-Morelos,84,1793,2260
-Morelos,85,1620,2154
-Morelos,86,1335,1680
-Morelos,87,1074,1493
-Morelos,88,888,1158
-Morelos,89,807,1069
-Morelos,90,775,1137
-Morelos,91,326,519
-Morelos,92,426,622
-Morelos,93,360,474
-Morelos,94,278,410
-Morelos,95,212,343
-Morelos,96,182,265
-Morelos,97,139,216
-Morelos,98,97,177
-Morelos,99,77,136
-Morelos,100 y más,126,214
-Nayarit,0,9266,8949
-Nayarit,1,10086,9860
-Nayarit,2,10892,10496
-Nayarit,3,10961,10806
-Nayarit,4,11397,10888
-Nayarit,5,11449,10924
-Nayarit,6,11284,10998
-Nayarit,7,11639,11351
-Nayarit,8,12297,11573
-Nayarit,9,11331,11096
-Nayarit,10,12158,11637
-Nayarit,11,11254,11000
-Nayarit,12,12083,11329
-Nayarit,13,11210,10846
-Nayarit,14,11021,10797
-Nayarit,15,11136,10628
-Nayarit,16,10581,10217
-Nayarit,17,10715,10302
-Nayarit,18,11001,10744
-Nayarit,19,9359,9573
-Nayarit,20,10729,10843
-Nayarit,21,9357,9168
-Nayarit,22,9926,9662
-Nayarit,23,9089,9409
-Nayarit,24,9436,9881
-Nayarit,25,9618,10138
-Nayarit,26,8946,9524
-Nayarit,27,8880,9193
-Nayarit,28,9068,9379
-Nayarit,29,8725,9071
-Nayarit,30,10540,10811
-Nayarit,31,7705,8613
-Nayarit,32,9188,9721
-Nayarit,33,8316,8819
-Nayarit,34,8241,8623
-Nayarit,35,9089,9600
-Nayarit,36,8442,8987
-Nayarit,37,7514,7992
-Nayarit,38,8782,8998
-Nayarit,39,7732,8044
-Nayarit,40,9586,9732
-Nayarit,41,6710,7045
-Nayarit,42,8974,9187
-Nayarit,43,7659,7947
-Nayarit,44,7042,7475
-Nayarit,45,8641,8784
-Nayarit,46,7224,7482
-Nayarit,47,7188,7262
-Nayarit,48,7394,7317
-Nayarit,49,6851,6995
-Nayarit,50,8098,8177
-Nayarit,51,5372,5631
-Nayarit,52,6632,6909
-Nayarit,53,5803,6296
-Nayarit,54,5786,6254
-Nayarit,55,5919,6458
-Nayarit,56,5643,5871
-Nayarit,57,4960,5199
-Nayarit,58,5013,5438
-Nayarit,59,4727,5279
-Nayarit,60,5767,6218
-Nayarit,61,3550,4139
-Nayarit,62,4662,5208
-Nayarit,63,4555,4865
-Nayarit,64,4229,4505
-Nayarit,65,4745,4919
-Nayarit,66,3581,3863
-Nayarit,67,3503,3489
-Nayarit,68,3729,3877
-Nayarit,69,3005,3165
-Nayarit,70,3534,3655
-Nayarit,71,2221,2296
-Nayarit,72,2897,3024
-Nayarit,73,2454,2650
-Nayarit,74,2454,2589
-Nayarit,75,2389,2535
-Nayarit,76,2053,2114
-Nayarit,77,1808,1880
-Nayarit,78,1907,1980
-Nayarit,79,1635,1609
-Nayarit,80,1835,1881
-Nayarit,81,1062,1081
-Nayarit,82,1223,1310
-Nayarit,83,1159,1230
-Nayarit,84,1066,1192
-Nayarit,85,906,986
-Nayarit,86,846,882
-Nayarit,87,583,723
-Nayarit,88,496,654
-Nayarit,89,479,538
-Nayarit,90,394,575
-Nayarit,91,211,263
-Nayarit,92,236,305
-Nayarit,93,190,252
-Nayarit,94,148,199
-Nayarit,95,145,169
-Nayarit,96,111,137
-Nayarit,97,63,91
-Nayarit,98,63,78
-Nayarit,99,51,88
-Nayarit,100 y más,96,140
-Nuevo León,0,39953,39099
-Nuevo León,1,43271,42801
-Nuevo León,2,46945,46097
-Nuevo León,3,48942,48113
-Nuevo León,4,50696,48992
-Nuevo León,5,49431,47997
-Nuevo León,6,46436,44629
-Nuevo León,7,46387,44813
-Nuevo León,8,48317,46542
-Nuevo León,9,45108,44159
-Nuevo León,10,50348,48527
-Nuevo León,11,45470,43601
-Nuevo León,12,48768,47026
-Nuevo León,13,45191,43839
-Nuevo León,14,45627,44323
-Nuevo León,15,46522,44381
-Nuevo León,16,45119,43015
-Nuevo León,17,48196,46248
-Nuevo León,18,52544,51050
-Nuevo León,19,47860,46961
-Nuevo León,20,56167,55240
-Nuevo León,21,48795,46979
-Nuevo León,22,51621,49489
-Nuevo León,23,49420,47904
-Nuevo León,24,49530,48681
-Nuevo León,25,53790,52245
-Nuevo León,26,49078,48176
-Nuevo León,27,49426,47135
-Nuevo León,28,51081,48415
-Nuevo León,29,45104,43899
-Nuevo León,30,56752,55123
-Nuevo León,31,38535,38942
-Nuevo León,32,47232,45692
-Nuevo León,33,42773,41286
-Nuevo León,34,41759,40376
-Nuevo León,35,47061,45586
-Nuevo León,36,43211,42985
-Nuevo León,37,39818,38937
-Nuevo León,38,46572,44366
-Nuevo León,39,39337,38746
-Nuevo León,40,52040,50974
-Nuevo León,41,33131,33641
-Nuevo León,42,45763,45279
-Nuevo León,43,39490,39704
-Nuevo León,44,34520,34948
-Nuevo León,45,46419,45180
-Nuevo León,46,36393,37507
-Nuevo León,47,38091,37659
-Nuevo León,48,37959,37766
-Nuevo León,49,35292,35412
-Nuevo León,50,43485,44411
-Nuevo León,51,26906,28053
-Nuevo León,52,34512,35837
-Nuevo León,53,30800,31187
-Nuevo León,54,28789,30459
-Nuevo León,55,29446,30756
-Nuevo León,56,27049,27839
-Nuevo León,57,23339,24391
-Nuevo León,58,24238,25948
-Nuevo León,59,22899,24140
-Nuevo León,60,28043,30415
-Nuevo León,61,17258,19220
-Nuevo León,62,21495,23328
-Nuevo León,63,19604,21340
-Nuevo León,64,17297,19238
-Nuevo León,65,19055,21190
-Nuevo León,66,13192,15065
-Nuevo León,67,13611,14797
-Nuevo León,68,15202,17425
-Nuevo León,69,11706,13165
-Nuevo León,70,13813,16003
-Nuevo León,71,9190,10577
-Nuevo León,72,11811,13383
-Nuevo León,73,9681,11383
-Nuevo León,74,9145,10836
-Nuevo León,75,9065,10697
-Nuevo León,76,7373,8945
-Nuevo León,77,6406,7633
-Nuevo León,78,7030,7999
-Nuevo León,79,5649,6530
-Nuevo León,80,6324,8075
-Nuevo León,81,3788,4659
-Nuevo León,82,4319,5507
-Nuevo León,83,4131,5202
-Nuevo León,84,3507,4838
-Nuevo León,85,3141,4359
-Nuevo León,86,2411,3396
-Nuevo León,87,1884,2607
-Nuevo León,88,1500,2298
-Nuevo León,89,1364,2063
-Nuevo León,90,1388,2110
-Nuevo León,91,672,1195
-Nuevo León,92,815,1283
-Nuevo León,93,617,1017
-Nuevo León,94,411,857
-Nuevo León,95,396,695
-Nuevo León,96,285,429
-Nuevo León,97,186,357
-Nuevo León,98,162,262
-Nuevo León,99,104,221
-Nuevo León,100 y más,116,304
-Oaxaca,0,33507,32719
-Oaxaca,1,34320,34076
-Oaxaca,2,35912,34926
-Oaxaca,3,37090,37005
-Oaxaca,4,40474,39824
-Oaxaca,5,40589,39668
-Oaxaca,6,36675,36939
-Oaxaca,7,39004,38041
-Oaxaca,8,41029,39874
-Oaxaca,9,38204,38736
-Oaxaca,10,42204,40679
-Oaxaca,11,38219,37871
-Oaxaca,12,41415,40111
-Oaxaca,13,40102,39120
-Oaxaca,14,39646,38995
-Oaxaca,15,39213,39132
-Oaxaca,16,36310,36147
-Oaxaca,17,37692,37447
-Oaxaca,18,36724,36127
-Oaxaca,19,29034,30882
-Oaxaca,20,33109,35778
-Oaxaca,21,25561,28262
-Oaxaca,22,30359,32915
-Oaxaca,23,29177,32570
-Oaxaca,24,28931,33645
-Oaxaca,25,30811,35622
-Oaxaca,26,27530,32977
-Oaxaca,27,27830,32506
-Oaxaca,28,28903,33426
-Oaxaca,29,26307,31212
-Oaxaca,30,34268,39476
-Oaxaca,31,20757,25002
-Oaxaca,32,28073,33019
-Oaxaca,33,25127,29989
-Oaxaca,34,24699,28869
-Oaxaca,35,27780,32530
-Oaxaca,36,25459,29658
-Oaxaca,37,22612,26550
-Oaxaca,38,28084,32078
-Oaxaca,39,23962,27783
-Oaxaca,40,32297,37018
-Oaxaca,41,18117,21070
-Oaxaca,42,27175,31020
-Oaxaca,43,22390,26205
-Oaxaca,44,20405,23781
-Oaxaca,45,25406,29275
-Oaxaca,46,20185,23510
-Oaxaca,47,20543,23355
-Oaxaca,48,22321,25809
-Oaxaca,49,20283,23284
-Oaxaca,50,25675,29327
-Oaxaca,51,14701,17356
-Oaxaca,52,20408,23659
-Oaxaca,53,18019,21316
-Oaxaca,54,18059,21918
-Oaxaca,55,19051,21972
-Oaxaca,56,17686,19884
-Oaxaca,57,14597,17258
-Oaxaca,58,16258,19224
-Oaxaca,59,15415,18063
-Oaxaca,60,19657,22905
-Oaxaca,61,10816,12594
-Oaxaca,62,13948,16179
-Oaxaca,63,13898,16120
-Oaxaca,64,13816,15847
-Oaxaca,65,15406,17781
-Oaxaca,66,11145,12978
-Oaxaca,67,11156,12899
-Oaxaca,68,11863,13863
-Oaxaca,69,9302,10801
-Oaxaca,70,12103,14074
-Oaxaca,71,6618,7163
-Oaxaca,72,9421,10440
-Oaxaca,73,7936,9118
-Oaxaca,74,7650,9169
-Oaxaca,75,8583,10002
-Oaxaca,76,6973,7867
-Oaxaca,77,6312,6847
-Oaxaca,78,7026,7858
-Oaxaca,79,5404,6246
-Oaxaca,80,6920,8536
-Oaxaca,81,3604,3786
-Oaxaca,82,4463,5084
-Oaxaca,83,3949,4827
-Oaxaca,84,4234,5311
-Oaxaca,85,4171,5105
-Oaxaca,86,3202,3771
-Oaxaca,87,2569,3215
-Oaxaca,88,2279,2724
-Oaxaca,89,1995,2404
-Oaxaca,90,2093,2813
-Oaxaca,91,897,1046
-Oaxaca,92,994,1220
-Oaxaca,93,813,1045
-Oaxaca,94,753,956
-Oaxaca,95,657,856
-Oaxaca,96,504,669
-Oaxaca,97,339,449
-Oaxaca,98,322,464
-Oaxaca,99,258,380
-Oaxaca,100 y más,433,683
-Puebla,0,54783,53641
-Puebla,1,56315,55313
-Puebla,2,60029,58944
-Puebla,3,60003,59228
-Puebla,4,61136,59387
-Puebla,5,61596,59612
-Puebla,6,58244,57459
-Puebla,7,60564,59487
-Puebla,8,63397,61717
-Puebla,9,58387,58087
-Puebla,10,64633,61774
-Puebla,11,57913,56762
-Puebla,12,62958,60835
-Puebla,13,59981,58729
-Puebla,14,60368,59422
-Puebla,15,62916,61226
-Puebla,16,59456,58553
-Puebla,17,63764,61716
-Puebla,18,65297,64522
-Puebla,19,54394,55356
-Puebla,20,63481,65132
-Puebla,21,50416,52033
-Puebla,22,57714,59586
-Puebla,23,54059,56617
-Puebla,24,53704,57904
-Puebla,25,56583,61421
-Puebla,26,49576,55444
-Puebla,27,49416,53195
-Puebla,28,51353,56149
-Puebla,29,44971,50181
-Puebla,30,57368,64633
-Puebla,31,35062,40445
-Puebla,32,47342,54373
-Puebla,33,40816,48094
-Puebla,34,40557,47164
-Puebla,35,47027,53852
-Puebla,36,42442,49964
-Puebla,37,37185,43071
-Puebla,38,47193,53643
-Puebla,39,38673,44814
-Puebla,40,52972,60845
-Puebla,41,28930,34301
-Puebla,42,45421,51980
-Puebla,43,36727,42965
-Puebla,44,32500,38448
-Puebla,45,43557,48931
-Puebla,46,33246,38999
-Puebla,47,33815,37929
-Puebla,48,35632,41906
-Puebla,49,31956,36894
-Puebla,50,41515,48480
-Puebla,51,23313,27521
-Puebla,52,32873,38663
-Puebla,53,27595,32873
-Puebla,54,27743,34021
-Puebla,55,28761,33974
-Puebla,56,27147,31249
-Puebla,57,21300,25298
-Puebla,58,24414,28796
-Puebla,59,21983,26158
-Puebla,60,29501,35038
-Puebla,61,15311,18706
-Puebla,62,20890,24979
-Puebla,63,20091,23877
-Puebla,64,18576,22395
-Puebla,65,22147,26458
-Puebla,66,14875,18089
-Puebla,67,15109,17372
-Puebla,68,16642,20352
-Puebla,69,12119,14713
-Puebla,70,15728,19448
-Puebla,71,8598,10205
-Puebla,72,12982,15138
-Puebla,73,10492,12795
-Puebla,74,10204,12784
-Puebla,75,10898,12674
-Puebla,76,8819,10639
-Puebla,77,7025,8415
-Puebla,78,8738,10366
-Puebla,79,6319,7601
-Puebla,80,7639,10107
-Puebla,81,3838,4859
-Puebla,82,5107,6762
-Puebla,83,4782,6229
-Puebla,84,4736,6295
-Puebla,85,4463,5980
-Puebla,86,3403,4815
-Puebla,87,2907,4026
-Puebla,88,2419,3219
-Puebla,89,2148,3111
-Puebla,90,2161,3209
-Puebla,91,908,1377
-Puebla,92,1033,1612
-Puebla,93,983,1387
-Puebla,94,818,1282
-Puebla,95,652,1066
-Puebla,96,511,867
-Puebla,97,342,605
-Puebla,98,334,606
-Puebla,99,238,410
-Puebla,100 y más,335,730
-Querétaro,0,17044,17075
-Querétaro,1,18055,17753
-Querétaro,2,19252,19050
-Querétaro,3,20058,19582
-Querétaro,4,20114,19910
-Querétaro,5,20374,19239
-Querétaro,6,19475,19166
-Querétaro,7,20237,19449
-Querétaro,8,20678,20004
-Querétaro,9,19194,19153
-Querétaro,10,21564,20659
-Querétaro,11,19538,18881
-Querétaro,12,20996,20116
-Querétaro,13,19470,19111
-Querétaro,14,19279,18987
-Querétaro,15,19871,19575
-Querétaro,16,19007,18797
-Querétaro,17,20262,19550
-Querétaro,18,21643,21079
-Querétaro,19,19058,19299
-Querétaro,20,22361,22582
-Querétaro,21,18801,18586
-Querétaro,22,21503,21073
-Querétaro,23,20679,20914
-Querétaro,24,21003,21537
-Querétaro,25,23061,23574
-Querétaro,26,20811,21915
-Querétaro,27,20929,21235
-Querétaro,28,21946,21858
-Querétaro,29,18796,20014
-Querétaro,30,23876,25287
-Querétaro,31,15861,16525
-Querétaro,32,20121,21335
-Querétaro,33,17365,18860
-Querétaro,34,17070,18276
-Querétaro,35,19935,20993
-Querétaro,36,17715,19201
-Querétaro,37,15789,17127
-Querétaro,38,18750,19984
-Querétaro,39,15778,17471
-Querétaro,40,21180,22659
-Querétaro,41,12231,13491
-Querétaro,42,17601,19414
-Querétaro,43,15220,16600
-Querétaro,44,13086,14246
-Querétaro,45,17843,19155
-Querétaro,46,13621,14920
-Querétaro,47,13671,14720
-Querétaro,48,14054,15497
-Querétaro,49,12652,13699
-Querétaro,50,16140,17978
-Querétaro,51,9220,10452
-Querétaro,52,12724,14173
-Querétaro,53,10662,12011
-Querétaro,54,10263,12234
-Querétaro,55,10783,12259
-Querétaro,56,10075,11118
-Querétaro,57,8184,9332
-Querétaro,58,8971,9960
-Querétaro,59,8119,9102
-Querétaro,60,10698,12069
-Querétaro,61,6009,6641
-Querétaro,62,7510,8636
-Querétaro,63,7178,8193
-Querétaro,64,6374,7421
-Querétaro,65,7450,8469
-Querétaro,66,4879,5887
-Querétaro,67,5074,5659
-Querétaro,68,5372,6454
-Querétaro,69,3961,4628
-Querétaro,70,5038,5981
-Querétaro,71,2970,3544
-Querétaro,72,4192,4754
-Querétaro,73,3375,4020
-Querétaro,74,3224,3881
-Querétaro,75,3295,3986
-Querétaro,76,2660,3237
-Querétaro,77,2218,2587
-Querétaro,78,2419,2869
-Querétaro,79,1924,2222
-Querétaro,80,2307,2889
-Querétaro,81,1159,1493
-Querétaro,82,1488,1947
-Querétaro,83,1345,1796
-Querétaro,84,1279,1618
-Querétaro,85,1209,1587
-Querétaro,86,951,1306
-Querétaro,87,824,1137
-Querétaro,88,634,912
-Querétaro,89,556,859
-Querétaro,90,547,929
-Querétaro,91,261,435
-Querétaro,92,333,475
-Querétaro,93,252,390
-Querétaro,94,203,370
-Querétaro,95,186,320
-Querétaro,96,129,237
-Querétaro,97,114,161
-Querétaro,98,72,149
-Querétaro,99,56,107
-Querétaro,100 y más,76,166
-Quintana Roo,0,13604,13154
-Quintana Roo,1,14206,13677
-Quintana Roo,2,15203,14549
-Quintana Roo,3,15594,15267
-Quintana Roo,4,16551,15926
-Quintana Roo,5,16095,15715
-Quintana Roo,6,15496,15226
-Quintana Roo,7,15680,15361
-Quintana Roo,8,16250,15595
-Quintana Roo,9,15100,14870
-Quintana Roo,10,17027,15982
-Quintana Roo,11,15490,14934
-Quintana Roo,12,16375,15717
-Quintana Roo,13,14661,14667
-Quintana Roo,14,14911,14517
-Quintana Roo,15,14766,14475
-Quintana Roo,16,13819,13682
-Quintana Roo,17,14955,14631
-Quintana Roo,18,16517,16024
-Quintana Roo,19,14459,14221
-Quintana Roo,20,17460,17159
-Quintana Roo,21,14293,13933
-Quintana Roo,22,17102,16022
-Quintana Roo,23,17062,17072
-Quintana Roo,24,17269,17617
-Quintana Roo,25,19841,19741
-Quintana Roo,26,17768,17816
-Quintana Roo,27,18199,17785
-Quintana Roo,28,19913,18967
-Quintana Roo,29,17313,17104
-Quintana Roo,30,23609,22484
-Quintana Roo,31,13906,14128
-Quintana Roo,32,18822,18545
-Quintana Roo,33,16065,16309
-Quintana Roo,34,15646,15619
-Quintana Roo,35,19023,18391
-Quintana Roo,36,16569,16757
-Quintana Roo,37,14059,13790
-Quintana Roo,38,18102,16869
-Quintana Roo,39,13912,14000
-Quintana Roo,40,19630,18888
-Quintana Roo,41,10130,10245
-Quintana Roo,42,15955,15527
-Quintana Roo,43,12747,12660
-Quintana Roo,44,10373,10576
-Quintana Roo,45,15200,14359
-Quintana Roo,46,11154,10950
-Quintana Roo,47,11088,10725
-Quintana Roo,48,11880,11471
-Quintana Roo,49,10232,9986
-Quintana Roo,50,13500,12915
-Quintana Roo,51,7182,7144
-Quintana Roo,52,10377,9773
-Quintana Roo,53,8379,8324
-Quintana Roo,54,8178,8388
-Quintana Roo,55,8340,8234
-Quintana Roo,56,7447,7456
-Quintana Roo,57,5898,5913
-Quintana Roo,58,6268,6178
-Quintana Roo,59,5561,5690
-Quintana Roo,60,7399,7479
-Quintana Roo,61,3608,3870
-Quintana Roo,62,4721,4798
-Quintana Roo,63,4482,4627
-Quintana Roo,64,3965,4372
-Quintana Roo,65,5005,4966
-Quintana Roo,66,3199,3296
-Quintana Roo,67,2926,3152
-Quintana Roo,68,3259,3505
-Quintana Roo,69,2349,2547
-Quintana Roo,70,3117,3265
-Quintana Roo,71,1726,1705
-Quintana Roo,72,2334,2389
-Quintana Roo,73,1894,1865
-Quintana Roo,74,1633,1750
-Quintana Roo,75,1650,1732
-Quintana Roo,76,1333,1368
-Quintana Roo,77,1098,1138
-Quintana Roo,78,1283,1250
-Quintana Roo,79,904,932
-Quintana Roo,80,1138,1209
-Quintana Roo,81,580,560
-Quintana Roo,82,654,726
-Quintana Roo,83,607,681
-Quintana Roo,84,591,675
-Quintana Roo,85,482,545
-Quintana Roo,86,421,500
-Quintana Roo,87,343,412
-Quintana Roo,88,271,318
-Quintana Roo,89,212,271
-Quintana Roo,90,211,293
-Quintana Roo,91,78,114
-Quintana Roo,92,113,153
-Quintana Roo,93,82,119
-Quintana Roo,94,80,89
-Quintana Roo,95,84,97
-Quintana Roo,96,58,64
-Quintana Roo,97,40,43
-Quintana Roo,98,41,43
-Quintana Roo,99,30,31
-Quintana Roo,100 y más,66,36
-San Luis Potosí,0,21212,21133
-San Luis Potosí,1,22288,21674
-San Luis Potosí,2,23325,23002
-San Luis Potosí,3,24613,23878
-San Luis Potosí,4,24893,24913
-San Luis Potosí,5,25122,24338
-San Luis Potosí,6,23940,23543
-San Luis Potosí,7,24291,23808
-San Luis Potosí,8,25472,24325
-San Luis Potosí,9,24147,23741
-San Luis Potosí,10,26314,25426
-San Luis Potosí,11,24632,23863
-San Luis Potosí,12,26402,25403
-San Luis Potosí,13,25328,24699
-San Luis Potosí,14,25578,25135
-San Luis Potosí,15,26386,26125
-San Luis Potosí,16,24937,24227
-San Luis Potosí,17,26199,25611
-San Luis Potosí,18,27055,26238
-San Luis Potosí,19,23407,23612
-San Luis Potosí,20,25656,26353
-San Luis Potosí,21,20990,21826
-San Luis Potosí,22,23162,23779
-San Luis Potosí,23,22102,23083
-San Luis Potosí,24,21520,23658
-San Luis Potosí,25,22909,24522
-San Luis Potosí,26,21025,23485
-San Luis Potosí,27,21121,22531
-San Luis Potosí,28,21296,23131
-San Luis Potosí,29,19681,21263
-San Luis Potosí,30,24138,25901
-San Luis Potosí,31,15963,18395
-San Luis Potosí,32,20327,22534
-San Luis Potosí,33,18380,20737
-San Luis Potosí,34,17946,19967
-San Luis Potosí,35,19864,21961
-San Luis Potosí,36,18601,21112
-San Luis Potosí,37,16718,18661
-San Luis Potosí,38,19072,20946
-San Luis Potosí,39,16473,18561
-San Luis Potosí,40,21714,23543
-San Luis Potosí,41,13317,15126
-San Luis Potosí,42,19416,21310
-San Luis Potosí,43,16227,18321
-San Luis Potosí,44,14720,16480
-San Luis Potosí,45,19173,20788
-San Luis Potosí,46,15361,17099
-San Luis Potosí,47,15592,16950
-San Luis Potosí,48,15788,17545
-San Luis Potosí,49,14754,16403
-San Luis Potosí,50,18538,20512
-San Luis Potosí,51,11346,12842
-San Luis Potosí,52,15297,17045
-San Luis Potosí,53,13469,15229
-San Luis Potosí,54,13795,15663
-San Luis Potosí,55,13386,14984
-San Luis Potosí,56,12769,14437
-San Luis Potosí,57,10480,11938
-San Luis Potosí,58,11547,12856
-San Luis Potosí,59,11112,12257
-San Luis Potosí,60,13909,15463
-San Luis Potosí,61,7873,8961
-San Luis Potosí,62,10411,11485
-San Luis Potosí,63,9796,10523
-San Luis Potosí,64,9042,10172
-San Luis Potosí,65,10223,11245
-San Luis Potosí,66,7354,8293
-San Luis Potosí,67,7350,7801
-San Luis Potosí,68,7911,8814
-San Luis Potosí,69,6379,6866
-San Luis Potosí,70,7864,8731
-San Luis Potosí,71,4928,5209
-San Luis Potosí,72,6577,7140
-San Luis Potosí,73,5456,5969
-San Luis Potosí,74,5331,5952
-San Luis Potosí,75,5489,6060
-San Luis Potosí,76,4848,4994
-San Luis Potosí,77,3907,4245
-San Luis Potosí,78,4393,4625
-San Luis Potosí,79,3653,3771
-San Luis Potosí,80,4157,4959
-San Luis Potosí,81,2451,2640
-San Luis Potosí,82,2923,3356
-San Luis Potosí,83,2722,3228
-San Luis Potosí,84,2669,3147
-San Luis Potosí,85,2503,2827
-San Luis Potosí,86,2029,2417
-San Luis Potosí,87,1569,1897
-San Luis Potosí,88,1353,1582
-San Luis Potosí,89,1244,1506
-San Luis Potosí,90,1229,1528
-San Luis Potosí,91,573,733
-San Luis Potosí,92,685,915
-San Luis Potosí,93,591,754
-San Luis Potosí,94,424,620
-San Luis Potosí,95,338,565
-San Luis Potosí,96,340,414
-San Luis Potosí,97,233,301
-San Luis Potosí,98,170,228
-San Luis Potosí,99,123,183
-San Luis Potosí,100 y más,181,279
-Sinaloa,0,22410,21911
-Sinaloa,1,23641,22583
-Sinaloa,2,24827,24031
-Sinaloa,3,24349,23846
-Sinaloa,4,24818,23820
-Sinaloa,5,25156,23970
-Sinaloa,6,25007,24293
-Sinaloa,7,25408,24495
-Sinaloa,8,26620,25406
-Sinaloa,9,25620,24521
-Sinaloa,10,27100,26035
-Sinaloa,11,25870,24723
-Sinaloa,12,27417,26155
-Sinaloa,13,25785,25053
-Sinaloa,14,26339,25695
-Sinaloa,15,26638,25640
-Sinaloa,16,25503,24753
-Sinaloa,17,26782,26360
-Sinaloa,18,28463,27534
-Sinaloa,19,25165,24743
-Sinaloa,20,27690,28234
-Sinaloa,21,24656,24728
-Sinaloa,22,26377,25993
-Sinaloa,23,24962,25117
-Sinaloa,24,24291,24942
-Sinaloa,25,24977,26016
-Sinaloa,26,22543,23886
-Sinaloa,27,22298,23143
-Sinaloa,28,22847,23622
-Sinaloa,29,20802,22182
-Sinaloa,30,25009,26050
-Sinaloa,31,18171,19374
-Sinaloa,32,22271,23171
-Sinaloa,33,19848,21032
-Sinaloa,34,19981,20584
-Sinaloa,35,22023,22969
-Sinaloa,36,20183,21081
-Sinaloa,37,17898,18733
-Sinaloa,38,21564,21946
-Sinaloa,39,19096,20047
-Sinaloa,40,23811,24747
-Sinaloa,41,16770,17793
-Sinaloa,42,22901,22988
-Sinaloa,43,18973,19908
-Sinaloa,44,17522,18896
-Sinaloa,45,22037,22368
-Sinaloa,46,18172,19355
-Sinaloa,47,18244,19187
-Sinaloa,48,18775,19190
-Sinaloa,49,17158,18103
-Sinaloa,50,21395,22332
-Sinaloa,51,13643,14724
-Sinaloa,52,17542,18467
-Sinaloa,53,15275,16436
-Sinaloa,54,15417,16863
-Sinaloa,55,15717,16830
-Sinaloa,56,14635,15776
-Sinaloa,57,12374,13494
-Sinaloa,58,13420,14677
-Sinaloa,59,12495,13967
-Sinaloa,60,15613,16872
-Sinaloa,61,9635,10643
-Sinaloa,62,12143,13457
-Sinaloa,63,11165,12437
-Sinaloa,64,10382,11281
-Sinaloa,65,11776,12955
-Sinaloa,66,8763,9809
-Sinaloa,67,8438,9121
-Sinaloa,68,9032,9874
-Sinaloa,69,7155,8133
-Sinaloa,70,8867,9563
-Sinaloa,71,5533,6010
-Sinaloa,72,7667,7934
-Sinaloa,73,6259,6679
-Sinaloa,74,5781,6384
-Sinaloa,75,5994,6301
-Sinaloa,76,5112,5218
-Sinaloa,77,4447,4779
-Sinaloa,78,4619,4815
-Sinaloa,79,3732,4034
-Sinaloa,80,4056,4520
-Sinaloa,81,2399,2677
-Sinaloa,82,2874,3312
-Sinaloa,83,2667,3126
-Sinaloa,84,2455,2871
-Sinaloa,85,1949,2331
-Sinaloa,86,1703,2072
-Sinaloa,87,1396,1731
-Sinaloa,88,1027,1356
-Sinaloa,89,966,1296
-Sinaloa,90,915,1220
-Sinaloa,91,412,595
-Sinaloa,92,455,682
-Sinaloa,93,385,537
-Sinaloa,94,316,480
-Sinaloa,95,256,368
-Sinaloa,96,202,293
-Sinaloa,97,113,206
-Sinaloa,98,113,168
-Sinaloa,99,85,119
-Sinaloa,100 y más,169,234
-Sonora,0,19557,18989
-Sonora,1,20552,19829
-Sonora,2,22946,22421
-Sonora,3,23274,22960
-Sonora,4,24275,23542
-Sonora,5,24890,24191
-Sonora,6,24475,24086
-Sonora,7,25091,24173
-Sonora,8,26060,24970
-Sonora,9,24686,24089
-Sonora,10,26917,25677
-Sonora,11,25175,24472
-Sonora,12,27597,26112
-Sonora,13,26504,25256
-Sonora,14,25998,25083
-Sonora,15,26227,24818
-Sonora,16,24811,23869
-Sonora,17,26655,25947
-Sonora,18,28120,26251
-Sonora,19,24942,24076
-Sonora,20,27359,26675
-Sonora,21,24646,23633
-Sonora,22,25681,24311
-Sonora,23,24334,23465
-Sonora,24,23566,23333
-Sonora,25,24668,24223
-Sonora,26,22512,22855
-Sonora,27,22393,22428
-Sonora,28,23456,23077
-Sonora,29,21123,21161
-Sonora,30,25791,25521
-Sonora,31,18385,18874
-Sonora,32,22142,21974
-Sonora,33,20535,20683
-Sonora,34,20602,20497
-Sonora,35,22133,21992
-Sonora,36,20739,21061
-Sonora,37,19060,19013
-Sonora,38,22346,21557
-Sonora,39,19561,19538
-Sonora,40,24845,24683
-Sonora,41,16338,17023
-Sonora,42,22858,22548
-Sonora,43,19845,19911
-Sonora,44,17691,18153
-Sonora,45,22625,22118
-Sonora,46,18190,18781
-Sonora,47,19056,18565
-Sonora,48,19061,18802
-Sonora,49,17342,17641
-Sonora,50,21733,21931
-Sonora,51,13928,14260
-Sonora,52,17428,17954
-Sonora,53,15566,16146
-Sonora,54,15467,16292
-Sonora,55,15381,16083
-Sonora,56,14634,14857
-Sonora,57,12672,13275
-Sonora,58,13496,13938
-Sonora,59,12624,13504
-Sonora,60,15503,16597
-Sonora,61,9608,10346
-Sonora,62,12195,12918
-Sonora,63,11374,12043
-Sonora,64,10161,10858
-Sonora,65,11345,11810
-Sonora,66,8017,8929
-Sonora,67,7936,8362
-Sonora,68,8385,9140
-Sonora,69,6675,7109
-Sonora,70,7724,8324
-Sonora,71,4792,5414
-Sonora,72,6597,7153
-Sonora,73,5295,5845
-Sonora,74,4978,5760
-Sonora,75,4870,5420
-Sonora,76,4242,4651
-Sonora,77,3523,4025
-Sonora,78,3961,4201
-Sonora,79,3081,3545
-Sonora,80,3418,4073
-Sonora,81,1967,2242
-Sonora,82,2319,2858
-Sonora,83,2106,2708
-Sonora,84,2029,2424
-Sonora,85,1632,2087
-Sonora,86,1365,1744
-Sonora,87,1083,1498
-Sonora,88,872,1166
-Sonora,89,745,1011
-Sonora,90,696,996
-Sonora,91,350,508
-Sonora,92,340,549
-Sonora,93,255,446
-Sonora,94,208,379
-Sonora,95,152,297
-Sonora,96,124,219
-Sonora,97,101,135
-Sonora,98,99,136
-Sonora,99,63,95
-Sonora,100 y más,83,114
-Tabasco,0,19533,19145
-Tabasco,1,19735,19314
-Tabasco,2,20657,19955
-Tabasco,3,21653,21433
-Tabasco,4,23091,22361
-Tabasco,5,22794,21942
-Tabasco,6,22118,21811
-Tabasco,7,22794,22461
-Tabasco,8,23647,22404
-Tabasco,9,22353,21734
-Tabasco,10,23925,22862
-Tabasco,11,22093,21003
-Tabasco,12,23125,22205
-Tabasco,13,22205,21500
-Tabasco,14,22144,21636
-Tabasco,15,22066,21532
-Tabasco,16,20327,20212
-Tabasco,17,22259,21490
-Tabasco,18,22209,21165
-Tabasco,19,18428,18972
-Tabasco,20,20176,21377
-Tabasco,21,16560,17131
-Tabasco,22,19253,19713
-Tabasco,23,18178,19320
-Tabasco,24,17758,19089
-Tabasco,25,18460,20105
-Tabasco,26,16537,18647
-Tabasco,27,16952,19034
-Tabasco,28,17281,18738
-Tabasco,29,16195,18375
-Tabasco,30,21447,22736
-Tabasco,31,13264,15664
-Tabasco,32,17985,20422
-Tabasco,33,16492,18843
-Tabasco,34,16479,18095
-Tabasco,35,18607,20754
-Tabasco,36,16691,19368
-Tabasco,37,14839,16808
-Tabasco,38,18570,20490
-Tabasco,39,15524,17825
-Tabasco,40,20986,23178
-Tabasco,41,11672,13616
-Tabasco,42,18359,20151
-Tabasco,43,15081,16838
-Tabasco,44,13025,14696
-Tabasco,45,16550,18011
-Tabasco,46,13193,14595
-Tabasco,47,13099,14519
-Tabasco,48,14697,15664
-Tabasco,49,12685,14285
-Tabasco,50,16787,17993
-Tabasco,51,9320,10343
-Tabasco,52,13352,14138
-Tabasco,53,11614,12425
-Tabasco,54,11769,12834
-Tabasco,55,11905,12770
-Tabasco,56,11698,11845
-Tabasco,57,9128,9753
-Tabasco,58,10176,10693
-Tabasco,59,8999,9680
-Tabasco,60,11974,12184
-Tabasco,61,6194,6573
-Tabasco,62,7924,8492
-Tabasco,63,7908,8347
-Tabasco,64,7416,7874
-Tabasco,65,8676,8842
-Tabasco,66,5697,6083
-Tabasco,67,5890,6131
-Tabasco,68,6843,7477
-Tabasco,69,4476,4694
-Tabasco,70,5740,6337
-Tabasco,71,3024,3108
-Tabasco,72,4465,4602
-Tabasco,73,3642,3869
-Tabasco,74,3450,3608
-Tabasco,75,3703,3875
-Tabasco,76,2844,3098
-Tabasco,77,2357,2598
-Tabasco,78,3193,3256
-Tabasco,79,2272,2325
-Tabasco,80,2911,3054
-Tabasco,81,1361,1356
-Tabasco,82,1710,1824
-Tabasco,83,1485,1714
-Tabasco,84,1485,1774
-Tabasco,85,1433,1759
-Tabasco,86,1221,1384
-Tabasco,87,1003,1092
-Tabasco,88,869,971
-Tabasco,89,736,847
-Tabasco,90,718,910
-Tabasco,91,276,345
-Tabasco,92,409,403
-Tabasco,93,305,360
-Tabasco,94,249,362
-Tabasco,95,217,291
-Tabasco,96,159,202
-Tabasco,97,112,151
-Tabasco,98,122,192
-Tabasco,99,87,144
-Tabasco,100 y más,184,277
-Tamaulipas,0,25055,24241
-Tamaulipas,1,25746,24893
-Tamaulipas,2,27712,27311
-Tamaulipas,3,28747,28702
-Tamaulipas,4,29916,29017
-Tamaulipas,5,29997,29394
-Tamaulipas,6,29005,28050
-Tamaulipas,7,29666,28601
-Tamaulipas,8,31016,29865
-Tamaulipas,9,29631,29119
-Tamaulipas,10,33064,31579
-Tamaulipas,11,30231,29231
-Tamaulipas,12,32647,30675
-Tamaulipas,13,30068,29172
-Tamaulipas,14,29856,29330
-Tamaulipas,15,30259,29463
-Tamaulipas,16,28707,27963
-Tamaulipas,17,30198,28793
-Tamaulipas,18,32094,31241
-Tamaulipas,19,27977,28255
-Tamaulipas,20,31476,31735
-Tamaulipas,21,27395,26783
-Tamaulipas,22,28491,28204
-Tamaulipas,23,27561,27818
-Tamaulipas,24,27194,27407
-Tamaulipas,25,28843,29878
-Tamaulipas,26,25814,27428
-Tamaulipas,27,25393,26374
-Tamaulipas,28,26875,27230
-Tamaulipas,29,24168,25258
-Tamaulipas,30,30928,31813
-Tamaulipas,31,20467,22080
-Tamaulipas,32,26825,28042
-Tamaulipas,33,23602,25185
-Tamaulipas,34,23466,24437
-Tamaulipas,35,27619,28442
-Tamaulipas,36,25273,26999
-Tamaulipas,37,22329,23829
-Tamaulipas,38,26604,27867
-Tamaulipas,39,23436,24822
-Tamaulipas,40,30660,31910
-Tamaulipas,41,19139,20442
-Tamaulipas,42,27516,28875
-Tamaulipas,43,23160,24785
-Tamaulipas,44,20164,21986
-Tamaulipas,45,27756,28170
-Tamaulipas,46,21667,23032
-Tamaulipas,47,21907,23285
-Tamaulipas,48,22806,23984
-Tamaulipas,49,21362,22233
-Tamaulipas,50,27016,28269
-Tamaulipas,51,16472,17702
-Tamaulipas,52,21828,22803
-Tamaulipas,53,18793,19989
-Tamaulipas,54,18432,20090
-Tamaulipas,55,18602,20016
-Tamaulipas,56,17683,18278
-Tamaulipas,57,14390,15606
-Tamaulipas,58,15687,16961
-Tamaulipas,59,14814,15707
-Tamaulipas,60,18340,20051
-Tamaulipas,61,10545,11781
-Tamaulipas,62,13777,15149
-Tamaulipas,63,12637,13612
-Tamaulipas,64,11476,12532
-Tamaulipas,65,12693,13776
-Tamaulipas,66,8922,10090
-Tamaulipas,67,8676,9601
-Tamaulipas,68,9721,10978
-Tamaulipas,69,7508,8368
-Tamaulipas,70,8843,10251
-Tamaulipas,71,5623,6504
-Tamaulipas,72,7480,8697
-Tamaulipas,73,6318,7322
-Tamaulipas,74,5691,6887
-Tamaulipas,75,5953,7005
-Tamaulipas,76,4850,5720
-Tamaulipas,77,4216,5035
-Tamaulipas,78,4720,5229
-Tamaulipas,79,3826,4439
-Tamaulipas,80,4331,5369
-Tamaulipas,81,2464,3067
-Tamaulipas,82,2904,3739
-Tamaulipas,83,2667,3467
-Tamaulipas,84,2417,3277
-Tamaulipas,85,2231,2926
-Tamaulipas,86,1880,2471
-Tamaulipas,87,1379,1872
-Tamaulipas,88,1125,1487
-Tamaulipas,89,1048,1511
-Tamaulipas,90,1001,1400
-Tamaulipas,91,484,783
-Tamaulipas,92,513,831
-Tamaulipas,93,430,677
-Tamaulipas,94,368,626
-Tamaulipas,95,287,471
-Tamaulipas,96,230,334
-Tamaulipas,97,174,246
-Tamaulipas,98,137,197
-Tamaulipas,99,84,127
-Tamaulipas,100 y más,146,207
-Tlaxcala,0,10278,9997
-Tlaxcala,1,10704,10552
-Tlaxcala,2,11191,11237
-Tlaxcala,3,11455,11304
-Tlaxcala,4,12057,11685
-Tlaxcala,5,12117,11889
-Tlaxcala,6,11564,11434
-Tlaxcala,7,12031,11657
-Tlaxcala,8,12630,11829
-Tlaxcala,9,11343,11244
-Tlaxcala,10,12804,12143
-Tlaxcala,11,11522,11222
-Tlaxcala,12,12401,12036
-Tlaxcala,13,11876,11700
-Tlaxcala,14,12144,11870
-Tlaxcala,15,12614,11978
-Tlaxcala,16,11924,11584
-Tlaxcala,17,12932,12192
-Tlaxcala,18,13161,12788
-Tlaxcala,19,10901,11133
-Tlaxcala,20,12832,12835
-Tlaxcala,21,10387,10291
-Tlaxcala,22,11909,11723
-Tlaxcala,23,10664,11055
-Tlaxcala,24,10946,11295
-Tlaxcala,25,11318,11836
-Tlaxcala,26,10202,11014
-Tlaxcala,27,9719,10194
-Tlaxcala,28,10283,10813
-Tlaxcala,29,9368,10011
-Tlaxcala,30,11567,12640
-Tlaxcala,31,7218,8123
-Tlaxcala,32,9634,10975
-Tlaxcala,33,8451,9750
-Tlaxcala,34,8514,9640
-Tlaxcala,35,9458,11038
-Tlaxcala,36,8829,10630
-Tlaxcala,37,7701,9095
-Tlaxcala,38,9506,11120
-Tlaxcala,39,8092,9427
-Tlaxcala,40,10974,12442
-Tlaxcala,41,6284,7419
-Tlaxcala,42,9596,11003
-Tlaxcala,43,7805,8908
-Tlaxcala,44,6891,8126
-Tlaxcala,45,9005,10220
-Tlaxcala,46,7238,8487
-Tlaxcala,47,7015,8031
-Tlaxcala,48,7246,8650
-Tlaxcala,49,6778,7725
-Tlaxcala,50,8522,10189
-Tlaxcala,51,5074,5903
-Tlaxcala,52,7117,8149
-Tlaxcala,53,5899,6831
-Tlaxcala,54,5928,7170
-Tlaxcala,55,6076,7098
-Tlaxcala,56,5925,6552
-Tlaxcala,57,4437,5243
-Tlaxcala,58,5156,5823
-Tlaxcala,59,4592,5413
-Tlaxcala,60,6057,6866
-Tlaxcala,61,3392,3868
-Tlaxcala,62,4334,5066
-Tlaxcala,63,4223,4659
-Tlaxcala,64,3678,4362
-Tlaxcala,65,4305,4961
-Tlaxcala,66,2975,3355
-Tlaxcala,67,2906,3362
-Tlaxcala,68,3304,3718
-Tlaxcala,69,2429,2643
-Tlaxcala,70,2947,3455
-Tlaxcala,71,1634,1974
-Tlaxcala,72,2586,2948
-Tlaxcala,73,2152,2422
-Tlaxcala,74,2006,2371
-Tlaxcala,75,2000,2280
-Tlaxcala,76,1768,1983
-Tlaxcala,77,1464,1530
-Tlaxcala,78,1723,1805
-Tlaxcala,79,1285,1529
-Tlaxcala,80,1493,1718
-Tlaxcala,81,796,916
-Tlaxcala,82,1072,1261
-Tlaxcala,83,955,1166
-Tlaxcala,84,1019,1195
-Tlaxcala,85,832,1098
-Tlaxcala,86,741,993
-Tlaxcala,87,627,775
-Tlaxcala,88,524,616
-Tlaxcala,89,501,618
-Tlaxcala,90,451,650
-Tlaxcala,91,223,269
-Tlaxcala,92,265,349
-Tlaxcala,93,219,305
-Tlaxcala,94,195,291
-Tlaxcala,95,174,210
-Tlaxcala,96,157,168
-Tlaxcala,97,76,135
-Tlaxcala,98,75,108
-Tlaxcala,99,50,78
-Tlaxcala,100 y más,57,140
-Veracruz de Ignacio de la Llave,0,54924,53961
-Veracruz de Ignacio de la Llave,1,57964,56975
-Veracruz de Ignacio de la Llave,2,60156,58766
-Veracruz de Ignacio de la Llave,3,62288,61951
-Veracruz de Ignacio de la Llave,4,67781,65487
-Veracruz de Ignacio de la Llave,5,68517,66737
-Veracruz de Ignacio de la Llave,6,66103,64814
-Veracruz de Ignacio de la Llave,7,68461,66509
-Veracruz de Ignacio de la Llave,8,71415,68340
-Veracruz de Ignacio de la Llave,9,67839,66447
-Veracruz de Ignacio de la Llave,10,72444,69405
-Veracruz de Ignacio de la Llave,11,66743,65487
-Veracruz de Ignacio de la Llave,12,71412,69195
-Veracruz de Ignacio de la Llave,13,68106,66477
-Veracruz de Ignacio de la Llave,14,68975,67224
-Veracruz de Ignacio de la Llave,15,71397,68288
-Veracruz de Ignacio de la Llave,16,67555,66953
-Veracruz de Ignacio de la Llave,17,73285,70554
-Veracruz de Ignacio de la Llave,18,72490,70156
-Veracruz de Ignacio de la Llave,19,59426,61444
-Veracruz de Ignacio de la Llave,20,66115,67560
-Veracruz de Ignacio de la Llave,21,54085,56492
-Veracruz de Ignacio de la Llave,22,60272,62058
-Veracruz de Ignacio de la Llave,23,56163,60740
-Veracruz de Ignacio de la Llave,24,55724,61185
-Veracruz de Ignacio de la Llave,25,58146,64662
-Veracruz de Ignacio de la Llave,26,52968,60790
-Veracruz de Ignacio de la Llave,27,54028,60586
-Veracruz de Ignacio de la Llave,28,55709,62346
-Veracruz de Ignacio de la Llave,29,51833,59353
-Veracruz de Ignacio de la Llave,30,65731,73850
-Veracruz de Ignacio de la Llave,31,42489,50625
-Veracruz de Ignacio de la Llave,32,55589,64294
-Veracruz de Ignacio de la Llave,33,50055,58914
-Veracruz de Ignacio de la Llave,34,49545,57029
-Veracruz de Ignacio de la Llave,35,56149,64625
-Veracruz de Ignacio de la Llave,36,51790,61223
-Veracruz de Ignacio de la Llave,37,46205,53940
-Veracruz de Ignacio de la Llave,38,56267,64089
-Veracruz de Ignacio de la Llave,39,48194,56309
-Veracruz de Ignacio de la Llave,40,64113,73740
-Veracruz de Ignacio de la Llave,41,37272,44578
-Veracruz de Ignacio de la Llave,42,56056,65458
-Veracruz de Ignacio de la Llave,43,46711,55548
-Veracruz de Ignacio de la Llave,44,43136,51055
-Veracruz de Ignacio de la Llave,45,54750,61836
-Veracruz de Ignacio de la Llave,46,44785,52378
-Veracruz de Ignacio de la Llave,47,45728,52982
-Veracruz de Ignacio de la Llave,48,49530,56318
-Veracruz de Ignacio de la Llave,49,45366,52479
-Veracruz de Ignacio de la Llave,50,58637,66204
-Veracruz de Ignacio de la Llave,51,35622,41134
-Veracruz de Ignacio de la Llave,52,48459,54629
-Veracruz de Ignacio de la Llave,53,42145,48587
-Veracruz de Ignacio de la Llave,54,42809,50284
-Veracruz de Ignacio de la Llave,55,44089,49409
-Veracruz de Ignacio de la Llave,56,41958,45909
-Veracruz de Ignacio de la Llave,57,34048,38868
-Veracruz de Ignacio de la Llave,58,37271,42271
-Veracruz de Ignacio de la Llave,59,35156,39731
-Veracruz de Ignacio de la Llave,60,43865,48994
-Veracruz de Ignacio de la Llave,61,25175,28826
-Veracruz de Ignacio de la Llave,62,32616,36507
-Veracruz de Ignacio de la Llave,63,31243,35699
-Veracruz de Ignacio de la Llave,64,30100,34825
-Veracruz de Ignacio de la Llave,65,33732,38183
-Veracruz de Ignacio de la Llave,66,23918,27463
-Veracruz de Ignacio de la Llave,67,24667,27041
-Veracruz de Ignacio de la Llave,68,27474,32063
-Veracruz de Ignacio de la Llave,69,20940,23752
-Veracruz de Ignacio de la Llave,70,25226,29016
-Veracruz de Ignacio de la Llave,71,15110,16782
-Veracruz de Ignacio de la Llave,72,20982,23108
-Veracruz de Ignacio de la Llave,73,17812,19846
-Veracruz de Ignacio de la Llave,74,16305,18969
-Veracruz de Ignacio de la Llave,75,17447,19315
-Veracruz de Ignacio de la Llave,76,14239,16061
-Veracruz de Ignacio de la Llave,77,12122,13253
-Veracruz de Ignacio de la Llave,78,14092,15692
-Veracruz de Ignacio de la Llave,79,11064,12452
-Veracruz de Ignacio de la Llave,80,12897,15458
-Veracruz de Ignacio de la Llave,81,6850,7833
-Veracruz de Ignacio de la Llave,82,8315,10083
-Veracruz de Ignacio de la Llave,83,7487,9406
-Veracruz de Ignacio de la Llave,84,7533,9370
-Veracruz de Ignacio de la Llave,85,6948,8719
-Veracruz de Ignacio de la Llave,86,5499,7002
-Veracruz de Ignacio de la Llave,87,4265,5567
-Veracruz de Ignacio de la Llave,88,3632,4810
-Veracruz de Ignacio de la Llave,89,3340,4616
-Veracruz de Ignacio de la Llave,90,3480,4826
-Veracruz de Ignacio de la Llave,91,1406,1995
-Veracruz de Ignacio de la Llave,92,1667,2314
-Veracruz de Ignacio de la Llave,93,1364,1938
-Veracruz de Ignacio de la Llave,94,1149,1686
-Veracruz de Ignacio de la Llave,95,1028,1526
-Veracruz de Ignacio de la Llave,96,816,1102
-Veracruz de Ignacio de la Llave,97,542,846
-Veracruz de Ignacio de la Llave,98,544,845
-Veracruz de Ignacio de la Llave,99,398,657
-Veracruz de Ignacio de la Llave,100 y más,799,1358
-Yucatán,0,15978,15600
-Yucatán,1,17271,16906
-Yucatán,2,18061,17335
-Yucatán,3,18489,17890
-Yucatán,4,19536,18920
-Yucatán,5,19249,19052
-Yucatán,6,18847,18337
-Yucatán,7,18968,18420
-Yucatán,8,18860,18459
-Yucatán,9,17978,17952
-Yucatán,10,19637,19025
-Yucatán,11,18757,18271
-Yucatán,12,19857,19006
-Yucatán,13,18815,18375
-Yucatán,14,18767,18627
-Yucatán,15,19724,19060
-Yucatán,16,18633,18473
-Yucatán,17,20378,19409
-Yucatán,18,21436,20490
-Yucatán,19,19246,19514
-Yucatán,20,21636,21929
-Yucatán,21,18637,18441
-Yucatán,22,20593,19965
-Yucatán,23,19426,19395
-Yucatán,24,19793,19710
-Yucatán,25,20341,20314
-Yucatán,26,18753,19494
-Yucatán,27,18890,19255
-Yucatán,28,19067,19321
-Yucatán,29,17475,18065
-Yucatán,30,22245,22713
-Yucatán,31,14680,16062
-Yucatán,32,18210,19120
-Yucatán,33,17289,18276
-Yucatán,34,16779,17661
-Yucatán,35,18415,19401
-Yucatán,36,17219,18163
-Yucatán,37,15487,16399
-Yucatán,38,18197,18861
-Yucatán,39,15559,16398
-Yucatán,40,19436,20751
-Yucatán,41,12096,13200
-Yucatán,42,17817,18500
-Yucatán,43,14777,16318
-Yucatán,44,13633,14703
-Yucatán,45,16791,17997
-Yucatán,46,13600,15006
-Yucatán,47,13628,14624
-Yucatán,48,13611,14544
-Yucatán,49,12617,13615
-Yucatán,50,14953,16456
-Yucatán,51,9222,10364
-Yucatán,52,12389,13321
-Yucatán,53,10622,11835
-Yucatán,54,10700,12496
-Yucatán,55,10949,12528
-Yucatán,56,10266,11184
-Yucatán,57,8939,10087
-Yucatán,58,9403,10462
-Yucatán,59,9269,10096
-Yucatán,60,10550,11774
-Yucatán,61,6406,7347
-Yucatán,62,8154,9164
-Yucatán,63,8106,8818
-Yucatán,64,7667,8787
-Yucatán,65,9224,10214
-Yucatán,66,6482,7610
-Yucatán,67,6478,6915
-Yucatán,68,6609,7486
-Yucatán,69,5477,5823
-Yucatán,70,6798,7423
-Yucatán,71,4426,4701
-Yucatán,72,5644,6131
-Yucatán,73,4462,5070
-Yucatán,74,4048,4521
-Yucatán,75,4323,4762
-Yucatán,76,3571,3898
-Yucatán,77,3164,3333
-Yucatán,78,3403,3708
-Yucatán,79,2702,2748
-Yucatán,80,3039,3338
-Yucatán,81,1784,1998
-Yucatán,82,2135,2385
-Yucatán,83,1789,2160
-Yucatán,84,1772,2076
-Yucatán,85,1489,1845
-Yucatán,86,1301,1512
-Yucatán,87,1048,1283
-Yucatán,88,898,1069
-Yucatán,89,794,985
-Yucatán,90,698,924
-Yucatán,91,340,427
-Yucatán,92,400,505
-Yucatán,93,325,429
-Yucatán,94,260,339
-Yucatán,95,215,296
-Yucatán,96,168,212
-Yucatán,97,96,164
-Yucatán,98,86,147
-Yucatán,99,75,97
-Yucatán,100 y más,81,124
-Zacatecas,0,14118,13882
-Zacatecas,1,14893,14433
-Zacatecas,2,15602,15505
-Zacatecas,3,15907,15684
-Zacatecas,4,16043,15678
-Zacatecas,5,16309,15702
-Zacatecas,6,15102,15200
-Zacatecas,7,15515,15194
-Zacatecas,8,16134,15728
-Zacatecas,9,15381,15439
-Zacatecas,10,16215,15808
-Zacatecas,11,15055,14532
-Zacatecas,12,15879,14880
-Zacatecas,13,14814,14518
-Zacatecas,14,14949,14705
-Zacatecas,15,14886,14296
-Zacatecas,16,13823,13965
-Zacatecas,17,14758,14152
-Zacatecas,18,14637,14523
-Zacatecas,19,12756,13412
-Zacatecas,20,14154,14958
-Zacatecas,21,12208,12859
-Zacatecas,22,12926,13684
-Zacatecas,23,12233,12797
-Zacatecas,24,11768,12651
-Zacatecas,25,12188,13194
-Zacatecas,26,10907,12401
-Zacatecas,27,11165,12275
-Zacatecas,28,11185,12378
-Zacatecas,29,10460,11520
-Zacatecas,30,12661,14413
-Zacatecas,31,9135,10564
-Zacatecas,32,11359,12913
-Zacatecas,33,10308,11580
-Zacatecas,34,10123,11386
-Zacatecas,35,10784,12153
-Zacatecas,36,10164,11281
-Zacatecas,37,9212,10164
-Zacatecas,38,10251,11157
-Zacatecas,39,9242,10320
-Zacatecas,40,11725,13090
-Zacatecas,41,7997,8927
-Zacatecas,42,10857,12050
-Zacatecas,43,9580,10457
-Zacatecas,44,8580,9419
-Zacatecas,45,10845,11289
-Zacatecas,46,8812,9401
-Zacatecas,47,8979,9486
-Zacatecas,48,9202,9770
-Zacatecas,49,8261,9073
-Zacatecas,50,10289,11301
-Zacatecas,51,6771,7452
-Zacatecas,52,8608,9550
-Zacatecas,53,7678,8326
-Zacatecas,54,7619,8613
-Zacatecas,55,7589,8397
-Zacatecas,56,7206,7693
-Zacatecas,57,5950,6754
-Zacatecas,58,6226,6957
-Zacatecas,59,5974,6655
-Zacatecas,60,7522,8471
-Zacatecas,61,4225,4650
-Zacatecas,62,5658,6117
-Zacatecas,63,5587,5873
-Zacatecas,64,4716,5220
-Zacatecas,65,5554,5979
-Zacatecas,66,3941,4380
-Zacatecas,67,4106,4321
-Zacatecas,68,4430,4812
-Zacatecas,69,3476,3720
-Zacatecas,70,4260,4659
-Zacatecas,71,2588,2810
-Zacatecas,72,3725,3843
-Zacatecas,73,3308,3360
-Zacatecas,74,3199,3348
-Zacatecas,75,3233,3383
-Zacatecas,76,2735,2969
-Zacatecas,77,2356,2399
-Zacatecas,78,2583,2558
-Zacatecas,79,2108,2033
-Zacatecas,80,2380,2629
-Zacatecas,81,1424,1448
-Zacatecas,82,1678,1813
-Zacatecas,83,1595,1747
-Zacatecas,84,1564,1780
-Zacatecas,85,1471,1622
-Zacatecas,86,1131,1305
-Zacatecas,87,1041,1049
-Zacatecas,88,851,975
-Zacatecas,89,739,791
-Zacatecas,90,786,829
-Zacatecas,91,312,365
-Zacatecas,92,415,464
-Zacatecas,93,350,388
-Zacatecas,94,297,363
-Zacatecas,95,210,308
-Zacatecas,96,193,253
-Zacatecas,97,142,158
-Zacatecas,98,119,166
-Zacatecas,99,74,100
-Zacatecas,100 y más,102,137
+Estados Unidos Mexicanos;0;916140;896837
+Estados Unidos Mexicanos;1;967223;942735
+Estados Unidos Mexicanos;2;1031816;1009303
+Estados Unidos Mexicanos;3;1060809;1047597
+Estados Unidos Mexicanos;4;1101494;1073411
+Estados Unidos Mexicanos;5;1106361;1072540
+Estados Unidos Mexicanos;6;1057642;1037707
+Estados Unidos Mexicanos;7;1087091;1059203
+Estados Unidos Mexicanos;8;1140496;1093999
+Estados Unidos Mexicanos;9;1061501;1047839
+Estados Unidos Mexicanos;10;1174026;1125241
+Estados Unidos Mexicanos;11;1066706;1034766
+Estados Unidos Mexicanos;12;1146128;1103439
+Estados Unidos Mexicanos;13;1082309;1058332
+Estados Unidos Mexicanos;14;1085091;1067502
+Estados Unidos Mexicanos;15;1113136;1080658
+Estados Unidos Mexicanos;16;1054448;1032036
+Estados Unidos Mexicanos;17;1122956;1089440
+Estados Unidos Mexicanos;18;1172693;1134982
+Estados Unidos Mexicanos;19;998917;1007424
+Estados Unidos Mexicanos;20;1146232;1161603
+Estados Unidos Mexicanos;21;957236;960314
+Estados Unidos Mexicanos;22;1061846;1067065
+Estados Unidos Mexicanos;23;1005112;1028971
+Estados Unidos Mexicanos;24;995458;1038258
+Estados Unidos Mexicanos;25;1063775;1115241
+Estados Unidos Mexicanos;26;954163;1022308
+Estados Unidos Mexicanos;27;955081;999565
+Estados Unidos Mexicanos;28;1001692;1042848
+Estados Unidos Mexicanos;29;886693;951635
+Estados Unidos Mexicanos;30;1148015;1218303
+Estados Unidos Mexicanos;31;734272;807132
+Estados Unidos Mexicanos;32;959947;1037842
+Estados Unidos Mexicanos;33;849187;927893
+Estados Unidos Mexicanos;34;836305;901931
+Estados Unidos Mexicanos;35;966246;1036930
+Estados Unidos Mexicanos;36;870975;957381
+Estados Unidos Mexicanos;37;767996;832855
+Estados Unidos Mexicanos;38;941824;1000225
+Estados Unidos Mexicanos;39;784489;861355
+Estados Unidos Mexicanos;40;1059322;1146683
+Estados Unidos Mexicanos;41;624905;690335
+Estados Unidos Mexicanos;42;928285;997622
+Estados Unidos Mexicanos;43;768115;850194
+Estados Unidos Mexicanos;44;681677;756448
+Estados Unidos Mexicanos;45;919327;976618
+Estados Unidos Mexicanos;46;718647;790847
+Estados Unidos Mexicanos;47;725378;782495
+Estados Unidos Mexicanos;48;763098;828232
+Estados Unidos Mexicanos;49;685894;751877
+Estados Unidos Mexicanos;50;890709;974467
+Estados Unidos Mexicanos;51;519757;580730
+Estados Unidos Mexicanos;52;711793;779167
+Estados Unidos Mexicanos;53;606024;675736
+Estados Unidos Mexicanos;54;603880;695269
+Estados Unidos Mexicanos;55;621423;694085
+Estados Unidos Mexicanos;56;591296;644523
+Estados Unidos Mexicanos;57;476655;536515
+Estados Unidos Mexicanos;58;524223;589095
+Estados Unidos Mexicanos;59;479379;538764
+Estados Unidos Mexicanos;60;627532;705998
+Estados Unidos Mexicanos;61;347068;399294
+Estados Unidos Mexicanos;62;456755;516023
+Estados Unidos Mexicanos;63;431407;488413
+Estados Unidos Mexicanos;64;395100;453472
+Estados Unidos Mexicanos;65;462245;520856
+Estados Unidos Mexicanos;66;316121;363669
+Estados Unidos Mexicanos;67;316743;350108
+Estados Unidos Mexicanos;68;349542;404171
+Estados Unidos Mexicanos;69;262199;299423
+Estados Unidos Mexicanos;70;332464;383782
+Estados Unidos Mexicanos;71;194181;219326
+Estados Unidos Mexicanos;72;272830;307181
+Estados Unidos Mexicanos;73;223788;256636
+Estados Unidos Mexicanos;74;210229;246923
+Estados Unidos Mexicanos;75;219479;250636
+Estados Unidos Mexicanos;76;178282;205385
+Estados Unidos Mexicanos;77;148489;168928
+Estados Unidos Mexicanos;78;171128;191770
+Estados Unidos Mexicanos;79;130520;149965
+Estados Unidos Mexicanos;80;156170;192832
+Estados Unidos Mexicanos;81;83368;98336
+Estados Unidos Mexicanos;82;102905;127145
+Estados Unidos Mexicanos;83;92350;118019
+Estados Unidos Mexicanos;84;89019;115220
+Estados Unidos Mexicanos;85;82532;107237
+Estados Unidos Mexicanos;86;65151;85514
+Estados Unidos Mexicanos;87;52994;70759
+Estados Unidos Mexicanos;88;43694;58161
+Estados Unidos Mexicanos;89;38980;54223
+Estados Unidos Mexicanos;90;39510;56749
+Estados Unidos Mexicanos;91;17136;25149
+Estados Unidos Mexicanos;92;20213;30231
+Estados Unidos Mexicanos;93;16679;25074
+Estados Unidos Mexicanos;94;13820;22245
+Estados Unidos Mexicanos;95;11533;18384
+Estados Unidos Mexicanos;96;8984;13720
+Estados Unidos Mexicanos;97;6309;10227
+Estados Unidos Mexicanos;98;5892;9560
+Estados Unidos Mexicanos;99;3897;6699
+Estados Unidos Mexicanos;100 y más;6644;11651
+Aguascalientes;0;11412;10893
+Aguascalientes;1;11878;11882
+Aguascalientes;2;12970;12829
+Aguascalientes;3;13406;13011
+Aguascalientes;4;13312;12837
+Aguascalientes;5;13436;12831
+Aguascalientes;6;13100;12980
+Aguascalientes;7;13381;13132
+Aguascalientes;8;13632;13018
+Aguascalientes;9;12810;12728
+Aguascalientes;10;13690;13151
+Aguascalientes;11;12781;12280
+Aguascalientes;12;13640;12995
+Aguascalientes;13;12890;12482
+Aguascalientes;14;13079;12729
+Aguascalientes;15;13166;12642
+Aguascalientes;16;12938;12357
+Aguascalientes;17;13738;13299
+Aguascalientes;18;14344;13884
+Aguascalientes;19;12717;12882
+Aguascalientes;20;13788;13935
+Aguascalientes;21;12076;12210
+Aguascalientes;22;12865;12805
+Aguascalientes;23;12311;12422
+Aguascalientes;24;12114;12494
+Aguascalientes;25;12709;13148
+Aguascalientes;26;11531;12235
+Aguascalientes;27;11498;11746
+Aguascalientes;28;11639;11985
+Aguascalientes;29;10764;11171
+Aguascalientes;30;12498;13212
+Aguascalientes;31;8885;9610
+Aguascalientes;32;10748;11376
+Aguascalientes;33;9899;10477
+Aguascalientes;34;9621;10499
+Aguascalientes;35;10139;10889
+Aguascalientes;36;9741;10412
+Aguascalientes;37;8866;9563
+Aguascalientes;38;10157;10892
+Aguascalientes;39;8871;9727
+Aguascalientes;40;10559;11738
+Aguascalientes;41;7499;8197
+Aguascalientes;42;9772;10706
+Aguascalientes;43;8609;9439
+Aguascalientes;44;7400;8459
+Aguascalientes;45;9530;10213
+Aguascalientes;46;7966;8871
+Aguascalientes;47;7789;8512
+Aguascalientes;48;7703;8744
+Aguascalientes;49;7175;8166
+Aguascalientes;50;8736;9902
+Aguascalientes;51;5809;6545
+Aguascalientes;52;7467;8368
+Aguascalientes;53;6339;7397
+Aguascalientes;54;6260;7298
+Aguascalientes;55;6367;7093
+Aguascalientes;56;6081;6786
+Aguascalientes;57;5101;5903
+Aguascalientes;58;5064;5871
+Aguascalientes;59;4995;5604
+Aguascalientes;60;5958;6960
+Aguascalientes;61;3662;4266
+Aguascalientes;62;4618;5297
+Aguascalientes;63;4324;4976
+Aguascalientes;64;3873;4372
+Aguascalientes;65;4407;5076
+Aguascalientes;66;3192;3773
+Aguascalientes;67;3197;3457
+Aguascalientes;68;3275;3809
+Aguascalientes;69;2627;3010
+Aguascalientes;70;2970;3591
+Aguascalientes;71;1937;2246
+Aguascalientes;72;2620;3061
+Aguascalientes;73;2187;2450
+Aguascalientes;74;2068;2456
+Aguascalientes;75;2011;2273
+Aguascalientes;76;1667;1966
+Aguascalientes;77;1414;1648
+Aguascalientes;78;1474;1624
+Aguascalientes;79;1173;1331
+Aguascalientes;80;1234;1623
+Aguascalientes;81;754;927
+Aguascalientes;82;855;1200
+Aguascalientes;83;761;1040
+Aguascalientes;84;793;999
+Aguascalientes;85;686;878
+Aguascalientes;86;529;746
+Aguascalientes;87;466;599
+Aguascalientes;88;360;513
+Aguascalientes;89;319;480
+Aguascalientes;90;337;482
+Aguascalientes;91;158;226
+Aguascalientes;92;170;301
+Aguascalientes;93;148;256
+Aguascalientes;94;129;203
+Aguascalientes;95;93;165
+Aguascalientes;96;72;118
+Aguascalientes;97;53;85
+Aguascalientes;98;39;94
+Aguascalientes;99;27;50
+Aguascalientes;100 y más;36;76
+Baja California;0;22543;22311
+Baja California;1;25084;24216
+Baja California;2;28320;27483
+Baja California;3;28971;28738
+Baja California;4;29492;29143
+Baja California;5;30199;28743
+Baja California;6;29879;29207
+Baja California;7;30345;29462
+Baja California;8;32661;30615
+Baja California;9;29525;29018
+Baja California;10;33647;32061
+Baja California;11;30377;29141
+Baja California;12;33043;31953
+Baja California;13;31193;30225
+Baja California;14;31046;29662
+Baja California;15;31732;30437
+Baja California;16;30560;28897
+Baja California;17;31583;30381
+Baja California;18;35770;33796
+Baja California;19;31653;30830
+Baja California;20;37169;36028
+Baja California;21;33032;31231
+Baja California;22;35232;33831
+Baja California;23;34335;33206
+Baja California;24;33682;32613
+Baja California;25;37020;35958
+Baja California;26;32408;32275
+Baja California;27;32221;31066
+Baja California;28;34997;33422
+Baja California;29;29604;29273
+Baja California;30;39851;38642
+Baja California;31;24307;24585
+Baja California;32;32941;32066
+Baja California;33;27673;28070
+Baja California;34;27392;26862
+Baja California;35;33966;32874
+Baja California;36;29942;29496
+Baja California;37;25030;24584
+Baja California;38;32888;31043
+Baja California;39;26343;25903
+Baja California;40;36829;35745
+Baja California;41;21240;21058
+Baja California;42;32263;30288
+Baja California;43;25761;25704
+Baja California;44;22239;22484
+Baja California;45;33758;31424
+Baja California;46;24851;24068
+Baja California;47;25289;23598
+Baja California;48;27159;25194
+Baja California;49;23130;22373
+Baja California;50;31795;29678
+Baja California;51;17654;17230
+Baja California;52;24224;22829
+Baja California;53;19609;19131
+Baja California;54;19507;19731
+Baja California;55;20474;19636
+Baja California;56;18767;18373
+Baja California;57;15106;15028
+Baja California;58;16472;16472
+Baja California;59;13959;14366
+Baja California;60;19094;19416
+Baja California;61;9815;10581
+Baja California;62;13518;14083
+Baja California;63;12145;13000
+Baja California;64;10715;11655
+Baja California;65;12865;14029
+Baja California;66;8292;9163
+Baja California;67;8125;8861
+Baja California;68;8957;10087
+Baja California;69;6743;7582
+Baja California;70;8588;9556
+Baja California;71;4905;5465
+Baja California;72;6890;7658
+Baja California;73;5457;6203
+Baja California;74;4972;5731
+Baja California;75;5200;5849
+Baja California;76;3933;4686
+Baja California;77;3262;3923
+Baja California;78;3734;4274
+Baja California;79;2704;3309
+Baja California;80;3402;4354
+Baja California;81;1816;2236
+Baja California;82;2245;2734
+Baja California;83;1865;2477
+Baja California;84;1732;2343
+Baja California;85;1532;2036
+Baja California;86;1175;1674
+Baja California;87;1000;1367
+Baja California;88;864;1103
+Baja California;89;706;994
+Baja California;90;731;1036
+Baja California;91;308;476
+Baja California;92;325;594
+Baja California;93;313;459
+Baja California;94;220;396
+Baja California;95;178;294
+Baja California;96;112;250
+Baja California;97;109;172
+Baja California;98;72;172
+Baja California;99;51;102
+Baja California;100 y más;81;171
+Baja California Sur;0;5730;5606
+Baja California Sur;1;5956;5926
+Baja California Sur;2;6456;6289
+Baja California Sur;3;6494;6470
+Baja California Sur;4;6843;6685
+Baja California Sur;5;6826;6552
+Baja California Sur;6;6526;6453
+Baja California Sur;7;6841;6555
+Baja California Sur;8;6977;6729
+Baja California Sur;9;6792;6682
+Baja California Sur;10;7430;6879
+Baja California Sur;11;6886;6726
+Baja California Sur;12;7073;6851
+Baja California Sur;13;6602;6449
+Baja California Sur;14;6464;6305
+Baja California Sur;15;6808;6365
+Baja California Sur;16;6578;6204
+Baja California Sur;17;7042;6579
+Baja California Sur;18;7118;6624
+Baja California Sur;19;6242;5909
+Baja California Sur;20;7272;6866
+Baja California Sur;21;6386;5699
+Baja California Sur;22;7006;6519
+Baja California Sur;23;6877;6618
+Baja California Sur;24;6877;6623
+Baja California Sur;25;7471;7226
+Baja California Sur;26;6795;6682
+Baja California Sur;27;6926;6739
+Baja California Sur;28;7197;6616
+Baja California Sur;29;6657;6489
+Baja California Sur;30;8770;8035
+Baja California Sur;31;5617;5618
+Baja California Sur;32;7435;7135
+Baja California Sur;33;6449;6266
+Baja California Sur;34;6382;6072
+Baja California Sur;35;7273;6879
+Baja California Sur;36;6637;6574
+Baja California Sur;37;5965;5647
+Baja California Sur;38;7252;6671
+Baja California Sur;39;6162;5867
+Baja California Sur;40;7944;7543
+Baja California Sur;41;4921;4684
+Baja California Sur;42;6848;6223
+Baja California Sur;43;5750;5585
+Baja California Sur;44;4927;4964
+Baja California Sur;45;6512;5960
+Baja California Sur;46;4994;4876
+Baja California Sur;47;5107;4744
+Baja California Sur;48;5340;4971
+Baja California Sur;49;4765;4502
+Baja California Sur;50;5904;5650
+Baja California Sur;51;3513;3477
+Baja California Sur;52;4627;4506
+Baja California Sur;53;4014;3857
+Baja California Sur;54;3852;3937
+Baja California Sur;55;3831;3896
+Baja California Sur;56;3715;3595
+Baja California Sur;57;3067;3029
+Baja California Sur;58;3274;3274
+Baja California Sur;59;3018;3032
+Baja California Sur;60;3799;3847
+Baja California Sur;61;2178;2198
+Baja California Sur;62;2619;2780
+Baja California Sur;63;2604;2557
+Baja California Sur;64;2215;2298
+Baja California Sur;65;2610;2631
+Baja California Sur;66;1864;1959
+Baja California Sur;67;1830;1748
+Baja California Sur;68;1823;1817
+Baja California Sur;69;1460;1532
+Baja California Sur;70;1637;1763
+Baja California Sur;71;1018;1082
+Baja California Sur;72;1380;1391
+Baja California Sur;73;1122;1087
+Baja California Sur;74;1008;1057
+Baja California Sur;75;1111;1107
+Baja California Sur;76;866;897
+Baja California Sur;77;668;752
+Baja California Sur;78;756;771
+Baja California Sur;79;583;655
+Baja California Sur;80;637;719
+Baja California Sur;81;369;442
+Baja California Sur;82;403;475
+Baja California Sur;83;375;458
+Baja California Sur;84;350;421
+Baja California Sur;85;329;378
+Baja California Sur;86;241;318
+Baja California Sur;87;243;268
+Baja California Sur;88;206;226
+Baja California Sur;89;146;201
+Baja California Sur;90;125;177
+Baja California Sur;91;74;89
+Baja California Sur;92;63;135
+Baja California Sur;93;67;96
+Baja California Sur;94;38;72
+Baja California Sur;95;36;64
+Baja California Sur;96;27;52
+Baja California Sur;97;22;35
+Baja California Sur;98;21;28
+Baja California Sur;99;12;35
+Baja California Sur;100 y más;18;37
+Campeche;0;7181;7120
+Campeche;1;7828;7600
+Campeche;2;8026;7786
+Campeche;3;8405;8139
+Campeche;4;8377;8473
+Campeche;5;8472;8238
+Campeche;6;8403;7892
+Campeche;7;8281;8131
+Campeche;8;8414;8155
+Campeche;9;8054;7975
+Campeche;10;8762;8346
+Campeche;11;8088;7588
+Campeche;12;8377;7876
+Campeche;13;7964;7643
+Campeche;14;7856;7668
+Campeche;15;7944;7754
+Campeche;16;7351;7148
+Campeche;17;7915;7650
+Campeche;18;8313;8011
+Campeche;19;6945;7109
+Campeche;20;8034;8359
+Campeche;21;6798;6705
+Campeche;22;7643;7599
+Campeche;23;7324;7680
+Campeche;24;7478;7936
+Campeche;25;7562;8012
+Campeche;26;6881;7466
+Campeche;27;6942;7488
+Campeche;28;7117;7522
+Campeche;29;6544;7264
+Campeche;30;8681;9485
+Campeche;31;5695;6313
+Campeche;32;7282;7914
+Campeche;33;6577;7458
+Campeche;34;6322;6982
+Campeche;35;7397;8037
+Campeche;36;6761;7511
+Campeche;37;6007;6442
+Campeche;38;7339;7957
+Campeche;39;6107;6717
+Campeche;40;8081;8761
+Campeche;41;4632;5117
+Campeche;42;7017;7406
+Campeche;43;5767;6486
+Campeche;44;5264;5639
+Campeche;45;6666;7159
+Campeche;46;5340;5638
+Campeche;47;5247;5449
+Campeche;48;5643;5915
+Campeche;49;5140;5431
+Campeche;50;6459;6751
+Campeche;51;3781;4005
+Campeche;52;5142;5376
+Campeche;53;4533;4755
+Campeche;54;4477;4975
+Campeche;55;4585;4822
+Campeche;56;4326;4464
+Campeche;57;3577;3835
+Campeche;58;3810;4094
+Campeche;59;3559;3733
+Campeche;60;4491;4591
+Campeche;61;2358;2613
+Campeche;62;3164;3323
+Campeche;63;3077;3222
+Campeche;64;2930;3009
+Campeche;65;3387;3531
+Campeche;66;2371;2571
+Campeche;67;2380;2518
+Campeche;68;2518;2774
+Campeche;69;1874;1872
+Campeche;70;2424;2618
+Campeche;71;1307;1338
+Campeche;72;1857;1909
+Campeche;73;1611;1534
+Campeche;74;1469;1492
+Campeche;75;1520;1505
+Campeche;76;1227;1242
+Campeche;77;1036;1041
+Campeche;78;1285;1244
+Campeche;79;916;900
+Campeche;80;1170;1197
+Campeche;81;591;564
+Campeche;82;686;710
+Campeche;83;615;702
+Campeche;84;656;645
+Campeche;85;551;609
+Campeche;86;487;503
+Campeche;87;422;464
+Campeche;88;362;356
+Campeche;89;291;368
+Campeche;90;339;357
+Campeche;91;110;134
+Campeche;92;170;177
+Campeche;93;129;146
+Campeche;94;84;122
+Campeche;95;107;108
+Campeche;96;84;77
+Campeche;97;56;65
+Campeche;98;70;53
+Campeche;99;36;45
+Campeche;100 y más;78;71
+Coahuila de Zaragoza;0;25108;24990
+Coahuila de Zaragoza;1;27507;26123
+Coahuila de Zaragoza;2;28658;27982
+Coahuila de Zaragoza;3;30089;29217
+Coahuila de Zaragoza;4;30450;29788
+Coahuila de Zaragoza;5;29683;28464
+Coahuila de Zaragoza;6;28015;27294
+Coahuila de Zaragoza;7;28004;27461
+Coahuila de Zaragoza;8;28860;27161
+Coahuila de Zaragoza;9;25855;25427
+Coahuila de Zaragoza;10;29322;27745
+Coahuila de Zaragoza;11;26467;25501
+Coahuila de Zaragoza;12;28003;26753
+Coahuila de Zaragoza;13;25967;26067
+Coahuila de Zaragoza;14;26542;25777
+Coahuila de Zaragoza;15;26815;26029
+Coahuila de Zaragoza;16;26118;25103
+Coahuila de Zaragoza;17;27729;26767
+Coahuila de Zaragoza;18;30553;29118
+Coahuila de Zaragoza;19;25635;25417
+Coahuila de Zaragoza;20;29557;29152
+Coahuila de Zaragoza;21;25394;24534
+Coahuila de Zaragoza;22;27183;26101
+Coahuila de Zaragoza;23;26082;25224
+Coahuila de Zaragoza;24;25443;25643
+Coahuila de Zaragoza;25;26890;27304
+Coahuila de Zaragoza;26;24414;25098
+Coahuila de Zaragoza;27;24332;23690
+Coahuila de Zaragoza;28;24958;25217
+Coahuila de Zaragoza;29;21976;22038
+Coahuila de Zaragoza;30;27252;27867
+Coahuila de Zaragoza;31;18651;19390
+Coahuila de Zaragoza;32;23602;24045
+Coahuila de Zaragoza;33;20857;21501
+Coahuila de Zaragoza;34;20520;20644
+Coahuila de Zaragoza;35;23880;23996
+Coahuila de Zaragoza;36;21759;22702
+Coahuila de Zaragoza;37;19627;19882
+Coahuila de Zaragoza;38;23788;23190
+Coahuila de Zaragoza;39;20317;20493
+Coahuila de Zaragoza;40;26716;27456
+Coahuila de Zaragoza;41;17033;18017
+Coahuila de Zaragoza;42;24480;25463
+Coahuila de Zaragoza;43;21136;21812
+Coahuila de Zaragoza;44;17626;18948
+Coahuila de Zaragoza;45;24237;24561
+Coahuila de Zaragoza;46;18958;20273
+Coahuila de Zaragoza;47;19327;20121
+Coahuila de Zaragoza;48;20190;20751
+Coahuila de Zaragoza;49;18134;18650
+Coahuila de Zaragoza;50;22827;23782
+Coahuila de Zaragoza;51;13536;14673
+Coahuila de Zaragoza;52;18264;19308
+Coahuila de Zaragoza;53;15945;16714
+Coahuila de Zaragoza;54;15851;17314
+Coahuila de Zaragoza;55;15598;17106
+Coahuila de Zaragoza;56;14829;15606
+Coahuila de Zaragoza;57;12377;12832
+Coahuila de Zaragoza;58;13750;14461
+Coahuila de Zaragoza;59;12561;13095
+Coahuila de Zaragoza;60;15821;17230
+Coahuila de Zaragoza;61;9095;9828
+Coahuila de Zaragoza;62;11683;12500
+Coahuila de Zaragoza;63;10970;11706
+Coahuila de Zaragoza;64;9738;10379
+Coahuila de Zaragoza;65;10810;11597
+Coahuila de Zaragoza;66;7449;8123
+Coahuila de Zaragoza;67;7494;7725
+Coahuila de Zaragoza;68;8503;9416
+Coahuila de Zaragoza;69;6374;6931
+Coahuila de Zaragoza;70;7786;8592
+Coahuila de Zaragoza;71;4773;5196
+Coahuila de Zaragoza;72;6527;7216
+Coahuila de Zaragoza;73;5360;5772
+Coahuila de Zaragoza;74;5012;5450
+Coahuila de Zaragoza;75;4994;5470
+Coahuila de Zaragoza;76;4082;4505
+Coahuila de Zaragoza;77;3304;3726
+Coahuila de Zaragoza;78;3737;4097
+Coahuila de Zaragoza;79;2719;3167
+Coahuila de Zaragoza;80;3323;3945
+Coahuila de Zaragoza;81;1784;2146
+Coahuila de Zaragoza;82;2259;2698
+Coahuila de Zaragoza;83;1992;2552
+Coahuila de Zaragoza;84;1841;2311
+Coahuila de Zaragoza;85;1565;2044
+Coahuila de Zaragoza;86;1356;1631
+Coahuila de Zaragoza;87;1069;1276
+Coahuila de Zaragoza;88;825;1066
+Coahuila de Zaragoza;89;688;975
+Coahuila de Zaragoza;90;616;966
+Coahuila de Zaragoza;91;324;506
+Coahuila de Zaragoza;92;393;555
+Coahuila de Zaragoza;93;288;457
+Coahuila de Zaragoza;94;205;402
+Coahuila de Zaragoza;95;170;294
+Coahuila de Zaragoza;96;129;235
+Coahuila de Zaragoza;97;96;149
+Coahuila de Zaragoza;98;93;130
+Coahuila de Zaragoza;99;41;71
+Coahuila de Zaragoza;100 y más;70;144
+Colima;0;4714;4559
+Colima;1;4985;4712
+Colima;2;5432;5212
+Colima;3;5469;5618
+Colima;4;5932;5680
+Colima;5;6043;5727
+Colima;6;6012;5799
+Colima;7;6046;5900
+Colima;8;6385;6153
+Colima;9;6160;5824
+Colima;10;6475;6299
+Colima;11;6043;5848
+Colima;12;6388;6129
+Colima;13;6001;5684
+Colima;14;6045;5889
+Colima;15;6294;6132
+Colima;16;5894;5741
+Colima;17;6266;5912
+Colima;18;6571;6428
+Colima;19;5642;5783
+Colima;20;6519;6308
+Colima;21;5517;5582
+Colima;22;5984;5931
+Colima;23;5785;5927
+Colima;24;5832;5958
+Colima;25;6065;6355
+Colima;26;5594;5588
+Colima;27;5740;5814
+Colima;28;5823;5973
+Colima;29;5362;5721
+Colima;30;6752;7115
+Colima;31;4535;5014
+Colima;32;5869;6240
+Colima;33;5344;5846
+Colima;34;5188;5533
+Colima;35;5975;6188
+Colima;36;5320;5728
+Colima;37;4747;4977
+Colima;38;5642;5895
+Colima;39;4950;5144
+Colima;40;6221;6593
+Colima;41;3913;4259
+Colima;42;5598;5938
+Colima;43;4815;5078
+Colima;44;4239;4525
+Colima;45;5466;5670
+Colima;46;4396;4610
+Colima;47;4464;4462
+Colima;48;4630;4682
+Colima;49;4191;4562
+Colima;50;5170;5538
+Colima;51;3190;3434
+Colima;52;4284;4534
+Colima;53;3640;3932
+Colima;54;3753;4066
+Colima;55;3764;4175
+Colima;56;3664;3834
+Colima;57;3090;3211
+Colima;58;3263;3492
+Colima;59;3062;3264
+Colima;60;3885;4153
+Colima;61;2251;2471
+Colima;62;3022;3138
+Colima;63;2781;2977
+Colima;64;2534;2583
+Colima;65;2804;2977
+Colima;66;2008;2246
+Colima;67;1999;2105
+Colima;68;2138;2308
+Colima;69;1653;1833
+Colima;70;2045;2218
+Colima;71;1250;1305
+Colima;72;1716;1850
+Colima;73;1433;1575
+Colima;74;1266;1428
+Colima;75;1349;1535
+Colima;76;1057;1144
+Colima;77;908;1010
+Colima;78;987;1122
+Colima;79;800;891
+Colima;80;935;995
+Colima;81;503;599
+Colima;82;593;761
+Colima;83;512;678
+Colima;84;560;723
+Colima;85;421;550
+Colima;86;392;467
+Colima;87;278;392
+Colima;88;255;340
+Colima;89;215;313
+Colima;90;237;338
+Colima;91;103;129
+Colima;92;117;169
+Colima;93;108;159
+Colima;94;90;121
+Colima;95;66;104
+Colima;96;71;94
+Colima;97;45;84
+Colima;98;30;42
+Colima;99;24;41
+Colima;100 y más;53;95
+Chiapas;0;56560;55187
+Chiapas;1;55123;54751
+Chiapas;2;56480;55954
+Chiapas;3;58741;58674
+Chiapas;4;62007;60675
+Chiapas;5;62473;60836
+Chiapas;6;59685;59512
+Chiapas;7;62351;60792
+Chiapas;8;64837;63454
+Chiapas;9;59412;59440
+Chiapas;10;65359;63511
+Chiapas;11;56761;55485
+Chiapas;12;61490;58739
+Chiapas;13;55540;55023
+Chiapas;14;55964;55260
+Chiapas;15;55095;55005
+Chiapas;16;51911;51572
+Chiapas;17;55338;54429
+Chiapas;18;55751;55877
+Chiapas;19;44426;47173
+Chiapas;20;52274;55533
+Chiapas;21;38359;40698
+Chiapas;22;45895;48398
+Chiapas;23;44158;48126
+Chiapas;24;43046;48036
+Chiapas;25;44817;49976
+Chiapas;26;38140;44299
+Chiapas;27;38703;43262
+Chiapas;28;40485;46135
+Chiapas;29;36310;42276
+Chiapas;30;50630;56653
+Chiapas;31;27836;32472
+Chiapas;32;39356;45048
+Chiapas;33;33137;39475
+Chiapas;34;33802;37636
+Chiapas;35;39814;44610
+Chiapas;36;33436;39043
+Chiapas;37;30522;34745
+Chiapas;38;38963;43738
+Chiapas;39;31535;36457
+Chiapas;40;46528;50303
+Chiapas;41;21845;24511
+Chiapas;42;35521;38290
+Chiapas;43;27933;31978
+Chiapas;44;24645;27650
+Chiapas;45;34367;36517
+Chiapas;46;24227;27161
+Chiapas;47;24873;26778
+Chiapas;48;28357;31313
+Chiapas;49;23985;26755
+Chiapas;50;34218;36525
+Chiapas;51;16812;17780
+Chiapas;52;24428;25836
+Chiapas;53;20662;22867
+Chiapas;54;21037;23683
+Chiapas;55;23171;25208
+Chiapas;56;20571;21407
+Chiapas;57;16307;17489
+Chiapas;58;18674;20300
+Chiapas;59;16182;17046
+Chiapas;60;24307;25097
+Chiapas;61;10696;11050
+Chiapas;62;14292;14757
+Chiapas;63;14096;14994
+Chiapas;64;14277;15160
+Chiapas;65;18098;18833
+Chiapas;66;11533;11871
+Chiapas;67;11279;11150
+Chiapas;68;12719;13332
+Chiapas;69;8406;8556
+Chiapas;70;14218;14458
+Chiapas;71;5779;5401
+Chiapas;72;8931;8506
+Chiapas;73;7152;7040
+Chiapas;74;7039;7331
+Chiapas;75;8779;8913
+Chiapas;76;6357;6077
+Chiapas;77;5379;5378
+Chiapas;78;6929;6532
+Chiapas;79;4527;4287
+Chiapas;80;7035;7442
+Chiapas;81;2675;2446
+Chiapas;82;3339;3270
+Chiapas;83;2974;3030
+Chiapas;84;3024;3010
+Chiapas;85;3414;3552
+Chiapas;86;2166;2325
+Chiapas;87;1911;2008
+Chiapas;88;1693;1773
+Chiapas;89;1454;1543
+Chiapas;90;1977;2146
+Chiapas;91;592;591
+Chiapas;92;696;685
+Chiapas;93;555;601
+Chiapas;94;480;530
+Chiapas;95;575;710
+Chiapas;96;372;433
+Chiapas;97;275;294
+Chiapas;98;319;388
+Chiapas;99;211;278
+Chiapas;100 y más;651;798
+Chihuahua;0;25323;24635
+Chihuahua;1;27385;26001
+Chihuahua;2;30776;29830
+Chihuahua;3;31879;31651
+Chihuahua;4;32247;31559
+Chihuahua;5;33035;31335
+Chihuahua;6;31596;30981
+Chihuahua;7;31616;30976
+Chihuahua;8;33957;32364
+Chihuahua;9;30978;30484
+Chihuahua;10;35513;33840
+Chihuahua;11;32372;31230
+Chihuahua;12;35572;34022
+Chihuahua;13;33246;32288
+Chihuahua;14;32912;32720
+Chihuahua;15;33734;32563
+Chihuahua;16;32229;31237
+Chihuahua;17;33406;32045
+Chihuahua;18;35605;34111
+Chihuahua;19;30968;30435
+Chihuahua;20;35240;34840
+Chihuahua;21;30377;29934
+Chihuahua;22;31799;31352
+Chihuahua;23;30324;30513
+Chihuahua;24;29541;30147
+Chihuahua;25;32360;32597
+Chihuahua;26;29006;29971
+Chihuahua;27;28643;29352
+Chihuahua;28;30612;30564
+Chihuahua;29;27223;27971
+Chihuahua;30;34444;34942
+Chihuahua;31;22489;23757
+Chihuahua;32;29176;29803
+Chihuahua;33;24665;25923
+Chihuahua;34;24875;25570
+Chihuahua;35;29094;29550
+Chihuahua;36;26832;27320
+Chihuahua;37;23056;23713
+Chihuahua;38;28349;28338
+Chihuahua;39;23281;24136
+Chihuahua;40;31448;31386
+Chihuahua;41;19424;20605
+Chihuahua;42;28396;28342
+Chihuahua;43;24177;24892
+Chihuahua;44;20909;22404
+Chihuahua;45;29508;29356
+Chihuahua;46;23183;24201
+Chihuahua;47;23718;24175
+Chihuahua;48;24998;25178
+Chihuahua;49;21831;22374
+Chihuahua;50;28491;29124
+Chihuahua;51;17282;17824
+Chihuahua;52;23117;23948
+Chihuahua;53;19497;20256
+Chihuahua;54;19217;21174
+Chihuahua;55;19465;20475
+Chihuahua;56;18604;19328
+Chihuahua;57;14941;16186
+Chihuahua;58;16458;17788
+Chihuahua;59;14560;15834
+Chihuahua;60;18772;20686
+Chihuahua;61;10600;11943
+Chihuahua;62;13596;15312
+Chihuahua;63;12572;13973
+Chihuahua;64;10990;12417
+Chihuahua;65;13170;14514
+Chihuahua;66;8695;9727
+Chihuahua;67;8333;9593
+Chihuahua;68;9740;11480
+Chihuahua;69;7315;8377
+Chihuahua;70;9040;10669
+Chihuahua;71;5605;6443
+Chihuahua;72;7721;8826
+Chihuahua;73;6080;6956
+Chihuahua;74;5741;6937
+Chihuahua;75;6222;6955
+Chihuahua;76;4840;5651
+Chihuahua;77;4186;4936
+Chihuahua;78;4671;5198
+Chihuahua;79;3554;4052
+Chihuahua;80;4386;5211
+Chihuahua;81;2315;2767
+Chihuahua;82;2861;3356
+Chihuahua;83;2462;2993
+Chihuahua;84;2249;2787
+Chihuahua;85;2027;2596
+Chihuahua;86;1508;2009
+Chihuahua;87;1274;1600
+Chihuahua;88;960;1271
+Chihuahua;89;816;1189
+Chihuahua;90;768;1113
+Chihuahua;91;397;557
+Chihuahua;92;369;630
+Chihuahua;93;324;523
+Chihuahua;94;272;423
+Chihuahua;95;188;322
+Chihuahua;96;126;218
+Chihuahua;97;94;143
+Chihuahua;98;79;161
+Chihuahua;99;44;102
+Chihuahua;100 y más;88;155
+Ciudad de México;0;41310;40226
+Ciudad de México;1;45221;43904
+Ciudad de México;2;48900;47590
+Ciudad de México;3;52090;51251
+Ciudad de México;4;55356;54056
+Ciudad de México;5;57159;55030
+Ciudad de México;6;55516;53875
+Ciudad de México;7;57012;55861
+Ciudad de México;8;60489;57965
+Ciudad de México;9;56104;54896
+Ciudad de México;10;64608;61279
+Ciudad de México;11;58410;56711
+Ciudad de México;12;63974;61967
+Ciudad de México;13;60848;59275
+Ciudad de México;14;61300;60590
+Ciudad de México;15;65006;62334
+Ciudad de México;16;62331;60084
+Ciudad de México;17;66533;64520
+Ciudad de México;18;73588;70109
+Ciudad de México;19;63651;62233
+Ciudad de México;20;76925;75958
+Ciudad de México;21;65672;63366
+Ciudad de México;22;74544;73838
+Ciudad de México;23;70595;70487
+Ciudad de México;24;71313;71907
+Ciudad de México;25;80604;82156
+Ciudad de México;26;72543;75073
+Ciudad de México;27;72799;73558
+Ciudad de México;28;78713;79210
+Ciudad de México;29;67422;70211
+Ciudad de México;30;93636;96487
+Ciudad de México;31;58262;61406
+Ciudad de México;32;76596;81325
+Ciudad de México;33;69087;71917
+Ciudad de México;34;65867;69028
+Ciudad de México;35;79816;83962
+Ciudad de México;36;69313;74894
+Ciudad de México;37;59249;63323
+Ciudad de México;38;73832;78075
+Ciudad de México;39;58335;65051
+Ciudad de México;40;84548;93207
+Ciudad de México;41;47909;52961
+Ciudad de México;42;72053;79888
+Ciudad de México;43;59009;67136
+Ciudad de México;44;53793;59803
+Ciudad de México;45;76780;85039
+Ciudad de México;46;59347;67815
+Ciudad de México;47;59267;66846
+Ciudad de México;48;62654;70838
+Ciudad de México;49;55798;64561
+Ciudad de México;50;78192;90453
+Ciudad de México;51;44170;52346
+Ciudad de México;52;61913;71488
+Ciudad de México;53;51249;60175
+Ciudad de México;54;50870;62627
+Ciudad de México;55;54300;64480
+Ciudad de México;56;53456;62816
+Ciudad de México;57;42393;51342
+Ciudad de México;58;47237;56724
+Ciudad de México;59;42265;51434
+Ciudad de México;60;58093;71077
+Ciudad de México;61;32496;41209
+Ciudad de México;62;42892;53188
+Ciudad de México;63;39272;49053
+Ciudad de México;64;36312;45922
+Ciudad de México;65;43113;53921
+Ciudad de México;66;28731;36329
+Ciudad de México;67;28729;35548
+Ciudad de México;68;32104;41388
+Ciudad de México;69;24568;31765
+Ciudad de México;70;30427;39622
+Ciudad de México;71;18884;24810
+Ciudad de México;72;25900;34010
+Ciudad de México;73;20874;27899
+Ciudad de México;74;19045;26273
+Ciudad de México;75;19520;26465
+Ciudad de México;76;15886;21929
+Ciudad de México;77;12771;17303
+Ciudad de México;78;14343;19452
+Ciudad de México;79;11690;15856
+Ciudad de México;80;13077;19828
+Ciudad de México;81;7766;11338
+Ciudad de México;82;9590;14355
+Ciudad de México;83;8218;13339
+Ciudad de México;84;7443;12526
+Ciudad de México;85;7128;11877
+Ciudad de México;86;5611;9511
+Ciudad de México;87;4590;8108
+Ciudad de México;88;3589;6379
+Ciudad de México;89;3360;6163
+Ciudad de México;90;3224;6244
+Ciudad de México;91;1618;3322
+Ciudad de México;92;1858;4034
+Ciudad de México;93;1447;3167
+Ciudad de México;94;1161;2705
+Ciudad de México;95;894;2040
+Ciudad de México;96;678;1482
+Ciudad de México;97;507;1214
+Ciudad de México;98;418;999
+Ciudad de México;99;228;606
+Ciudad de México;100 y más;357;951
+Durango;0;15034;14631
+Durango;1;16070;15679
+Durango;2;17485;16894
+Durango;3;18140;17488
+Durango;4;18352;17827
+Durango;5;18468;17666
+Durango;6;17595;16936
+Durango;7;17927;16988
+Durango;8;18645;17672
+Durango;9;17181;16955
+Durango;10;18755;17883
+Durango;11;16940;16143
+Durango;12;17642;16948
+Durango;13;16641;16504
+Durango;14;16786;16029
+Durango;15;16904;16153
+Durango;16;16093;15749
+Durango;17;16996;16547
+Durango;18;17820;16722
+Durango;19;15026;14980
+Durango;20;16930;16814
+Durango;21;14634;14611
+Durango;22;15986;15543
+Durango;23;14773;14722
+Durango;24;14613;14962
+Durango;25;15111;15550
+Durango;26;13529;14479
+Durango;27;13692;14055
+Durango;28;13928;14585
+Durango;29;12778;13400
+Durango;30;15585;16182
+Durango;31;11040;11680
+Durango;32;13313;13945
+Durango;33;11727;12371
+Durango;34;11567;12116
+Durango;35;12567;13439
+Durango;36;11511;12624
+Durango;37;10502;11035
+Durango;38;12381;12731
+Durango;39;10673;11367
+Durango;40;13723;14283
+Durango;41;8965;9574
+Durango;42;12862;13278
+Durango;43;10721;11722
+Durango;44;9507;10341
+Durango;45;12223;12994
+Durango;46;10061;10694
+Durango;47;10184;10768
+Durango;48;10373;10963
+Durango;49;9468;10342
+Durango;50;11617;12618
+Durango;51;7274;8252
+Durango;52;9860;10793
+Durango;53;8587;9525
+Durango;54;8642;9841
+Durango;55;8674;9432
+Durango;56;8322;8837
+Durango;57;6943;7729
+Durango;58;7238;8283
+Durango;59;6794;7745
+Durango;60;8652;9449
+Durango;61;4834;5327
+Durango;62;6515;7291
+Durango;63;6028;6625
+Durango;64;5606;6209
+Durango;65;6189;6707
+Durango;66;4390;4933
+Durango;67;4422;4621
+Durango;68;4955;5613
+Durango;69;3802;4095
+Durango;70;4748;5008
+Durango;71;2751;2994
+Durango;72;3897;4278
+Durango;73;3203;3510
+Durango;74;3159;3408
+Durango;75;3151;3414
+Durango;76;2579;2944
+Durango;77;2329;2279
+Durango;78;2572;2508
+Durango;79;1962;1951
+Durango;80;2284;2560
+Durango;81;1277;1379
+Durango;82;1628;1790
+Durango;83;1440;1639
+Durango;84;1429;1600
+Durango;85;1214;1357
+Durango;86;964;1175
+Durango;87;787;905
+Durango;88;653;728
+Durango;89;573;686
+Durango;90;533;679
+Durango;91;244;307
+Durango;92;285;372
+Durango;93;216;274
+Durango;94;163;260
+Durango;95;133;205
+Durango;96;112;144
+Durango;97;79;106
+Durango;98;54;82
+Durango;99;40;57
+Durango;100 y más;60;97
+Guanajuato;0;49887;48669
+Guanajuato;1;53586;51448
+Guanajuato;2;55746;54592
+Guanajuato;3;55540;55198
+Guanajuato;4;57986;56194
+Guanajuato;5;57529;55148
+Guanajuato;6;53524;52550
+Guanajuato;7;55051;53971
+Guanajuato;8;57870;55065
+Guanajuato;9;53455;53382
+Guanajuato;10;59523;56991
+Guanajuato;11;53574;51694
+Guanajuato;12;56757;55130
+Guanajuato;13;54478;53282
+Guanajuato;14;54344;53528
+Guanajuato;15;56594;55275
+Guanajuato;16;53350;52208
+Guanajuato;17;56882;55942
+Guanajuato;18;59562;58433
+Guanajuato;19;51589;52257
+Guanajuato;20;59544;61190
+Guanajuato;21;49476;49685
+Guanajuato;22;55564;56664
+Guanajuato;23;52011;53010
+Guanajuato;24;50553;52890
+Guanajuato;25;53701;57292
+Guanajuato;26;47835;52079
+Guanajuato;27;47554;50642
+Guanajuato;28;49896;52793
+Guanajuato;29;43040;47036
+Guanajuato;30;55313;61432
+Guanajuato;31;35142;39490
+Guanajuato;32;46725;52169
+Guanajuato;33;40910;45869
+Guanajuato;34;40273;45009
+Guanajuato;35;47507;52175
+Guanajuato;36;41930;47065
+Guanajuato;37;36332;40335
+Guanajuato;38;45283;48989
+Guanajuato;39;37226;42203
+Guanajuato;40;51079;56812
+Guanajuato;41;29545;33137
+Guanajuato;42;44397;48188
+Guanajuato;43;36047;40795
+Guanajuato;44;31481;35749
+Guanajuato;45;43724;46914
+Guanajuato;46;32865;36511
+Guanajuato;47;32699;35681
+Guanajuato;48;34500;38230
+Guanajuato;49;30631;33905
+Guanajuato;50;40430;45593
+Guanajuato;51;23068;26250
+Guanajuato;52;31878;35812
+Guanajuato;53;26646;30841
+Guanajuato;54;26288;31391
+Guanajuato;55;28008;32229
+Guanajuato;56;25612;28942
+Guanajuato;57;20195;23547
+Guanajuato;58;22535;25950
+Guanajuato;59;20584;23206
+Guanajuato;60;28669;32802
+Guanajuato;61;14602;17098
+Guanajuato;62;20026;23072
+Guanajuato;63;19316;22203
+Guanajuato;64;16870;19748
+Guanajuato;65;21155;23596
+Guanajuato;66;14156;16119
+Guanajuato;67;13807;15159
+Guanajuato;68;15764;18451
+Guanajuato;69;11016;12542
+Guanajuato;70;15272;17310
+Guanajuato;71;8420;9312
+Guanajuato;72;12076;13545
+Guanajuato;73;10021;11688
+Guanajuato;74;9604;11037
+Guanajuato;75;10047;11251
+Guanajuato;76;8078;9330
+Guanajuato;77;6619;7214
+Guanajuato;78;7730;8545
+Guanajuato;79;5768;6528
+Guanajuato;80;7413;8974
+Guanajuato;81;3686;4276
+Guanajuato;82;4831;5851
+Guanajuato;83;4321;5634
+Guanajuato;84;4204;5176
+Guanajuato;85;4066;5105
+Guanajuato;86;3218;4005
+Guanajuato;87;2635;3292
+Guanajuato;88;2228;2714
+Guanajuato;89;1942;2542
+Guanajuato;90;2084;2873
+Guanajuato;91;905;1229
+Guanajuato;92;1136;1573
+Guanajuato;93;872;1303
+Guanajuato;94;818;1210
+Guanajuato;95;664;921
+Guanajuato;96;454;753
+Guanajuato;97;360;557
+Guanajuato;98;329;466
+Guanajuato;99;185;320
+Guanajuato;100 y más;227;456
+Guerrero;0;34013;33436
+Guerrero;1;32404;31525
+Guerrero;2;33544;32584
+Guerrero;3;34077;33928
+Guerrero;4;35294;34653
+Guerrero;5;35492;34436
+Guerrero;6;33443;33457
+Guerrero;7;35818;35154
+Guerrero;8;37282;36093
+Guerrero;9;35128;34707
+Guerrero;10;37845;35808
+Guerrero;11;33993;33412
+Guerrero;12;36069;34615
+Guerrero;13;33778;33888
+Guerrero;14;34548;34537
+Guerrero;15;34913;35031
+Guerrero;16;32286;32474
+Guerrero;17;34457;33721
+Guerrero;18;33909;33637
+Guerrero;19;27055;29057
+Guerrero;20;30502;33177
+Guerrero;21;23841;26366
+Guerrero;22;27107;29983
+Guerrero;23;26495;29513
+Guerrero;24;25745;29238
+Guerrero;25;26418;30708
+Guerrero;26;23169;27487
+Guerrero;27;23358;26518
+Guerrero;28;24048;27608
+Guerrero;29;21359;25518
+Guerrero;30;28706;32687
+Guerrero;31;17032;20991
+Guerrero;32;23111;27128
+Guerrero;33;20257;24102
+Guerrero;34;20538;23424
+Guerrero;35;22832;26048
+Guerrero;36;20454;24299
+Guerrero;37;18377;21122
+Guerrero;38;22526;25698
+Guerrero;39;18800;22001
+Guerrero;40;26090;29077
+Guerrero;41;14331;16511
+Guerrero;42;22251;24921
+Guerrero;43;18304;21479
+Guerrero;44;16666;19490
+Guerrero;45;21863;23906
+Guerrero;46;16458;18880
+Guerrero;47;16827;18513
+Guerrero;48;18265;21179
+Guerrero;49;16158;18729
+Guerrero;50;21917;24465
+Guerrero;51;11819;13804
+Guerrero;52;16864;19460
+Guerrero;53;14635;17405
+Guerrero;54;15158;18545
+Guerrero;55;16175;18326
+Guerrero;56;14873;16761
+Guerrero;57;12038;13985
+Guerrero;58;13747;16064
+Guerrero;59;12431;14572
+Guerrero;60;17329;19382
+Guerrero;61;8551;10085
+Guerrero;62;11425;12795
+Guerrero;63;10967;12743
+Guerrero;64;11023;12465
+Guerrero;65;12941;14821
+Guerrero;66;8966;10076
+Guerrero;67;9095;10126
+Guerrero;68;10504;12002
+Guerrero;69;7165;8500
+Guerrero;70;10907;12374
+Guerrero;71;5231;5578
+Guerrero;72;7903;8474
+Guerrero;73;6364;7116
+Guerrero;74;6241;7256
+Guerrero;75;7109;7962
+Guerrero;76;5539;6099
+Guerrero;77;4891;5378
+Guerrero;78;5832;6491
+Guerrero;79;4101;4669
+Guerrero;80;5779;7015
+Guerrero;81;2438;2793
+Guerrero;82;3340;3924
+Guerrero;83;3141;3596
+Guerrero;84;3199;3985
+Guerrero;85;3150;3988
+Guerrero;86;2290;2747
+Guerrero;87;1918;2453
+Guerrero;88;1590;2051
+Guerrero;89;1428;1917
+Guerrero;90;1724;2268
+Guerrero;91;530;626
+Guerrero;92;664;867
+Guerrero;93;573;697
+Guerrero;94;548;690
+Guerrero;95;462;683
+Guerrero;96;355;529
+Guerrero;97;257;345
+Guerrero;98;339;418
+Guerrero;99;244;318
+Guerrero;100 y más;470;709
+Hidalgo;0;20710;20596
+Hidalgo;1;22957;22052
+Hidalgo;2;24301;24122
+Hidalgo;3;25629;25327
+Hidalgo;4;26717;25778
+Hidalgo;5;26808;26227
+Hidalgo;6;25832;25561
+Hidalgo;7;27084;26774
+Hidalgo;8;28931;27881
+Hidalgo;9;27372;27083
+Hidalgo;10;29933;28970
+Hidalgo;11;27654;26936
+Hidalgo;12;29721;28772
+Hidalgo;13;28257;27534
+Hidalgo;14;27927;27972
+Hidalgo;15;28889;27894
+Hidalgo;16;27207;26759
+Hidalgo;17;28754;27954
+Hidalgo;18;28671;27985
+Hidalgo;19;23905;24488
+Hidalgo;20;26382;27009
+Hidalgo;21;21707;22268
+Hidalgo;22;23429;24661
+Hidalgo;23;22347;23564
+Hidalgo;24;22376;24444
+Hidalgo;25;23650;26232
+Hidalgo;26;21580;24354
+Hidalgo;27;21415;24117
+Hidalgo;28;21874;24771
+Hidalgo;29;19819;23312
+Hidalgo;30;24919;29096
+Hidalgo;31;16802;20004
+Hidalgo;32;21591;25688
+Hidalgo;33;19935;23864
+Hidalgo;34;19459;22868
+Hidalgo;35;21899;25724
+Hidalgo;36;20383;24239
+Hidalgo;37;18651;21858
+Hidalgo;38;22132;25627
+Hidalgo;39;18770;22127
+Hidalgo;40;24829;28602
+Hidalgo;41;15144;17626
+Hidalgo;42;22385;25635
+Hidalgo;43;18558;21882
+Hidalgo;44;16809;19578
+Hidalgo;45;21364;23630
+Hidalgo;46;17490;20129
+Hidalgo;47;17349;19632
+Hidalgo;48;18271;20948
+Hidalgo;49;16719;19035
+Hidalgo;50;20590;23455
+Hidalgo;51;12407;14400
+Hidalgo;52;17250;19173
+Hidalgo;53;14887;16968
+Hidalgo;54;14801;17748
+Hidalgo;55;14754;17234
+Hidalgo;56;14279;16060
+Hidalgo;57;11482;13249
+Hidalgo;58;12750;14562
+Hidalgo;59;11979;13446
+Hidalgo;60;14746;17030
+Hidalgo;61;8519;9776
+Hidalgo;62;11178;12561
+Hidalgo;63;10967;12046
+Hidalgo;64;10303;11803
+Hidalgo;65;11903;13500
+Hidalgo;66;8437;9342
+Hidalgo;67;8534;8988
+Hidalgo;68;8631;9691
+Hidalgo;69;6612;7373
+Hidalgo;70;8514;9595
+Hidalgo;71;4833;5197
+Hidalgo;72;6917;7390
+Hidalgo;73;5592;6342
+Hidalgo;74;5541;6258
+Hidalgo;75;5717;6390
+Hidalgo;76;4744;5164
+Hidalgo;77;4090;4185
+Hidalgo;78;4684;4957
+Hidalgo;79;3421;3911
+Hidalgo;80;4075;5057
+Hidalgo;81;2081;2238
+Hidalgo;82;2582;3087
+Hidalgo;83;2452;2980
+Hidalgo;84;2344;3101
+Hidalgo;85;2214;2698
+Hidalgo;86;1711;2227
+Hidalgo;87;1539;1857
+Hidalgo;88;1224;1476
+Hidalgo;89;1025;1450
+Hidalgo;90;1029;1636
+Hidalgo;91;472;641
+Hidalgo;92;525;770
+Hidalgo;93;474;658
+Hidalgo;94;378;630
+Hidalgo;95;361;576
+Hidalgo;96;274;426
+Hidalgo;97;165;328
+Hidalgo;98;189;324
+Hidalgo;99;126;251
+Hidalgo;100 y más;192;450
+Jalisco;0;60004;58933
+Jalisco;1;64230;62712
+Jalisco;2;69839;68427
+Jalisco;3;71544;70236
+Jalisco;4;73505;71553
+Jalisco;5;73056;72033
+Jalisco;6;71343;69344
+Jalisco;7;72545;70110
+Jalisco;8;75844;72787
+Jalisco;9;71123;69915
+Jalisco;10;76917;73998
+Jalisco;11;69379;67033
+Jalisco;12;74938;71551
+Jalisco;13;71244;68758
+Jalisco;14;71542;69546
+Jalisco;15;73272;70969
+Jalisco;16;69960;68350
+Jalisco;17;73064;71541
+Jalisco;18;78197;75023
+Jalisco;19;68303;67580
+Jalisco;20;76882;77221
+Jalisco;21;67332;66824
+Jalisco;22;72418;72050
+Jalisco;23;68126;68184
+Jalisco;24;67224;68098
+Jalisco;25;72328;73477
+Jalisco;26;65059;67026
+Jalisco;27;64805;66123
+Jalisco;28;68444;68231
+Jalisco;29;60434;62407
+Jalisco;30;77061;79039
+Jalisco;31;51817;55127
+Jalisco;32;66428;69270
+Jalisco;33;59466;62414
+Jalisco;34;58145;60239
+Jalisco;35;67241;69312
+Jalisco;36;59622;63248
+Jalisco;37;52360;54271
+Jalisco;38;62825;64211
+Jalisco;39;53288;56525
+Jalisco;40;67062;71844
+Jalisco;41;43739;46501
+Jalisco;42;61698;63377
+Jalisco;43;49644;53963
+Jalisco;44;44167;47864
+Jalisco;45;59381;61942
+Jalisco;46;47409;50499
+Jalisco;47;47635;50366
+Jalisco;48;49278;52238
+Jalisco;49;44563;48226
+Jalisco;50;56058;61217
+Jalisco;51;33687;37887
+Jalisco;52;45261;49708
+Jalisco;53;37831;42423
+Jalisco;54;37230;43387
+Jalisco;55;38603;44053
+Jalisco;56;36889;40419
+Jalisco;57;30036;34204
+Jalisco;58;32119;36860
+Jalisco;59;29888;34009
+Jalisco;60;39083;45292
+Jalisco;61;22693;26877
+Jalisco;62;30164;34442
+Jalisco;63;27925;32302
+Jalisco;64;25126;29107
+Jalisco;65;29639;34020
+Jalisco;66;20586;24615
+Jalisco;67;20806;23030
+Jalisco;68;22812;26927
+Jalisco;69;17740;20378
+Jalisco;70;21694;25551
+Jalisco;71;13752;15572
+Jalisco;72;18778;21147
+Jalisco;73;15660;17775
+Jalisco;74;14580;16911
+Jalisco;75;14747;16510
+Jalisco;76;12040;13664
+Jalisco;77;9964;11388
+Jalisco;78;11264;12451
+Jalisco;79;8877;9980
+Jalisco;80;10030;12545
+Jalisco;81;5661;6796
+Jalisco;82;6749;8411
+Jalisco;83;5947;7531
+Jalisco;84;5583;7242
+Jalisco;85;5154;6648
+Jalisco;86;4078;5444
+Jalisco;87;3256;4443
+Jalisco;88;2807;3674
+Jalisco;89;2548;3455
+Jalisco;90;2507;3547
+Jalisco;91;1073;1735
+Jalisco;92;1342;2081
+Jalisco;93;1134;1760
+Jalisco;94;1006;1540
+Jalisco;95;748;1205
+Jalisco;96;602;920
+Jalisco;97;408;755
+Jalisco;98;394;642
+Jalisco;99;270;437
+Jalisco;100 y más;393;715
+México;0;111010;108338
+México;1;122380;119014
+México;2;132977;130414
+México;3;137450;135642
+México;4;140960;138201
+México;5;143010;139348
+México;6;134268;131586
+México;7;138301;135092
+México;8;148372;141235
+México;9;135622;134298
+México;10;156125;149456
+México;11;141429;136816
+México;12;152833;149165
+México;13;145151;143133
+México;14;144838;145603
+México;15;151715;147862
+México;16;143020;140398
+México;17;154420;149777
+México;18;162144;155128
+México;19;136232;135969
+México;20;158609;158931
+México;21;130219;128509
+México;22;146258;146000
+México;23;135512;137089
+México;24;134860;139172
+México;25;146785;152600
+México;26;131165;138425
+México;27;130034;135602
+México;28;140575;144400
+México;29;119374;128567
+México;30;159232;169195
+México;31;97560;105850
+México;32;131488;143928
+México;33;114428;125305
+México;34;112310;123968
+México;35;133825;145383
+México;36;120711;134821
+México;37;104148;115231
+México;38;131965;142472
+México;39;106037;119703
+México;40;148354;165687
+México;41;83759;95428
+México;42;129849;143734
+México;43;107032;121893
+México;44;94720;106633
+México;45;132208;143770
+México;46;102771;115641
+México;47;102703;114701
+México;48;108225;120724
+México;49;96651;108488
+México;50;127197;142533
+México;51;72910;83010
+México;52;101968;112522
+México;53;85733;96259
+México;54;85554;99391
+México;55;85437;97357
+México;56;85576;93121
+México;57;64836;74283
+México;58;73035;82774
+México;59;65093;74199
+México;60;86066;98298
+México;61;47207;54994
+México;62;62894;71528
+México;63;58714;67945
+México;64;52120;61334
+México;65;61690;70554
+México;66;40553;47224
+México;67;40773;45732
+México;68;45017;51926
+México;69;33208;38721
+México;70;40810;48324
+México;71;23750;27480
+México;72;34489;39545
+México;73;27535;32495
+México;74;25664;30813
+México;75;25735;30313
+México;76;21410;25265
+México;77;16291;19300
+México;78;19314;22783
+México;79;14477;17674
+México;80;16508;21539
+México;81;9152;11125
+México;82;11253;14784
+México;83;9902;13398
+México;84;9436;13383
+México;85;8636;12119
+México;86;6768;9747
+México;87;5451;8171
+México;88;4099;6394
+México;89;3890;6032
+México;90;3600;5892
+México;91;1626;2558
+México;92;1926;3317
+México;93;1537;2674
+México;94;1260;2560
+México;95;956;1955
+México;96;820;1402
+México;97;565;1086
+México;98;506;1035
+México;99;273;696
+México;100 y más;424;1034
+Michoacán de Ocampo;0;41131;40228
+Michoacán de Ocampo;1;41836;41236
+Michoacán de Ocampo;2;44206;43163
+Michoacán de Ocampo;3;44065;43867
+Michoacán de Ocampo;4;45587;44518
+Michoacán de Ocampo;5;44682;43930
+Michoacán de Ocampo;6;43533;42882
+Michoacán de Ocampo;7;44680;43365
+Michoacán de Ocampo;8;46592;44904
+Michoacán de Ocampo;9;43895;43155
+Michoacán de Ocampo;10;46424;44866
+Michoacán de Ocampo;11;41760;41135
+Michoacán de Ocampo;12;44088;42761
+Michoacán de Ocampo;13;41832;41005
+Michoacán de Ocampo;14;41828;41170
+Michoacán de Ocampo;15;42214;41063
+Michoacán de Ocampo;16;39771;39678
+Michoacán de Ocampo;17;42330;41214
+Michoacán de Ocampo;18;43491;42708
+Michoacán de Ocampo;19;37015;38259
+Michoacán de Ocampo;20;42692;43876
+Michoacán de Ocampo;21;35026;36055
+Michoacán de Ocampo;22;39612;40688
+Michoacán de Ocampo;23;37589;39052
+Michoacán de Ocampo;24;36668;39173
+Michoacán de Ocampo;25;38275;41463
+Michoacán de Ocampo;26;34634;37972
+Michoacán de Ocampo;27;35064;37304
+Michoacán de Ocampo;28;35906;38675
+Michoacán de Ocampo;29;32392;35883
+Michoacán de Ocampo;30;41364;45934
+Michoacán de Ocampo;31;26161;30061
+Michoacán de Ocampo;32;34924;38817
+Michoacán de Ocampo;33;30493;34330
+Michoacán de Ocampo;34;30004;33184
+Michoacán de Ocampo;35;33969;37512
+Michoacán de Ocampo;36;30440;33954
+Michoacán de Ocampo;37;26721;29287
+Michoacán de Ocampo;38;32789;35415
+Michoacán de Ocampo;39;27678;30673
+Michoacán de Ocampo;40;37308;41484
+Michoacán de Ocampo;41;21855;23639
+Michoacán de Ocampo;42;32777;34965
+Michoacán de Ocampo;43;26990;29844
+Michoacán de Ocampo;44;23655;26782
+Michoacán de Ocampo;45;31377;33541
+Michoacán de Ocampo;46;24549;26977
+Michoacán de Ocampo;47;24148;26291
+Michoacán de Ocampo;48;25858;28628
+Michoacán de Ocampo;49;23448;25727
+Michoacán de Ocampo;50;30609;34402
+Michoacán de Ocampo;51;16944;19490
+Michoacán de Ocampo;52;24464;27590
+Michoacán de Ocampo;53;20321;24140
+Michoacán de Ocampo;54;20879;24760
+Michoacán de Ocampo;55;21974;25137
+Michoacán de Ocampo;56;20375;23184
+Michoacán de Ocampo;57;16735;19006
+Michoacán de Ocampo;58;18495;21666
+Michoacán de Ocampo;59;16631;19196
+Michoacán de Ocampo;60;23602;26933
+Michoacán de Ocampo;61;11951;13959
+Michoacán de Ocampo;62;16843;19165
+Michoacán de Ocampo;63;16229;18420
+Michoacán de Ocampo;64;14613;17129
+Michoacán de Ocampo;65;18010;19655
+Michoacán de Ocampo;66;12330;13719
+Michoacán de Ocampo;67;12330;13238
+Michoacán de Ocampo;68;13890;16009
+Michoacán de Ocampo;69;9867;10961
+Michoacán de Ocampo;70;13737;15534
+Michoacán de Ocampo;71;7547;7991
+Michoacán de Ocampo;72;11014;12129
+Michoacán de Ocampo;73;9398;10372
+Michoacán de Ocampo;74;8819;9791
+Michoacán de Ocampo;75;9393;10191
+Michoacán de Ocampo;76;7272;8342
+Michoacán de Ocampo;77;6182;6739
+Michoacán de Ocampo;78;7580;8038
+Michoacán de Ocampo;79;5267;5934
+Michoacán de Ocampo;80;7197;8466
+Michoacán de Ocampo;81;3483;3929
+Michoacán de Ocampo;82;4558;5392
+Michoacán de Ocampo;83;4208;5029
+Michoacán de Ocampo;84;4027;4865
+Michoacán de Ocampo;85;3965;4872
+Michoacán de Ocampo;86;3218;3735
+Michoacán de Ocampo;87;2560;3179
+Michoacán de Ocampo;88;2341;2782
+Michoacán de Ocampo;89;1905;2419
+Michoacán de Ocampo;90;2136;2646
+Michoacán de Ocampo;91;873;1054
+Michoacán de Ocampo;92;1075;1289
+Michoacán de Ocampo;93;973;1326
+Michoacán de Ocampo;94;811;1072
+Michoacán de Ocampo;95;693;860
+Michoacán de Ocampo;96;527;722
+Michoacán de Ocampo;97;406;545
+Michoacán de Ocampo;98;384;560
+Michoacán de Ocampo;99;232;317
+Michoacán de Ocampo;100 y más;396;549
+Morelos;0;13248;12983
+Morelos;1;13746;13315
+Morelos;2;14990;14527
+Morelos;3;15397;15493
+Morelos;4;16299;15441
+Morelos;5;16305;15626
+Morelos;6;15601;15413
+Morelos;7;16072;15659
+Morelos;8;16926;16117
+Morelos;9;15733;15483
+Morelos;10;17344;16940
+Morelos;11;15830;15234
+Morelos;12;17188;16411
+Morelos;13;16561;16030
+Morelos;14;16468;16171
+Morelos;15;17420;16533
+Morelos;16;16339;15667
+Morelos;17;17473;16760
+Morelos;18;17895;17456
+Morelos;19;15501;15610
+Morelos;20;17512;18016
+Morelos;21;14603;14892
+Morelos;22;16432;16925
+Morelos;23;15359;16358
+Morelos;24;15660;16389
+Morelos;25;16455;17696
+Morelos;26;14910;15947
+Morelos;27;14716;15620
+Morelos;28;15217;16291
+Morelos;29;13314;14429
+Morelos;30;17391;18849
+Morelos;31;10843;12348
+Morelos;32;14242;15815
+Morelos;33;12861;14348
+Morelos;34;12633;14074
+Morelos;35;14085;16065
+Morelos;36;12856;14981
+Morelos;37;11410;12731
+Morelos;38;13853;15312
+Morelos;39;11545;13156
+Morelos;40;16034;17962
+Morelos;41;9017;10593
+Morelos;42;13853;15690
+Morelos;43;11470;13431
+Morelos;44;10342;12147
+Morelos;45;13765;15541
+Morelos;46;10941;12501
+Morelos;47;11108;12579
+Morelos;48;11698;13503
+Morelos;49;10518;12224
+Morelos;50;14216;16306
+Morelos;51;7809;9442
+Morelos;52;11236;12846
+Morelos;53;9577;11280
+Morelos;54;9750;11822
+Morelos;55;10249;11658
+Morelos;56;9536;11042
+Morelos;57;7735;9248
+Morelos;58;8758;10278
+Morelos;59;8079;9541
+Morelos;60;10767;12359
+Morelos;61;5955;6854
+Morelos;62;7868;9308
+Morelos;63;7573;8638
+Morelos;64;6960;8193
+Morelos;65;8118;9146
+Morelos;66;5628;6689
+Morelos;67;5784;6486
+Morelos;68;6416;7303
+Morelos;69;4812;5268
+Morelos;70;6045;6814
+Morelos;71;3458;3914
+Morelos;72;4854;5562
+Morelos;73;4203;4609
+Morelos;74;3902;4485
+Morelos;75;3982;4506
+Morelos;76;3285;3718
+Morelos;77;2772;3031
+Morelos;78;3146;3472
+Morelos;79;2423;2854
+Morelos;80;2840;3547
+Morelos;81;1490;1720
+Morelos;82;1949;2380
+Morelos;83;1719;2256
+Morelos;84;1793;2260
+Morelos;85;1620;2154
+Morelos;86;1335;1680
+Morelos;87;1074;1493
+Morelos;88;888;1158
+Morelos;89;807;1069
+Morelos;90;775;1137
+Morelos;91;326;519
+Morelos;92;426;622
+Morelos;93;360;474
+Morelos;94;278;410
+Morelos;95;212;343
+Morelos;96;182;265
+Morelos;97;139;216
+Morelos;98;97;177
+Morelos;99;77;136
+Morelos;100 y más;126;214
+Nayarit;0;9266;8949
+Nayarit;1;10086;9860
+Nayarit;2;10892;10496
+Nayarit;3;10961;10806
+Nayarit;4;11397;10888
+Nayarit;5;11449;10924
+Nayarit;6;11284;10998
+Nayarit;7;11639;11351
+Nayarit;8;12297;11573
+Nayarit;9;11331;11096
+Nayarit;10;12158;11637
+Nayarit;11;11254;11000
+Nayarit;12;12083;11329
+Nayarit;13;11210;10846
+Nayarit;14;11021;10797
+Nayarit;15;11136;10628
+Nayarit;16;10581;10217
+Nayarit;17;10715;10302
+Nayarit;18;11001;10744
+Nayarit;19;9359;9573
+Nayarit;20;10729;10843
+Nayarit;21;9357;9168
+Nayarit;22;9926;9662
+Nayarit;23;9089;9409
+Nayarit;24;9436;9881
+Nayarit;25;9618;10138
+Nayarit;26;8946;9524
+Nayarit;27;8880;9193
+Nayarit;28;9068;9379
+Nayarit;29;8725;9071
+Nayarit;30;10540;10811
+Nayarit;31;7705;8613
+Nayarit;32;9188;9721
+Nayarit;33;8316;8819
+Nayarit;34;8241;8623
+Nayarit;35;9089;9600
+Nayarit;36;8442;8987
+Nayarit;37;7514;7992
+Nayarit;38;8782;8998
+Nayarit;39;7732;8044
+Nayarit;40;9586;9732
+Nayarit;41;6710;7045
+Nayarit;42;8974;9187
+Nayarit;43;7659;7947
+Nayarit;44;7042;7475
+Nayarit;45;8641;8784
+Nayarit;46;7224;7482
+Nayarit;47;7188;7262
+Nayarit;48;7394;7317
+Nayarit;49;6851;6995
+Nayarit;50;8098;8177
+Nayarit;51;5372;5631
+Nayarit;52;6632;6909
+Nayarit;53;5803;6296
+Nayarit;54;5786;6254
+Nayarit;55;5919;6458
+Nayarit;56;5643;5871
+Nayarit;57;4960;5199
+Nayarit;58;5013;5438
+Nayarit;59;4727;5279
+Nayarit;60;5767;6218
+Nayarit;61;3550;4139
+Nayarit;62;4662;5208
+Nayarit;63;4555;4865
+Nayarit;64;4229;4505
+Nayarit;65;4745;4919
+Nayarit;66;3581;3863
+Nayarit;67;3503;3489
+Nayarit;68;3729;3877
+Nayarit;69;3005;3165
+Nayarit;70;3534;3655
+Nayarit;71;2221;2296
+Nayarit;72;2897;3024
+Nayarit;73;2454;2650
+Nayarit;74;2454;2589
+Nayarit;75;2389;2535
+Nayarit;76;2053;2114
+Nayarit;77;1808;1880
+Nayarit;78;1907;1980
+Nayarit;79;1635;1609
+Nayarit;80;1835;1881
+Nayarit;81;1062;1081
+Nayarit;82;1223;1310
+Nayarit;83;1159;1230
+Nayarit;84;1066;1192
+Nayarit;85;906;986
+Nayarit;86;846;882
+Nayarit;87;583;723
+Nayarit;88;496;654
+Nayarit;89;479;538
+Nayarit;90;394;575
+Nayarit;91;211;263
+Nayarit;92;236;305
+Nayarit;93;190;252
+Nayarit;94;148;199
+Nayarit;95;145;169
+Nayarit;96;111;137
+Nayarit;97;63;91
+Nayarit;98;63;78
+Nayarit;99;51;88
+Nayarit;100 y más;96;140
+Nuevo León;0;39953;39099
+Nuevo León;1;43271;42801
+Nuevo León;2;46945;46097
+Nuevo León;3;48942;48113
+Nuevo León;4;50696;48992
+Nuevo León;5;49431;47997
+Nuevo León;6;46436;44629
+Nuevo León;7;46387;44813
+Nuevo León;8;48317;46542
+Nuevo León;9;45108;44159
+Nuevo León;10;50348;48527
+Nuevo León;11;45470;43601
+Nuevo León;12;48768;47026
+Nuevo León;13;45191;43839
+Nuevo León;14;45627;44323
+Nuevo León;15;46522;44381
+Nuevo León;16;45119;43015
+Nuevo León;17;48196;46248
+Nuevo León;18;52544;51050
+Nuevo León;19;47860;46961
+Nuevo León;20;56167;55240
+Nuevo León;21;48795;46979
+Nuevo León;22;51621;49489
+Nuevo León;23;49420;47904
+Nuevo León;24;49530;48681
+Nuevo León;25;53790;52245
+Nuevo León;26;49078;48176
+Nuevo León;27;49426;47135
+Nuevo León;28;51081;48415
+Nuevo León;29;45104;43899
+Nuevo León;30;56752;55123
+Nuevo León;31;38535;38942
+Nuevo León;32;47232;45692
+Nuevo León;33;42773;41286
+Nuevo León;34;41759;40376
+Nuevo León;35;47061;45586
+Nuevo León;36;43211;42985
+Nuevo León;37;39818;38937
+Nuevo León;38;46572;44366
+Nuevo León;39;39337;38746
+Nuevo León;40;52040;50974
+Nuevo León;41;33131;33641
+Nuevo León;42;45763;45279
+Nuevo León;43;39490;39704
+Nuevo León;44;34520;34948
+Nuevo León;45;46419;45180
+Nuevo León;46;36393;37507
+Nuevo León;47;38091;37659
+Nuevo León;48;37959;37766
+Nuevo León;49;35292;35412
+Nuevo León;50;43485;44411
+Nuevo León;51;26906;28053
+Nuevo León;52;34512;35837
+Nuevo León;53;30800;31187
+Nuevo León;54;28789;30459
+Nuevo León;55;29446;30756
+Nuevo León;56;27049;27839
+Nuevo León;57;23339;24391
+Nuevo León;58;24238;25948
+Nuevo León;59;22899;24140
+Nuevo León;60;28043;30415
+Nuevo León;61;17258;19220
+Nuevo León;62;21495;23328
+Nuevo León;63;19604;21340
+Nuevo León;64;17297;19238
+Nuevo León;65;19055;21190
+Nuevo León;66;13192;15065
+Nuevo León;67;13611;14797
+Nuevo León;68;15202;17425
+Nuevo León;69;11706;13165
+Nuevo León;70;13813;16003
+Nuevo León;71;9190;10577
+Nuevo León;72;11811;13383
+Nuevo León;73;9681;11383
+Nuevo León;74;9145;10836
+Nuevo León;75;9065;10697
+Nuevo León;76;7373;8945
+Nuevo León;77;6406;7633
+Nuevo León;78;7030;7999
+Nuevo León;79;5649;6530
+Nuevo León;80;6324;8075
+Nuevo León;81;3788;4659
+Nuevo León;82;4319;5507
+Nuevo León;83;4131;5202
+Nuevo León;84;3507;4838
+Nuevo León;85;3141;4359
+Nuevo León;86;2411;3396
+Nuevo León;87;1884;2607
+Nuevo León;88;1500;2298
+Nuevo León;89;1364;2063
+Nuevo León;90;1388;2110
+Nuevo León;91;672;1195
+Nuevo León;92;815;1283
+Nuevo León;93;617;1017
+Nuevo León;94;411;857
+Nuevo León;95;396;695
+Nuevo León;96;285;429
+Nuevo León;97;186;357
+Nuevo León;98;162;262
+Nuevo León;99;104;221
+Nuevo León;100 y más;116;304
+Oaxaca;0;33507;32719
+Oaxaca;1;34320;34076
+Oaxaca;2;35912;34926
+Oaxaca;3;37090;37005
+Oaxaca;4;40474;39824
+Oaxaca;5;40589;39668
+Oaxaca;6;36675;36939
+Oaxaca;7;39004;38041
+Oaxaca;8;41029;39874
+Oaxaca;9;38204;38736
+Oaxaca;10;42204;40679
+Oaxaca;11;38219;37871
+Oaxaca;12;41415;40111
+Oaxaca;13;40102;39120
+Oaxaca;14;39646;38995
+Oaxaca;15;39213;39132
+Oaxaca;16;36310;36147
+Oaxaca;17;37692;37447
+Oaxaca;18;36724;36127
+Oaxaca;19;29034;30882
+Oaxaca;20;33109;35778
+Oaxaca;21;25561;28262
+Oaxaca;22;30359;32915
+Oaxaca;23;29177;32570
+Oaxaca;24;28931;33645
+Oaxaca;25;30811;35622
+Oaxaca;26;27530;32977
+Oaxaca;27;27830;32506
+Oaxaca;28;28903;33426
+Oaxaca;29;26307;31212
+Oaxaca;30;34268;39476
+Oaxaca;31;20757;25002
+Oaxaca;32;28073;33019
+Oaxaca;33;25127;29989
+Oaxaca;34;24699;28869
+Oaxaca;35;27780;32530
+Oaxaca;36;25459;29658
+Oaxaca;37;22612;26550
+Oaxaca;38;28084;32078
+Oaxaca;39;23962;27783
+Oaxaca;40;32297;37018
+Oaxaca;41;18117;21070
+Oaxaca;42;27175;31020
+Oaxaca;43;22390;26205
+Oaxaca;44;20405;23781
+Oaxaca;45;25406;29275
+Oaxaca;46;20185;23510
+Oaxaca;47;20543;23355
+Oaxaca;48;22321;25809
+Oaxaca;49;20283;23284
+Oaxaca;50;25675;29327
+Oaxaca;51;14701;17356
+Oaxaca;52;20408;23659
+Oaxaca;53;18019;21316
+Oaxaca;54;18059;21918
+Oaxaca;55;19051;21972
+Oaxaca;56;17686;19884
+Oaxaca;57;14597;17258
+Oaxaca;58;16258;19224
+Oaxaca;59;15415;18063
+Oaxaca;60;19657;22905
+Oaxaca;61;10816;12594
+Oaxaca;62;13948;16179
+Oaxaca;63;13898;16120
+Oaxaca;64;13816;15847
+Oaxaca;65;15406;17781
+Oaxaca;66;11145;12978
+Oaxaca;67;11156;12899
+Oaxaca;68;11863;13863
+Oaxaca;69;9302;10801
+Oaxaca;70;12103;14074
+Oaxaca;71;6618;7163
+Oaxaca;72;9421;10440
+Oaxaca;73;7936;9118
+Oaxaca;74;7650;9169
+Oaxaca;75;8583;10002
+Oaxaca;76;6973;7867
+Oaxaca;77;6312;6847
+Oaxaca;78;7026;7858
+Oaxaca;79;5404;6246
+Oaxaca;80;6920;8536
+Oaxaca;81;3604;3786
+Oaxaca;82;4463;5084
+Oaxaca;83;3949;4827
+Oaxaca;84;4234;5311
+Oaxaca;85;4171;5105
+Oaxaca;86;3202;3771
+Oaxaca;87;2569;3215
+Oaxaca;88;2279;2724
+Oaxaca;89;1995;2404
+Oaxaca;90;2093;2813
+Oaxaca;91;897;1046
+Oaxaca;92;994;1220
+Oaxaca;93;813;1045
+Oaxaca;94;753;956
+Oaxaca;95;657;856
+Oaxaca;96;504;669
+Oaxaca;97;339;449
+Oaxaca;98;322;464
+Oaxaca;99;258;380
+Oaxaca;100 y más;433;683
+Puebla;0;54783;53641
+Puebla;1;56315;55313
+Puebla;2;60029;58944
+Puebla;3;60003;59228
+Puebla;4;61136;59387
+Puebla;5;61596;59612
+Puebla;6;58244;57459
+Puebla;7;60564;59487
+Puebla;8;63397;61717
+Puebla;9;58387;58087
+Puebla;10;64633;61774
+Puebla;11;57913;56762
+Puebla;12;62958;60835
+Puebla;13;59981;58729
+Puebla;14;60368;59422
+Puebla;15;62916;61226
+Puebla;16;59456;58553
+Puebla;17;63764;61716
+Puebla;18;65297;64522
+Puebla;19;54394;55356
+Puebla;20;63481;65132
+Puebla;21;50416;52033
+Puebla;22;57714;59586
+Puebla;23;54059;56617
+Puebla;24;53704;57904
+Puebla;25;56583;61421
+Puebla;26;49576;55444
+Puebla;27;49416;53195
+Puebla;28;51353;56149
+Puebla;29;44971;50181
+Puebla;30;57368;64633
+Puebla;31;35062;40445
+Puebla;32;47342;54373
+Puebla;33;40816;48094
+Puebla;34;40557;47164
+Puebla;35;47027;53852
+Puebla;36;42442;49964
+Puebla;37;37185;43071
+Puebla;38;47193;53643
+Puebla;39;38673;44814
+Puebla;40;52972;60845
+Puebla;41;28930;34301
+Puebla;42;45421;51980
+Puebla;43;36727;42965
+Puebla;44;32500;38448
+Puebla;45;43557;48931
+Puebla;46;33246;38999
+Puebla;47;33815;37929
+Puebla;48;35632;41906
+Puebla;49;31956;36894
+Puebla;50;41515;48480
+Puebla;51;23313;27521
+Puebla;52;32873;38663
+Puebla;53;27595;32873
+Puebla;54;27743;34021
+Puebla;55;28761;33974
+Puebla;56;27147;31249
+Puebla;57;21300;25298
+Puebla;58;24414;28796
+Puebla;59;21983;26158
+Puebla;60;29501;35038
+Puebla;61;15311;18706
+Puebla;62;20890;24979
+Puebla;63;20091;23877
+Puebla;64;18576;22395
+Puebla;65;22147;26458
+Puebla;66;14875;18089
+Puebla;67;15109;17372
+Puebla;68;16642;20352
+Puebla;69;12119;14713
+Puebla;70;15728;19448
+Puebla;71;8598;10205
+Puebla;72;12982;15138
+Puebla;73;10492;12795
+Puebla;74;10204;12784
+Puebla;75;10898;12674
+Puebla;76;8819;10639
+Puebla;77;7025;8415
+Puebla;78;8738;10366
+Puebla;79;6319;7601
+Puebla;80;7639;10107
+Puebla;81;3838;4859
+Puebla;82;5107;6762
+Puebla;83;4782;6229
+Puebla;84;4736;6295
+Puebla;85;4463;5980
+Puebla;86;3403;4815
+Puebla;87;2907;4026
+Puebla;88;2419;3219
+Puebla;89;2148;3111
+Puebla;90;2161;3209
+Puebla;91;908;1377
+Puebla;92;1033;1612
+Puebla;93;983;1387
+Puebla;94;818;1282
+Puebla;95;652;1066
+Puebla;96;511;867
+Puebla;97;342;605
+Puebla;98;334;606
+Puebla;99;238;410
+Puebla;100 y más;335;730
+Querétaro;0;17044;17075
+Querétaro;1;18055;17753
+Querétaro;2;19252;19050
+Querétaro;3;20058;19582
+Querétaro;4;20114;19910
+Querétaro;5;20374;19239
+Querétaro;6;19475;19166
+Querétaro;7;20237;19449
+Querétaro;8;20678;20004
+Querétaro;9;19194;19153
+Querétaro;10;21564;20659
+Querétaro;11;19538;18881
+Querétaro;12;20996;20116
+Querétaro;13;19470;19111
+Querétaro;14;19279;18987
+Querétaro;15;19871;19575
+Querétaro;16;19007;18797
+Querétaro;17;20262;19550
+Querétaro;18;21643;21079
+Querétaro;19;19058;19299
+Querétaro;20;22361;22582
+Querétaro;21;18801;18586
+Querétaro;22;21503;21073
+Querétaro;23;20679;20914
+Querétaro;24;21003;21537
+Querétaro;25;23061;23574
+Querétaro;26;20811;21915
+Querétaro;27;20929;21235
+Querétaro;28;21946;21858
+Querétaro;29;18796;20014
+Querétaro;30;23876;25287
+Querétaro;31;15861;16525
+Querétaro;32;20121;21335
+Querétaro;33;17365;18860
+Querétaro;34;17070;18276
+Querétaro;35;19935;20993
+Querétaro;36;17715;19201
+Querétaro;37;15789;17127
+Querétaro;38;18750;19984
+Querétaro;39;15778;17471
+Querétaro;40;21180;22659
+Querétaro;41;12231;13491
+Querétaro;42;17601;19414
+Querétaro;43;15220;16600
+Querétaro;44;13086;14246
+Querétaro;45;17843;19155
+Querétaro;46;13621;14920
+Querétaro;47;13671;14720
+Querétaro;48;14054;15497
+Querétaro;49;12652;13699
+Querétaro;50;16140;17978
+Querétaro;51;9220;10452
+Querétaro;52;12724;14173
+Querétaro;53;10662;12011
+Querétaro;54;10263;12234
+Querétaro;55;10783;12259
+Querétaro;56;10075;11118
+Querétaro;57;8184;9332
+Querétaro;58;8971;9960
+Querétaro;59;8119;9102
+Querétaro;60;10698;12069
+Querétaro;61;6009;6641
+Querétaro;62;7510;8636
+Querétaro;63;7178;8193
+Querétaro;64;6374;7421
+Querétaro;65;7450;8469
+Querétaro;66;4879;5887
+Querétaro;67;5074;5659
+Querétaro;68;5372;6454
+Querétaro;69;3961;4628
+Querétaro;70;5038;5981
+Querétaro;71;2970;3544
+Querétaro;72;4192;4754
+Querétaro;73;3375;4020
+Querétaro;74;3224;3881
+Querétaro;75;3295;3986
+Querétaro;76;2660;3237
+Querétaro;77;2218;2587
+Querétaro;78;2419;2869
+Querétaro;79;1924;2222
+Querétaro;80;2307;2889
+Querétaro;81;1159;1493
+Querétaro;82;1488;1947
+Querétaro;83;1345;1796
+Querétaro;84;1279;1618
+Querétaro;85;1209;1587
+Querétaro;86;951;1306
+Querétaro;87;824;1137
+Querétaro;88;634;912
+Querétaro;89;556;859
+Querétaro;90;547;929
+Querétaro;91;261;435
+Querétaro;92;333;475
+Querétaro;93;252;390
+Querétaro;94;203;370
+Querétaro;95;186;320
+Querétaro;96;129;237
+Querétaro;97;114;161
+Querétaro;98;72;149
+Querétaro;99;56;107
+Querétaro;100 y más;76;166
+Quintana Roo;0;13604;13154
+Quintana Roo;1;14206;13677
+Quintana Roo;2;15203;14549
+Quintana Roo;3;15594;15267
+Quintana Roo;4;16551;15926
+Quintana Roo;5;16095;15715
+Quintana Roo;6;15496;15226
+Quintana Roo;7;15680;15361
+Quintana Roo;8;16250;15595
+Quintana Roo;9;15100;14870
+Quintana Roo;10;17027;15982
+Quintana Roo;11;15490;14934
+Quintana Roo;12;16375;15717
+Quintana Roo;13;14661;14667
+Quintana Roo;14;14911;14517
+Quintana Roo;15;14766;14475
+Quintana Roo;16;13819;13682
+Quintana Roo;17;14955;14631
+Quintana Roo;18;16517;16024
+Quintana Roo;19;14459;14221
+Quintana Roo;20;17460;17159
+Quintana Roo;21;14293;13933
+Quintana Roo;22;17102;16022
+Quintana Roo;23;17062;17072
+Quintana Roo;24;17269;17617
+Quintana Roo;25;19841;19741
+Quintana Roo;26;17768;17816
+Quintana Roo;27;18199;17785
+Quintana Roo;28;19913;18967
+Quintana Roo;29;17313;17104
+Quintana Roo;30;23609;22484
+Quintana Roo;31;13906;14128
+Quintana Roo;32;18822;18545
+Quintana Roo;33;16065;16309
+Quintana Roo;34;15646;15619
+Quintana Roo;35;19023;18391
+Quintana Roo;36;16569;16757
+Quintana Roo;37;14059;13790
+Quintana Roo;38;18102;16869
+Quintana Roo;39;13912;14000
+Quintana Roo;40;19630;18888
+Quintana Roo;41;10130;10245
+Quintana Roo;42;15955;15527
+Quintana Roo;43;12747;12660
+Quintana Roo;44;10373;10576
+Quintana Roo;45;15200;14359
+Quintana Roo;46;11154;10950
+Quintana Roo;47;11088;10725
+Quintana Roo;48;11880;11471
+Quintana Roo;49;10232;9986
+Quintana Roo;50;13500;12915
+Quintana Roo;51;7182;7144
+Quintana Roo;52;10377;9773
+Quintana Roo;53;8379;8324
+Quintana Roo;54;8178;8388
+Quintana Roo;55;8340;8234
+Quintana Roo;56;7447;7456
+Quintana Roo;57;5898;5913
+Quintana Roo;58;6268;6178
+Quintana Roo;59;5561;5690
+Quintana Roo;60;7399;7479
+Quintana Roo;61;3608;3870
+Quintana Roo;62;4721;4798
+Quintana Roo;63;4482;4627
+Quintana Roo;64;3965;4372
+Quintana Roo;65;5005;4966
+Quintana Roo;66;3199;3296
+Quintana Roo;67;2926;3152
+Quintana Roo;68;3259;3505
+Quintana Roo;69;2349;2547
+Quintana Roo;70;3117;3265
+Quintana Roo;71;1726;1705
+Quintana Roo;72;2334;2389
+Quintana Roo;73;1894;1865
+Quintana Roo;74;1633;1750
+Quintana Roo;75;1650;1732
+Quintana Roo;76;1333;1368
+Quintana Roo;77;1098;1138
+Quintana Roo;78;1283;1250
+Quintana Roo;79;904;932
+Quintana Roo;80;1138;1209
+Quintana Roo;81;580;560
+Quintana Roo;82;654;726
+Quintana Roo;83;607;681
+Quintana Roo;84;591;675
+Quintana Roo;85;482;545
+Quintana Roo;86;421;500
+Quintana Roo;87;343;412
+Quintana Roo;88;271;318
+Quintana Roo;89;212;271
+Quintana Roo;90;211;293
+Quintana Roo;91;78;114
+Quintana Roo;92;113;153
+Quintana Roo;93;82;119
+Quintana Roo;94;80;89
+Quintana Roo;95;84;97
+Quintana Roo;96;58;64
+Quintana Roo;97;40;43
+Quintana Roo;98;41;43
+Quintana Roo;99;30;31
+Quintana Roo;100 y más;66;36
+San Luis Potosí;0;21212;21133
+San Luis Potosí;1;22288;21674
+San Luis Potosí;2;23325;23002
+San Luis Potosí;3;24613;23878
+San Luis Potosí;4;24893;24913
+San Luis Potosí;5;25122;24338
+San Luis Potosí;6;23940;23543
+San Luis Potosí;7;24291;23808
+San Luis Potosí;8;25472;24325
+San Luis Potosí;9;24147;23741
+San Luis Potosí;10;26314;25426
+San Luis Potosí;11;24632;23863
+San Luis Potosí;12;26402;25403
+San Luis Potosí;13;25328;24699
+San Luis Potosí;14;25578;25135
+San Luis Potosí;15;26386;26125
+San Luis Potosí;16;24937;24227
+San Luis Potosí;17;26199;25611
+San Luis Potosí;18;27055;26238
+San Luis Potosí;19;23407;23612
+San Luis Potosí;20;25656;26353
+San Luis Potosí;21;20990;21826
+San Luis Potosí;22;23162;23779
+San Luis Potosí;23;22102;23083
+San Luis Potosí;24;21520;23658
+San Luis Potosí;25;22909;24522
+San Luis Potosí;26;21025;23485
+San Luis Potosí;27;21121;22531
+San Luis Potosí;28;21296;23131
+San Luis Potosí;29;19681;21263
+San Luis Potosí;30;24138;25901
+San Luis Potosí;31;15963;18395
+San Luis Potosí;32;20327;22534
+San Luis Potosí;33;18380;20737
+San Luis Potosí;34;17946;19967
+San Luis Potosí;35;19864;21961
+San Luis Potosí;36;18601;21112
+San Luis Potosí;37;16718;18661
+San Luis Potosí;38;19072;20946
+San Luis Potosí;39;16473;18561
+San Luis Potosí;40;21714;23543
+San Luis Potosí;41;13317;15126
+San Luis Potosí;42;19416;21310
+San Luis Potosí;43;16227;18321
+San Luis Potosí;44;14720;16480
+San Luis Potosí;45;19173;20788
+San Luis Potosí;46;15361;17099
+San Luis Potosí;47;15592;16950
+San Luis Potosí;48;15788;17545
+San Luis Potosí;49;14754;16403
+San Luis Potosí;50;18538;20512
+San Luis Potosí;51;11346;12842
+San Luis Potosí;52;15297;17045
+San Luis Potosí;53;13469;15229
+San Luis Potosí;54;13795;15663
+San Luis Potosí;55;13386;14984
+San Luis Potosí;56;12769;14437
+San Luis Potosí;57;10480;11938
+San Luis Potosí;58;11547;12856
+San Luis Potosí;59;11112;12257
+San Luis Potosí;60;13909;15463
+San Luis Potosí;61;7873;8961
+San Luis Potosí;62;10411;11485
+San Luis Potosí;63;9796;10523
+San Luis Potosí;64;9042;10172
+San Luis Potosí;65;10223;11245
+San Luis Potosí;66;7354;8293
+San Luis Potosí;67;7350;7801
+San Luis Potosí;68;7911;8814
+San Luis Potosí;69;6379;6866
+San Luis Potosí;70;7864;8731
+San Luis Potosí;71;4928;5209
+San Luis Potosí;72;6577;7140
+San Luis Potosí;73;5456;5969
+San Luis Potosí;74;5331;5952
+San Luis Potosí;75;5489;6060
+San Luis Potosí;76;4848;4994
+San Luis Potosí;77;3907;4245
+San Luis Potosí;78;4393;4625
+San Luis Potosí;79;3653;3771
+San Luis Potosí;80;4157;4959
+San Luis Potosí;81;2451;2640
+San Luis Potosí;82;2923;3356
+San Luis Potosí;83;2722;3228
+San Luis Potosí;84;2669;3147
+San Luis Potosí;85;2503;2827
+San Luis Potosí;86;2029;2417
+San Luis Potosí;87;1569;1897
+San Luis Potosí;88;1353;1582
+San Luis Potosí;89;1244;1506
+San Luis Potosí;90;1229;1528
+San Luis Potosí;91;573;733
+San Luis Potosí;92;685;915
+San Luis Potosí;93;591;754
+San Luis Potosí;94;424;620
+San Luis Potosí;95;338;565
+San Luis Potosí;96;340;414
+San Luis Potosí;97;233;301
+San Luis Potosí;98;170;228
+San Luis Potosí;99;123;183
+San Luis Potosí;100 y más;181;279
+Sinaloa;0;22410;21911
+Sinaloa;1;23641;22583
+Sinaloa;2;24827;24031
+Sinaloa;3;24349;23846
+Sinaloa;4;24818;23820
+Sinaloa;5;25156;23970
+Sinaloa;6;25007;24293
+Sinaloa;7;25408;24495
+Sinaloa;8;26620;25406
+Sinaloa;9;25620;24521
+Sinaloa;10;27100;26035
+Sinaloa;11;25870;24723
+Sinaloa;12;27417;26155
+Sinaloa;13;25785;25053
+Sinaloa;14;26339;25695
+Sinaloa;15;26638;25640
+Sinaloa;16;25503;24753
+Sinaloa;17;26782;26360
+Sinaloa;18;28463;27534
+Sinaloa;19;25165;24743
+Sinaloa;20;27690;28234
+Sinaloa;21;24656;24728
+Sinaloa;22;26377;25993
+Sinaloa;23;24962;25117
+Sinaloa;24;24291;24942
+Sinaloa;25;24977;26016
+Sinaloa;26;22543;23886
+Sinaloa;27;22298;23143
+Sinaloa;28;22847;23622
+Sinaloa;29;20802;22182
+Sinaloa;30;25009;26050
+Sinaloa;31;18171;19374
+Sinaloa;32;22271;23171
+Sinaloa;33;19848;21032
+Sinaloa;34;19981;20584
+Sinaloa;35;22023;22969
+Sinaloa;36;20183;21081
+Sinaloa;37;17898;18733
+Sinaloa;38;21564;21946
+Sinaloa;39;19096;20047
+Sinaloa;40;23811;24747
+Sinaloa;41;16770;17793
+Sinaloa;42;22901;22988
+Sinaloa;43;18973;19908
+Sinaloa;44;17522;18896
+Sinaloa;45;22037;22368
+Sinaloa;46;18172;19355
+Sinaloa;47;18244;19187
+Sinaloa;48;18775;19190
+Sinaloa;49;17158;18103
+Sinaloa;50;21395;22332
+Sinaloa;51;13643;14724
+Sinaloa;52;17542;18467
+Sinaloa;53;15275;16436
+Sinaloa;54;15417;16863
+Sinaloa;55;15717;16830
+Sinaloa;56;14635;15776
+Sinaloa;57;12374;13494
+Sinaloa;58;13420;14677
+Sinaloa;59;12495;13967
+Sinaloa;60;15613;16872
+Sinaloa;61;9635;10643
+Sinaloa;62;12143;13457
+Sinaloa;63;11165;12437
+Sinaloa;64;10382;11281
+Sinaloa;65;11776;12955
+Sinaloa;66;8763;9809
+Sinaloa;67;8438;9121
+Sinaloa;68;9032;9874
+Sinaloa;69;7155;8133
+Sinaloa;70;8867;9563
+Sinaloa;71;5533;6010
+Sinaloa;72;7667;7934
+Sinaloa;73;6259;6679
+Sinaloa;74;5781;6384
+Sinaloa;75;5994;6301
+Sinaloa;76;5112;5218
+Sinaloa;77;4447;4779
+Sinaloa;78;4619;4815
+Sinaloa;79;3732;4034
+Sinaloa;80;4056;4520
+Sinaloa;81;2399;2677
+Sinaloa;82;2874;3312
+Sinaloa;83;2667;3126
+Sinaloa;84;2455;2871
+Sinaloa;85;1949;2331
+Sinaloa;86;1703;2072
+Sinaloa;87;1396;1731
+Sinaloa;88;1027;1356
+Sinaloa;89;966;1296
+Sinaloa;90;915;1220
+Sinaloa;91;412;595
+Sinaloa;92;455;682
+Sinaloa;93;385;537
+Sinaloa;94;316;480
+Sinaloa;95;256;368
+Sinaloa;96;202;293
+Sinaloa;97;113;206
+Sinaloa;98;113;168
+Sinaloa;99;85;119
+Sinaloa;100 y más;169;234
+Sonora;0;19557;18989
+Sonora;1;20552;19829
+Sonora;2;22946;22421
+Sonora;3;23274;22960
+Sonora;4;24275;23542
+Sonora;5;24890;24191
+Sonora;6;24475;24086
+Sonora;7;25091;24173
+Sonora;8;26060;24970
+Sonora;9;24686;24089
+Sonora;10;26917;25677
+Sonora;11;25175;24472
+Sonora;12;27597;26112
+Sonora;13;26504;25256
+Sonora;14;25998;25083
+Sonora;15;26227;24818
+Sonora;16;24811;23869
+Sonora;17;26655;25947
+Sonora;18;28120;26251
+Sonora;19;24942;24076
+Sonora;20;27359;26675
+Sonora;21;24646;23633
+Sonora;22;25681;24311
+Sonora;23;24334;23465
+Sonora;24;23566;23333
+Sonora;25;24668;24223
+Sonora;26;22512;22855
+Sonora;27;22393;22428
+Sonora;28;23456;23077
+Sonora;29;21123;21161
+Sonora;30;25791;25521
+Sonora;31;18385;18874
+Sonora;32;22142;21974
+Sonora;33;20535;20683
+Sonora;34;20602;20497
+Sonora;35;22133;21992
+Sonora;36;20739;21061
+Sonora;37;19060;19013
+Sonora;38;22346;21557
+Sonora;39;19561;19538
+Sonora;40;24845;24683
+Sonora;41;16338;17023
+Sonora;42;22858;22548
+Sonora;43;19845;19911
+Sonora;44;17691;18153
+Sonora;45;22625;22118
+Sonora;46;18190;18781
+Sonora;47;19056;18565
+Sonora;48;19061;18802
+Sonora;49;17342;17641
+Sonora;50;21733;21931
+Sonora;51;13928;14260
+Sonora;52;17428;17954
+Sonora;53;15566;16146
+Sonora;54;15467;16292
+Sonora;55;15381;16083
+Sonora;56;14634;14857
+Sonora;57;12672;13275
+Sonora;58;13496;13938
+Sonora;59;12624;13504
+Sonora;60;15503;16597
+Sonora;61;9608;10346
+Sonora;62;12195;12918
+Sonora;63;11374;12043
+Sonora;64;10161;10858
+Sonora;65;11345;11810
+Sonora;66;8017;8929
+Sonora;67;7936;8362
+Sonora;68;8385;9140
+Sonora;69;6675;7109
+Sonora;70;7724;8324
+Sonora;71;4792;5414
+Sonora;72;6597;7153
+Sonora;73;5295;5845
+Sonora;74;4978;5760
+Sonora;75;4870;5420
+Sonora;76;4242;4651
+Sonora;77;3523;4025
+Sonora;78;3961;4201
+Sonora;79;3081;3545
+Sonora;80;3418;4073
+Sonora;81;1967;2242
+Sonora;82;2319;2858
+Sonora;83;2106;2708
+Sonora;84;2029;2424
+Sonora;85;1632;2087
+Sonora;86;1365;1744
+Sonora;87;1083;1498
+Sonora;88;872;1166
+Sonora;89;745;1011
+Sonora;90;696;996
+Sonora;91;350;508
+Sonora;92;340;549
+Sonora;93;255;446
+Sonora;94;208;379
+Sonora;95;152;297
+Sonora;96;124;219
+Sonora;97;101;135
+Sonora;98;99;136
+Sonora;99;63;95
+Sonora;100 y más;83;114
+Tabasco;0;19533;19145
+Tabasco;1;19735;19314
+Tabasco;2;20657;19955
+Tabasco;3;21653;21433
+Tabasco;4;23091;22361
+Tabasco;5;22794;21942
+Tabasco;6;22118;21811
+Tabasco;7;22794;22461
+Tabasco;8;23647;22404
+Tabasco;9;22353;21734
+Tabasco;10;23925;22862
+Tabasco;11;22093;21003
+Tabasco;12;23125;22205
+Tabasco;13;22205;21500
+Tabasco;14;22144;21636
+Tabasco;15;22066;21532
+Tabasco;16;20327;20212
+Tabasco;17;22259;21490
+Tabasco;18;22209;21165
+Tabasco;19;18428;18972
+Tabasco;20;20176;21377
+Tabasco;21;16560;17131
+Tabasco;22;19253;19713
+Tabasco;23;18178;19320
+Tabasco;24;17758;19089
+Tabasco;25;18460;20105
+Tabasco;26;16537;18647
+Tabasco;27;16952;19034
+Tabasco;28;17281;18738
+Tabasco;29;16195;18375
+Tabasco;30;21447;22736
+Tabasco;31;13264;15664
+Tabasco;32;17985;20422
+Tabasco;33;16492;18843
+Tabasco;34;16479;18095
+Tabasco;35;18607;20754
+Tabasco;36;16691;19368
+Tabasco;37;14839;16808
+Tabasco;38;18570;20490
+Tabasco;39;15524;17825
+Tabasco;40;20986;23178
+Tabasco;41;11672;13616
+Tabasco;42;18359;20151
+Tabasco;43;15081;16838
+Tabasco;44;13025;14696
+Tabasco;45;16550;18011
+Tabasco;46;13193;14595
+Tabasco;47;13099;14519
+Tabasco;48;14697;15664
+Tabasco;49;12685;14285
+Tabasco;50;16787;17993
+Tabasco;51;9320;10343
+Tabasco;52;13352;14138
+Tabasco;53;11614;12425
+Tabasco;54;11769;12834
+Tabasco;55;11905;12770
+Tabasco;56;11698;11845
+Tabasco;57;9128;9753
+Tabasco;58;10176;10693
+Tabasco;59;8999;9680
+Tabasco;60;11974;12184
+Tabasco;61;6194;6573
+Tabasco;62;7924;8492
+Tabasco;63;7908;8347
+Tabasco;64;7416;7874
+Tabasco;65;8676;8842
+Tabasco;66;5697;6083
+Tabasco;67;5890;6131
+Tabasco;68;6843;7477
+Tabasco;69;4476;4694
+Tabasco;70;5740;6337
+Tabasco;71;3024;3108
+Tabasco;72;4465;4602
+Tabasco;73;3642;3869
+Tabasco;74;3450;3608
+Tabasco;75;3703;3875
+Tabasco;76;2844;3098
+Tabasco;77;2357;2598
+Tabasco;78;3193;3256
+Tabasco;79;2272;2325
+Tabasco;80;2911;3054
+Tabasco;81;1361;1356
+Tabasco;82;1710;1824
+Tabasco;83;1485;1714
+Tabasco;84;1485;1774
+Tabasco;85;1433;1759
+Tabasco;86;1221;1384
+Tabasco;87;1003;1092
+Tabasco;88;869;971
+Tabasco;89;736;847
+Tabasco;90;718;910
+Tabasco;91;276;345
+Tabasco;92;409;403
+Tabasco;93;305;360
+Tabasco;94;249;362
+Tabasco;95;217;291
+Tabasco;96;159;202
+Tabasco;97;112;151
+Tabasco;98;122;192
+Tabasco;99;87;144
+Tabasco;100 y más;184;277
+Tamaulipas;0;25055;24241
+Tamaulipas;1;25746;24893
+Tamaulipas;2;27712;27311
+Tamaulipas;3;28747;28702
+Tamaulipas;4;29916;29017
+Tamaulipas;5;29997;29394
+Tamaulipas;6;29005;28050
+Tamaulipas;7;29666;28601
+Tamaulipas;8;31016;29865
+Tamaulipas;9;29631;29119
+Tamaulipas;10;33064;31579
+Tamaulipas;11;30231;29231
+Tamaulipas;12;32647;30675
+Tamaulipas;13;30068;29172
+Tamaulipas;14;29856;29330
+Tamaulipas;15;30259;29463
+Tamaulipas;16;28707;27963
+Tamaulipas;17;30198;28793
+Tamaulipas;18;32094;31241
+Tamaulipas;19;27977;28255
+Tamaulipas;20;31476;31735
+Tamaulipas;21;27395;26783
+Tamaulipas;22;28491;28204
+Tamaulipas;23;27561;27818
+Tamaulipas;24;27194;27407
+Tamaulipas;25;28843;29878
+Tamaulipas;26;25814;27428
+Tamaulipas;27;25393;26374
+Tamaulipas;28;26875;27230
+Tamaulipas;29;24168;25258
+Tamaulipas;30;30928;31813
+Tamaulipas;31;20467;22080
+Tamaulipas;32;26825;28042
+Tamaulipas;33;23602;25185
+Tamaulipas;34;23466;24437
+Tamaulipas;35;27619;28442
+Tamaulipas;36;25273;26999
+Tamaulipas;37;22329;23829
+Tamaulipas;38;26604;27867
+Tamaulipas;39;23436;24822
+Tamaulipas;40;30660;31910
+Tamaulipas;41;19139;20442
+Tamaulipas;42;27516;28875
+Tamaulipas;43;23160;24785
+Tamaulipas;44;20164;21986
+Tamaulipas;45;27756;28170
+Tamaulipas;46;21667;23032
+Tamaulipas;47;21907;23285
+Tamaulipas;48;22806;23984
+Tamaulipas;49;21362;22233
+Tamaulipas;50;27016;28269
+Tamaulipas;51;16472;17702
+Tamaulipas;52;21828;22803
+Tamaulipas;53;18793;19989
+Tamaulipas;54;18432;20090
+Tamaulipas;55;18602;20016
+Tamaulipas;56;17683;18278
+Tamaulipas;57;14390;15606
+Tamaulipas;58;15687;16961
+Tamaulipas;59;14814;15707
+Tamaulipas;60;18340;20051
+Tamaulipas;61;10545;11781
+Tamaulipas;62;13777;15149
+Tamaulipas;63;12637;13612
+Tamaulipas;64;11476;12532
+Tamaulipas;65;12693;13776
+Tamaulipas;66;8922;10090
+Tamaulipas;67;8676;9601
+Tamaulipas;68;9721;10978
+Tamaulipas;69;7508;8368
+Tamaulipas;70;8843;10251
+Tamaulipas;71;5623;6504
+Tamaulipas;72;7480;8697
+Tamaulipas;73;6318;7322
+Tamaulipas;74;5691;6887
+Tamaulipas;75;5953;7005
+Tamaulipas;76;4850;5720
+Tamaulipas;77;4216;5035
+Tamaulipas;78;4720;5229
+Tamaulipas;79;3826;4439
+Tamaulipas;80;4331;5369
+Tamaulipas;81;2464;3067
+Tamaulipas;82;2904;3739
+Tamaulipas;83;2667;3467
+Tamaulipas;84;2417;3277
+Tamaulipas;85;2231;2926
+Tamaulipas;86;1880;2471
+Tamaulipas;87;1379;1872
+Tamaulipas;88;1125;1487
+Tamaulipas;89;1048;1511
+Tamaulipas;90;1001;1400
+Tamaulipas;91;484;783
+Tamaulipas;92;513;831
+Tamaulipas;93;430;677
+Tamaulipas;94;368;626
+Tamaulipas;95;287;471
+Tamaulipas;96;230;334
+Tamaulipas;97;174;246
+Tamaulipas;98;137;197
+Tamaulipas;99;84;127
+Tamaulipas;100 y más;146;207
+Tlaxcala;0;10278;9997
+Tlaxcala;1;10704;10552
+Tlaxcala;2;11191;11237
+Tlaxcala;3;11455;11304
+Tlaxcala;4;12057;11685
+Tlaxcala;5;12117;11889
+Tlaxcala;6;11564;11434
+Tlaxcala;7;12031;11657
+Tlaxcala;8;12630;11829
+Tlaxcala;9;11343;11244
+Tlaxcala;10;12804;12143
+Tlaxcala;11;11522;11222
+Tlaxcala;12;12401;12036
+Tlaxcala;13;11876;11700
+Tlaxcala;14;12144;11870
+Tlaxcala;15;12614;11978
+Tlaxcala;16;11924;11584
+Tlaxcala;17;12932;12192
+Tlaxcala;18;13161;12788
+Tlaxcala;19;10901;11133
+Tlaxcala;20;12832;12835
+Tlaxcala;21;10387;10291
+Tlaxcala;22;11909;11723
+Tlaxcala;23;10664;11055
+Tlaxcala;24;10946;11295
+Tlaxcala;25;11318;11836
+Tlaxcala;26;10202;11014
+Tlaxcala;27;9719;10194
+Tlaxcala;28;10283;10813
+Tlaxcala;29;9368;10011
+Tlaxcala;30;11567;12640
+Tlaxcala;31;7218;8123
+Tlaxcala;32;9634;10975
+Tlaxcala;33;8451;9750
+Tlaxcala;34;8514;9640
+Tlaxcala;35;9458;11038
+Tlaxcala;36;8829;10630
+Tlaxcala;37;7701;9095
+Tlaxcala;38;9506;11120
+Tlaxcala;39;8092;9427
+Tlaxcala;40;10974;12442
+Tlaxcala;41;6284;7419
+Tlaxcala;42;9596;11003
+Tlaxcala;43;7805;8908
+Tlaxcala;44;6891;8126
+Tlaxcala;45;9005;10220
+Tlaxcala;46;7238;8487
+Tlaxcala;47;7015;8031
+Tlaxcala;48;7246;8650
+Tlaxcala;49;6778;7725
+Tlaxcala;50;8522;10189
+Tlaxcala;51;5074;5903
+Tlaxcala;52;7117;8149
+Tlaxcala;53;5899;6831
+Tlaxcala;54;5928;7170
+Tlaxcala;55;6076;7098
+Tlaxcala;56;5925;6552
+Tlaxcala;57;4437;5243
+Tlaxcala;58;5156;5823
+Tlaxcala;59;4592;5413
+Tlaxcala;60;6057;6866
+Tlaxcala;61;3392;3868
+Tlaxcala;62;4334;5066
+Tlaxcala;63;4223;4659
+Tlaxcala;64;3678;4362
+Tlaxcala;65;4305;4961
+Tlaxcala;66;2975;3355
+Tlaxcala;67;2906;3362
+Tlaxcala;68;3304;3718
+Tlaxcala;69;2429;2643
+Tlaxcala;70;2947;3455
+Tlaxcala;71;1634;1974
+Tlaxcala;72;2586;2948
+Tlaxcala;73;2152;2422
+Tlaxcala;74;2006;2371
+Tlaxcala;75;2000;2280
+Tlaxcala;76;1768;1983
+Tlaxcala;77;1464;1530
+Tlaxcala;78;1723;1805
+Tlaxcala;79;1285;1529
+Tlaxcala;80;1493;1718
+Tlaxcala;81;796;916
+Tlaxcala;82;1072;1261
+Tlaxcala;83;955;1166
+Tlaxcala;84;1019;1195
+Tlaxcala;85;832;1098
+Tlaxcala;86;741;993
+Tlaxcala;87;627;775
+Tlaxcala;88;524;616
+Tlaxcala;89;501;618
+Tlaxcala;90;451;650
+Tlaxcala;91;223;269
+Tlaxcala;92;265;349
+Tlaxcala;93;219;305
+Tlaxcala;94;195;291
+Tlaxcala;95;174;210
+Tlaxcala;96;157;168
+Tlaxcala;97;76;135
+Tlaxcala;98;75;108
+Tlaxcala;99;50;78
+Tlaxcala;100 y más;57;140
+Veracruz de Ignacio de la Llave;0;54924;53961
+Veracruz de Ignacio de la Llave;1;57964;56975
+Veracruz de Ignacio de la Llave;2;60156;58766
+Veracruz de Ignacio de la Llave;3;62288;61951
+Veracruz de Ignacio de la Llave;4;67781;65487
+Veracruz de Ignacio de la Llave;5;68517;66737
+Veracruz de Ignacio de la Llave;6;66103;64814
+Veracruz de Ignacio de la Llave;7;68461;66509
+Veracruz de Ignacio de la Llave;8;71415;68340
+Veracruz de Ignacio de la Llave;9;67839;66447
+Veracruz de Ignacio de la Llave;10;72444;69405
+Veracruz de Ignacio de la Llave;11;66743;65487
+Veracruz de Ignacio de la Llave;12;71412;69195
+Veracruz de Ignacio de la Llave;13;68106;66477
+Veracruz de Ignacio de la Llave;14;68975;67224
+Veracruz de Ignacio de la Llave;15;71397;68288
+Veracruz de Ignacio de la Llave;16;67555;66953
+Veracruz de Ignacio de la Llave;17;73285;70554
+Veracruz de Ignacio de la Llave;18;72490;70156
+Veracruz de Ignacio de la Llave;19;59426;61444
+Veracruz de Ignacio de la Llave;20;66115;67560
+Veracruz de Ignacio de la Llave;21;54085;56492
+Veracruz de Ignacio de la Llave;22;60272;62058
+Veracruz de Ignacio de la Llave;23;56163;60740
+Veracruz de Ignacio de la Llave;24;55724;61185
+Veracruz de Ignacio de la Llave;25;58146;64662
+Veracruz de Ignacio de la Llave;26;52968;60790
+Veracruz de Ignacio de la Llave;27;54028;60586
+Veracruz de Ignacio de la Llave;28;55709;62346
+Veracruz de Ignacio de la Llave;29;51833;59353
+Veracruz de Ignacio de la Llave;30;65731;73850
+Veracruz de Ignacio de la Llave;31;42489;50625
+Veracruz de Ignacio de la Llave;32;55589;64294
+Veracruz de Ignacio de la Llave;33;50055;58914
+Veracruz de Ignacio de la Llave;34;49545;57029
+Veracruz de Ignacio de la Llave;35;56149;64625
+Veracruz de Ignacio de la Llave;36;51790;61223
+Veracruz de Ignacio de la Llave;37;46205;53940
+Veracruz de Ignacio de la Llave;38;56267;64089
+Veracruz de Ignacio de la Llave;39;48194;56309
+Veracruz de Ignacio de la Llave;40;64113;73740
+Veracruz de Ignacio de la Llave;41;37272;44578
+Veracruz de Ignacio de la Llave;42;56056;65458
+Veracruz de Ignacio de la Llave;43;46711;55548
+Veracruz de Ignacio de la Llave;44;43136;51055
+Veracruz de Ignacio de la Llave;45;54750;61836
+Veracruz de Ignacio de la Llave;46;44785;52378
+Veracruz de Ignacio de la Llave;47;45728;52982
+Veracruz de Ignacio de la Llave;48;49530;56318
+Veracruz de Ignacio de la Llave;49;45366;52479
+Veracruz de Ignacio de la Llave;50;58637;66204
+Veracruz de Ignacio de la Llave;51;35622;41134
+Veracruz de Ignacio de la Llave;52;48459;54629
+Veracruz de Ignacio de la Llave;53;42145;48587
+Veracruz de Ignacio de la Llave;54;42809;50284
+Veracruz de Ignacio de la Llave;55;44089;49409
+Veracruz de Ignacio de la Llave;56;41958;45909
+Veracruz de Ignacio de la Llave;57;34048;38868
+Veracruz de Ignacio de la Llave;58;37271;42271
+Veracruz de Ignacio de la Llave;59;35156;39731
+Veracruz de Ignacio de la Llave;60;43865;48994
+Veracruz de Ignacio de la Llave;61;25175;28826
+Veracruz de Ignacio de la Llave;62;32616;36507
+Veracruz de Ignacio de la Llave;63;31243;35699
+Veracruz de Ignacio de la Llave;64;30100;34825
+Veracruz de Ignacio de la Llave;65;33732;38183
+Veracruz de Ignacio de la Llave;66;23918;27463
+Veracruz de Ignacio de la Llave;67;24667;27041
+Veracruz de Ignacio de la Llave;68;27474;32063
+Veracruz de Ignacio de la Llave;69;20940;23752
+Veracruz de Ignacio de la Llave;70;25226;29016
+Veracruz de Ignacio de la Llave;71;15110;16782
+Veracruz de Ignacio de la Llave;72;20982;23108
+Veracruz de Ignacio de la Llave;73;17812;19846
+Veracruz de Ignacio de la Llave;74;16305;18969
+Veracruz de Ignacio de la Llave;75;17447;19315
+Veracruz de Ignacio de la Llave;76;14239;16061
+Veracruz de Ignacio de la Llave;77;12122;13253
+Veracruz de Ignacio de la Llave;78;14092;15692
+Veracruz de Ignacio de la Llave;79;11064;12452
+Veracruz de Ignacio de la Llave;80;12897;15458
+Veracruz de Ignacio de la Llave;81;6850;7833
+Veracruz de Ignacio de la Llave;82;8315;10083
+Veracruz de Ignacio de la Llave;83;7487;9406
+Veracruz de Ignacio de la Llave;84;7533;9370
+Veracruz de Ignacio de la Llave;85;6948;8719
+Veracruz de Ignacio de la Llave;86;5499;7002
+Veracruz de Ignacio de la Llave;87;4265;5567
+Veracruz de Ignacio de la Llave;88;3632;4810
+Veracruz de Ignacio de la Llave;89;3340;4616
+Veracruz de Ignacio de la Llave;90;3480;4826
+Veracruz de Ignacio de la Llave;91;1406;1995
+Veracruz de Ignacio de la Llave;92;1667;2314
+Veracruz de Ignacio de la Llave;93;1364;1938
+Veracruz de Ignacio de la Llave;94;1149;1686
+Veracruz de Ignacio de la Llave;95;1028;1526
+Veracruz de Ignacio de la Llave;96;816;1102
+Veracruz de Ignacio de la Llave;97;542;846
+Veracruz de Ignacio de la Llave;98;544;845
+Veracruz de Ignacio de la Llave;99;398;657
+Veracruz de Ignacio de la Llave;100 y más;799;1358
+Yucatán;0;15978;15600
+Yucatán;1;17271;16906
+Yucatán;2;18061;17335
+Yucatán;3;18489;17890
+Yucatán;4;19536;18920
+Yucatán;5;19249;19052
+Yucatán;6;18847;18337
+Yucatán;7;18968;18420
+Yucatán;8;18860;18459
+Yucatán;9;17978;17952
+Yucatán;10;19637;19025
+Yucatán;11;18757;18271
+Yucatán;12;19857;19006
+Yucatán;13;18815;18375
+Yucatán;14;18767;18627
+Yucatán;15;19724;19060
+Yucatán;16;18633;18473
+Yucatán;17;20378;19409
+Yucatán;18;21436;20490
+Yucatán;19;19246;19514
+Yucatán;20;21636;21929
+Yucatán;21;18637;18441
+Yucatán;22;20593;19965
+Yucatán;23;19426;19395
+Yucatán;24;19793;19710
+Yucatán;25;20341;20314
+Yucatán;26;18753;19494
+Yucatán;27;18890;19255
+Yucatán;28;19067;19321
+Yucatán;29;17475;18065
+Yucatán;30;22245;22713
+Yucatán;31;14680;16062
+Yucatán;32;18210;19120
+Yucatán;33;17289;18276
+Yucatán;34;16779;17661
+Yucatán;35;18415;19401
+Yucatán;36;17219;18163
+Yucatán;37;15487;16399
+Yucatán;38;18197;18861
+Yucatán;39;15559;16398
+Yucatán;40;19436;20751
+Yucatán;41;12096;13200
+Yucatán;42;17817;18500
+Yucatán;43;14777;16318
+Yucatán;44;13633;14703
+Yucatán;45;16791;17997
+Yucatán;46;13600;15006
+Yucatán;47;13628;14624
+Yucatán;48;13611;14544
+Yucatán;49;12617;13615
+Yucatán;50;14953;16456
+Yucatán;51;9222;10364
+Yucatán;52;12389;13321
+Yucatán;53;10622;11835
+Yucatán;54;10700;12496
+Yucatán;55;10949;12528
+Yucatán;56;10266;11184
+Yucatán;57;8939;10087
+Yucatán;58;9403;10462
+Yucatán;59;9269;10096
+Yucatán;60;10550;11774
+Yucatán;61;6406;7347
+Yucatán;62;8154;9164
+Yucatán;63;8106;8818
+Yucatán;64;7667;8787
+Yucatán;65;9224;10214
+Yucatán;66;6482;7610
+Yucatán;67;6478;6915
+Yucatán;68;6609;7486
+Yucatán;69;5477;5823
+Yucatán;70;6798;7423
+Yucatán;71;4426;4701
+Yucatán;72;5644;6131
+Yucatán;73;4462;5070
+Yucatán;74;4048;4521
+Yucatán;75;4323;4762
+Yucatán;76;3571;3898
+Yucatán;77;3164;3333
+Yucatán;78;3403;3708
+Yucatán;79;2702;2748
+Yucatán;80;3039;3338
+Yucatán;81;1784;1998
+Yucatán;82;2135;2385
+Yucatán;83;1789;2160
+Yucatán;84;1772;2076
+Yucatán;85;1489;1845
+Yucatán;86;1301;1512
+Yucatán;87;1048;1283
+Yucatán;88;898;1069
+Yucatán;89;794;985
+Yucatán;90;698;924
+Yucatán;91;340;427
+Yucatán;92;400;505
+Yucatán;93;325;429
+Yucatán;94;260;339
+Yucatán;95;215;296
+Yucatán;96;168;212
+Yucatán;97;96;164
+Yucatán;98;86;147
+Yucatán;99;75;97
+Yucatán;100 y más;81;124
+Zacatecas;0;14118;13882
+Zacatecas;1;14893;14433
+Zacatecas;2;15602;15505
+Zacatecas;3;15907;15684
+Zacatecas;4;16043;15678
+Zacatecas;5;16309;15702
+Zacatecas;6;15102;15200
+Zacatecas;7;15515;15194
+Zacatecas;8;16134;15728
+Zacatecas;9;15381;15439
+Zacatecas;10;16215;15808
+Zacatecas;11;15055;14532
+Zacatecas;12;15879;14880
+Zacatecas;13;14814;14518
+Zacatecas;14;14949;14705
+Zacatecas;15;14886;14296
+Zacatecas;16;13823;13965
+Zacatecas;17;14758;14152
+Zacatecas;18;14637;14523
+Zacatecas;19;12756;13412
+Zacatecas;20;14154;14958
+Zacatecas;21;12208;12859
+Zacatecas;22;12926;13684
+Zacatecas;23;12233;12797
+Zacatecas;24;11768;12651
+Zacatecas;25;12188;13194
+Zacatecas;26;10907;12401
+Zacatecas;27;11165;12275
+Zacatecas;28;11185;12378
+Zacatecas;29;10460;11520
+Zacatecas;30;12661;14413
+Zacatecas;31;9135;10564
+Zacatecas;32;11359;12913
+Zacatecas;33;10308;11580
+Zacatecas;34;10123;11386
+Zacatecas;35;10784;12153
+Zacatecas;36;10164;11281
+Zacatecas;37;9212;10164
+Zacatecas;38;10251;11157
+Zacatecas;39;9242;10320
+Zacatecas;40;11725;13090
+Zacatecas;41;7997;8927
+Zacatecas;42;10857;12050
+Zacatecas;43;9580;10457
+Zacatecas;44;8580;9419
+Zacatecas;45;10845;11289
+Zacatecas;46;8812;9401
+Zacatecas;47;8979;9486
+Zacatecas;48;9202;9770
+Zacatecas;49;8261;9073
+Zacatecas;50;10289;11301
+Zacatecas;51;6771;7452
+Zacatecas;52;8608;9550
+Zacatecas;53;7678;8326
+Zacatecas;54;7619;8613
+Zacatecas;55;7589;8397
+Zacatecas;56;7206;7693
+Zacatecas;57;5950;6754
+Zacatecas;58;6226;6957
+Zacatecas;59;5974;6655
+Zacatecas;60;7522;8471
+Zacatecas;61;4225;4650
+Zacatecas;62;5658;6117
+Zacatecas;63;5587;5873
+Zacatecas;64;4716;5220
+Zacatecas;65;5554;5979
+Zacatecas;66;3941;4380
+Zacatecas;67;4106;4321
+Zacatecas;68;4430;4812
+Zacatecas;69;3476;3720
+Zacatecas;70;4260;4659
+Zacatecas;71;2588;2810
+Zacatecas;72;3725;3843
+Zacatecas;73;3308;3360
+Zacatecas;74;3199;3348
+Zacatecas;75;3233;3383
+Zacatecas;76;2735;2969
+Zacatecas;77;2356;2399
+Zacatecas;78;2583;2558
+Zacatecas;79;2108;2033
+Zacatecas;80;2380;2629
+Zacatecas;81;1424;1448
+Zacatecas;82;1678;1813
+Zacatecas;83;1595;1747
+Zacatecas;84;1564;1780
+Zacatecas;85;1471;1622
+Zacatecas;86;1131;1305
+Zacatecas;87;1041;1049
+Zacatecas;88;851;975
+Zacatecas;89;739;791
+Zacatecas;90;786;829
+Zacatecas;91;312;365
+Zacatecas;92;415;464
+Zacatecas;93;350;388
+Zacatecas;94;297;363
+Zacatecas;95;210;308
+Zacatecas;96;193;253
+Zacatecas;97;142;158
+Zacatecas;98;119;166
+Zacatecas;99;74;100
+Zacatecas;100 y más;102;137

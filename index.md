@@ -93,9 +93,11 @@ Que el estudiante reconozca los conceptos básicos de programación, cómo progr
 <br/>
 **🚀 Objetivo de la unidad**
 
-Que el estudiante sea capaz de importar y exportar conjuntos de datos de y en diferentes formatos, así como ejecutar transformaciones básicas sobre estas utilizando dataframes y el paquete `data.table`. 
+Que el estudiante sea capaz de importar y exportar conjuntos de datos de y en diferentes formatos, así como ejecutar transformaciones básicas sobre estas utilizando dataframes y el paquete data.table. 
 
 [📖 ↪ Presentación teórica](slides/unidad3.pdf)
+
+[💻 ↪ Práctica y ejercicios](unidad3.html)
 
 <br/>
 
