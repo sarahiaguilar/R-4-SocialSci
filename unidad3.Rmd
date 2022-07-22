@@ -37,7 +37,6 @@ Las siguientes instrucciones descargan los paquetes que utilizaremos en la prác
 # install.packages("curl")
 # install.packages("readxl")
 # install.packages("foreign")
-# install.packages("ggplot2")
 ```
 
 </br>
@@ -47,7 +46,6 @@ Esta instrucción carga las funciones de los paquetes que utilizaremos a tu sesi
 library(data.table)
 library(readxl)
 library(foreign)
-library(ggplot2)
 ```
 
 </br>
@@ -409,12 +407,20 @@ En este caso, el resultado a laa instrucción anterior luce igual al data table 
 1. Cree un nuevo proyecto de RStudio.
 2. Cree una nueva carpeta dentro del proyecto que se llame “datos” y ubique dentro de esta al archivo pob_censo_2020_inegi.csv.
 3. Cree una nueva carpeta dentro del proyecto que se llame "scripts" y cree un nuevo script dentro de esta. 
-4. En el script: 
-   4.1. Cargue el conjunto de datos del archivo a R como data table.
-   4.2. Verifique que haya el mismo número de observaciones por cada entidad federativa. 
-   4.3. Explore el data table y ubique las observaciones y variables que contienen `NA`s.
-   4.4. Reemplace los `NA`s por la media de observaciones *similares* a estas. 
-   4.5. Responda: ¿cuál es la entidad federativa que mayor relación hombres-mujeres (cuántos hombres hay por cada mujer en la entidad federativa)? 
-   4.6. Cree una nueva variable que refiera a la regiones geográficas* a la que pertenezca cada entidad federativa. 
-   4.7. Cree un nuevo data table con la población de mujeres entre 18 y 65 años por región geográfica y guárdelo en un nuevo archivo csv dentro de la carpeta datos “datos” del proyecto. 
-   4.8. Cree un nuevo data table con la población total de 18 años por entidad federativa y en él cree una nueva variable que refiera al porcentaje de la población de 18 años que representa cada entidad federativa de la población total de 18 años de Estados Unidos Mexicanos.
+4. En el script, cargue el conjunto de datos del archivo a R como data table.
+5. En el script, utilizando el data table, programe el código correspondiente para resolver lo siguiente:
+   
+   5.1. Verifique que haya el mismo número de observaciones por cada entidad federativa. 
+   
+   5.2. Ubique las observaciones y variables que contienen `NA`s, y reemplácelos los `NA`s por un valor que considere pertinente. 
+   
+   5.3. Responda: ¿cuál es la entidad federativa cuya relación hombres-mujeres* es la más alta a nivel nacional? La relación hombres-mujeres refiere a cuántos hombres hay por cada mujer en la entidad federativa)? Puede consultar las entidades federativas que conforman cada región geográfica en el [Glosario del INEGI]("https://www.inegi.org.mx/app/glosario/").
+   
+   5.4. Cree un nuevo data table con la población de mujeres entre 18 y 65 años por región geográfica y guárdelo en un nuevo archivo csv dentro de la carpeta “datos” del proyecto.
+   
+   5.5. Cree un nuevo data table con la población total de 18 años por entidad federativa y en él cree una nueva variable que refiera al porcentaje que representa la población de 18 años de cada entidad federativa de la población total de 18 años a nivel nacional.
+
+<center>
+![](https://c.tenor.com/rvNN3fvmjnAAAAAd/corgi-cute.gif)
+</center>
+   

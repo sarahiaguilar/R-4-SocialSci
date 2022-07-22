@@ -99,6 +99,8 @@ Que el estudiante sea capaz de importar y exportar conjuntos de datos de y en di
 
 [💻 ↪ Práctica y ejercicios](unidad3.html)
 
+[🇷 ⬇ Descargar projecto de R](projs/unidad3.zip)
+
 <br/>
 
 <!-- ------------------------------- Unidad 4 ------------------------------ -->
