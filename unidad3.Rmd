@@ -27,6 +27,8 @@ Que el estudiante sea capaz de importar y exportar conjuntos de datos de y en di
 
 [🗂 ⬇ Descargar datos a utilizar en la práctica](data/packages/unidad3_data.zip)
 
+Los tres archivos a utilizar en la práctica contienen el mismo conjunto de datos de población de hombres y mujeres por entidad federativa y edad. La fuente de los datos es el [Censo de Población y Vivienda 2020 del INEGI]("https://www.inegi.org.mx/programas/ccpv/2020/"). 
+
 <br>
 
 ## 3.1. Instalando y cargando paquetes
@@ -50,7 +52,7 @@ library(foreign)
 
 <br>
 
-## 3.3. Creando un data table
+## 3.2. Creando un data table
 
 * Desde 0
 
@@ -58,9 +60,8 @@ Recuerde que un data frame (y por lo tanto, un data table también) se compone d
 💡 Recordemos que los data tables heredan todas las propiedades de un data frame. 
 ```{r}
 x <- 1:200
-y <- rnorm(200, mean=70, sd=10)
-dt <- data.table(id=x, 
-                 age=y) 
+y <- rnorm(200, mean = 70, sd = 10)
+dt <- data.table(id = x, age = y) 
 ```
 Es importante denotar que los vectores que conformaran las columnas de un data table al crearlo desde 0, deben ser del mismo tamaño.  
 
@@ -71,9 +72,8 @@ Es importante denotar que los vectores que conformaran las columnas de un data t
 Para convertir un dataframe a un datatable, utilizamos la misma función que empleamos para instanciar un data table desde 0.
 ```{r}
 x <- 1:200
-y <- rnorm(200, mean=70, sd=10)
-df <- data.frame(id=x, 
-                 age=y) 
+y <- rnorm(200, mean = 70, sd = 10)
+df <- data.frame(id = x, age = y ) 
 dt <- data.table(df)
 ```
 
@@ -84,9 +84,11 @@ dt <- data.table(df)
 Utilizamos la función ```fread()```, que lee y convierte el contenido del archivo en un data table.  
 💡 El formato *ideal* para leer y escribir datos en un entorno de desarrollo orientado al análisis de conjuntos de datos (como R) es el csv ("valores separados por comas" por sus siglas en inglés).
 ```{r}
-dt <- fread("./data/pob_censo_2020_inegi.csv")
+dt <- fread("./data/pob_censo_2020_inegi.csv", encoding = "UTF-8")
 ```
-💡 Note que la ruta para leer el archivo comienza en el directorio de trabajo de RStudio y que termina con el nombre completo (incluyendo sufijo) del archivo.
+Note que la ruta para leer el archivo comienza en el directorio de trabajo de RStudio y que termina con el nombre completo (incluyendo sufijo) del archivo.
+
+💡 El parámetro `enconding` de la función `fread()` permite especificar una codificación de caracteres Unicode. La codificación [UTF-8(https://es.wikipedia.org/wiki/UTF-8) es la que comúnmente se utiliza para la correcta lectura de acentos y otros caracteres especiales en spañol. 
 
 <br>
 También es posible utilizar hipervínculos como ruta de lectura de un archivo. 
@@ -98,29 +100,39 @@ dt_link <- fread("https://raw.githubusercontent.com/sarahiaguilar/R-4-SocialSci/
 La función fread tiene parámetros que facilita la lectura de archivos con formatos más complejos. 
 💡 Recuerde que para conocer más acerca de una función específica (incluyendo sus parámetros y valores por defecto), corra "?" + el nombre de la función. 
 
-Por ejemplo, si el archivo no contiene un encabezado (nombres de columnas), podemos utilizar el parámetro `header` para indicarlo, o si el archivo está separado por un caracter distinto a unaa coma, podemos utilizar el parámetro `sep` para indicarlo.
+Por ejemplo, si el archivo no contiene un encabezado (nombres de columnas), podemos utilizar el parámetro `header` para indicarlo, o si el archivo está separado por un caracter distinto a una coma, podemos utilizar el parámetro `sep` para indicarlo.
 ```{r}
-dt_txt <- fread("./data/pob_censo_2020_inegi.txt", header=FALSE, sep=";")
+dt_txt <- fread("./data/pob_censo_2020_inegi.txt", header = FALSE, sep = ";")
 ```
 
 <br>
-Para archivos xlsx utilizamos la función `read_xlsx` del paquete `readxl`. Es necesario indicar como parámetro de esta función el número de hoja que deseamos leer. También, es importante destacar que esta función, a diferencia de laa función `fread()`, no convierte el contenido del archivo en un data table, por lo que es necesario hacer dicha conversión posteriormente. 
+Para archivos xlsx utilizamos la función `read_xlsx` del paquete `readxl`. Es necesario indicar como parámetro de esta función el número de hoja que deseamos leer. También, es importante destacar que esta función, a diferencia de la función `fread()`, no convierte el contenido del archivo en un data table, por lo que es necesario hacer dicha conversión posteriormente. 
 ```{r}
-df_xlsx <- read_xlsx("./data/pob_censo_2020_inegi.xlsx", sheet=1) # Lee hoja número 1
+df_xlsx <- read_xlsx("./data/pob_censo_2020_inegi.xlsx", sheet = 1) # Lee hoja número 1
 df_xlsx <- data.table(df_xlsx) # Convierte a data table
 ```
 
 <br>
 Para archivos sav de SPSS o dta de STATA utilizamos funciones del paquete `foreign`. 
 ```{r}
-# df_spss <- read.spss("example.sav", to.data.frame=TRUE,
-#                      use.value.labels=FALSE)
+# df_spss <- read.spss("example.sav", to.data.frame = TRUE, use.value.labels = FALSE)
 # df_stata <- read.dta("example.dta")
 ```
 
 <br>
 
-## 3.3. Conociendo a un data table
+## 3.3. Exportando un data table
+
+Para exportar un data table utilizamos la función `write.csv()` de R Base, que recibe como parámetro el objeto del data table que deseamos exportar y la ruta para escribir el archivo, que comienza en el directorio de trabajo de RStudio y termina con el nombre completo (incluyendo sufijo) del archivo. 
+```{r}
+# write.csv(dt, file = "./data/new_pob_censo_2020_inegi.xlsx", row.names = FALSE)
+```
+
+Por defecto, la función `write.csv()` escribirá el data table con una variable adicional de índice. El parámetro `row.names` permite definir si queremos o no agregar dicha variable adicional al escribir el data table.  
+
+<br>
+
+## 3.4. Conociendo a un data table
 <center>
 ![](https://i.pinimg.com/originals/db/ef/7d/dbef7ded446bf28e9f258b1edc7d3399.gif)
 </center>
@@ -172,6 +184,7 @@ La función ```nrow()``` devuelve el número de observaciones, y la función `nc
 ```{r}
 nrow(dt)
 ```
+
 <br>
 ```{r}
 ncol(dt)
@@ -190,16 +203,16 @@ summary(dt)
 ```
 
 <br>
-**Para data tables no muy grandes**, podemos utilizar la función `View()` que nos permite obtener una visualización tabular completa de cómo se ve el conjunto de datos. La visualización desplegada también la podemos obtener dando click sobre el nombre del data taable en la venta de `Environment` de RStudio.  
+**Para data tables no muy grandes**, podemos utilizar la función `View()` que nos permite obtener una visualización tabular completa de cómo se ve el conjunto de datos. La visualización desplegada también la podemos obtener dando click sobre el nombre del data table en la venta de `Environment` de RStudio.  
 
 
-## 3.4. Renombrando columnas de un data.table
+## 3.5. Renombrando columnas de un data.table
 
 Para simplificar el código, es muy importante asegurarnos que los nombres de columna de nuestro data table sean *adecuados* (comienzan con una letra, utilizan únicamente letras, números y guiones bajos (_) en lugar de espacios, no utilizar caracteres epeciales, y son nombres cortos, claros y concretos). 
 
 ```setnames()``` es una función que nos permitirá cambiar uno o varios nombres de columna de un data.table de forma *segura*.
 ```{r}
-setnames(dt, old=c("hombres", "mujeres"), new=c("pob_hombres", "pob mujeres"))
+setnames(dt, old = c("hombres", "mujeres"), new = c("pob_hombres", "pob mujeres"))
 ```
 
 <br> 
@@ -223,7 +236,7 @@ colnames(dt)
 
 <br> 
 
-## 3.5. Utilizando `i` en un data table
+## 3.6. Utilizando `i` en un data table
 
 💡 Recordemos que la forma general de sintaxis de un data table es `DT[i, j, by = k]`, y textualmente, se leería de la siguiente forma:
 
@@ -282,7 +295,7 @@ head(dt[order(entidad_federativa, pob_hombres), ])
 
 <br> 
 
-## 3.6. Utilizando `j` en un data table
+## 3.7. Utilizando `j` en un data table
 
 * Tomando el subconjunto de columnas `j`
 
@@ -363,7 +376,7 @@ head(dt)
 
 <br>
 
-## 3.7. Utilizando `k` en un data table
+## 3.8. Utilizando `k` en un data table
 
 Antes de agrupar por las columnas `k`, es necesario indicar al menos una operación con una columna `j`.
 
@@ -405,28 +418,32 @@ Por múltiples variables
 ```{r}
 head(dt[, .(sum_pob_h = sum(pob_hombres), sum_pob_m = sum(pob_mujeres)), by = .(entidad_federativa, edad)])
 ```
-En este caso, el resultado a laa instrucción anterior luce igual al data table opriginal. 
+En este caso, el resultado a la instrucción anterior luce igual al data table opriginal. 
 
 <br> 
 
 ## 🏋 Ejercicio #1
 1. Cree un nuevo proyecto de RStudio.
-2. Cree una nueva carpeta dentro del proyecto que se llame “datos” y ubique dentro de esta al archivo pob_censo_2020_inegi.csv.
+2. Cree una nueva carpeta dentro del proyecto que se llame “datos” y ubique dentro de esta al archivo pob_censo_2020_inegi.txt.
 3. Cree una nueva carpeta dentro del proyecto que se llame "scripts" y cree un nuevo script dentro de esta. 
 4. En el script, cargue el conjunto de datos del archivo a R como data table.
 5. En el script, utilizando el data table, programe el código correspondiente para resolver lo siguiente:
+
+   5.1. Asigne nuevos nombres de columnas a cada variable.
    
-   5.1. Verifique que haya el mismo número de observaciones por cada entidad federativa. 
+   5.2. Verifique que haya el mismo número de observaciones por cada entidad federativa. 
    
-   5.2. Ubique las observaciones y variables que contienen `NA`s, y reemplácelos los `NA`s por un valor que considere pertinente. 
+   5.3. Ubique las observaciones y variables que contienen `NA`s y reempláce los `NA`s por un valor que considere pertinente. 
    
-   5.3. Responda: ¿cuál es la entidad federativa cuya relación hombres-mujeres es la más alta a nivel nacional? La relación hombres-mujeres refiere a cuántos hombres hay por cada mujer en la entidad federativa)? Puede consultar las entidades federativas que conforman cada región geográfica en el [Glosario del INEGI]("https://www.inegi.org.mx/app/glosario/").
+   5.4. Responda: ¿cuál es la entidad federativa cuya relación hombres-mujeres es la más alta a nivel nacional? La relación hombres-mujeres refiere a cuántos hombres hay por cada mujer en la entidad federativa)? Puede consultar las entidades federativas que conforman cada región geográfica en el [Glosario del INEGI]("https://www.inegi.org.mx/app/glosario/").
    
-   5.4. Cree un nuevo data table con la población de mujeres entre 18 y 65 años por región geográfica y guárdelo en un nuevo archivo csv dentro de la carpeta “datos” del proyecto.
+   5.5. Cree un nuevo data table con la población de mujeres entre 18 y 65 años por región geográfica y guárdelo en un nuevo archivo csv dentro de la carpeta “datos” del proyecto.
    
-   5.5. Cree un nuevo data table con la población total de 18 años por entidad federativa y en él cree una nueva variable que refiera al porcentaje que representa la población de 18 años de cada entidad federativa de la población total de 18 años a nivel nacional.
+   5.6. Cree un nuevo data table con la población total de 18 años por entidad federativa y en él cree una nueva variable que refiera al porcentaje que representa la población de 18 años de cada entidad federativa de la población total de 18 años a nivel nacional.
+   
+   5.47. Responda: ¿cuál es la media de edad a nivel nacional?
 
 <center>
-![](https://c.tenor.com/rvNN3fvmjnAAAAAd/corgi-cute.gif)
+![](https://c.tenor.com/rvNN3fvmjnaaAd/corgi-cute.gif)
 </center>
    

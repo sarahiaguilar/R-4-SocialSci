@@ -285,7 +285,7 @@ max(x)
 
 <br>
 ```{r}
-sample(x, size=5)
+sample(x, size = 5)
 ```
 
 <br>
@@ -385,8 +385,9 @@ invierte_signo <- function(x){
 
 <br>
 ```{r}
-invierte_signo(-1)
+invierte_signo(x = -1)
 ```
+Al llamar una función, podemos hacer la asignación de los valores a los parámetros de forma explícita o simplemente pasar los valores. 
 
 <br>
 ```{r}
@@ -400,5 +401,5 @@ invierte_signo(2)
 Bonus: Verifique que ```n``` sea menor al tamaño de la población total de Z.
 
 <center>
-![](https://4.bp.blogspot.com/-IZGPPv86U-w/WbVnsg7wS7I/AAAAAAAAF6M/h3LMSxxjUAUz9CC6xhePmUacE8cr_6bPACLcBGAs/s1600/When-Waiter-Asks-You-Need-Moment-Look-Over-Menu-Youre-Just-Like.gif)
+![](https://4.bp.blogspot.com/-IZGPPv86U-w/WbVnsg7wS7I/aaaAF6M/h3LMSxxjUAUz9CC6xhePmUacE8cr_6bPACLcBGAs/s1600/When-Waiter-Asks-You-Need-Moment-Look-Over-Menu-Youre-Just-Like.gif)
 </center>
