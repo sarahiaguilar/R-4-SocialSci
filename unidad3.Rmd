@@ -533,17 +533,86 @@ dt_merge <- merge(x = dt_pob_ags,
 ## 3.10. Reorientación de data tables
 
 * De formato largo a ancho
+
+Utilizamos la función `dcast()`, que recibe como parámetros: 
+
+1. `data`: el objeto del data table que deseamos reorientar
+2. `formula`: la fórmula que indica el nombre de las variables que:
+   
+   * permaneceran como columnas (a la izquierda del `~` y separadas por un `+`) 
+   
+   * serán reorientadas como nuevas columnas (a la derecha del `~` y separadas por un `+`) 
+   
+3. `value.var`: el nombre de la variable que contiene los valores de las variables que serán reorientadas como nuevas columnas
+4. `fun.aggregate` (en caso de que se esté haciendo una agrupación de valores): el nombre de la función que se utilizará para agregar los valores de la variable indicada en `value.var` 
+
+<br>
+Sin agrupación de valores
 ```{r}
 dt_lic_short <- dcast(data = dt_lic,
                       formula = ent_fed+edad~sexo, 
                       value.var = "estudiaron_licenciatura")
+head(dt_lic_short)
 ```
 
 <br>
+Con agrupación de valores
+```{r}
+dt_lic_short <- dcast(data = dt_lic,
+                      formula = ent_fed~sexo, 
+                      value.var = "estudiaron_licenciatura",
+                      fun.aggregate = sum)
+head(dt_lic_short)
+```
+
+<br>
+
 * De formato largo a ancho
+
+Utilizamos la función `melt()`, que recibe como parámetros: 
+
+1. `data`: el objeto del data table que deseamos reorientar
+2. `id.vars`: qué variables permaneceran como columnas
+3. `variable.name` (opcional): el nuevo nombre de la variable que contendrá los nombres de las variables que serán reorientadas como nuevas filas
+4. `vvalue.name` (opcional): el nuevo nombre de la variable que contendrá los valores de las variables que serán reorientadas como nuevas filas
+
+<br>
 ```{r}
 dt_lic_long <- melt(data = dt_lic_short, 
-                    id.vars = c("ent_fed", "edad"), 
+                    id.vars = "ent_fed", 
                     variable.name = "sexo",
                     value.name = "estudiaron_lic")
+head(dt_lic_long)
+```
+
+## 3.11. Manejo de variables categóricas (Bonus #1! 😊)
+
+Cuando exportamos conjuntos de datos como data table, R lee no es capaz de identificar por defecto valores categóricos. 
+```{r}
+str(dt_lic)
+```
+
+<br>
+En R, para poder identificar una varable categórica como tal, deben ser convertidas en fatcores. Esta conversión trae muchos beneficios a la hora de preprocesar y visualizar los datos, e incluso construir modelos estadísticos con ellos.
+
+Los factores son variables en R que toman un número limitado de valores diferentes y se almacenan como un vector de valores enteros con un conjunto correspondiente de cadenas de caracteres para usar cuando se muestra el factor. 
+
+La función de `factor` se utiliza para crear un factor. El único parámetro necesario para factorizar es un vector de valores que se devolverá como un vector de valores de factor. 
+
+Tanto las variables numéricas como las de cadenas caracteres se pueden convertir en factores, pero los niveles de un factor siempre serán cadenas de caracteres en un orden predeterminado. Los `niveles` son otro parámetro de la función.
+
+Los niveles de un factor se utilizan cuando se muestran los valores del factor. Puede cambiar estos niveles en el momento de crear un factor pasando un vector con los nuevos valores a través del paraámetro  `labels`. 
+
+<br>
+```{r}
+sex_levels <- c("Hombres", "Mujeres")
+sex_labels <- c("h", "m")
+sex_var <- dt_lic[, sexo]
+sex_factor <- factor(x = sex_var, levels = sex_levels, labels = sex_labels)
+```
+
+<br>
+```{r}
+dt_lic[, sexo := sex_factor]
+str(dt_lic)
 ```
