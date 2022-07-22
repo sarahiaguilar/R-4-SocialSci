@@ -107,12 +107,14 @@ Que el estudiante sea capaz de importar y exportar conjuntos de datos de y en di
 
 <br/>
 
-### **Unidad 4. Análisis exploratorio de datos**
+### **Unidad 4. Visualización de datos**
 
 <br/>
 **🚀 Objetivo de la unidad**
 
 Que el estudiante conozca los distintos tipos de visualización de datos y reconozca sus casos de uso.
+
+[📖 ↪ Presentación teórica](slides/unidad4.pdf)
 
 <br/>
 
@@ -120,12 +122,12 @@ Que el estudiante conozca los distintos tipos de visualización de datos y recon
 
 <br/>
 
-### **Unidad 5. Visualización de datos**
+### **Unidad 5. Análisis exploratorio de datos**
 
 <br/>
 **🚀 Objetivo de la unidad**
 
-Que el estudiante se familiarice con un flujo efectivo de análisis exploratorio de datos, y pueda explorar conjuntos de datos y subconjuntos de estas mediante la creación de tablas resumen, cálculo de estadísticas y visualizaciones de los mismos.  
+Que el estudiante se familiarice con un flujo efectivo de análisis exploratorio de datos, y pueda explorar conjuntos de datos y subconjuntos de estas mediante la creación de tablas resumen, cálculo de estadísticas y visualizaciones de los mismos. 
 
 <br/>
 
