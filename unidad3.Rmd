@@ -12,22 +12,22 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-<br/>
+<br>
 
 [🏠↩ De vuelta a la página principal del curso](index.html)
 
-<br/>
+<br>
 
 ## Inicio
 
 > #### **🚀 Objetivo de la unidad** 
 Que el estudiante sea capaz de importar y exportar conjuntos de datos de y en diferentes formatos, así como ejecutar transformaciones básicas sobre estas utilizando dataframes y el paquete data.table.
 
-<br/>
+<br>
 
 [🗂 ⬇ Descargar datos a utilizar en la práctica](data/packages/unidad3_data.zip)
 
-<br/>
+<br>
 
 ## 3.1. Instalando y cargando paquetes
 
@@ -39,7 +39,7 @@ Las siguientes instrucciones descargan los paquetes que utilizaremos en la prác
 # install.packages("foreign")
 ```
 
-</br>
+<br>
 Cargando un paquete
 Esta instrucción carga las funciones de los paquetes que utilizaremos a tu sesión de R actual. Por lo tanto, debemos correrla cada que vayamos a utilizar las funciones del paquete en una nueva sesión de R.
 ```{r}
@@ -48,7 +48,7 @@ library(readxl)
 library(foreign)
 ```
 
-</br>
+<br>
 
 ## 3.3. Creando un data table
 
@@ -63,7 +63,8 @@ dt <- data.table(id=x,
                  age=y) 
 ```
 Es importante denotar que los vectores que conformaran las columnas de un data table al crearlo desde 0, deben ser del mismo tamaño.  
-<br/>
+
+<br>
 
 * A partir de un data frame
 
@@ -75,7 +76,8 @@ df <- data.frame(id=x,
                  age=y) 
 dt <- data.table(df)
 ```
-<br/>
+
+<br>
 
 * A partir de un archivo con formato tabular
 
@@ -86,12 +88,13 @@ dt <- fread("./data/pob_censo_2020_inegi.csv")
 ```
 💡 Note que la ruta para leer el archivo comienza en el directorio de trabajo de RStudio y que termina con el nombre completo (incluyendo sufijo) del archivo.
 
-</br>
+<br>
 También es posible utilizar hipervínculos como ruta de lectura de un archivo. 
 ```{r}
 dt_link <- fread("https://raw.githubusercontent.com/sarahiaguilar/R-4-SocialSci/gh-pages/data/pob_censo_2020_inegi.csv")
 ```
-</br>
+
+<br>
 La función fread tiene parámetros que facilita la lectura de archivos con formatos más complejos. 
 💡 Recuerde que para conocer más acerca de una función específica (incluyendo sus parámetros y valores por defecto), corra "?" + el nombre de la función. 
 
@@ -100,14 +103,14 @@ Por ejemplo, si el archivo no contiene un encabezado (nombres de columnas), pode
 dt_txt <- fread("./data/pob_censo_2020_inegi.txt", header=FALSE, sep=";")
 ```
 
-</br>
+<br>
 Para archivos xlsx utilizamos la función `read_xlsx` del paquete `readxl`. Es necesario indicar como parámetro de esta función el número de hoja que deseamos leer. También, es importante destacar que esta función, a diferencia de laa función `fread()`, no convierte el contenido del archivo en un data table, por lo que es necesario hacer dicha conversión posteriormente. 
 ```{r}
 df_xlsx <- read_xlsx("./data/pob_censo_2020_inegi.xlsx", sheet=1) # Lee hoja número 1
 df_xlsx <- data.table(df_xlsx) # Convierte a data table
 ```
 
-</br>
+<br>
 Para archivos sav de SPSS o dta de STATA utilizamos funciones del paquete `foreign`. 
 ```{r}
 # df_spss <- read.spss("example.sav", to.data.frame=TRUE,
@@ -115,15 +118,14 @@ Para archivos sav de SPSS o dta de STATA utilizamos funciones del paquete `forei
 # df_stata <- read.dta("example.dta")
 ```
 
-</br>
+<br>
 
 ## 3.3. Conociendo a un data table
 <center>
 ![](https://i.pinimg.com/originals/db/ef/7d/dbef7ded446bf28e9f258b1edc7d3399.gif)
 </center>
 
-</br>
-
+<br>
 Las siguientes funciones nos permiten explorar rápidamente la composición de un data table. Este es un paso crucial para tener un entendimiento general de "cómo luce" el conjunto de datos y qué tipo de procesamiento requeriremos hacer sobre él.
 
 💡 Es buena práctica mantener nuestro ambiente libre de variables que ya no vamos a utilizar. Es posible eliminar variables desde nuestro ambiente desde la ventana de `Environment` de RStudio, pero también es posible con la función `rm()`.
@@ -132,63 +134,62 @@ Las siguientes funciones nos permiten explorar rápidamente la composición de u
 rm(df, df_xlsx, dt_link, dt_txt, x, y)
 ```
 
-</br>
-
+<br>
 Las siguientes funciones nos permiten explorar
 
-</br>
+<br>
 La función ```head()``` devuelve las primeras 6 observaciones de un data table.
 ```{r}
 head(dt)
 ```
 
-</br>
+<br>
 La función ```tail()``` devuelve las últimas 6 observaciones de un data table. 
 ```{r}
 tail(dt)
 ```
 
-</br>
+<br>
 Tanto ```head()``` como ```tail()```, pueden recibir el argumento adicional ```n```, que indicará cuántas observaciones devolverá. 
 ```{r}
 tail(dt, n=2) # Imprime las 2 últimas observaciones
 ```
 
-</br>
+<br>
 La función ```colnames()``` devuelve los nombres de las variables de un data table. 
 ```{r}
 colnames(dt)
 ```
 
-</br>
+<br>
 La función ```dim()``` devuelve un vector de tamaño 2 con las dimensiones del data table. En la primer posición del vector, se devolverá el número de observaciones, y en la segunda posición, el número de variables.  
 ```{r}
 dim(dt)
 ```
 
-</br>
+<br>
 La función ```nrow()``` devuelve el número de observaciones, y la función `ncol()`, el número de variables.  
 ```{r}
 nrow(dt)
 ```
-</br>
+<br>
 ```{r}
 ncol(dt)
 ```
 
-</br>
+<br>
 La función ```str()``` devuelve el tipo y tamaño de cada vector que compone a un data table A esto se le conoce como la "estructura" de un data frame. 
 ```{r}
 str(dt)
 ```
 
-</br>
+<br>
 La función ```summary()``` devuelve algunas de las medidas de dispersón de las variables numéricas de un data table e incluso el número de `NA`s por columna (en caso de que haya). 
 ```{r}
 summary(dt)
 ```
 
-</br>
+<br>
 **Para data tables no muy grandes**, podemos utilizar la función `View()` que nos permite obtener una visualización tabular completa de cómo se ve el conjunto de datos. La visualización desplegada también la podemos obtener dando click sobre el nombre del data taable en la venta de `Environment` de RStudio.  
 
 
@@ -201,26 +202,26 @@ Para simplificar el código, es muy importante asegurarnos que los nombres de co
 setnames(dt, old=c("hombres", "mujeres"), new=c("pob_hombres", "pob mujeres"))
 ```
 
-</br> 
+<br> 
 ```{r}
 colnames(dt)
 ```
 
 💡 Para sustituir un valor y reemplazarlo por otro valor en un vector, la `gsub()` resulta muy útil. En contexto, podemos utilizar `gsub()` para reemplazar un caracter especial que se repita en los nombres de columna de un data table.
 
-</br> 
+<br> 
 ```{r}
 setnames(dt,
          old = colnames(dt), 
          new = gsub(" ", "_", colnames(dt))) # Reemplaza espacios por un guión bajo en los nombres de columna del data table
 ```
 
-</br> 
+<br> 
 ```{r}
 colnames(dt)
 ```
 
-</br> 
+<br> 
 
 ## 3.5. Utilizando `i` en un data table
 
@@ -231,125 +232,127 @@ colnames(dt)
 3. Toma el subconjunto de columnas `j` o calcula las nuevas columnas `j`
 4. Agrupando por las columnas `k`
 
-</br>
+<br>
 
 * Tomando el subconjunto de filas `i`
 
-Una única observación basándonos en su índice.
+Una única observación basándonos en su índice
 ```{r}
 dt[41, ]
 ```
 
-</br>
-Una secuencia de observaciones basándonos en sus índices.
+<br>
+Una secuencia de observaciones basándonos en sus índices
 ```{r}
 dt[41:52, ]
 ```
 
-</br>
-Un conjunto de observaciones no secuenciales basándonos en su índices.
+<br>
+Un conjunto de observaciones no secuenciales basándonos en su índices
 ```{r}
 dt[c(41, 950, 1556), ]
 ```
 
-</br>
-Un conjunto de observaciones basándonos en una condición.
+<br>
+Un conjunto de observaciones basándonos en una condición
 ```{r}
 dt[entidad_federativa %in% c("Estados Unidos Mexicanos", "Ciudad de México", "México") & edad == 40, ]
 ```
 
-</br>
+<br>
+
 * Ordenando las filas usando las columnas `i`
 
-</br>
-Con una variable de forma ascendente. 
+Con una variable de forma ascendente
 ```{r}
 head(dt[order(pob_hombres), ])
 ```
 
-</br>
+<br>
 Con una variable de forma descendente 
 ```{r}
 head(dt[order(-pob_hombres), ])
 ```
 
-</br>
+<br>
 Con dos variables de forma ascendente 
 ```{r}
 head(dt[order(entidad_federativa, pob_hombres), ])
 ```
 
-</br> 
+<br> 
 
 ## 3.6. Utilizando `j` en un data table
 
 * Tomando el subconjunto de columnas `j`
 
-Una única variable basándonos en su índice.
+Una única variable basándonos en su índice
 ```{r}
 head(dt[, 2])
 ```
 
-</br>
-Una secuencia de variables basándonos en sus índices.
+<br>
+Una secuencia de variables basándonos en sus índices
 ```{r}
 head(dt[, 3:4])
 ```
 
-</br>
-Un conjunto de variables no secuenciales basándonos en su índices.
+<br>
+Un conjunto de variables no secuenciales basándonos en su índices
 ```{r}
 head(dt[, c(1, 3:4)])
 ```
 
-</br>
-Una única variable basándonos en su nombre de columna. 
+<br>
+Una única variable basándonos en su nombre de columna
 ```{r}
 head(dt[, .(entidad_federativa)])
 ```
 
-</br>
+<br>
 También es posible escribir la instrucción así: `dt[, .(entidad_federativa)]`. Observe que al ejecutar la instrucción sin el `.()`, el resultado es un vector. 
 
-</br>
+<br>
 💡 La función ```unique()``` devuelve todos los valores únicos de un vector. Esta función resulta útil para explorar rápidamente los valores únicos de una variable categórica. 
 ```{r}
 unique(dt[, entidad_federativa])
 ```
 
-</br>
+<br>
 Un conjunto de variables no secuenciales basándonos en su nombre de columna.
 ```{r}
 head(dt[, .(entidad_federativa, pob_hombres, pob_mujeres)]) 
 ```
 
-</br>
+<br>
 Esta otra forma es también válida y debe ser utilizada en caso de que los nombres de columnas tengan caracteres especiales. 
 ```{r}
 head(dt[, c("entidad_federativa", "pob_hombres", "pob_mujeres")]) 
 ```
 
-</br>
+<br>
+
 * Calculando las nuevas columnas `j`
+
 Al calcular una nueva columna en un data table, una iteración por cada fila ocurre de forma implícita.
 
-</br>
-Calculando nueva variable desde 0. 
+<br>
+Calculando nueva variable desde 0 
 ```{r}
 dt[, indice := 1:nrow(dt)]
 head(dt)
 ```
 
-</br>
-Calculando nueva variable con variables ya existentes. 
+<br>
+Calculando nueva variable con variables ya existentes 
 ```{r}
 dt[, pob_total := pob_hombres + pob_mujeres]
 head(dt)
 ```
 💡 **En R, las operaciones con `NA` siempre resultan en `NA`.**
 
-</br>
-Calculando variable con variables ya existentes y condicionales. 
+<br>
+Calculando variable con variables ya existentes y condicionales 
 ```{r}
 # Se sobreescribe una variable ya existente (pob_total)
 dt[, pob_hombres := ifelse(test = pob_hombres < 0, # ¿La población de hombres en la fila es menor a 0?
@@ -358,7 +361,7 @@ dt[, pob_hombres := ifelse(test = pob_hombres < 0, # ¿La población de hombres 
 head(dt)
 ```
 
-</br>
+<br>
 
 ## 3.7. Utilizando `k` en un data table
 
@@ -366,29 +369,29 @@ Antes de agrupar por las columnas `k`, es necesario indicar al menos una operaci
 
 * Operando con las columnas `j`
 
-</br>
 Una única operación
 ```{r}
 dt[entidad_federativa != "Estados Unidos Mexicanos", sum(pob_hombres)]
 ```
 
-</br>
+<br>
 ```{r}
 dt[, .N] # .N es un conteo de observaciones
 ```
 
-</br>
+<br>
 Múltiples operaciones
 ```{r}
 dt[entidad_federativa == "Estados Unidos Mexicanos", .(sum(pob_hombres), sum(pob_mujeres))]
 ```
 
-</br>
+<br>
 Renombrando las operaciones
 ```{r}
 dt[entidad_federativa != "Estados Unidos Mexicanos", .(sum_pob_h = sum(pob_hombres), sum_pob_m = sum(pob_mujeres))]
 ```
 
+<br>
 
 * Agrupando por las columnas `k`
 
@@ -397,13 +400,16 @@ Por una única variable
 head(dt[, .(sum_pob_h = sum(pob_hombres), sum_pob_m = sum(pob_mujeres)), by = entidad_federativa])
 ```
 
+<br> 
 Por múltiples variables
 ```{r}
 head(dt[, .(sum_pob_h = sum(pob_hombres), sum_pob_m = sum(pob_mujeres)), by = .(entidad_federativa, edad)])
 ```
 En este caso, el resultado a laa instrucción anterior luce igual al data table opriginal. 
 
-## 🏋 Ejercicio
+<br> 
+
+## 🏋 Ejercicio #1
 1. Cree un nuevo proyecto de RStudio.
 2. Cree una nueva carpeta dentro del proyecto que se llame “datos” y ubique dentro de esta al archivo pob_censo_2020_inegi.csv.
 3. Cree una nueva carpeta dentro del proyecto que se llame "scripts" y cree un nuevo script dentro de esta. 
@@ -414,7 +420,7 @@ En este caso, el resultado a laa instrucción anterior luce igual al data table 
    
    5.2. Ubique las observaciones y variables que contienen `NA`s, y reemplácelos los `NA`s por un valor que considere pertinente. 
    
-   5.3. Responda: ¿cuál es la entidad federativa cuya relación hombres-mujeres* es la más alta a nivel nacional? La relación hombres-mujeres refiere a cuántos hombres hay por cada mujer en la entidad federativa)? Puede consultar las entidades federativas que conforman cada región geográfica en el [Glosario del INEGI]("https://www.inegi.org.mx/app/glosario/").
+   5.3. Responda: ¿cuál es la entidad federativa cuya relación hombres-mujeres es la más alta a nivel nacional? La relación hombres-mujeres refiere a cuántos hombres hay por cada mujer en la entidad federativa)? Puede consultar las entidades federativas que conforman cada región geográfica en el [Glosario del INEGI]("https://www.inegi.org.mx/app/glosario/").
    
    5.4. Cree un nuevo data table con la población de mujeres entre 18 y 65 años por región geográfica y guárdelo en un nuevo archivo csv dentro de la carpeta “datos” del proyecto.
    
