@@ -27,7 +27,9 @@ Que el estudiante sea capaz de importar y exportar conjuntos de datos de y en di
 
 [🗂 ⬇ Descargar datos a utilizar en la práctica](data/packages/unidad3_data.zip)
 
-Los tres archivos a utilizar en la práctica contienen el mismo conjunto de datos de población de hombres y mujeres por entidad federativa y edad. La fuente de los datos es el [Censo de Población y Vivienda 2020 del INEGI]("https://www.inegi.org.mx/programas/ccpv/2020/"). 
+* Los archivos pob_censo_2020_inegi.csv, pob_censo_2020_inegi.txt y pob_censo_2020_inegi.xlsx contienen el mismo conjunto de datos de población de hombres y mujeres por entidad federativa y edad. La fuente de los datos es el [Censo de Población y Vivienda 2020 del INEGI]("https://www.inegi.org.mx/programas/ccpv/2020/"). 
+
+* El archivo pob_censo_2020_inegi.csv contiene datos de población de hombres y mujeres que estudiaron una licenciatura (o equivalente) por entidad federativa y edad. La fuente de los datos es el [Censo de Población y Vivienda 2020 del INEGI]("https://www.inegi.org.mx/programas/ccpv/2020/").
 
 <br>
 
@@ -336,6 +338,7 @@ Un conjunto de variables no secuenciales basándonos en su nombre de columna.
 ```{r}
 head(dt[, .(entidad_federativa, pob_hombres, pob_mujeres)]) 
 ```
+💡 También es posible reordenar las columnas de un conjunto de datos de esta forma. 
 
 <br>
 Esta otra forma es también válida y debe ser utilizada en caso de que los nombres de columnas tengan caracteres especiales. 
@@ -372,6 +375,19 @@ dt[, pob_hombres := ifelse(test = pob_hombres < 0, # ¿La población de hombres 
                          yes = 0, # Si la condición es verdadera, devuelve 0 
                          no = pob_hombres)] # Si la condición es falsa, devuelve la misma población de hombres en la fila
 head(dt)
+```
+
+<br>
+Para eliminar una variable, esta se debe de igualar al valor `NULL`.
+
+```{r}
+colnames(dt)
+```
+
+<br>
+```{r}
+dt[, indice := NULL]
+colnames(dt)
 ```
 
 <br>
@@ -422,11 +438,11 @@ En este caso, el resultado a la instrucción anterior luce igual al data table o
 
 <br> 
 
-## 🏋 Ejercicio #1
-1. Cree un nuevo proyecto de RStudio.
-2. Cree una nueva carpeta dentro del proyecto que se llame “datos” y ubique dentro de esta al archivo pob_censo_2020_inegi.txt.
+## 🏋 Ejercicio
+1. Cree un nuevo proyecto.
+2. Cree una nueva carpeta dentro del proyecto que se llame “datos” y ubique dentro de esta a los archivos pob_censo_2020_inegi.txt y lic_censo_2020_inegi.csv.
 3. Cree una nueva carpeta dentro del proyecto que se llame "scripts" y cree un nuevo script dentro de esta. 
-4. En el script, cargue el conjunto de datos del archivo a R como data table.
+4. En el script, cargue el conjunto de datos del archivo pob_censo_2020_inegi.txt a R como data table.
 5. En el script, utilizando el data table, programe el código correspondiente para resolver lo siguiente:
 
    5.1. Asigne nuevos nombres de columnas a cada variable.
@@ -442,8 +458,92 @@ En este caso, el resultado a la instrucción anterior luce igual al data table o
    5.6. Cree un nuevo data table con la población total de 18 años por entidad federativa y en él cree una nueva variable que refiera al porcentaje que representa la población de 18 años de cada entidad federativa de la población total de 18 años a nivel nacional.
    
    5.7. Responda: ¿cuál es la media de edad a nivel nacional?
+6. Cree un segundo script dentro de la carpeta "scripts". 
+7. En este segundo script, cargue los conjuntos de datos de los archivos pob_censo_2020_inegi.txt y lic_censo_2020_inegi.csv a R como data tables.
+8. En este segundo script, utilizando ambos data tables, programe el código correspondiente para resolver lo siguiente:
+  
+   8.1. Cree un nuevo data table con la población de mujeres de Aguascalientes por edad.
+   
+   8.2. Cree un nuevo data table con la población de mujeres de Aguascalientes que estudiaron una licenciatura (o equivalente) por edad.
 
 <center>
 ![](https://c.tenor.com/rvNN3fvmjnaaAd/corgi-cute.gif)
 </center>
+
+## 3.9. Unión de data tables
+
+Para esta sección, retomamos el inciso 8 del Ejercicio.
+```{r}
+dt_lic <- fread("./data/lic_censo_2020_inegi.csv", encoding = "UTF-8")
+```
    
+<br>  
+```{r}
+dt_pob_ags <- dt[entidad_federativa == "Aguascalientes", .(edad, pob_mujeres)]
+dt_lic_ags <- dt_lic[ent_fed == "Aguascalientes" & sexo == "Mujeres", .(edad, estudiaron_licenciatura)]
+```
+
+<br>
+Antes de unir dos data tables, debemos asegurarnos que la variable llave en ambos data tables sea del mismo tipo de dato.
+```{r}
+typeof(dt_pob_ags[, edad])
+```
+
+<br>
+```{r}
+typeof(dt_lic_ags[, edad])
+```
+
+<br>
+```{r}
+dt_pob_ags[, edad := ifelse(edad == "100 y más", yes = "101", no = edad)]
+dt_pob_ags[, edad := as.integer(edad)]
+```
+
+<br>
+Unimos los data tables `dt_pob_ags` y `dt_lic_ags` conservando todos los valores del primer data table. 
+```{r}
+dt_merge <- merge(x = dt_pob_ags,
+                  y = dt_lic_ags,
+                  by.x = "edad", 
+                  by.y = "edad", 
+                  all.x = TRUE)
+```
+
+<br>
+Unimos los data tables `dt_pob_ags` y `dt_lic_ags` conservando todos los valores del segundo data table. 
+```{r}
+dt_merge <- merge(x = dt_pob_ags,
+                  y = dt_lic_ags,
+                  by.x = "edad", 
+                  by.y = "edad", 
+                  all.y = TRUE)
+```
+
+<br>
+Unimos los data tables `dt_pob_ags` y `dt_lic_ags` conservando todos los valores de ambos data tables. 
+```{r}
+dt_merge <- merge(x = dt_pob_ags,
+                  y = dt_lic_ags,
+                  by.x = "edad", 
+                  by.y = "edad", 
+                  all = TRUE)
+```
+
+## 3.10. Reorientación de data tables
+
+* De formato largo a ancho
+```{r}
+dt_lic_short <- dcast(data = dt_lic,
+                      formula = ent_fed+edad~sexo, 
+                      value.var = "estudiaron_licenciatura")
+```
+
+<br>
+* De formato largo a ancho
+```{r}
+dt_lic_long <- melt(data = dt_lic_short, 
+                    id.vars = c("ent_fed", "edad"), 
+                    variable.name = "sexo",
+                    value.name = "estudiaron_lic")
+```

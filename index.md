@@ -112,7 +112,9 @@ Que el estudiante sea capaz de importar y exportar conjuntos de datos de y en di
 <br/>
 **🚀 Objetivo de la unidad**
 
-Que el estudiante se familiarice con un flujo efectivo de análisis exploratorio de datos, y pueda explorar conjuntos de datos y subconjuntos de estas mediante la creación de tablas resumen de las mismas.  
+Que el estudiante se familiarice con un flujo efectivo de análisis exploratorio de datos, y pueda explorar conjuntos de datos y subconjuntos de estas mediante la creación de tablas resumen y cálculo de estadísticas de los mismos.  
+
+[📖 ↪ Presentación teórica](slides/unidad4.pdf)
 
 <br/>
 
