@@ -455,9 +455,9 @@ En este caso, el resultado a la instrucción anterior luce igual al data table o
    
    5.3. Ubique las observaciones y variables que contienen `NA`s y reempláce los `NA`s por un valor que considere pertinente. 
    
-   5.4. Responda: ¿cuál es la entidad federativa cuya relación hombres-mujeres es la más alta a nivel nacional? La relación hombres-mujeres refiere a cuántos hombres hay por cada mujer en la entidad federativa)? Puede consultar las entidades federativas que conforman cada región geográfica en el [Glosario del INEGI]("https://www.inegi.org.mx/app/glosario/").
+   5.4. Responda: ¿cuál es la entidad federativa cuya relación hombres-mujeres es la más alta a nivel nacional? La relación hombres-mujeres refiere a cuántos hombres hay por cada mujer en la entidad federativa).
    
-   5.5. Cree un nuevo data table con la población de mujeres entre 18 y 65 años por región geográfica y guárdelo en un nuevo archivo csv dentro de la carpeta “datos” del proyecto.
+   5.5. Cree un nuevo data table con la población total de mujeres entre 18 y 65 años por región geográfica y guárdelo en un nuevo archivo csv dentro de la carpeta “datos” del proyecto. Puede consultar las entidades federativas que conforman cada región geográfica en el [Glosario del INEGI]("https://www.inegi.org.mx/app/glosario/default.html?p=ENIF2021").
    
    5.6. Cree un nuevo data table con la población total de 18 años por entidad federativa y en él cree una nueva variable que refiera al porcentaje que representa la población de 18 años de cada entidad federativa de la población total de 18 años a nivel nacional.
    
@@ -466,9 +466,9 @@ En este caso, el resultado a la instrucción anterior luce igual al data table o
 7. En este segundo script, cargue los conjuntos de datos de los archivos pob_censo_2020_inegi.txt y lic_censo_2020_inegi.csv a R como data tables.
 8. En este segundo script, utilizando ambos data tables, programe el código correspondiente para resolver lo siguiente:
   
-   8.1. Cree un nuevo data table con la población de mujeres de Aguascalientes por edad.
+   8.1. Cree un nuevo data table con la población total de mujeres de Aguascalientes por edad.
    
-   8.2. Cree un nuevo data table con la población de mujeres de Aguascalientes que estudiaron una licenciatura (o equivalente) por edad.
+   8.2. Cree un nuevo data table con la población total de mujeres de Aguascalientes que estudiaron una licenciatura (o equivalente) por edad.
 
 <center>
 ![](https://c.tenor.com/rvNN3fvmjnaaAd/corgi-cute.gif)
