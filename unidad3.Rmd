@@ -25,11 +25,15 @@ Que el estudiante sea capaz de importar y exportar conjuntos de datos de y en di
 
 <br>
 
-[🗂 ⬇ Descargar datos a utilizar en la práctica](data/packages/unidad3_data.zip)
+[**🗂 ⬇ Descargar datos a utilizar en la práctica y los ejercicios**](data/packages/unidad3_data.zip)
 
 * Los archivos pob_censo_2020_inegi.csv, pob_censo_2020_inegi.txt y pob_censo_2020_inegi.xlsx contienen el mismo conjunto de datos de población de hombres y mujeres por entidad federativa y edad. La fuente de los datos es el [Censo de Población y Vivienda 2020 del INEGI]("https://www.inegi.org.mx/programas/ccpv/2020/"). 
 
 * El archivo pob_censo_2020_inegi.csv contiene datos de población de hombres y mujeres que estudiaron una licenciatura (o equivalente) por entidad federativa y edad. La fuente de los datos es el [Censo de Población y Vivienda 2020 del INEGI]("https://www.inegi.org.mx/programas/ccpv/2020/").
+
+<br/>
+
+[**🇷 ⬇ Descargar projecto de R de la práctica y los ejercicios resueltos**](projs/unidad3.zip)
 
 <br>
 

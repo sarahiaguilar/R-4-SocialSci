@@ -23,6 +23,10 @@ knitr::opts_chunk$set(echo = TRUE)
 > #### **🚀 Objetivo de la unidad**  
 Que el estudiante reconozca los conceptos básicos de programación, cómo programarlos en R y sus casos de uso prácticos básicos.
 
+<br/>
+
+[**🇷 ⬇ Descargar projecto de R de la práctica y los ejercicios resueltos**](projs/unidad2.zip)
+
 <br>
 
 💡 La función ```print()``` imprime el valor que contiene el objeto ubicado entre los paréntesis. 

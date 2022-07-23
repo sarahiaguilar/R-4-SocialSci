@@ -80,8 +80,6 @@ Que el estudiante reconozca los conceptos básicos de programación, cómo progr
 
 [💻 ↪ Práctica y ejercicios](unidad2.html)
 
-[🇷 ⬇ Descargar projecto de R](projs/unidad2.zip)
-
 <br/>
 
 <!-- ------------------------------- Unidad 3 ------------------------------ -->
@@ -98,8 +96,6 @@ Que el estudiante sea capaz de importar y exportar conjuntos de datos de y en di
 [📖 ↪ Presentación teórica](slides/unidad3.pdf)
 
 [💻 ↪ Práctica y ejercicios](unidad3.html)
-
-[🇷 ⬇ Descargar projecto de R](projs/unidad3.zip)
 
 <br/>
 
