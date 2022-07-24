@@ -438,41 +438,15 @@ Por múltiples variables
 ```{r}
 head(dt[, .(sum_pob_h = sum(pob_hombres), sum_pob_m = sum(pob_mujeres)), by = .(entidad_federativa, edad)])
 ```
-En este caso, el resultado a la instrucción anterior luce igual al data table opriginal. 
+En este caso, el resultado a la instrucción anterior luce igual al data table original. 
 
 <br> 
+Es posible hacer operaciones de conteo de observaciones aplicando filtros específicos por operación con la función `sum()`, que recibirá como parámetro el filtro específico.
+```{r}
+head(dt[, .(obs_cdmx_edomex = sum(entidad_federativa %in% c("Ciudad de México", "México"))), by = .(edad)])
+```
 
-## 🏋 Ejercicio
-1. Cree un nuevo proyecto.
-2. Cree una nueva carpeta dentro del proyecto que se llame “datos” y ubique dentro de esta a los archivos pob_censo_2020_inegi.txt y lic_censo_2020_inegi.csv.
-3. Cree una nueva carpeta dentro del proyecto que se llame "scripts" y cree un nuevo script dentro de esta. 
-4. En el script, cargue el conjunto de datos del archivo pob_censo_2020_inegi.txt a R como data table.
-5. En el script, utilizando el data table, programe el código correspondiente para resolver lo siguiente:
-
-   5.1. Asigne nuevos nombres de columnas a cada variable.
-   
-   5.2. Verifique que haya el mismo número de observaciones por cada entidad federativa. 
-   
-   5.3. Ubique las observaciones y variables que contienen `NA`s y reempláce los `NA`s por un valor que considere pertinente. 
-   
-   5.4. Responda: ¿cuál es la entidad federativa cuya relación hombres-mujeres es la más alta a nivel nacional? La relación hombres-mujeres refiere a cuántos hombres hay por cada mujer en la entidad federativa).
-   
-   5.5. Cree un nuevo data table con la población total de mujeres entre 18 y 65 años por región geográfica y guárdelo en un nuevo archivo csv dentro de la carpeta “datos” del proyecto. Puede consultar las entidades federativas que conforman cada región geográfica en el [Glosario del INEGI]("https://www.inegi.org.mx/app/glosario/default.html?p=ENIF2021").
-   
-   5.6. Cree un nuevo data table con la población total de 18 años por entidad federativa y en él cree una nueva variable que refiera al porcentaje que representa la población de 18 años de cada entidad federativa de la población total de 18 años a nivel nacional.
-   
-   5.7. Responda: ¿cuál es la media de edad a nivel nacional?
-6. Cree un segundo script dentro de la carpeta "scripts". 
-7. En este segundo script, cargue los conjuntos de datos de los archivos pob_censo_2020_inegi.txt y lic_censo_2020_inegi.csv a R como data tables.
-8. En este segundo script, utilizando ambos data tables, programe el código correspondiente para resolver lo siguiente:
-  
-   8.1. Cree un nuevo data table con la población total de mujeres de Aguascalientes por edad.
-   
-   8.2. Cree un nuevo data table con la población total de mujeres de Aguascalientes que estudiaron una licenciatura (o equivalente) por edad.
-
-<center>
-![](https://c.tenor.com/rvNN3fvmjnaaAd/corgi-cute.gif)
-</center>
+<br>
 
 ## 3.9. Unión de data tables
 
@@ -589,7 +563,9 @@ dt_lic_long <- melt(data = dt_lic_short,
 head(dt_lic_long)
 ```
 
-## 3.11. Manejo de variables categóricas (Bonus #1! 😊)
+<br>
+
+## 3.11. Manejo de variables categóricas (¡Bonus #1! 😊)
 
 Cuando exportamos conjuntos de datos como data table, R lee no es capaz de identificar por defecto valores categóricos. 
 ```{r}
@@ -620,3 +596,39 @@ sex_factor <- factor(x = sex_var, levels = sex_levels, labels = sex_labels)
 dt_lic[, sexo := sex_factor]
 str(dt_lic)
 ```
+
+<br> 
+
+## 🏋 Ejercicio
+1. Cree un nuevo proyecto.
+2. Cree una nueva carpeta dentro del proyecto que se llame “datos” y ubique dentro de esta a los archivos pob_censo_2020_inegi.txt y lic_censo_2020_inegi.csv.
+3. Cree una nueva carpeta dentro del proyecto que se llame "scripts" y cree un nuevo script dentro de esta. 
+4. En el script, cargue el conjunto de datos del archivo pob_censo_2020_inegi.txt a R como data table.
+5. En el script, utilizando el data table, programe el código correspondiente para resolver lo siguiente:
+
+   5.1. Asigne nuevos nombres de columnas a cada variable.
+   
+   5.2. Verifique que haya el mismo número de observaciones por cada entidad federativa. 
+   
+   5.3. Ubique las observaciones y variables que contienen `NA`s y reempláce los `NA`s por un valor que considere pertinente. 
+   
+   5.4. Responda: ¿cuál es la entidad federativa cuya relación hombres-mujeres es la más alta a nivel nacional? La relación hombres-mujeres refiere a cuántos hombres hay por cada mujer en la entidad federativa).
+   
+   5.5. Cree un nuevo data table con la población total de mujeres entre 18 y 65 años por región geográfica y guárdelo en un nuevo archivo csv dentro de la carpeta “datos” del proyecto. Puede consultar las entidades federativas que conforman cada región geográfica en el [Glosario del INEGI]("https://www.inegi.org.mx/app/glosario/default.html?p=ENIF2021").
+   
+   5.6. Cree un nuevo data table con la población total de 18 años por entidad federativa y en él cree una nueva variable que refiera al porcentaje que representa la población de 18 años de cada entidad federativa de la población total de 18 años a nivel nacional.
+   
+   5.7. Responda: ¿cuál es la media de edad a nivel nacional?
+6. Cree un segundo script dentro de la carpeta "scripts". 
+7. En este segundo script, cargue los conjuntos de datos de los archivos pob_censo_2020_inegi.txt y lic_censo_2020_inegi.csv a R como data tables.
+8. En este segundo script, utilizando cada data table en donde corresponda, programe el código correspondiente para resolver lo siguiente:
+  
+   8.1. Cree un nuevo data table con la población total que estudiaron una licenciatura (o equivalente) por entidad federativa, edad y sexo, en donde la entidad federativa y la edad tienen formato largo y el sexo tiene formato ancho.
+   
+   8.2. Cree un nuevo data table con dos variables: una que refiera al porcentaje que representa la población total de mujeres que estudiaron una licenciatura (o equivalente) de la población total de mujeres por entidad federativa, y otra que refiera al porcentaje que representa la población total de hombres que estudiaron una licenciatura (o equivalente) de la población total de hombres por entidad federativa.
+
+<center>
+![](https://c.tenor.com/rvNN3fvmjnaaAd/corgi-cute.gif)
+</center>
+
+<br>
