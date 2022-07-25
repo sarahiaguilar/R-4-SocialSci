@@ -33,7 +33,8 @@ Que el estudiante sea capaz de importar y exportar conjuntos de datos de y en di
 
 <br/>
 
-[**🇷 ⬇ Descargar projecto de R de la práctica y los ejercicios resueltos**](projs/unidad3.zip)
+[**🇷 ⬇ Descargar projecto de R de la práctica**](projs/unidad3.zip)
+[**🇷 ⬇ Descargar projecto de R de los ejercicios resueltos**](projs/u3_ejercicio.zip)
 
 <br>
 
