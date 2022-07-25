@@ -140,26 +140,18 @@ Que el estudiante tenga conocimiento de los elementos básicos de `RMarkdown` pa
 
 <br/>
 
-<!-- ---------- Lista de reproducción con las grabaciones de cada ---------- -->
-
-<br/>
-
-### 📹 [Lista de reproducción con las grabaciones de cada sesión](https://www.youtube.com/playlist?list=PLyLpFKjdn75ONuc1JiF3IT7SFLOaP8Din)
-
-<br/>
-
 <!-- ------------------------------- Recursos ------------------------------ -->
 <br/>
 
 ### **Recursos**
 
+* 📹 [Lista de reproducción con las grabaciones de cada sesión](https://www.youtube.com/playlist?list=PLyLpFKjdn75ONuc1JiF3IT7SFLOaP8Din)
 * [⬇ Descargar cheatsheet de Base R](cheatsheets/base-r.pdf)
 * [⬇ Descargar cheatsheet de R Studio](cheatsheets/rstudio-ide.pdf)
 * [⬇ Descargar cheatsheet de data.table](cheatsheets/datatable.pdf)
 * [⬇ Descargar cheatsheet de lubridate](cheatsheets/lubridate.pdf)
 * [⬇ Descargar cheatsheet de ggplot2](cheatsheets/data-visualization.pdf)
-
-[+ Cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
+* [+ Cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
 
 <br/>
 

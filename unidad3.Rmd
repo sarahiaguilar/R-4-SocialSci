@@ -45,6 +45,7 @@ Las siguientes instrucciones descargan los paquetes que utilizaremos en la prác
 # install.packages("curl")
 # install.packages("readxl")
 # install.packages("foreign")
+# install.packages("lubridate")
 ```
 
 <br>
@@ -54,6 +55,7 @@ Esta instrucción carga las funciones de los paquetes que utilizaremos a tu sesi
 library(data.table)
 library(readxl)
 library(foreign)
+library(lubridate)
 ```
 
 <br>
@@ -599,6 +601,94 @@ str(dt_lic)
 
 <br> 
 
+## 3.12. Manejo de fechas (¡Bonus #2! 😎)
+
+Lubridate es un paquete de R que facilita el trabajo con fechas y horas.
+
+Una fecha-hora es un punto en la línea de tiempo, almacenado como el número de segundos desde
+1970-01-01 00:00:00 UTC en ese mismo formato estandarizado.
+
+```{r}
+as_datetime(1658736000)
+```
+<br>
+Una fecha es un día almacenado como el número de días desde 1970-01-01.
+
+```{r}
+as_date(19198)
+```
+
+<br>
+
+* Formateando
+
+Lograr que R acepte que nuestros datos contienen las fechas-horas que nosotros creemos que contienen puede ser complicado. Lubridate simplifica eso. 
+
+Identifique el orden en que aparecen el año, el mes, el día, la hora y los minutos en sus fechas-horas y ordene las letras "y" (año), "m" (mes), "d" (día), "h" (hora) y "m" (minuto) en el mismo orden. El resultado será el nombre de la función en lubridate que le dará el formato correcto a sus fechas.
+
+<br>
+Año, mes y día
+```{r}
+ymd("2022/07/25")
+```
+
+<br>
+Día, mes y año
+```{r}
+dmy("25-07-2022") 
+```
+
+<br>
+Día, mes y año
+```{r}
+mdy("07-25-2022")
+```
+
+<br>
+También funciona si hacen elemento o ceros, o si tiene otros separadores distintos al `-`. 
+
+```{r}
+ym("2022/07")
+```
+
+<br> 
+```{r}
+ymd("2022-7-5")
+```
+
+<br>
+```{r}
+ymd("2022.07.25")
+```
+
+<br>
+Para hora y minutos, se utiliza `_hm()`.
+```{r}
+ymd_hm("2022-07-25 8:00")
+```
+
+<br>
+
+* Accediendo a componentes
+
+Use las función de acceso para obtener un componente. Dichas funciones de acceso tienen el nombre del componente. 
+
+```{r}
+year("2022-07-25 8:00")
+```
+
+<br>
+```{r}
+month("2022-07-25 8:00")
+```
+
+<br>
+```{r}
+day("2022-07-25 8:00")
+```
+
+<br>
+
 ## 🏋 Ejercicio
 1. Cree un nuevo proyecto.
 2. Cree una nueva carpeta dentro del proyecto que se llame “datos” y ubique dentro de esta a los archivos pob_censo_2020_inegi.txt y lic_censo_2020_inegi.csv.
@@ -630,5 +720,3 @@ str(dt_lic)
 <center>
 ![](https://c.tenor.com/rvNN3fvmjnaaAd/corgi-cute.gif)
 </center>
-
-<br>
