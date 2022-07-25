@@ -112,6 +112,8 @@ Que el estudiante conozca los distintos tipos de visualización de datos y recon
 
 [📖 ↪ Presentación teórica](slides/unidad4.pdf)
 
+[💻 ↪ Práctica y ejercicios](unidad4.html)
+
 <br/>
 
 <!-- ------------------------------- Unidad 5 ------------------------------ -->

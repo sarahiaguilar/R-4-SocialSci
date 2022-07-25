@@ -25,7 +25,7 @@ Que el estudiante conozca los distintos tipos de visualización de datos y recon
 
 <br/>
 
-## 5.1. Instalando y cargando paquetes y conjuntos de datos
+## 5.1. Instalando y cargando paquetes
 ```{r}
 # install.packages("ggplot2")
 library(data.table)
@@ -34,396 +34,74 @@ library(ggplot2)
 
 <br/> 
 
-Para la presente práctica utilizaremos los siguientes conjuntos de datos: 
-```{r}
-# Datos de 38 modelos de automóviles generadp por la US Environmental Protection Agency 
-mpg <- data.table(ggplot2::mpg)
+## 5.2. Cargando conjuntos de datos
 
-# Datos mensuales de indicadores económicos de Estados Unidos por el Fereal Reserva Bank of St. Louis
+Para la práctica utilizaremos los siguientes conjuntos de datos: 
+
+* [Datos demográficos de los condados del medio oeste del censo de Estados Unidos de América del 2000](https://ggplot2.tidyverse.org/reference/midwest.html)
+```{r}
+mw <- data.table(ggplot2::midwest)
+head(mw)
+```
+
+<!-- 
+<br> 
+
+* [Datos mensuales de indicadores económicos de Estados Unidos por el Fereal Reserva Bank of St. Louis](https://ggplot2.tidyverse.org/reference/economics.html)
+```{r}
 eco <- data.table(ggplot2::economics)
-
-# Datos de películas por imdb.com
-mov <- data.table(ggplot2movies::movies)
-
-# Microdatos de personas de la Ciudad de México del Censo de 2020 por el INEGI
-personas_raw <- fread("../censo2020/datos/Censo2020_CA_cdmx_csv/Personas09.CSV")
+head(eco)
 ```
 
 <br/> 
+-->
 
-## 5.2 Con una sola variable
+## 5.3. Los básicos
 
-* **Continua**
-El eje vertical despliega "count", es decir, la frecuencia de cada valor de la variable en el eje horizontal (variable mapeada en x). 
+Para crear un gráfico, debemos:
 
-```{r message=FALSE, warning=FALSE}
-ggplot(mpg, aes(x = hwy)) +
-  geom_area(stat = "bin")
+1. Llamar a la función `ggplot()`, que crea un lienzo en blanco.
+2. Especificar con `aes()` cómo deseamos asignar variables a atributos estéticos. 
+3. Agregar capas de objetos geométricos con `geom_...()`. 
+4. Añadir capas adicionales de facetas, transformaciones estadísticas, coordenadas, temas, entre otros, conforme lo requiera el objetivo de nuestra visualización de datos.
+
+Cada capa del gráfico se apila con el opeerador `+`.  
+
+Creamos lienzo en blanco
+```{r}
+ggplot()
 ```
+
+💡 Recuerde que nuestras visualizaciones se iran desplegando en la ventana de *Plots* o, en el caso de visualizaciones interactivas, en la ventana de *Viewer*. 
 
 <br/> 
 
-```{r message=FALSE, warning=FALSE}
-ggplot(mpg, aes(x = hwy)) +
-  geom_density(kernel = "gaussian")
+## 5.4. Datos
+
+La primera y más importante capa en la gramática de gráficos son los datos. El objeto que contiene los datos con los que construiremos nuestra visualización se pasa como parámetro de la función `ggplot()`.
+```{r}
+ggplot(data = mw)
 ```
+<br>
 
-<br/> 
+## 5.5. Estética
 
-```{r message=FALSE, warning=FALSE}
-ggplot(mpg, aes(x = hwy)) +
-  geom_dotplot()
-```
+El siguiente paso es definir la variable que deseamos usar para cada atributo estético del gráfico. 
 
-<br/> 
-
-```{r message=FALSE, warning=FALSE}
-ggplot(mpg, aes(x = hwy)) +
-  geom_freqpoly()
-```
-
-<br/>
-
-```{r message=FALSE, warning=FALSE}
-ggplot(mpg, aes(x = hwy)) +
-  geom_histogram(binwidth = 2)
-```
-<br/>
+En la capa de la estética utilizamos la función `aes()` para asignar variables de datos a atributos gráficos utilizados por el sistema de dibujo subyacente, como posición 2D, color, tipo de línea, tamaño, figura de los puntos, entre otros.
 
 ```{r}
-ggplot(mpg, aes(x = hwy)) +
-  geom_bar() # fill, stack, jitter
+ggplot(data = mw) +
+  aes(x = percollege, y = percbelowpoverty, color = state)
 ```
 
-<br/>
+<br>
 
-## 🤽 Ejercicio #1
-1. ¿En qué casos utilizaría ```geom_dotplot()``` sobre ```geom_density()```? 
-2. ¿En qué casos utilizaría ```geom_histogram()``` sobre ```geom_dotplot()```? 
-3. Cree una visualización para la variable displ del conjunto de datos mpg e identifique la moda artimética. 
-4. Utilizando el comando de ayuda (```?<nombre de la función>```), identifique qué aesthetics se pueden modificar en un geom_histogram.
+## 5.6. Objetos geométricos
 
-<br/>
-
-## 5.3 Con dos variables
-
-* **Dos variables continuas**
-
-```{r message=FALSE, warning=FALSE}
-ggplot(mpg, aes(x = cty, y = hwy)) +
-  geom_point()
-```
-
-<br/>
-
-A diferencia de ```geom_point()```, ```geom_jitter()``` introduce ruído ligero a las observaciones para poder visualizar más fácilmente agrupaciones de puntos. 
-
-```{r message=FALSE, warning=FALSE}
-ggplot(mpg, aes(x = cty, y = hwy)) +
-  geom_jitter()
-```
-
-<br/>
-
-```geom_rug()``` suele funcionar como una geometría auxiliar. 
-
-```{r message=FALSE, warning=FALSE}
-ggplot(mpg, aes(x = cty, y = hwy)) +
-  geom_rug(sides = "bl")
-```
-
-<br/>
-
-```geom_smooth()``` introduce una línea de mejor ajuste para los puntos con base en un modelo. Así mismo, se desplegará el margen de error. En el siguiente ejemplo, el modelo elegido es un modelo lineal (lm). No obstante, la elección del modelod ependerá de la relación observada en los puntos.  
-
-```{r message=FALSE, warning=FALSE}
-ggplot(mpg, aes(x = cty, y = hwy)) +
-  geom_smooth(model = lm)
-```
-
-<br/>
-
-* Una variable discreta y una variable continua continua
-
-```{r message=FALSE, warning=FALSE}
-ggplot(mpg, aes(x = manufacturer, y = hwy)) +
-  geom_bar(stat = "identity")
-```
-
-
-</br>
-
-```{r message=FALSE, warning=FALSE}
-ggplot(mpg, aes(x = manufacturer, y = hwy)) +
-  geom_boxplot()
-```
-
-</br>
-
-```{r message=FALSE, warning=FALSE}
-ggplot(mpg, aes(x = manufacturer, y = hwy)) +
-  geom_violin(scale = "area")
-```
-
-<br/>
-
-## 🚵 Ejercicio #2
-1. Describa la relación entre las variables manufacturer y hwy en el conjunto de datos mpg. 
-2. Describa dos conclusiones a las que puede llegar con un box plot sobre las variables cty y hwy.
-3. Seleccione otra variable variable discreta y otra variable continua cotinua diferentes a las ya utilizadas y grafique su relación. Justifique la selección de su visualización y describa dos conclusiones a las que llegó. 
-
-<br/>
-
-* **Distribución bivariada contínua**
+Después de definir los atributos gráficos que deseamos utilizar, debemos especificar uno o varios objetos geométricos para indicar cómo deben dibujarse los puntos de datos. 
 
 ```{r}
-ggplot(mov, aes(year, rating)) +
-  geom_bin2d(binwidth = c(5, 0.5))
+ggplot(data = mw) +
+  aes(x = percollege, y = percbelowpoverty, color = state) + geom_point()
 ```
-
-<br/>
-
-```{r}
-ggplot(mov, aes(year, rating)) +
-  geom_density2d()
-```
-
-<br/>
-
-* **Función continua**
-
-```{r}
-ggplot(eco, aes(date, unemploy)) +
-  geom_area()
-```
-
-<br/>
-
-```{r}
-ggplot(eco, aes(date, unemploy)) +
-  geom_line()
-```
-
-<br/>
-
-```{r}
-ggplot(eco, aes(date, unemploy)) +
-  geom_step(direction = "hv")
-```
-
-<br/>
-
-## 5.4 Tres o más variables
-
-Dentro de ```aes()``` podemos agregar nuevos parámetros para mapear una tercera variable (y más). 
-
-```{r}
-ggplot(mpg, aes(x = manufacturer, y = hwy, fill = class)) +
-  geom_bar(stat = "identity")
-```
-
-<br/>
-
-## 5.5 Visualizando el error
-
-Utilice las siguientes geometrías como auxiliares. 
-
-```{r}
-dt <- data.table(grp = c("A", "B"), fit = 4:5, se = 1:2)
-```
-
-<br/>
-
-```{r}
-ggplot(dt, aes(grp, fit, ymin = fit-se, ymax = fit+se)) +
-  geom_crossbar(fatten = 2)
-```
-
-<br/>
-
-```{r}
-ggplot(dt, aes(grp, fit, ymin = fit-se, ymax = fit+se)) +
-  geom_errorbar()
-```
-
-<br/>
-
-```{r}
-ggplot(dt, aes(grp, fit, ymin = fit-se, ymax = fit+se)) +
-  geom_linerange()
-```
-
-<br/>
-
-```{r}
-ggplot(dt, aes(grp, fit, ymin = fit-se, ymax = fit+se)) +
-  geom_pointrange()
-```
-
-</br>
-
-## 🤸 Ejercicio #3
-
-1. Cree un nuevo data.table ejemplo con tres columnas: la primera que contenga 5 letras, la segunda que contenga un número aleatorio entre 5 y 15, y la tercera que contenga un número aleatorio entre 0 y 4. La primera columna corresponde al nombre de una categoría, la segunda columna corresponde al valor promedio de dicha categoría en una variable aleatoria y la tercera columna corresponde al valor de la desviación estándar de dicha categoría en una variable aleatoria.
-2. Construya una visualización en la que se pueda estudiar cómo varía la media y la desviación estándar de cada categoría.
-3. Grafique la evolución del desempleo en Estados Unidos utilizando puntos y una línea. 
-4. Con la base de datos tabulada del censo de población 2020, grafique la relación entre:
-    * Dos variables continuas.
-    * Una variable continua y una discreta.
-    * Una variable continua y dos discretas.
-
-</br>
-
-
-## 5.6 Creando una pirámide poblacional
-
-Creamos nueva variable categórica de sexo con la función ```factor()```. 
-```{r}
-personas_raw[, Sexo := factor(SEXO, levels = c(1, 3),  labels = c("Hombres", "Mujeres"))]
-```
-
-<br/> 
-
-Filtramos fuera observaciones en las que la variable EDAD contenga el 999 o NA (que refieren a que no hubo respuesta del encuestado) y seleccionamos únicamente las variables necesarias para nuestra visualización: de ID_PERSONA, FACTOR, Sexo y EDAD. 
-```{r}
-personas <- personas_raw[EDAD != 999 & !is.na(EDAD), .(ID_PERSONA, FACTOR, Sexo, EDAD)] 
-```
-
-<br/> 
-
-```{r}
-ggplot(personas, aes(x = EDAD, weight = FACTOR)) + 
-  geom_histogram(binwipersonash = 5)
-```
-
-<br/> 
-
-Utilizaremos ```coord_flip()``` (una función de coordenadas) para cambiar los ejes y "voltear" nuestra gráfica.
-
-```{r}
-ggplot(personas, aes(x = EDAD, weight = FACTOR)) + 
-  geom_histogram(binwipersonash = 5) +
-  coord_flip()
-```
-
-
-<br/> 
-
-Creamos nueva variable con grupos quincenales. 
-
-```{r}
-edades_quincenales <- cut(personas$EDAD, 
-                          breaks = seq(0, 110, by = 5), 
-                          include.lowest = T,
-                          right = T)
-personas[, edad_quincenal := edades_quincenales]
-```
-
-<br/> 
-
-Creamos nuevo data.table con tabulado por Sexo y edad_quincenal.
-
-```{r}
-n_por_cq <- personas[, .(n = sum(FACTOR)), by = .(Sexo, edad_quincenal)]
-```
-
-<br/> 
-
-Graficamos nuevamente pero utilizando data.table con tabulado.
-
-```{r}
-ggplot(n_por_cq, aes(x = edad_quincenal, y = n)) + 
-  geom_bar(stat = "Identity") +
-  coord_flip()
-```
-
-<br/> 
-
-Distinguimos entre hombres y mujeres, mapeando el parámetro fill en ```aes()``` con la variable de Sexo.
-
-```{r}
-ggplot(n_por_cq, aes(x = edad_quincenal, y = n, fill=Sexo)) + 
-  geom_bar(stat = "Identity") +
-  coord_flip()
-```
-
-<br/> 
-
-Transformamos variable n a negativa en caso de que el valor de la varuiable Sexo sea "Hombres". 
-```{r}
-n_por_cq[, n := ifelse(Sexo == "Hombres", yes = -n, no = n)]
-```
-
-
-<br/>
-
-Creamos nueva variable en data.table tabulado con valor de n dividido entre 1000. Esta solo la utilizaremos para desplegarla como label. 
-```{r}
-n_por_cq[, n_label := round((ifelse(Sexo == "Hombres", yes = -n, no = n))/1000)]
-```
-
-
-<br/>
-
-Creamos visualización. 
-```{r}
-ggplot(n_por_cq, aes(x=edad_quincenal, y = n, fill = Sexo, label = n_label))+
-  geom_bar(stat = "identity") + 
-  scale_fill_manual(values = c("#42678C", "#92B5D9")) +
-  scale_y_continuous(breaks = seq(-400000, 400000, by = 100000), 
-                     limits = c(-400000, 400000),
-                     labels = c(400, 300, 200, 100, 0, 100, 200, 300, 400)) +
-  geom_text(size = 3) + 
-  coord_flip() +
-  labs(title = "Pirámide poblacional de la Ciudad de México", 
-       subtitle = "Censo de Población y Vivienda 2020",
-       x = "", 
-       y = "Población total (Miles de personas)",
-       caption = "Visualización elaborada por Sarahí Aguilar\ncon datos disponibles en inegi.org.mx",
-       fill = "") +
-  theme_minimal() +   
-  theme(legend.position = "bottom",
-        panel.grid.major = element_blank(), 
-        panel.grid.minor = element_blank()) 
-```
-
-<br/>
-
-Creamos pirámide poblacional pero ahora utilizando tabulado con pocertanjes de población.
-
-```{r}
-pct_por_cq <- personas[, .(n = sum(FACTOR)), by = .(Sexo, edad_quincenal)]
-
-n_tot <- sum(personas$FACTOR)
-pct_por_cq[, pct := n/n_tot]
-
-pct_por_cq[, pct := ifelse(Sexo == "Hombres", yes = -pct, no = pct)]
-
-pct_por_cq[, pct_label := paste0(round((ifelse(Sexo == "Hombres", yes = -pct, no = pct))*100, digits = 1), "%")]
-
-ggplot(pct_por_cq, aes(x=edad_quincenal, y=pct, fill=Sexo, label=pct_label))+
-  geom_bar(stat = "identity") + 
-  scale_fill_manual(values = c("#42678C", "#92B5D9")) +
-  scale_y_continuous(breaks = seq(-0.05, 0.05, by = 0.01),
-                     limits = c(-0.05, 0.05),
-                     labels = c(paste0(c(5, 4, 3, 2, 1, 0, 1, 2, 3, 4, 5), "%"))) +
-  geom_text(size = 3) + 
-  coord_flip() +
-  labs(title = "Pirámide poblacional de la Ciudad de México", 
-       subtitle = "Censo de Población y Vivienda 2020",
-       x = "", 
-       y = "Distribución por sexo",
-       caption = "Visualización elaborada por Sarahí Aguilar\ncon datos disponibles en inegi.org.mx",
-       fill = "") +
-  theme_minimal() +   
-  theme(legend.position = "bottom",
-        panel.grid.major = element_blank(), 
-        panel.grid.minor = element_blank()) 
-
-```
-
-<br/>
-
-## 🏄 Ejercicio #4
-1. Cambie el nombre y subtítulo de la última priámide poblacional construída a uno con mayor narrativa. 
-2. Construya la pirámide poblacional de personas que hablan algún dialecto o lengua indígena utilizando los microdatos de personas de cualquier entidad del Censo de 2020 por el INEGI. 
