@@ -484,32 +484,38 @@ dt_pob_ags[, edad := as.integer(edad)]
 <br>
 Unimos los data tables `dt_pob_ags` y `dt_lic_ags` conservando todos los valores del primer data table. 
 ```{r}
-dt_merge <- merge(x = dt_pob_ags,
-                  y = dt_lic_ags,
-                  by.x = "edad", 
-                  by.y = "edad", 
+dt_merge <- merge(x = dt_pob_ags, # Primer conjunto de datos
+                  y = dt_lic_ags, # Segundo conjunto de datos
+                  by.x = "edad", # Nombre de la variable llave en el primer conjunto de datos
+                  by.y = "edad", # Nombre de la variable llave en el segundo conjunto de datos
                   all.x = TRUE)
 ```
 
 <br>
 Unimos los data tables `dt_pob_ags` y `dt_lic_ags` conservando todos los valores del segundo data table. 
 ```{r}
-dt_merge <- merge(x = dt_pob_ags,
-                  y = dt_lic_ags,
-                  by.x = "edad", 
-                  by.y = "edad", 
+dt_merge <- merge(x = dt_pob_ags, # Primer conjunto de datos
+                  y = dt_lic_ags, # Segundo conjunto de datos
+                  by.x = "edad", # Nombre de la variable llave en el primer conjunto de datos
+                  by.y = "edad", # Nombre de la variable llave en el segundo conjunto de datos
                   all.y = TRUE)
 ```
 
 <br>
 Unimos los data tables `dt_pob_ags` y `dt_lic_ags` conservando todos los valores de ambos data tables. 
 ```{r}
-dt_merge <- merge(x = dt_pob_ags,
-                  y = dt_lic_ags,
-                  by.x = "edad", 
-                  by.y = "edad", 
+dt_merge <- merge(x = dt_pob_ags, # Primer conjunto de datos
+                  y = dt_lic_ags, # Segundo conjunto de datos
+                  by.x = "edad", # Nombre de la variable llave en el primer conjunto de datos
+                  by.y = "edad", # Nombre de la variable llave en el segundo conjunto de datos
                   all = TRUE)
 ```
+
+<br> 
+
+En los ejemplos de unión anteriores solo había una variable llave (edad), pero bien podrían ser más de una. En esos casos, en lugar de mandar en los parámetros `by` un solo nombre de variable, debemos mandar un vector de nombres de variables. 
+
+<br>
 
 ## 3.10. Reorientación de data tables
 
@@ -538,6 +544,8 @@ head(dt_lic_short)
 
 <br>
 Con agrupación de valores
+
+Observe que si omitimos mencionar una variable (de las que queremos que permanezcan como columnas) del lado izquierdo del `~`, entonces se ejecutará una agrupación. Por ello, será necesario emplear el parámetro `fun.aggregate`. 
 ```{r}
 dt_lic_short <- dcast(data = dt_lic,
                       formula = ent_fed~sexo, 
