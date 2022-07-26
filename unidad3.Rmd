@@ -22,7 +22,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 > #### **🚀 Objetivo de la unidad** 
 Que el estudiante sea capaz de importar y exportar conjuntos de datos de y en diferentes formatos, así como ejecutar transformaciones básicas sobre estas utilizando dataframes y el paquete data.table.
-
 <br>
 
 [**🗂 ⬇ Descargar datos a utilizar en la práctica y los ejercicios**](data/packages/unidad3_data.zip)

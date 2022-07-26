@@ -138,7 +138,7 @@ Que el estudiante se familiarice con un flujo efectivo de análisis exploratorio
 <br/>
 **🚀 Objetivo de la unidad**
 
-Que el estudiante tenga conocimiento de los elementos básicos de `RMarkdown` para la creación de documentos con texto, bloques de código y visualizaciones embebidas. 
+Que el estudiante tenga conocimiento de los elementos básicos de RMarkdown para la creación de documentos con texto, bloques de código y visualizaciones embebidas. 
 
 <br/>
 
