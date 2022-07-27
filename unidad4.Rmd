@@ -28,6 +28,7 @@ Que el estudiante conozca los distintos tipos de visualización de datos y recon
 ## 5.1. Instalando y cargando paquetes
 ```{r}
 # install.packages("ggplot2")
+# install.packages("svglite") # Para expotar como svg
 library(data.table)
 library(ggplot2)
 ```
@@ -58,14 +59,14 @@ head(eco)
 
 ## 5.3. Los básicos
 
-Para crear un gráfico, debemos:
+Para crear una visualización, debemos:
 
 1. Llamar a la función `ggplot()`, que crea un lienzo en blanco.
 2. Especificar con `aes()` cómo deseamos asignar variables a atributos estéticos. 
 3. Agregar capas de objetos geométricos con `geom_...()`. 
 4. Añadir capas adicionales de facetas, transformaciones estadísticas, coordenadas, temas, entre otros, conforme lo requiera el objetivo de nuestra visualización de datos.
 
-Cada capa del gráfico se apila con el opeerador `+`.  
+Cada capa de la visualización se apila con el opeerador `+`.  
 
 Creamos lienzo en blanco
 ```{r}
@@ -86,7 +87,7 @@ ggplot(data = mw)
 
 ## 5.5. Estética
 
-El siguiente paso es definir la variable que deseamos usar para cada atributo estético del gráfico. 
+El siguiente paso es definir la variable que deseamos usar para cada atributo estético de la visualización. 
 
 En la capa de la estética utilizamos la función `aes()` para asignar variables de datos a atributos gráficos utilizados por el sistema de dibujo subyacente, como posición 2D, color, tipo de línea, tamaño, figura de los puntos, entre otros.
 
@@ -148,7 +149,7 @@ ggplot(data = mw) +
   geom_boxplot()
 ```
 
-💡 Sobre los gráficos de caja en ggplot2: 
+💡 Sobre las visualizaciones de caja en ggplot2: 
 
 * Cada línea vertical representa el cuartil 25, el 50 (la mediana) y el 75 respectivamente.
 * La caja representa el rango intercuartílico (diferencia entre los percentiles 75 y 25).
@@ -227,7 +228,7 @@ ggplot(data = mw) +
 
 ## 5.8. Facetas
 
-Las facetas (o `facets`) nos permiten agrupar datos por variables y luego graficar cada grupo individualmente un panel independiente, pero en el mismo gráfico (imagen). 
+Las facetas (o `facets`) nos permiten agrupar datos por variables y luego graficar cada grupo individualmente un panel independiente, pero en la misma visualización (imagen). 
 
 <br>
 ```{r}
@@ -241,13 +242,13 @@ ggplot(data = mw) +
 
 ## 5.9. Coordenadas
 
-El sistema de coordenadas define cómo se asignan los puntos de datos a ubicaciones gráficas 2D en el plano. Elegir el sistema de coordenadas correcto puede mejorar considerablemente la legibilidad de las visualizaciones de datos.
+El sistema de coordenadas define cómo se asignan los puntos de datos a ubicaciones gráficos 2D en el plano. Elegir el sistema de coordenadas correcto puede mejorar considerablemente la legibilidad de las visualizaciones de datos.
 
 Al igual que con las escalas, los sistemas de coordenadas se especifican con funciones que comienzan con `coord_` y se agregan como una capa. 
 
 Existe una serie de diferentes sistemas de coordenadas, que incluye:
 
-* `coord_cartesian()` es el sistema de coordenadas cartesianas predeterminado, donde especifica los valores x y y. Este sistema de coordenadas es el predeterminado, por lo que no es necesario agregarlo en cada ocasión como capa. No obstante, especificar sus parámetros permite establecer límites en los ejes, y por tanto, acercar o alejar la gráfica. 
+* `coord_cartesian()` es el sistema de coordenadas cartesianas predeterminado, donde especifica los valores x y y. Este sistema de coordenadas es el predeterminado, por lo que no es necesario agregarlo en cada ocasión como capa. No obstante, especificar sus parámetros permite establecer límites en los ejes, y por tanto, acercar o alejar la visualización. 
 * `coord_flip()` es un sistema de coordenadas cartesianas con la x y la y volteadas.
 * `coord_polar()` es un sistema de coordenadas polares.
 
@@ -263,7 +264,7 @@ ggplot(data = mw) +
 
 ## 5.10. Temas
 
-Otra excelente manera de mejorar la presentación de sus visualizaciones de datos es elegir un tema no predeterminado para que sus gráficos se destaquen, haciéndolos más hermosos y vibrantes. ggplot2 incluye [varios temas entre los que podemos elegir](https://ggplot2.tidyverse.org/reference/ggtheme.html).
+Otra excelente manera de mejorar la presentación de nuestras visualizaciones de datos es elegir un tema no predeterminado para que nuestras visualizaciones se destaquen, haciéndolos más bonitas y vibrantes. ggplot2 incluye [varios temas entre los que podemos elegir](https://ggplot2.tidyverse.org/reference/ggtheme.html).
 
 ```{r}
 ggplot(data = mw) +
@@ -307,8 +308,8 @@ ggplot(data = mw) +
   aes(y = state, fill = above_5_percblack) + 
   geom_bar(stat = "count") +
   theme_classic() +
-  labs(x = "Estado",
-       y = "Total de condados", 
+  labs(x = "Total de condados",
+       y = "Estado", 
        title = "Illinois es el estado del medio oeste de Estados Unidos de América\ncon mayor número de condados y condados en los que 5% de su población\nes afrodescendiente",
        subtitle = "Total de condados el medio oeste de Estados Unidos de América por estado",
        fill = "Condados en los que\n5% de su población es\nafrodescendiente",
@@ -319,8 +320,24 @@ ggplot(data = mw) +
 
 ## 5.12. Exportación
 
-A pesar de que ggplot2 es una herramienta de visualización de datos robusta, no se tiene un control absoluto de todos los elementos gráficos. Por ello, es recomendable importar el gráfico como svg, un formato de archivo vectorial, que después es posible cargar en programas de edición de imágenes digitales alternas para terminar de ajustar los mínimos detalles. 
+Una vez que la visualización esté completa, este se puede exportar desde la ventana de *Plots* de forma manual o con la función `ggsave()` de forma programática después de asignar la visualización a un objeto. 
 
-Una vez que el gráfico esté listo, este se puede exportar desde la ventana de *Plots*.
+```{r}
+v <- ggplot(data = mw) +
+  aes(y = state, fill = above_5_percblack) + 
+  geom_bar(stat = "count") +
+  theme_classic() +
+  labs(x = "Total de condados",
+       y = "Estado",  
+       title = "Illinois es el estado del medio oeste de Estados Unidos de América\ncon mayor número de condados y condados en los que 5% de su población\nes afrodescendiente",
+       subtitle = "Total de condados el medio oeste de Estados Unidos de América por estado",
+       fill = "Condados en los que\n5% de su población es\nafrodescendiente",
+       caption = "Fuente de datos: Censo de Estados Unidos de América del 2000")
+ggsave("./viz/myviz.svg", v, width = 10, height = 5)
+```
+
+<br> 
+
+A pesar de que ggplot2 es una herramienta de visualización de datos robusta, no se tiene un control absoluto de todos los elementos gráficos. Por ello, es recomendable importar la visualización como svg, un formato de archivo vectorial, que después es posible cargar en programas de edición de imágenes digitales alternas para terminar de ajustar los mínimos detalles. 
 
 💡 [Gimp](https://www.gimp.org/) e [Inkscape](https://inkscape.org/es/) son programas de edición de imágenes digitales gratuitos en los que resulta muy cómodo el ajuste de visualizaciones de datos. 
