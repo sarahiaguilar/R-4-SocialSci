@@ -106,7 +106,7 @@ dt_link <- fread("https://raw.githubusercontent.com/sarahiaguilar/R-4-SocialSci/
 
 <br>
 La función fread tiene parámetros que facilita la lectura de archivos con formatos más complejos. 
-💡 Recuerde que para conocer más acerca de una función específica (incluyendo sus parámetros y valores por defecto), corra "?" + el nombre de la función. 
+💡 Recuerde que para conocer más acerca de una función específica (incluyendo sus parámetros y valores predeterminados), corra "?" + el nombre de la función. 
 
 Por ejemplo, si el archivo no contiene un encabezado (nombres de columnas), podemos utilizar el parámetro `header` para indicarlo, o si el archivo está separado por un caracter distinto a una coma, podemos utilizar el parámetro `sep` para indicarlo.
 ```{r}
@@ -136,7 +136,7 @@ Para exportar un data table utilizamos la función `write.csv()` de R Base, que 
 # write.csv(dt, file = "./data/new_pob_censo_2020_inegi.xlsx", row.names = FALSE)
 ```
 
-Por defecto, la función `write.csv()` escribirá el data table con una variable adicional de índice. El parámetro `row.names` permite definir si queremos o no agregar dicha variable adicional al escribir el data table.  
+De forma predeterminada, la función `write.csv()` escribirá el data table con una variable adicional de índice. El parámetro `row.names` permite definir si queremos o no agregar dicha variable adicional al escribir el data table.  
 
 <br>
 
@@ -577,13 +577,13 @@ head(dt_lic_long)
 
 ## 3.11. Manejo de variables categóricas (¡Bonus #1! 😊)
 
-Cuando exportamos conjuntos de datos como data table, R lee no es capaz de identificar por defecto valores categóricos. 
+Cuando exportamos conjuntos de datos como data table, R lee no es capaz de identificar de forma predeterminada valores categóricos. 
 ```{r}
 str(dt_lic)
 ```
 
 <br>
-En R, para poder identificar una varable categórica como tal, deben ser convertidas en fatcores. Esta conversión trae muchos beneficios a la hora de preprocesar y visualizar los datos, e incluso construir modelos estadísticos con ellos.
+En R, para poder identificar una varable categórica como tal, deben ser convertidas en factores. Esta conversión trae muchos beneficios a la hora de preprocesar y visualizar los datos, e incluso construir modelos estadísticos con ellos.
 
 Los factores son variables en R que toman un número limitado de valores diferentes y se almacenan como un vector de valores enteros con un conjunto correspondiente de cadenas de caracteres para usar cuando se muestra el factor. 
 

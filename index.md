@@ -95,7 +95,7 @@ Que el estudiante sea capaz de importar y exportar conjuntos de datos de y en di
 
 [📖 ↪ Presentación teórica](slides/unidad3.pdf)
 
-[💻 ↪ Práctica y ejercicios](unidad3.html)
+[💻 ↪ Práctica y ejercicio](unidad3.html)
 
 <br/>
 
@@ -112,7 +112,7 @@ Que el estudiante conozca los distintos tipos de visualización de datos y recon
 
 [📖 ↪ Presentación teórica](slides/unidad4.pdf)
 
-[💻 ↪ Práctica y ejercicios](unidad4.html)
+[💻 ↪ Práctica y ejercicio](unidad4.html)
 
 <br/>
 

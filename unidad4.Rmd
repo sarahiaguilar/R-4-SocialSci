@@ -25,6 +25,11 @@ Que el estudiante conozca los distintos tipos de visualización de datos y recon
 
 <br/>
 
+[**🇷 ⬇ Descargar projecto de R de la práctica**](projs/unidad4.zip)
+[**🇷 ⬇ Descargar projecto de R de la práctica (Pirámide poblacional)**](projs/piramide.zip)
+
+<br/>
+
 ## 5.1. Instalando y cargando paquetes
 ```{r}
 # install.packages("ggplot2")
@@ -42,7 +47,13 @@ Para la práctica utilizaremos los siguientes conjuntos de datos:
 * [Datos demográficos de los condados del medio oeste del censo de Estados Unidos de América del 2000](https://ggplot2.tidyverse.org/reference/midwest.html)
 ```{r}
 mw <- data.table(ggplot2::midwest)
-head(mw)
+```
+
+<br>
+* El archivo Personas09.csv contiene los microdatos a nivel persona de la Ciudad de México del [Censo de Población y Vivienda 2020 del INEGI]("https://www.inegi.org.mx/programas/ccpv/2020/") en formato csv. Este archivo está disponible para su descarga [aquí](https://www.inegi.org.mx/programas/ccpv/2020/?ps=microdatos) (Archivos para descarga > Muestra (cuestionario ampliado) > Bases de datos > Ciudad de México > CSV ⬇). 
+
+```{r}
+p_raw <- fread("../data/Censo2020_CA_cdmx_csv/Personas09.CSV")
 ```
 
 <!-- 
@@ -56,6 +67,8 @@ head(eco)
 
 <br/> 
 -->
+
+<br>
 
 ## 5.3. Los básicos
 
@@ -101,6 +114,8 @@ ggplot(data = mw) +
 ## 5.6. Objetos geométricos
 
 Después de definir los atributos gráficos que deseamos utilizar, debemos especificar uno o varios objetos geométricos para indicar cómo deben dibujarse los puntos de datos. Los objetos geométricos (o `geoms`) pueden ser puntos, líneas, barras, polígonos, áreas, histogramas, rectas con el mejor ajuste, entre otros. Cuál utilizar [dependerá del tipo y total de variables de datos que querramos representar y qué mensaje querramos comunicar con la visualización](https://sarahiaguilar.github.io/R-4-SocialSci/cheatsheets/data-visualization.pdf). 
+
+💡 El [sitio The R Graph Gallery](https://r-graph-gallery.com/index.html) contiene decenas de ejemplos con código en R de visualizaciones de datos. "*Imitation is not just the sincerest form of flattery - it's the sincerest form of learning.*"
 
 ```{r}
 ggplot(data = mw) +
@@ -249,7 +264,7 @@ Al igual que con las escalas, los sistemas de coordenadas se especifican con fun
 Existe una serie de diferentes sistemas de coordenadas, que incluye:
 
 * `coord_cartesian()` es el sistema de coordenadas cartesianas predeterminado, donde especifica los valores x y y. Este sistema de coordenadas es el predeterminado, por lo que no es necesario agregarlo en cada ocasión como capa. No obstante, especificar sus parámetros permite establecer límites en los ejes, y por tanto, acercar o alejar la visualización. 
-* `coord_flip()` es un sistema de coordenadas cartesianas con la x y la y volteadas.
+* `coord_flip()` es un sistema de coordenadas cartesianas con el eje x y el eje y "volteados".
 * `coord_polar()` es un sistema de coordenadas polares.
 
 <br>
@@ -262,32 +277,11 @@ ggplot(data = mw) +
 
 <br> 
 
-## 5.10. Temas
-
-Otra excelente manera de mejorar la presentación de nuestras visualizaciones de datos es elegir un tema no predeterminado para que nuestras visualizaciones se destaquen, haciéndolos más bonitas y vibrantes. ggplot2 incluye [varios temas entre los que podemos elegir](https://ggplot2.tidyverse.org/reference/ggtheme.html).
-
-```{r}
-ggplot(data = mw) +
-  aes(x = state, fill = above_5_percblack) + 
-  geom_bar(stat = "count") +
-  coord_flip() + 
-  theme_classic()
-```
-
-<br>
-```{r}
-ggplot(data = mw) +
-  aes(x = state, fill = above_5_percblack) + 
-  geom_bar(stat = "count") +
-  coord_flip() + 
-  theme_minimal()
-```
-
 <br> 
 
 ## 5.10. Temas
 
-Otra excelente manera de mejorar la presentación de sus visualizaciones de datos es elegir un tema no predeterminado para que los elementos gráficos destaquen, haciéndolos más vibrantes y congruentes con el tipo variables de datos que querramos representar y qué mensaje querramos comunicar con la visualización. ggplot2 incluye [varios temas entre los que podemos elegir](https://ggplot2.tidyverse.org/reference/ggtheme.html).
+Otra excelente manera de mejorar la presentación de sus visualizaciones de datos es elegir un tema no predeterminado para que los elementos gráficos destaquen, haciéndolos más bonitos, vibrantes y congruentes con el tipo variables de datos que querramos representar y qué mensaje querramos comunicar con la visualización. ggplot2 incluye [varios temas entre los que podemos elegir](https://ggplot2.tidyverse.org/reference/ggtheme.html).
 
 ```{r}
 ggplot(data = mw) +
@@ -341,3 +335,173 @@ ggsave("./viz/myviz.svg", v, width = 10, height = 5)
 A pesar de que ggplot2 es una herramienta de visualización de datos robusta, no se tiene un control absoluto de todos los elementos gráficos. Por ello, es recomendable importar la visualización como svg, un formato de archivo vectorial, que después es posible cargar en programas de edición de imágenes digitales alternas para terminar de ajustar los mínimos detalles. 
 
 💡 [Gimp](https://www.gimp.org/) e [Inkscape](https://inkscape.org/es/) son programas de edición de imágenes digitales gratuitos en los que resulta muy cómodo el ajuste de visualizaciones de datos. 
+
+<br>
+
+## 5.13. Creando una pirámide poblacional
+
+En esta sección de la práctica, construiremos una [pirámide poblacional](https://es.wikipedia.org/wiki/Pir%C3%A1mide_de_poblaci%C3%B3n) de la Ciudad de México en el 2020.
+
+Creamos nueva variable categórica de tipo factor utilizando la variable "SEXO". 
+```{r}
+p_raw[, sexo_cat := factor(SEXO, levels = c(1, 3),  labels = c("Hombres", "Mujeres"))]
+```
+
+<br/> 
+Filtramos fuera las observaciones en las que la variable "EDAD" contenga el valor "999" o un NA y seleccionamos únicamente las variables necesarias para nuestra visualización: "ID_PERSONA", "FACTOR", "sexo_cat" y "EDAD". 
+```{r}
+p <- p_raw[EDAD != 999 & !is.na(EDAD), .(ID_PERSONA, FACTOR, sexo_cat, EDAD)] 
+```
+
+<br/> 
+Graficamos la distribución de edad en la población de la Ciudad de México por sexo. 
+```{r}
+ggplot(data = p) +
+  aes(x = EDAD, weight = FACTOR, fill = sexo_cat) + 
+  geom_histogram(binwipersonash = 100, position = "identity", alpha = 0.5)
+```
+
+<br/> 
+Utilizamos ```coord_flip()``` para "voltear" el eje x y el eje y del sistema de coordenadas cartesianas de la visualización.
+```{r}
+ggplot(data = p) +
+  aes(x = EDAD, weight = FACTOR, fill = sexo_cat) + 
+  geom_histogram(binwipersonash = 100, position = "identity", alpha = 0.5) +
+  coord_flip()
+```
+
+<br/> 
+Creamos nueva variable categórica de tipo factor con grupos quinquenales de edad utilizando la variable "EDAD" con ayuda de la función `cut()`. De forma predeterminada, las etiquetas de los factores resultantes se construyen utilizando la notación de intervalo (a,b], en donde a no es un valor incluído en el intervalo y b es un valor incluído en el intervalo. 
+```{r}
+edades_quinquenales <- cut(x = p$EDAD, 
+                          breaks = seq(0, 110, by = 5), 
+                          include.lowest = TRUE,
+                          right = TRUE)
+# unique(edades_quinquenales)
+
+p[, edad_quinquenal := edades_quinquenales]
+```
+
+<br/> 
+Creamos un nuevo data table con la población total por sexo y grupo quinquenal de edad.
+```{r}
+p_grouped <- p[, .(pob = sum(FACTOR)), by = .(sexo_cat, edad_quinquenal)]
+```
+
+<br/> 
+Graficamos nevamente la distribución de edad en la población de la Ciudad de México por sexo pero utilizando el nuevo data table agrupado. 
+```{r}
+ggplot(data = p_grouped) +
+  aes(x = edad_quinquenal, y = pob, fill = sexo_cat) + 
+  geom_bar(stat = "Identity", position = "identity", alpha = 0.5) +
+  coord_flip()
+```
+
+<br/> 
+Para que la población de hombres y la población de mujeres se visualicen "reflejadas", debemos transformar la variable "pob" a negativa para uno de los dos sexos.
+```{r}
+p_grouped[, pob := ifelse(sexo_cat == "Hombres", yes = -pob, no = pob)]
+ggplot(data = p_grouped) +
+  aes(x = edad_quinquenal, y = pob, fill = sexo_cat) + 
+  geom_bar(stat = "Identity") +
+  coord_flip()
+```
+
+<br/>
+En la última visualización, podemos observar que las etiquetas del eje x, es decir, el total de la población, está en notación científica. R decide utilizar esta notación dada la longitud de las etiquetas. No obstante, la notación científica no es un formato que facilite la lectura. Para ello, personalizaremos los límites, los saltos y las etiquetas de la escala del eje y con `scale_y_continuous()`.
+```{r}
+ggplot(data = p_grouped) +
+  aes(x = edad_quinquenal, y = pob, fill = sexo_cat) + 
+  geom_bar(stat = "Identity") +
+  scale_y_continuous(limits = c(-400000, 400000),
+                     breaks = seq(-400000, 400000, by = 100000), 
+                     labels = c(400, 300, 200, 100, 0, 100, 200, 300, 400))  + 
+  coord_flip()
+```
+<br> 
+Para ajustar los colores de las barras, utilizamos `scale_fill_manual()`.
+```{r}
+ggplot(data = p_grouped) +
+  aes(x = edad_quinquenal, y = pob, fill = sexo_cat) + 
+  geom_bar(stat = "Identity") +
+  scale_fill_manual(values = c("#a35994ff", "#009482ff")) +
+  scale_y_continuous(limits = c(-400000, 400000),
+                     breaks = seq(-400000, 400000, by = 100000), 
+                     labels = c(400, 300, 200, 100, 0, 100, 200, 300, 400))  + 
+  coord_flip()
+```
+
+<br/>
+"Limpiamos el desorden" quitando elementos que no agregan valor informativo y bajamos la leyenda abajo para facilitar la asociación de los colores a cada sexo respectivamente.
+```{r}
+ggplot(data = p_grouped) +
+  aes(x = edad_quinquenal, y = pob, fill = sexo_cat) + 
+  geom_bar(stat = "Identity") +
+  scale_fill_manual(values = c("#a35994ff", "#009482ff")) +
+  scale_y_continuous(limits = c(-400000, 400000),
+                     breaks = seq(-400000, 400000, by = 100000), 
+                     labels = c(400, 300, 200, 100, 0, 100, 200, 300, 400))  + 
+  coord_flip() +
+  theme_minimal() + 
+  theme(panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        legend.position = "bottom") 
+```
+
+<br/>
+Agregamos y modificamos los textos adecuados.
+```{r}
+ggplot(data = p_grouped) +
+  aes(x = edad_quinquenal, y = pob, fill = sexo_cat) + 
+  geom_bar(stat = "Identity") +
+  scale_fill_manual(values = c("#a35994ff", "#009482ff")) +
+  scale_y_continuous(limits = c(-400000, 400000),
+                     breaks = seq(-400000, 400000, by = 100000), 
+                     labels = c(400, 300, 200, 100, 0, 100, 200, 300, 400)) + 
+  coord_flip() +
+  labs(title = "Pirámide poblacional de la Ciudad de México", 
+       subtitle = "Población total (en miles de personas) por edad quinquenal",
+       caption = "Censo de Población y Vivienda 2020 del INEGI\nElaborado por el CEDUA de El Colegio de México") +
+  theme_minimal() + 
+  theme(panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(), 
+        axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        legend.position = "bottom",
+        legend.title = element_blank()) 
+```
+<br>
+Finalmente, podemos crear una nueva variable que utilicemos como etiquetas en las barras y facilitar la lectura del total de la población por grupo quinquenal. 
+```{r}
+p_grouped[, pob_label := ifelse(sexo_cat == "Hombres", 
+                                yes = paste0(round(-pob/1000), "          "), 
+                                no = paste0("          ", round(pob/1000)))]
+ggplot(data = p_grouped) +
+  aes(x = edad_quinquenal, y = pob, fill = sexo_cat, label = pob_label) + 
+  geom_bar(stat = "Identity") +
+  scale_fill_manual(values = c("#a35994ff", "#009482ff")) +
+  scale_y_continuous(limits = c(-400000, 400000),
+                     breaks = seq(-400000, 400000, by = 100000), 
+                     labels = c(400, 300, 200, 100, 0, 100, 200, 300, 400)) + 
+  geom_text(size = 3) + 
+  coord_flip() +
+  labs(title = "Pirámide poblacional de la Ciudad de México", 
+       subtitle = "Población total (en miles de personas) por edad quinquenal",
+       caption = "Censo de Población y Vivienda 2020 del INEGI\nElaborado por el CEDUA de El Colegio de México") +
+  theme_minimal() + 
+  theme(panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(), 
+        axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        legend.position = "bottom",
+        legend.title = element_blank()) 
+```
+<center>
+![](https://c.tenor.com/y1yKziqaf50AAAAd/nice.gif)
+</center>
+
+<br>
+
+## 🏋 Ejercicio
+1. Construya la pirámide poblacional de la Ciudad de México en el 2020 empleando porcentajes en lugar de valores absolutos. 
+2. Construya la pirámide poblacional de la población de una "característica de las personas" de su interés utilizando microdatos a nivel persona del [Censo de Población y Vivienda 2020 del INEGI]("https://www.inegi.org.mx/programas/ccpv/2020/") en formato csv. Puede utilizar datos a nivel nacional o entidad federativa. Por ejemplo, la pirámide poblacional de Oaxaca en el 2020 de personas que hablan algún dialecto o lengua indígena. Adecué los elementos gráficos al mensaje que quiera transmitir con la visualización. 

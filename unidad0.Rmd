@@ -29,13 +29,13 @@ Que el estudiante tenga un entorno de desarrollo de R en RStudio listo en su equ
 1. Entre a la [página oficial de R](https://www.r-project.org/). 
 2. En la sección titulada "Getting Started", de click sobre ["download R"](https://cran.r-project.org/mirrors.html).
 3. Busque el espejo del ITAM y de click sobre [https://cran.itam.mx/](https://cran.itam.mx/).
-4. Con base en el sistema operativo de su equipo de cómputo, de click sobre "Download R for Linux (Debian, Fedora/Redhat, Ubuntu)", "Download R for macOS" o "Download R for Windows" y siga las instrucciones de instalación **sin modificar los parámetros ya establecidos por defecto**.  
+4. Con base en el sistema operativo de su equipo de cómputo, de click sobre "Download R for Linux (Debian, Fedora/Redhat, Ubuntu)", "Download R for macOS" o "Download R for Windows" y siga las instrucciones de instalación **sin modificar los parámetros ya establecidos de forma predeterminada**.  
 En caso de que su equipo de cómputo tenga Windows como sistema operativo:
     + De click en "Download R for Windows".
     + De click sobre el subdirectorio "base". 
     + De click sobre ["Download R 4.2.1 for Windows"](https://cran.itam.mx/bin/windows/base/R-4.2.1-win.exe). 
     + Se iniciará la descarga de un archivo llamado "R-4.2.1-win"... Una vez terminada la descarga, ejecute (de click sobre) el archivo descargado. 
-    + Se abrirá el instalador de R... De click en "Continuar" en cada ocasión **sin modificar los parámetros ya establecidos por defecto**. 
+    + Se abrirá el instalador de R... De click en "Continuar" en cada ocasión **sin modificar los parámetros ya establecidos de forma predeterminada**. 
 
 <br/>
 
@@ -47,7 +47,7 @@ En caso de que su equipo de cómputo tenga Windows como sistema operativo:
 En caso de que su equipo de cómputo tenga Windows como sistema operativo:
     + De click en ["RStudio-2022.07.0-548.exe"](https://www.rstudio.com/products/rstudio/download/#:~:text=RStudio%2D2022.07.0%2D548.exe). 
     + Se iniciará la descarga de un archivo llamado "RStudio-2022.07.0-548"... Una vez terminada, ejecute (de click sobre) el archivo descargado. 
-    + Se abrirá el instalador de RStudio... De click en "Continuar" en cada ocasión **sin modificar los parámetros ya establecidos por defecto**.
+    + Se abrirá el instalador de RStudio... De click en "Continuar" en cada ocasión **sin modificar los parámetros ya establecidos de forma predeterminada**.
 
 <br/>
 
