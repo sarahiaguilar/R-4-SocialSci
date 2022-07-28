@@ -25,11 +25,15 @@ Que el estudiante se familiarice con un flujo efectivo de análisis exploratorio
 
 <br>
 
-💡 Es posible eliminar variables desde nuestro ambiente desde la ventana de `Environment` de RStudio, pero también es posible con la función `rm()`.
+[**🇷 ⬇ Descargar projecto de R de la práctica**](projs/unidad5.zip)
+
+<br>
+
+**❗Los conjuntos de datos a utilizar en la práctica son extensos y requieren de disponibilidad de memoria en nuestro equipo de cómputo. Mantenga su ambiente libre de variables que ya no va a utilizar activamente. Recuerde que es posible eliminar variables desde nuestro ambiente desde la ventana de `Environment` de RStudio o con la función `rm()` de forma programática.**
 
 <br> 
 
-## 5.1. Cargando paquetes
+## 5.1. Cargando paquetes para análisis de datos
 ```{r}
 library(data.table)
 library(ggplot2)
@@ -46,7 +50,7 @@ Para la práctica utilizaremos los siguientes conjuntos de datos:
   La "descripción de la base de datos" está disponible para su descarga en la misma página (Archivos para descarga > Principales resultados por localidad (ITER) > Documentación de la base de datos > Descripción de la base de datos).
 
 ```{r}
-# censo_iter <- fread("../data/iter_09_cpv2020_csv/iter_09_cpv2020/conjunto_de_datos/conjunto_de_datos_iter_09CSV20.csv")
+# censo_iter <- fread("../data/iter_09_2020_csv/ITER_09CSV20.csv")
 ```
 
 <br>

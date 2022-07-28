@@ -148,7 +148,7 @@ De forma predeterminada, la función `write.csv()` escribirá el data table con 
 <br>
 Las siguientes funciones nos permiten explorar rápidamente la composición de un data table. Este es un paso crucial para tener un entendimiento general de "cómo luce" el conjunto de datos y qué tipo de procesamiento requeriremos hacer sobre él.
 
-💡 Es buena práctica mantener nuestro ambiente libre de variables que ya no vamos a utilizar. Es posible eliminar variables desde nuestro ambiente desde la ventana de `Environment` de RStudio, pero también es posible con la función `rm()`.
+💡 Es buena práctica mantener nuestro ambiente libre de variables que ya no vamos a utilizar activamente. Es posible eliminar variables desde nuestro ambiente desde la ventana de `Environment` de RStudio o con la función `rm()` de forma programática.
 
 ```{r}
 rm(df, df_xlsx, dt_link, dt_txt, x, y)
