@@ -127,6 +127,10 @@ Que el estudiante conozca los distintos tipos de visualización de datos y recon
 
 Que el estudiante se familiarice con un flujo efectivo de análisis exploratorio de datos, y pueda explorar conjuntos de datos y subconjuntos de estas mediante la creación de tablas resumen, cálculo de estadísticas y visualizaciones de los mismos. 
 
+[📖 ↪ Presentación teórica](slides/unidad5.pdf)
+
+[💻 ↪ Práctica y ejercicio](unidad5.html)
+
 <br/>
 
 <!-- ------------------------------- Unidad 6 ------------------------------ -->
@@ -154,6 +158,11 @@ Que el estudiante tenga conocimiento de los elementos básicos de RMarkdown para
 * [⬇ Descargar cheatsheet de lubridate](cheatsheets/lubridate.pdf)
 * [⬇ Descargar cheatsheet de ggplot2](cheatsheets/data-visualization.pdf)
 * [+ Cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
+* [INEGI](https://www.inegi.org.mx/default.html)
+* [Portal de datos abiertos del Gobierno de México](https://datos.gob.mx/)
+* [Portal de datos abiertos de la CDMX](https://datos.cdmx.gob.mx/)
+* [Buscador de conjuntos de datos](https://datasetsearch.research.google.com/)
+* [Repositorio de Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
 
 <br/>
 

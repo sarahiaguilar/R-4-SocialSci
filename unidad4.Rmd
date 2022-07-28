@@ -12,25 +12,25 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-<br/>
+<br>
 
 [🏠↩ De vuelta a la página principal del curso](index.html)
 
-<br/>
+<br>
 
 ## Inicio
 
 > #### **🚀 Objetivo de la unidad** 
 Que el estudiante conozca los distintos tipos de visualización de datos y reconozca sus casos de uso.
 
-<br/>
+<br>
 
 [**🇷 ⬇ Descargar projecto de R de la práctica**](projs/unidad4.zip)
 [**🇷 ⬇ Descargar projecto de R de la práctica (Pirámide poblacional)**](projs/piramide.zip)
 
-<br/>
+<br>
 
-## 5.1. Instalando y cargando paquetes
+## 4.1. Instalando y cargando paquetes
 ```{r}
 # install.packages("ggplot2")
 # install.packages("svglite") # Para expotar como svg
@@ -38,9 +38,9 @@ library(data.table)
 library(ggplot2)
 ```
 
-<br/> 
+<br> 
 
-## 5.2. Cargando conjuntos de datos
+## 4.2. Cargando conjuntos de datos
 
 Para la práctica utilizaremos los siguientes conjuntos de datos: 
 
@@ -56,21 +56,9 @@ mw <- data.table(ggplot2::midwest)
 p_raw <- fread("../data/Censo2020_CA_cdmx_csv/Personas09.CSV")
 ```
 
-<!-- 
-<br> 
-
-* [Datos mensuales de indicadores económicos de Estados Unidos por el Fereal Reserva Bank of St. Louis](https://ggplot2.tidyverse.org/reference/economics.html)
-```{r}
-eco <- data.table(ggplot2::economics)
-head(eco)
-```
-
-<br/> 
--->
-
 <br>
 
-## 5.3. Los básicos
+## 4.3. Los básicos
 
 Para crear una visualización, debemos:
 
@@ -90,7 +78,7 @@ ggplot()
 
 <br/> 
 
-## 5.4. Datos
+## 4.4. Datos
 
 La primera y más importante capa en la gramática de gráficos son los datos. El objeto que contiene los datos con los que construiremos nuestra visualización se pasa como parámetro de la función `ggplot()`.
 ```{r}
@@ -98,7 +86,7 @@ ggplot(data = mw)
 ```
 <br>
 
-## 5.5. Estética
+## 4.5. Estética
 
 El siguiente paso es definir la variable que deseamos usar para cada atributo estético de la visualización. 
 
@@ -111,7 +99,7 @@ ggplot(data = mw) +
 
 <br>
 
-## 5.6. Objetos geométricos
+## 4.6. Objetos geométricos
 
 Después de definir los atributos gráficos que deseamos utilizar, debemos especificar uno o varios objetos geométricos para indicar cómo deben dibujarse los puntos de datos. Los objetos geométricos (o `geoms`) pueden ser puntos, líneas, barras, polígonos, áreas, histogramas, rectas con el mejor ajuste, entre otros. Cuál utilizar [dependerá del tipo y total de variables de datos que querramos representar y qué mensaje querramos comunicar con la visualización](https://sarahiaguilar.github.io/R-4-SocialSci/cheatsheets/data-visualization.pdf). 
 
@@ -184,7 +172,7 @@ ggplot(data = mw) +
 
 <br>
 
-## 5.7. Escalas
+## 4.7. Escalas
 
 Cada vez que asignamos variables de datos a atributos gráficos (con la función `aes()`), ggplot2 usa una escala particular para determinar el rango de valores al que se deben asignar los datos. 
 
@@ -241,7 +229,7 @@ ggplot(data = mw) +
  
 <br>
 
-## 5.8. Facetas
+## 4.8. Facetas
 
 Las facetas (o `facets`) nos permiten agrupar datos por variables y luego graficar cada grupo individualmente un panel independiente, pero en la misma visualización (imagen). 
 
@@ -255,7 +243,7 @@ ggplot(data = mw) +
 
 <br>
 
-## 5.9. Coordenadas
+## 4.9. Coordenadas
 
 El sistema de coordenadas define cómo se asignan los puntos de datos a ubicaciones gráficos 2D en el plano. Elegir el sistema de coordenadas correcto puede mejorar considerablemente la legibilidad de las visualizaciones de datos.
 
@@ -279,7 +267,7 @@ ggplot(data = mw) +
 
 <br> 
 
-## 5.10. Temas
+## 4.10. Temas
 
 Otra excelente manera de mejorar la presentación de sus visualizaciones de datos es elegir un tema no predeterminado para que los elementos gráficos destaquen, haciéndolos más bonitos, vibrantes y congruentes con el tipo variables de datos que querramos representar y qué mensaje querramos comunicar con la visualización. ggplot2 incluye [varios temas entre los que podemos elegir](https://ggplot2.tidyverse.org/reference/ggtheme.html).
 
@@ -293,7 +281,7 @@ ggplot(data = mw) +
 
 <br>
 
-## 5.11. Títulos, etiquetas y anotaciones
+## 4.11. Títulos, etiquetas y anotaciones
 
 Los títulos, etiquetas y anotaciones textuales (en el lienzo, los ejes, los objetos geométricos y la leyenda) son una parte importante para hacer que una visualización sea comprensible y que comunique información de manera eficiente. Aunque no es una parte explícita de la gramática de gráficos, se consideraría una variante de objeto geométrico.
 
@@ -312,7 +300,7 @@ ggplot(data = mw) +
 
 <br>
 
-## 5.12. Exportación
+## 4.12. Exportación
 
 Una vez que la visualización esté completa, este se puede exportar desde la ventana de *Plots* de forma manual o con la función `ggsave()` de forma programática después de asignar la visualización a un objeto. 
 
@@ -338,7 +326,7 @@ A pesar de que ggplot2 es una herramienta de visualización de datos robusta, no
 
 <br>
 
-## 5.13. Creando una pirámide poblacional
+## 4.13. Creando una pirámide poblacional
 
 En esta sección de la práctica, construiremos una [pirámide poblacional](https://es.wikipedia.org/wiki/Pir%C3%A1mide_de_poblaci%C3%B3n) de la Ciudad de México en el 2020.
 

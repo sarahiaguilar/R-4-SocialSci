@@ -1,0 +1,80 @@
+---
+title: "Práctica de la **Unidad 5. Análisis exploratorio de datos**"
+subtitle: "Del Curso introductorio al lenguaje de programación R orientado al análisis cuantitativo en Ciencias Sociales"
+author: "Por Sarahí Aguilar"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br>
+
+[🏠↩ De vuelta a la página principal del curso](index.html)
+
+<br>
+
+## Inicio
+
+> #### **🚀 Objetivo de la unidad** 
+Que el estudiante se familiarice con un flujo efectivo de análisis exploratorio de datos, y pueda explorar conjuntos de datos y subconjuntos de estas mediante la creación de tablas resumen, cálculo de estadísticas y visualizaciones de los mismos. 
+
+<br>
+
+💡 Es posible eliminar variables desde nuestro ambiente desde la ventana de `Environment` de RStudio, pero también es posible con la función `rm()`.
+
+<br> 
+
+## 5.1. Cargando paquetes
+```{r}
+library(data.table)
+library(ggplot2)
+```
+
+<br> 
+
+## 5.2. Cargando conjuntos de datos
+
+Para la práctica utilizaremos los siguientes conjuntos de datos: 
+
+* El archivo conjunto_de_datos_iter_09CSV20.csv contiene los microdatos a nivel localidad (ITER) de la Ciudad de México del [Censo de Población y Vivienda 2020 del INEGI]("https://www.inegi.org.mx/programas/ccpv/2020/") en formato csv. Este archivo está disponible para su descarga [aquí](https://www.inegi.org.mx/programas/ccpv/2020/?ps=microdatos) (Archivos para descarga > Principales resultados por localidad (ITER) > Bases de datos > Ciudad de México > CSV ⬇). 
+
+  La "descripción de la base de datos" está disponible para su descarga en la misma página (Archivos para descarga > Principales resultados por localidad (ITER) > Documentación de la base de datos > Descripción de la base de datos).
+
+```{r}
+# censo_iter <- fread("../data/iter_09_cpv2020_csv/iter_09_cpv2020/conjunto_de_datos/conjunto_de_datos_iter_09CSV20.csv")
+```
+
+<br>
+
+* El archivo gastoshogar.csv contiene los microdatos de gastos en los hogares de la Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH) 2020 (Nueva serie) del INEGI]("https://www.inegi.org.mx/programas/enigh/nc/2020/) en formato csv. Este archivo está disponible para su descarga [aquí](https://www.inegi.org.mx/programas/enigh/nc/2020/#Microdatos) (Archivos para descarga > Gastos en los hogares (gastoshogar.*) > CSV ⬇). 
+
+  El "desciptor de archivos (FD)" está disponible para su descarga en la misma página (Archivos para descarga > Descriptor de archivos (FD)).
+
+```{r}
+# enigh_gastohogar <- fread("../data/enigh2020_ns_gastoshogar_csv/gastoshogar.csv")
+```
+
+<br>
+
+* El archivo ENOEN_COE1T122.csv contiene los microdatos del Cuestionario de Ocupación y Empleo (Básico) Parte I del primer trimestre del 2022 de la [Encuesta Nacional de Ocupación y Empleo (ENOE) (población de 15 años y más de edad) del INEGI](https://www.inegi.org.mx/programas/enoe/15ymas/) en formato csv. Este archivo está disponible para su descarga [aquí](https://www.inegi.org.mx/programas/enoe/15ymas/#Microdatos) (Archivos para descarga > Base de datos > I Trimestre (ENOE_N) > CSV ⬇). 
+
+  El "desciptor de archivos (FD)" está disponible para su descarga en la misma página (Archivos para descarga > Documentos sobre la base de datos >  Descriptor de archivos (FD) > Trimestres: a partir del III de 2021 (ENOE_N)).
+
+```{r}
+# enoe <- fread("../data/enoe_n_2022_trim1_csv/ENOEN_COE1T122.csv")
+```
+
+<br>
+
+* El archivo ENPOL2021_SOC.csv contiene los microdatos de la Sección I del cuestionario de la [Encuesta Nacional de Población Privada de la Libertad (ENPOL) 2021 del INEGI](https://www.inegi.org.mx/programas/enpol/2021/) en formato csv. Este archivo está disponible para su descarga [aquí](https://www.inegi.org.mx/programas/enpol/2021/#Microdatos) (Archivos para descarga > Base de datos > CSV ⬇). 
+
+  El "desciptor de archivos (FD)" está disponible para su descarga en la misma página (Archivos para descarga >  Descriptor de archivos (FD)).
+
+```{r}
+# enpol <- fread("../data/bd_enpol_2021_csv/ENPOL2021_SOC.csv")
+```
