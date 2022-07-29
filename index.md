@@ -144,6 +144,10 @@ Que el estudiante se familiarice con un flujo efectivo de análisis exploratorio
 
 Que el estudiante tenga conocimiento de los elementos básicos de RMarkdown para la creación de documentos con texto, bloques de código y visualizaciones embebidas. 
 
+[📖 ↪ Presentación teórica](slides/unidad6.pdf)
+
+[💻 ↪ Práctica y ejercicio](unidad6.html)
+
 <br/>
 
 <!-- ------------------------------- Recursos ------------------------------ -->

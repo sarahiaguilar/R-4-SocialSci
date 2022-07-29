@@ -45,7 +45,7 @@ library(ggplot2)
 
 Para la práctica utilizaremos los siguientes conjuntos de datos: 
 
-* El archivo conjunto_de_datos_iter_09CSV20.csv contiene los microdatos a nivel localidad (ITER) de la Ciudad de México del [Censo de Población y Vivienda 2020 del INEGI]("https://www.inegi.org.mx/programas/ccpv/2020/") en formato csv. Este archivo está disponible para su descarga [aquí](https://www.inegi.org.mx/programas/ccpv/2020/?ps=microdatos) (Archivos para descarga > Principales resultados por localidad (ITER) > Bases de datos > Ciudad de México > CSV ⬇). 
+* El archivo conjunto_de_datos_iter_09CSV20.csv contiene los microdatos a nivel localidad (ITER) de la Ciudad de México del [Censo de Población y Vivienda 2020 del INEGI](https://www.inegi.org.mx/programas/ccpv/2020/) en formato csv. Este archivo está disponible para su descarga [aquí](https://www.inegi.org.mx/programas/ccpv/2020/?ps=microdatos) (Archivos para descarga > Principales resultados por localidad (ITER) > Bases de datos > Ciudad de México > CSV ⬇). 
 
   La "descripción de la base de datos" está disponible para su descarga en la misma página (Archivos para descarga > Principales resultados por localidad (ITER) > Documentación de la base de datos > Descripción de la base de datos).
 
@@ -55,7 +55,7 @@ Para la práctica utilizaremos los siguientes conjuntos de datos:
 
 <br>
 
-* El archivo gastoshogar.csv contiene los microdatos de gastos en los hogares de la Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH) 2020 (Nueva serie) del INEGI]("https://www.inegi.org.mx/programas/enigh/nc/2020/) en formato csv. Este archivo está disponible para su descarga [aquí](https://www.inegi.org.mx/programas/enigh/nc/2020/#Microdatos) (Archivos para descarga > Gastos en los hogares (gastoshogar.*) > CSV ⬇). 
+* El archivo gastoshogar.csv contiene los microdatos de gastos en los hogares de la Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH) 2020 (Nueva serie) del INEGI](https://www.inegi.org.mx/programas/enigh/nc/2020/) en formato csv. Este archivo está disponible para su descarga [aquí](https://www.inegi.org.mx/programas/enigh/nc/2020/#Microdatos) (Archivos para descarga > Gastos en los hogares (gastoshogar.*) > CSV ⬇). 
 
   El "desciptor de archivos (FD)" está disponible para su descarga en la misma página (Archivos para descarga > Descriptor de archivos (FD)).
 
