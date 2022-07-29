@@ -232,6 +232,7 @@ Código:
 Resultado: 
 ![](./img/meme.png)
 
+<br>
 
 ## 🏊️ Ejercicio
 1. Explore los datos del INEGI, el ENIGH y el ENOE. 
